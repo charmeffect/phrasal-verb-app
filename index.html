@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phrasal Verb Master</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            min-height: 100vh;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header { text-align: center; padding: 30px 20px 10px; }
+
+        header h1 {
+            font-size: 2rem;
+            background: linear-gradient(90deg, #f7971e, #ffd200);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 5px;
+        }
+
+        header p { color: #aaa; font-size: 0.95rem; }
+
+        .stats-row {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 10px 0 5px;
+            font-size: 0.82rem;
+        }
+
+        .stats-row span {
+            background: rgba(255,255,255,0.08);
+            padding: 5px 14px;
+            border-radius: 18px;
+        }
+
+        .score-bar {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 8px 0;
+            font-size: 0.9rem;
+        }
+
+        .score-bar span {
+            background: rgba(255,255,255,0.1);
+            padding: 6px 16px;
+            border-radius: 20px;
+        }
+
+        .score-bar .correct { color: #4caf50; }
+        .score-bar .wrong { color: #f44336; }
+        .score-bar .total { color: #ffd200; }
+
+        .progress-bar {
+            width: 90%; max-width: 600px; height: 6px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 3px; margin: 0 auto 15px; overflow: hidden;
+        }
+
+        .progress-bar .fill {
+            height: 100%;
+            background: linear-gradient(90deg, #f7971e, #ffd200);
+            border-radius: 3px; transition: width 0.4s ease;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.07);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 20px;
+            padding: 35px 30px;
+            width: 90%; max-width: 600px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover { transform: translateY(-2px); }
+
+        .category-tag {
+            display: inline-block;
+            background: rgba(255,255,255,0.1);
+            padding: 4px 14px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            color: #ccc;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .sentence {
+            font-size: 1.35rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+            color: #e0e0e0;
+        }
+
+        .sentence .verb {
+            color: #ffd200;
+            font-weight: 700;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        .sentence .blank {
+            display: inline-block;
+            min-width: 80px;
+            border-bottom: 3px dashed #f7971e;
+            margin: 0 4px;
+            padding: 2px 8px;
+            color: #ffd200;
+            font-weight: 700;
+            transition: all 0.3s;
+        }
+
+        .sentence .blank.filled {
+            border-bottom-style: solid;
+            border-bottom-color: #4caf50;
+        }
+
+        .sentence .blank.wrong-fill {
+            border-bottom-style: solid;
+            border-bottom-color: #f44336;
+        }
+
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .option-btn {
+            background: rgba(255,255,255,0.1);
+            border: 2px solid rgba(255,255,255,0.2);
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 12px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            background: rgba(247, 151, 30, 0.3);
+            border-color: #f7971e;
+            transform: scale(1.05);
+        }
+
+        .option-btn:disabled { cursor: default; opacity: 0.5; }
+
+        .option-btn.selected-correct {
+            background: rgba(76, 175, 80, 0.3);
+            border-color: #4caf50; color: #4caf50;
+        }
+
+        .option-btn.selected-wrong {
+            background: rgba(244, 67, 54, 0.3);
+            border-color: #f44336; color: #f44336;
+        }
+
+        .option-btn.highlight-correct {
+            background: rgba(76, 175, 80, 0.2);
+            border-color: #4caf50; color: #4caf50;
+        }
+
+        .feedback {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 14px;
+            display: none;
+            text-align: left;
+            animation: fadeIn 0.4s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .feedback.correct {
+            background: rgba(76, 175, 80, 0.15);
+            border: 1px solid rgba(76, 175, 80, 0.3);
+            display: block;
+        }
+
+        .feedback.wrong {
+            background: rgba(244, 67, 54, 0.15);
+            border: 1px solid rgba(244, 67, 54, 0.3);
+            display: block;
+        }
+
+        .feedback h3 { margin-bottom: 8px; font-size: 1.1rem; }
+
+        .feedback .phrase-title {
+            color: #ffd200; font-weight: 700;
+            font-size: 1.15rem; margin-bottom: 6px;
+        }
+
+        .feedback .meaning {
+            color: #ccc; line-height: 1.6; font-size: 0.95rem;
+        }
+
+        .feedback .example {
+            margin-top: 10px;
+            padding: 10px 14px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            color: #bbb;
+            font-style: italic;
+            font-size: 0.9rem;
+        }
+
+        .next-btn {
+            margin-top: 25px;
+            background: linear-gradient(90deg, #f7971e, #ffd200);
+            border: none; color: #1a1a2e;
+            padding: 12px 40px; border-radius: 12px;
+            font-size: 1rem; font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: none;
+        }
+
+        .next-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(247, 151, 30, 0.4);
+        }
+
+        .results-card { display: none; text-align: center; }
+
+        .results-card h2 {
+            font-size: 1.8rem; margin-bottom: 15px; color: #ffd200;
+        }
+
+        .results-card .stats {
+            font-size: 1.1rem; color: #ccc; line-height: 2;
+        }
+
+        .results-card .restart-btn {
+            margin-top: 25px;
+            background: linear-gradient(90deg, #f7971e, #ffd200);
+            border: none; color: #1a1a2e;
+            padding: 14px 45px; border-radius: 12px;
+            font-size: 1.05rem; font-weight: 700;
+            cursor: pointer; transition: transform 0.2s;
+        }
+
+        .results-card .restart-btn:hover { transform: scale(1.05); }
+
+        .filter-bar {
+            display: flex; flex-wrap: wrap; gap: 8px;
+            justify-content: center; margin: 8px 0 8px;
+        }
+
+        .filter-btn {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.15);
+            color: #aaa; padding: 5px 14px;
+            border-radius: 15px; font-size: 0.8rem;
+            cursor: pointer; transition: all 0.2s;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: rgba(247, 151, 30, 0.25);
+            border-color: #f7971e; color: #fff;
+        }
+
+        .size-bar {
+            display: flex; gap: 8px;
+            justify-content: center; margin-bottom: 15px;
+        }
+
+        .size-btn {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.15);
+            color: #aaa; padding: 5px 14px;
+            border-radius: 15px; font-size: 0.8rem;
+            cursor: pointer; transition: all 0.2s;
+        }
+
+        .size-btn:hover, .size-btn.active {
+            background: rgba(147, 51, 234, 0.3);
+            border-color: #9333ea; color: #fff;
+        }
+
+        .verb-filter-bar {
+            display: flex; flex-wrap: wrap; gap: 6px;
+            justify-content: center; margin-bottom: 12px;
+            max-width: 600px;
+        }
+
+        .verb-filter-btn {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.12);
+            color: #888; padding: 3px 10px;
+            border-radius: 10px; font-size: 0.72rem;
+            cursor: pointer; transition: all 0.2s;
+            text-transform: uppercase; letter-spacing: 0.5px;
+        }
+
+        .verb-filter-btn:hover, .verb-filter-btn.active {
+            background: rgba(59, 130, 246, 0.25);
+            border-color: #3b82f6; color: #fff;
+        }
+
+        .review-section {
+            margin-top: 20px;
+            text-align: left;
+            max-height: 300px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .review-item {
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .review-item.was-correct {
+            background: rgba(76, 175, 80, 0.1);
+            border-left: 3px solid #4caf50;
+        }
+
+        .review-item.was-wrong {
+            background: rgba(244, 67, 54, 0.1);
+            border-left: 3px solid #f44336;
+        }
+
+        .review-item .ri-phrase { color: #ffd200; font-weight: 700; }
+        .review-item .ri-sentence { color: #aaa; font-size: 0.85rem; margin-top: 4px; }
+
+        footer {
+            margin-top: auto; padding: 20px;
+            color: #555; font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Phrasal Verb Master</h1>
+    <p>Complete the sentence with the correct particle</p>
+</header>
+
+<div class="stats-row" id="statsRow">
+    <span id="totalPhrases" style="color:#9333ea;">Phrases: 0</span>
+    <span id="totalSentences" style="color:#3b82f6;">Sentences: 0</span>
+</div>
+
+<div class="score-bar">
+    <span class="correct" id="correctCount">Correct: 0</span>
+    <span class="wrong" id="wrongCount">Wrong: 0</span>
+    <span class="total" id="questionNum">1 / 10</span>
+</div>
+
+<div class="progress-bar">
+    <div class="fill" id="progressFill" style="width: 0%"></div>
+</div>
+
+<div class="filter-bar" id="filterBar">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="business">Business</button>
+    <button class="filter-btn" data-category="daily">Daily Life</button>
+    <button class="filter-btn" data-category="travel">Travel</button>
+    <button class="filter-btn" data-category="emotion">Emotion</button>
+    <button class="filter-btn" data-category="academic">Academic</button>
+</div>
+
+<div class="verb-filter-bar" id="verbFilterBar"></div>
+
+<div class="size-bar" id="sizeBar">
+    <button class="size-btn" data-size="10">10 Qs</button>
+    <button class="size-btn active" data-size="15">15 Qs</button>
+    <button class="size-btn" data-size="20">20 Qs</button>
+    <button class="size-btn" data-size="30">30 Qs</button>
+    <button class="size-btn" data-size="50">50 Qs</button>
+</div>
+
+<div class="card" id="quizCard">
+    <div class="category-tag" id="categoryTag">daily life</div>
+
+    <div class="sentence" id="sentenceDisplay"></div>
+
+    <div class="options" id="optionsContainer"></div>
+
+    <div class="feedback" id="feedback">
+        <div class="phrase-title" id="phraseTitle"></div>
+        <div class="meaning" id="phraseMeaning"></div>
+        <div class="example" id="phraseExample"></div>
+    </div>
+
+    <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Next Question</button>
+</div>
+
+<div class="card results-card" id="resultsCard">
+    <h2>Quiz Complete!</h2>
+    <div class="stats" id="resultsStats"></div>
+    <div class="review-section" id="reviewSection"></div>
+    <button class="restart-btn" onclick="restartQuiz()" style="margin-top:25px;">Play Again</button>
+</div>
+
+<footer>Phrasal Verb Master &mdash; Learn English Phrases</footer>
+
+<script src="data.js"></script>
+<script>
+// State
+let currentQuestions = [];
+let currentIndex = 0;
+let correctCount = 0;
+let wrongCount = 0;
+let quizSize = 15;
+let answered = false;
+let selectedCategory = "all";
+let selectedVerb = "all";
+let reviewLog = [];
+
+// Count stats
+function countStats() {
+    const totalPhrases = PHRASAL_VERBS.length;
+    const totalSentences = PHRASAL_VERBS.reduce((sum, pv) => sum + pv.sentences.length, 0);
+    document.getElementById("totalPhrases").textContent = `Phrases: ${totalPhrases}`;
+    document.getElementById("totalSentences").textContent = `Sentences: ${totalSentences}`;
+}
+
+// Build verb filter buttons
+function buildVerbFilters() {
+    const verbs = [...new Set(PHRASAL_VERBS.map(q => q.verb))].sort();
+    const bar = document.getElementById("verbFilterBar");
+    bar.innerHTML = '<button class="verb-filter-btn active" data-verb="all">All Verbs</button>';
+    verbs.forEach(v => {
+        const btn = document.createElement("button");
+        btn.className = "verb-filter-btn";
+        btn.dataset.verb = v;
+        btn.textContent = v;
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".verb-filter-btn").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            selectedVerb = v;
+            startQuiz();
+        });
+        bar.appendChild(btn);
+    });
+    bar.querySelector('[data-verb="all"]').addEventListener("click", () => {
+        document.querySelectorAll(".verb-filter-btn").forEach(b => b.classList.remove("active"));
+        bar.querySelector('[data-verb="all"]').classList.add("active");
+        selectedVerb = "all";
+        startQuiz();
+    });
+}
+
+// Shuffle
+function shuffle(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+// Pick a random sentence for each phrasal verb
+function buildQuizPool() {
+    let pool = PHRASAL_VERBS;
+
+    if (selectedCategory !== "all") {
+        pool = pool.filter(q => q.category === selectedCategory);
+    }
+    if (selectedVerb !== "all") {
+        pool = pool.filter(q => q.verb === selectedVerb);
+    }
+    if (pool.length === 0) pool = [...PHRASAL_VERBS];
+
+    // For each phrasal verb, pick one random sentence
+    return pool.map(pv => {
+        const sentenceIdx = Math.floor(Math.random() * pv.sentences.length);
+        // Pick a different sentence for the example (not the quiz sentence)
+        const otherSentences = pv.sentences.filter((_, i) => i !== sentenceIdx);
+        const exampleSentence = otherSentences.length > 0
+            ? otherSentences[Math.floor(Math.random() * otherSentences.length)]
+            : pv.sentences[sentenceIdx];
+
+        return {
+            verb: pv.verb,
+            answer: pv.particle,
+            sentence: pv.sentences[sentenceIdx],
+            options: pv.options,
+            phrase: pv.phrase,
+            meaning: pv.meaning,
+            example: exampleSentence
+                .replace("{verb}", pv.verb)
+                .replace("{blank}", pv.particle),
+            category: pv.category
+        };
+    });
+}
+
+function startQuiz() {
+    const pool = buildQuizPool();
+    currentQuestions = shuffle(pool).slice(0, quizSize);
+    currentIndex = 0;
+    correctCount = 0;
+    wrongCount = 0;
+    answered = false;
+    reviewLog = [];
+
+    document.getElementById("resultsCard").style.display = "none";
+    document.getElementById("quizCard").style.display = "block";
+
+    updateScore();
+    showQuestion();
+}
+
+function buildSentenceHTML(template, verb) {
+    return template
+        .replace("{verb}", `<span class="verb">${verb}</span>`)
+        .replace("{blank}", `<span class="blank" id="blankSpan">______</span>`);
+}
+
+function showQuestion() {
+    answered = false;
+    const q = currentQuestions[currentIndex];
+
+    document.getElementById("categoryTag").textContent = q.category;
+    document.getElementById("sentenceDisplay").innerHTML = buildSentenceHTML(q.sentence, q.verb);
+    document.getElementById("feedback").className = "feedback";
+    document.getElementById("feedback").style.display = "none";
+    document.getElementById("nextBtn").style.display = "none";
+
+    const container = document.getElementById("optionsContainer");
+    container.innerHTML = "";
+
+    const shuffledOptions = shuffle(q.options);
+    shuffledOptions.forEach(opt => {
+        const btn = document.createElement("button");
+        btn.className = "option-btn";
+        btn.textContent = opt;
+        btn.onclick = () => selectAnswer(opt, btn);
+        container.appendChild(btn);
+    });
+
+    updateScore();
+}
+
+function selectAnswer(selected, btn) {
+    if (answered) return;
+    answered = true;
+
+    const q = currentQuestions[currentIndex];
+    const isCorrect = selected === q.answer;
+    const blank = document.getElementById("blankSpan");
+    const feedback = document.getElementById("feedback");
+
+    document.querySelectorAll(".option-btn").forEach(b => b.disabled = true);
+
+    // Remove old h3 if exists
+    const oldH3 = feedback.querySelector("h3");
+    if (oldH3) oldH3.remove();
+
+    const h3 = document.createElement("h3");
+
+    if (isCorrect) {
+        correctCount++;
+        btn.classList.add("selected-correct");
+        blank.textContent = selected;
+        blank.classList.add("filled");
+        feedback.className = "feedback correct";
+        h3.textContent = "Correct!";
+        h3.style.color = "#4caf50";
+    } else {
+        wrongCount++;
+        btn.classList.add("selected-wrong");
+        blank.textContent = q.answer;
+        blank.classList.add("wrong-fill");
+        feedback.className = "feedback wrong";
+        h3.innerHTML = `Wrong! The answer is "<strong>${q.answer}</strong>"`;
+        h3.style.color = "#f44336";
+
+        document.querySelectorAll(".option-btn").forEach(b => {
+            if (b.textContent === q.answer) b.classList.add("highlight-correct");
+        });
+    }
+
+    feedback.prepend(h3);
+    document.getElementById("phraseTitle").textContent = q.phrase;
+    document.getElementById("phraseMeaning").textContent = q.meaning;
+    document.getElementById("phraseExample").textContent = `Example: "${q.example}"`;
+    feedback.style.display = "block";
+
+    reviewLog.push({
+        phrase: q.phrase,
+        correct: isCorrect,
+        yourAnswer: selected,
+        sentence: q.sentence.replace("{verb}", q.verb).replace("{blank}", q.answer)
+    });
+
+    document.getElementById("nextBtn").style.display = "inline-block";
+    document.getElementById("nextBtn").textContent =
+        currentIndex < currentQuestions.length - 1 ? "Next Question" : "See Results";
+
+    updateScore();
+}
+
+function nextQuestion() {
+    currentIndex++;
+    if (currentIndex >= currentQuestions.length) {
+        showResults();
+    } else {
+        showQuestion();
+    }
+}
+
+function showResults() {
+    document.getElementById("quizCard").style.display = "none";
+    const resultsCard = document.getElementById("resultsCard");
+    resultsCard.style.display = "block";
+
+    const pct = Math.round((correctCount / currentQuestions.length) * 100);
+    let grade = "";
+    if (pct >= 90) grade = "Amazing! You're a phrasal verb master!";
+    else if (pct >= 70) grade = "Great job! Keep practicing!";
+    else if (pct >= 50) grade = "Good effort! Review the ones you missed.";
+    else grade = "Keep studying! You'll improve with practice.";
+
+    document.getElementById("resultsStats").innerHTML = `
+        <p>Score: <strong>${correctCount} / ${currentQuestions.length}</strong> (${pct}%)</p>
+        <p style="margin-top:10px; color: #ffd200;">${grade}</p>
+    `;
+
+    // Build review list
+    const reviewDiv = document.getElementById("reviewSection");
+    reviewDiv.innerHTML = "<h3 style='margin-bottom:12px; color:#aaa;'>Review:</h3>";
+    reviewLog.forEach(r => {
+        const div = document.createElement("div");
+        div.className = `review-item ${r.correct ? "was-correct" : "was-wrong"}`;
+        div.innerHTML = `
+            <span class="ri-phrase">${r.phrase}</span>
+            ${r.correct ? "✓" : `✗ (you picked: ${r.yourAnswer})`}
+            <div class="ri-sentence">${r.sentence}</div>
+        `;
+        reviewDiv.appendChild(div);
+    });
+}
+
+function restartQuiz() {
+    startQuiz();
+}
+
+function updateScore() {
+    document.getElementById("correctCount").textContent = `Correct: ${correctCount}`;
+    document.getElementById("wrongCount").textContent = `Wrong: ${wrongCount}`;
+    document.getElementById("questionNum").textContent = `${currentIndex + 1} / ${currentQuestions.length}`;
+    document.getElementById("progressFill").style.width =
+        `${(currentIndex / currentQuestions.length) * 100}%`;
+}
+
+// Category filter buttons
+document.querySelectorAll(".filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        selectedCategory = btn.dataset.category;
+        startQuiz();
+    });
+});
+
+// Quiz size buttons
+document.querySelectorAll(".size-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        document.querySelectorAll(".size-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        quizSize = parseInt(btn.dataset.size);
+        startQuiz();
+    });
+});
+
+// Init
+countStats();
+buildVerbFilters();
+startQuiz();
+</script>
+
+</body>
+</html>
