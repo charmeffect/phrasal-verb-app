@@ -74,6 +74,192 @@
             border-radius: 3px; transition: width 0.4s ease;
         }
 
+        /* ===== MOTHER CATEGORY TABS ===== */
+        .mother-tabs {
+            display: flex; gap: 6px;
+            justify-content: center; margin: 8px 0 6px;
+            flex-wrap: wrap;
+        }
+
+        .mother-tab {
+            background: rgba(255,255,255,0.06);
+            border: 2px solid rgba(255,255,255,0.12);
+            color: #999; padding: 8px 20px;
+            border-radius: 20px; font-size: 0.85rem;
+            cursor: pointer; transition: all 0.25s;
+            font-weight: 600; letter-spacing: 0.3px;
+        }
+
+        .mother-tab:hover {
+            background: rgba(255,255,255,0.1);
+            color: #ccc;
+        }
+
+        .mother-tab.active {
+            background: linear-gradient(135deg, rgba(247,151,30,0.3), rgba(255,210,0,0.2));
+            border-color: #f7971e;
+            color: #ffd200;
+        }
+
+        .mother-tab .tab-icon { margin-right: 5px; }
+
+        /* ===== SUB PANEL ===== */
+        .sub-panel {
+            display: none;
+            width: 90%; max-width: 600px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 14px;
+            margin: 4px auto 10px;
+            animation: fadeSlide 0.3s ease;
+        }
+
+        .sub-panel.visible { display: block; }
+
+        @keyframes fadeSlide {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .sub-panel-label {
+            font-size: 0.7rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        /* Letter row for By Verb */
+        .letter-row {
+            display: flex; flex-wrap: wrap; gap: 4px;
+            justify-content: center; margin-bottom: 10px;
+        }
+
+        .letter-btn {
+            width: 32px; height: 32px;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.12);
+            color: #888; border-radius: 8px;
+            font-size: 0.75rem; font-weight: 700;
+            cursor: pointer; transition: all 0.2s;
+            display: flex; align-items: center; justify-content: center;
+        }
+
+        .letter-btn:hover {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: #3b82f6; color: #fff;
+        }
+
+        .letter-btn.active {
+            background: rgba(59, 130, 246, 0.3);
+            border-color: #3b82f6; color: #fff;
+        }
+
+        .letter-btn.disabled {
+            opacity: 0.25; cursor: default;
+            pointer-events: none;
+        }
+
+        /* Verb chips inside letter expansion */
+        .verb-chips {
+            display: flex; flex-wrap: wrap; gap: 6px;
+            justify-content: center;
+            animation: fadeSlide 0.2s ease;
+        }
+
+        .verb-chip {
+            background: rgba(59, 130, 246, 0.12);
+            border: 1px solid rgba(59, 130, 246, 0.25);
+            color: #7cb3f4; padding: 5px 14px;
+            border-radius: 12px; font-size: 0.78rem;
+            cursor: pointer; transition: all 0.2s;
+            text-transform: lowercase;
+        }
+
+        .verb-chip:hover {
+            background: rgba(59, 130, 246, 0.3);
+            border-color: #3b82f6; color: #fff;
+        }
+
+        .verb-chip.active {
+            background: rgba(59, 130, 246, 0.35);
+            border-color: #3b82f6; color: #fff;
+        }
+
+        /* Situation buttons */
+        .situation-chips {
+            display: flex; flex-wrap: wrap; gap: 8px;
+            justify-content: center;
+        }
+
+        .situation-chip {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.15);
+            color: #aaa; padding: 8px 18px;
+            border-radius: 14px; font-size: 0.82rem;
+            cursor: pointer; transition: all 0.2s;
+        }
+
+        .situation-chip:hover {
+            background: rgba(247, 151, 30, 0.25);
+            border-color: #f7971e; color: #fff;
+        }
+
+        .situation-chip.active {
+            background: rgba(247, 151, 30, 0.3);
+            border-color: #f7971e; color: #fff;
+        }
+
+        /* Weak Words panel */
+        .weak-info {
+            text-align: center;
+            color: #888; font-size: 0.85rem;
+            line-height: 1.6;
+        }
+
+        .weak-info .weak-count {
+            color: #f44336; font-weight: 700; font-size: 1.3rem;
+        }
+
+        .weak-list {
+            display: flex; flex-wrap: wrap; gap: 6px;
+            justify-content: center; margin-top: 10px;
+            max-height: 120px; overflow-y: auto;
+        }
+
+        .weak-tag {
+            background: rgba(244, 67, 54, 0.15);
+            border: 1px solid rgba(244, 67, 54, 0.3);
+            color: #f88; padding: 3px 10px;
+            border-radius: 10px; font-size: 0.73rem;
+        }
+
+        .weak-tag .weak-score {
+            color: #f44336; font-weight: 700; margin-left: 4px;
+        }
+
+        /* ===== SIZE BAR ===== */
+        .size-bar {
+            display: flex; gap: 8px;
+            justify-content: center; margin-bottom: 15px;
+        }
+
+        .size-btn {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.15);
+            color: #aaa; padding: 5px 14px;
+            border-radius: 15px; font-size: 0.8rem;
+            cursor: pointer; transition: all 0.2s;
+        }
+
+        .size-btn:hover, .size-btn.active {
+            background: rgba(147, 51, 234, 0.3);
+            border-color: #9333ea; color: #fff;
+        }
+
+        /* ===== QUIZ CARD ===== */
         .card {
             background: rgba(255,255,255,0.07);
             backdrop-filter: blur(10px);
@@ -176,6 +362,32 @@
             border-color: #4caf50; color: #4caf50;
         }
 
+        /* Phrase score badge on question card */
+        .phrase-score-badge {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        .phrase-score-badge.negative {
+            background: rgba(244, 67, 54, 0.2);
+            color: #f88;
+        }
+
+        .phrase-score-badge.positive {
+            background: rgba(76, 175, 80, 0.2);
+            color: #8f8;
+        }
+
+        .phrase-score-badge.neutral {
+            background: rgba(255,255,255,0.08);
+            color: #888;
+        }
+
         .feedback {
             margin-top: 20px;
             padding: 20px;
@@ -223,6 +435,15 @@
             font-size: 0.9rem;
         }
 
+        .feedback .score-change {
+            margin-top: 8px;
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        .feedback .score-change .delta-neg { color: #f44336; font-weight: 700; }
+        .feedback .score-change .delta-pos { color: #4caf50; font-weight: 700; }
+
         .next-btn {
             margin-top: 25px;
             background: linear-gradient(90deg, #f7971e, #ffd200);
@@ -260,62 +481,6 @@
 
         .results-card .restart-btn:hover { transform: scale(1.05); }
 
-        .filter-bar {
-            display: flex; flex-wrap: wrap; gap: 8px;
-            justify-content: center; margin: 8px 0 8px;
-        }
-
-        .filter-btn {
-            background: rgba(255,255,255,0.08);
-            border: 1px solid rgba(255,255,255,0.15);
-            color: #aaa; padding: 5px 14px;
-            border-radius: 15px; font-size: 0.8rem;
-            cursor: pointer; transition: all 0.2s;
-        }
-
-        .filter-btn:hover, .filter-btn.active {
-            background: rgba(247, 151, 30, 0.25);
-            border-color: #f7971e; color: #fff;
-        }
-
-        .size-bar {
-            display: flex; gap: 8px;
-            justify-content: center; margin-bottom: 15px;
-        }
-
-        .size-btn {
-            background: rgba(255,255,255,0.08);
-            border: 1px solid rgba(255,255,255,0.15);
-            color: #aaa; padding: 5px 14px;
-            border-radius: 15px; font-size: 0.8rem;
-            cursor: pointer; transition: all 0.2s;
-        }
-
-        .size-btn:hover, .size-btn.active {
-            background: rgba(147, 51, 234, 0.3);
-            border-color: #9333ea; color: #fff;
-        }
-
-        .verb-filter-bar {
-            display: flex; flex-wrap: wrap; gap: 6px;
-            justify-content: center; margin-bottom: 12px;
-            max-width: 600px;
-        }
-
-        .verb-filter-btn {
-            background: rgba(255,255,255,0.06);
-            border: 1px solid rgba(255,255,255,0.12);
-            color: #888; padding: 3px 10px;
-            border-radius: 10px; font-size: 0.72rem;
-            cursor: pointer; transition: all 0.2s;
-            text-transform: uppercase; letter-spacing: 0.5px;
-        }
-
-        .verb-filter-btn:hover, .verb-filter-btn.active {
-            background: rgba(59, 130, 246, 0.25);
-            border-color: #3b82f6; color: #fff;
-        }
-
         .review-section {
             margin-top: 20px;
             text-align: left;
@@ -343,7 +508,38 @@
         }
 
         .review-item .ri-phrase { color: #ffd200; font-weight: 700; }
+        .review-item .ri-score { font-size: 0.75rem; margin-left: 6px; }
         .review-item .ri-sentence { color: #aaa; font-size: 0.85rem; margin-top: 4px; }
+
+        /* History summary on results page */
+        .history-summary {
+            margin-top: 16px;
+            padding: 14px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .history-summary h4 {
+            color: #f44336; font-size: 0.9rem; margin-bottom: 8px;
+        }
+
+        .history-summary .weak-phrase-list {
+            display: flex; flex-wrap: wrap; gap: 6px;
+            justify-content: center;
+        }
+
+        .history-summary .weak-phrase-item {
+            background: rgba(244,67,54,0.12);
+            border: 1px solid rgba(244,67,54,0.25);
+            padding: 4px 10px; border-radius: 10px;
+            font-size: 0.75rem; color: #f88;
+        }
+
+        .history-summary .weak-phrase-item .wps {
+            color: #f44336; font-weight: 700;
+        }
 
         footer {
             margin-top: auto; padding: 20px;
@@ -361,6 +557,7 @@
 <div class="stats-row" id="statsRow">
     <span id="totalPhrases" style="color:#9333ea;">Phrases: 0</span>
     <span id="totalSentences" style="color:#3b82f6;">Sentences: 0</span>
+    <span id="weakCount" style="color:#f44336;">Weak: 0</span>
 </div>
 
 <div class="score-bar">
@@ -373,17 +570,50 @@
     <div class="fill" id="progressFill" style="width: 0%"></div>
 </div>
 
-<div class="filter-bar" id="filterBar">
-    <button class="filter-btn active" data-category="all">All</button>
-    <button class="filter-btn" data-category="business">Business</button>
-    <button class="filter-btn" data-category="daily">Daily Life</button>
-    <button class="filter-btn" data-category="travel">Travel</button>
-    <button class="filter-btn" data-category="emotion">Emotion</button>
-    <button class="filter-btn" data-category="academic">Academic</button>
+<!-- MOTHER CATEGORY TABS -->
+<div class="mother-tabs" id="motherTabs">
+    <button class="mother-tab active" data-mode="all">
+        <span class="tab-icon">&#9679;</span>All
+    </button>
+    <button class="mother-tab" data-mode="verb">
+        <span class="tab-icon">&#9998;</span>By Verb
+    </button>
+    <button class="mother-tab" data-mode="situation">
+        <span class="tab-icon">&#9881;</span>By Situation
+    </button>
+    <button class="mother-tab" data-mode="weak">
+        <span class="tab-icon">&#9888;</span>Weak Words
+    </button>
 </div>
 
-<div class="verb-filter-bar" id="verbFilterBar"></div>
+<!-- SUB PANELS -->
+<div class="sub-panel" id="panelVerb">
+    <div class="sub-panel-label">Choose a letter, then pick a verb</div>
+    <div class="letter-row" id="letterRow"></div>
+    <div class="verb-chips" id="verbChips"></div>
+</div>
 
+<div class="sub-panel" id="panelSituation">
+    <div class="sub-panel-label">Choose a situation category</div>
+    <div class="situation-chips" id="situationChips">
+        <button class="situation-chip active" data-category="all">All Situations</button>
+        <button class="situation-chip" data-category="business">Business</button>
+        <button class="situation-chip" data-category="daily">Daily Life</button>
+        <button class="situation-chip" data-category="travel">Travel</button>
+        <button class="situation-chip" data-category="emotion">Emotion</button>
+        <button class="situation-chip" data-category="academic">Academic</button>
+    </div>
+</div>
+
+<div class="sub-panel" id="panelWeak">
+    <div class="weak-info" id="weakInfo">
+        <div>You have <span class="weak-count" id="weakCountDisplay">0</span> weak phrases</div>
+        <div style="font-size:0.75rem; color:#666; margin-top:4px;">Phrases you answered wrong get -1. Correct answers recover +1 (only when negative).</div>
+    </div>
+    <div class="weak-list" id="weakList"></div>
+</div>
+
+<!-- QUIZ SIZE -->
 <div class="size-bar" id="sizeBar">
     <button class="size-btn" data-size="10">10 Qs</button>
     <button class="size-btn active" data-size="15">15 Qs</button>
@@ -403,6 +633,7 @@
         <div class="phrase-title" id="phraseTitle"></div>
         <div class="meaning" id="phraseMeaning"></div>
         <div class="example" id="phraseExample"></div>
+        <div class="score-change" id="scoreChange"></div>
     </div>
 
     <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Next Question</button>
@@ -411,6 +642,7 @@
 <div class="card results-card" id="resultsCard">
     <h2>Quiz Complete!</h2>
     <div class="stats" id="resultsStats"></div>
+    <div class="history-summary" id="historySummary"></div>
     <div class="review-section" id="reviewSection"></div>
     <button class="restart-btn" onclick="restartQuiz()" style="margin-top:25px;">Play Again</button>
 </div>
@@ -419,7 +651,9 @@
 
 <script src="data.js"></script>
 <script>
-// State
+// ============================
+// STATE
+// ============================
 let currentQuestions = [];
 let currentIndex = 0;
 let correctCount = 0;
@@ -428,43 +662,214 @@ let quizSize = 15;
 let answered = false;
 let selectedCategory = "all";
 let selectedVerb = "all";
+let selectedMode = "all"; // all | verb | situation | weak
 let reviewLog = [];
 
-// Count stats
+// ============================
+// PHRASE SCORES (localStorage)
+// ============================
+const STORAGE_KEY = "pv_phrase_scores";
+
+function loadScores() {
+    try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+    } catch { return {}; }
+}
+
+function saveScores(scores) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(scores));
+}
+
+function getScore(phrase) {
+    return loadScores()[phrase] || 0;
+}
+
+function recordAnswer(phrase, isCorrect) {
+    const scores = loadScores();
+    const current = scores[phrase] || 0;
+    if (!isCorrect) {
+        scores[phrase] = current - 1;
+    } else if (current < 0) {
+        scores[phrase] = current + 1;
+    }
+    // If score is 0 and correct, do nothing
+    saveScores(scores);
+    return scores[phrase] || 0;
+}
+
+function getWeakPhrases() {
+    const scores = loadScores();
+    return Object.entries(scores)
+        .filter(([, s]) => s < 0)
+        .sort((a, b) => a[1] - b[1]); // most negative first
+}
+
+// ============================
+// STATS
+// ============================
 function countStats() {
     const totalPhrases = PHRASAL_VERBS.length;
     const totalSentences = PHRASAL_VERBS.reduce((sum, pv) => sum + pv.sentences.length, 0);
     document.getElementById("totalPhrases").textContent = `Phrases: ${totalPhrases}`;
     document.getElementById("totalSentences").textContent = `Sentences: ${totalSentences}`;
+    updateWeakCount();
 }
 
-// Build verb filter buttons
-function buildVerbFilters() {
-    const verbs = [...new Set(PHRASAL_VERBS.map(q => q.verb))].sort();
-    const bar = document.getElementById("verbFilterBar");
-    bar.innerHTML = '<button class="verb-filter-btn active" data-verb="all">All Verbs</button>';
-    verbs.forEach(v => {
-        const btn = document.createElement("button");
-        btn.className = "verb-filter-btn";
-        btn.dataset.verb = v;
-        btn.textContent = v;
-        btn.addEventListener("click", () => {
-            document.querySelectorAll(".verb-filter-btn").forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-            selectedVerb = v;
+function updateWeakCount() {
+    const weak = getWeakPhrases();
+    document.getElementById("weakCount").textContent = `Weak: ${weak.length}`;
+}
+
+// ============================
+// MOTHER TABS
+// ============================
+function initMotherTabs() {
+    document.querySelectorAll(".mother-tab").forEach(tab => {
+        tab.addEventListener("click", () => {
+            document.querySelectorAll(".mother-tab").forEach(t => t.classList.remove("active"));
+            tab.classList.add("active");
+            selectedMode = tab.dataset.mode;
+
+            // Reset sub-filters
+            selectedCategory = "all";
+            selectedVerb = "all";
+
+            // Show/hide panels
+            document.getElementById("panelVerb").classList.toggle("visible", selectedMode === "verb");
+            document.getElementById("panelSituation").classList.toggle("visible", selectedMode === "situation");
+            document.getElementById("panelWeak").classList.toggle("visible", selectedMode === "weak");
+
+            if (selectedMode === "weak") {
+                renderWeakPanel();
+            }
+            if (selectedMode === "verb") {
+                // Reset letter/verb selection
+                document.querySelectorAll(".letter-btn").forEach(b => b.classList.remove("active"));
+                document.getElementById("verbChips").innerHTML = "";
+            }
+            if (selectedMode === "situation") {
+                document.querySelectorAll(".situation-chip").forEach(b => b.classList.remove("active"));
+                document.querySelector('.situation-chip[data-category="all"]').classList.add("active");
+            }
+
             startQuiz();
         });
-        bar.appendChild(btn);
-    });
-    bar.querySelector('[data-verb="all"]').addEventListener("click", () => {
-        document.querySelectorAll(".verb-filter-btn").forEach(b => b.classList.remove("active"));
-        bar.querySelector('[data-verb="all"]').classList.add("active");
-        selectedVerb = "all";
-        startQuiz();
     });
 }
 
-// Shuffle
+// ============================
+// BY VERB: LETTER ROW
+// ============================
+function buildLetterRow() {
+    const verbs = [...new Set(PHRASAL_VERBS.map(q => q.verb))].sort();
+    const verbsByLetter = {};
+    verbs.forEach(v => {
+        const letter = v[0].toUpperCase();
+        if (!verbsByLetter[letter]) verbsByLetter[letter] = [];
+        verbsByLetter[letter].push(v);
+    });
+
+    const row = document.getElementById("letterRow");
+    row.innerHTML = "";
+
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").forEach(letter => {
+        const btn = document.createElement("button");
+        btn.className = "letter-btn";
+        btn.textContent = letter;
+        if (!verbsByLetter[letter]) {
+            btn.classList.add("disabled");
+        } else {
+            btn.addEventListener("click", () => {
+                document.querySelectorAll(".letter-btn").forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+                renderVerbChips(verbsByLetter[letter]);
+            });
+        }
+        row.appendChild(btn);
+    });
+}
+
+function renderVerbChips(verbs) {
+    const container = document.getElementById("verbChips");
+    container.innerHTML = "";
+
+    // "All in this letter" option
+    const allBtn = document.createElement("button");
+    allBtn.className = "verb-chip active";
+    allBtn.textContent = `All (${verbs.length})`;
+    allBtn.addEventListener("click", () => {
+        document.querySelectorAll(".verb-chip").forEach(b => b.classList.remove("active"));
+        allBtn.classList.add("active");
+        selectedVerb = "all";
+        // Filter to just this letter's verbs
+        selectedCategory = "all";
+        // We'll use a custom pool — store letter verbs
+        window._letterVerbs = verbs;
+        startQuiz();
+    });
+    container.appendChild(allBtn);
+    window._letterVerbs = verbs;
+
+    verbs.forEach(v => {
+        const count = PHRASAL_VERBS.filter(pv => pv.verb === v).length;
+        const btn = document.createElement("button");
+        btn.className = "verb-chip";
+        btn.textContent = `${v} (${count})`;
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".verb-chip").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            selectedVerb = v;
+            window._letterVerbs = null;
+            startQuiz();
+        });
+        container.appendChild(btn);
+    });
+
+    // Auto-start with all verbs of this letter
+    selectedVerb = "all";
+    startQuiz();
+}
+
+// ============================
+// BY SITUATION
+// ============================
+function initSituationChips() {
+    document.querySelectorAll(".situation-chip").forEach(btn => {
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".situation-chip").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            selectedCategory = btn.dataset.category;
+            startQuiz();
+        });
+    });
+}
+
+// ============================
+// WEAK WORDS PANEL
+// ============================
+function renderWeakPanel() {
+    const weak = getWeakPhrases();
+    document.getElementById("weakCountDisplay").textContent = weak.length;
+
+    const list = document.getElementById("weakList");
+    list.innerHTML = "";
+
+    if (weak.length === 0) {
+        list.innerHTML = '<div style="color:#666; font-size:0.8rem; padding:8px;">No weak phrases yet. Keep practicing!</div>';
+        return;
+    }
+
+    weak.forEach(([phrase, score]) => {
+        const tag = document.createElement("span");
+        tag.className = "weak-tag";
+        tag.innerHTML = `${phrase}<span class="weak-score">${score}</span>`;
+        list.appendChild(tag);
+    });
+}
+
+// ============================
+// SHUFFLE
+// ============================
 function shuffle(arr) {
     const a = [...arr];
     for (let i = a.length - 1; i > 0; i--) {
@@ -474,22 +879,35 @@ function shuffle(arr) {
     return a;
 }
 
-// Pick a random sentence for each phrasal verb
+// ============================
+// BUILD QUIZ POOL
+// ============================
 function buildQuizPool() {
     let pool = PHRASAL_VERBS;
 
-    if (selectedCategory !== "all") {
-        pool = pool.filter(q => q.category === selectedCategory);
+    if (selectedMode === "weak") {
+        // Only phrases with negative scores
+        const weak = getWeakPhrases();
+        const weakSet = new Set(weak.map(([phrase]) => phrase));
+        pool = pool.filter(pv => weakSet.has(pv.phrase));
+        if (pool.length === 0) pool = [...PHRASAL_VERBS]; // fallback
+    } else if (selectedMode === "verb") {
+        if (selectedVerb !== "all") {
+            pool = pool.filter(q => q.verb === selectedVerb);
+        } else if (window._letterVerbs) {
+            pool = pool.filter(q => window._letterVerbs.includes(q.verb));
+        }
+    } else if (selectedMode === "situation") {
+        if (selectedCategory !== "all") {
+            pool = pool.filter(q => q.category === selectedCategory);
+        }
     }
-    if (selectedVerb !== "all") {
-        pool = pool.filter(q => q.verb === selectedVerb);
-    }
+    // mode "all" → no filter
+
     if (pool.length === 0) pool = [...PHRASAL_VERBS];
 
-    // For each phrasal verb, pick one random sentence
     return pool.map(pv => {
         const sentenceIdx = Math.floor(Math.random() * pv.sentences.length);
-        // Pick a different sentence for the example (not the quiz sentence)
         const otherSentences = pv.sentences.filter((_, i) => i !== sentenceIdx);
         const exampleSentence = otherSentences.length > 0
             ? otherSentences[Math.floor(Math.random() * otherSentences.length)]
@@ -510,6 +928,9 @@ function buildQuizPool() {
     });
 }
 
+// ============================
+// START QUIZ
+// ============================
 function startQuiz() {
     const pool = buildQuizPool();
     currentQuestions = shuffle(pool).slice(0, quizSize);
@@ -526,6 +947,9 @@ function startQuiz() {
     showQuestion();
 }
 
+// ============================
+// SHOW QUESTION
+// ============================
 function buildSentenceHTML(template, verb) {
     return template
         .replace("{verb}", `<span class="verb">${verb}</span>`)
@@ -536,11 +960,21 @@ function showQuestion() {
     answered = false;
     const q = currentQuestions[currentIndex];
 
-    document.getElementById("categoryTag").textContent = q.category;
+    // Category tag with score badge
+    const score = getScore(q.phrase);
+    let badgeHTML = "";
+    if (score < 0) {
+        badgeHTML = `<span class="phrase-score-badge negative">score: ${score}</span>`;
+    } else if (score > 0) {
+        badgeHTML = `<span class="phrase-score-badge positive">score: +${score}</span>`;
+    }
+    document.getElementById("categoryTag").innerHTML = q.category + badgeHTML;
+
     document.getElementById("sentenceDisplay").innerHTML = buildSentenceHTML(q.sentence, q.verb);
     document.getElementById("feedback").className = "feedback";
     document.getElementById("feedback").style.display = "none";
     document.getElementById("nextBtn").style.display = "none";
+    document.getElementById("scoreChange").innerHTML = "";
 
     const container = document.getElementById("optionsContainer");
     container.innerHTML = "";
@@ -557,6 +991,9 @@ function showQuestion() {
     updateScore();
 }
 
+// ============================
+// SELECT ANSWER
+// ============================
 function selectAnswer(selected, btn) {
     if (answered) return;
     answered = true;
@@ -567,6 +1004,11 @@ function selectAnswer(selected, btn) {
     const feedback = document.getElementById("feedback");
 
     document.querySelectorAll(".option-btn").forEach(b => b.disabled = true);
+
+    // Record score
+    const oldScore = getScore(q.phrase);
+    const newScore = recordAnswer(q.phrase, isCorrect);
+    const delta = newScore - oldScore;
 
     // Remove old h3 if exists
     const oldH3 = feedback.querySelector("h3");
@@ -600,13 +1042,25 @@ function selectAnswer(selected, btn) {
     document.getElementById("phraseTitle").textContent = q.phrase;
     document.getElementById("phraseMeaning").textContent = q.meaning;
     document.getElementById("phraseExample").textContent = `Example: "${q.example}"`;
+
+    // Show score change
+    const scoreChangeEl = document.getElementById("scoreChange");
+    if (delta !== 0) {
+        const cls = delta < 0 ? "delta-neg" : "delta-pos";
+        const sign = delta > 0 ? "+" : "";
+        scoreChangeEl.innerHTML = `Phrase score: ${newScore} (<span class="${cls}">${sign}${delta}</span>)`;
+    } else if (isCorrect && oldScore >= 0) {
+        scoreChangeEl.innerHTML = `Phrase score: ${newScore} <span style="color:#666">(already mastered)</span>`;
+    }
     feedback.style.display = "block";
 
     reviewLog.push({
         phrase: q.phrase,
         correct: isCorrect,
         yourAnswer: selected,
-        sentence: q.sentence.replace("{verb}", q.verb).replace("{blank}", q.answer)
+        sentence: q.sentence.replace("{verb}", q.verb).replace("{blank}", q.answer),
+        newScore: newScore,
+        delta: delta
     });
 
     document.getElementById("nextBtn").style.display = "inline-block";
@@ -614,8 +1068,12 @@ function selectAnswer(selected, btn) {
         currentIndex < currentQuestions.length - 1 ? "Next Question" : "See Results";
 
     updateScore();
+    updateWeakCount();
 }
 
+// ============================
+// NEXT / RESULTS
+// ============================
 function nextQuestion() {
     currentIndex++;
     if (currentIndex >= currentQuestions.length) {
@@ -642,19 +1100,47 @@ function showResults() {
         <p style="margin-top:10px; color: #ffd200;">${grade}</p>
     `;
 
+    // History summary — show weak phrases
+    const weak = getWeakPhrases();
+    const summaryDiv = document.getElementById("historySummary");
+    if (weak.length > 0) {
+        const top = weak.slice(0, 20);
+        summaryDiv.innerHTML = `
+            <h4>Your ${weak.length} Weakest Phrase${weak.length > 1 ? "s" : ""} (All Time)</h4>
+            <div class="weak-phrase-list">
+                ${top.map(([phrase, score]) =>
+                    `<span class="weak-phrase-item">${phrase} <span class="wps">${score}</span></span>`
+                ).join("")}
+            </div>
+            ${weak.length > 20 ? `<div style="color:#666; font-size:0.7rem; margin-top:6px;">...and ${weak.length - 20} more</div>` : ""}
+        `;
+        summaryDiv.style.display = "block";
+    } else {
+        summaryDiv.innerHTML = `<h4 style="color:#4caf50;">No weak phrases! Great job!</h4>`;
+        summaryDiv.style.display = "block";
+    }
+
     // Build review list
     const reviewDiv = document.getElementById("reviewSection");
     reviewDiv.innerHTML = "<h3 style='margin-bottom:12px; color:#aaa;'>Review:</h3>";
     reviewLog.forEach(r => {
         const div = document.createElement("div");
         div.className = `review-item ${r.correct ? "was-correct" : "was-wrong"}`;
+        const scoreColor = r.newScore < 0 ? "#f44336" : r.newScore > 0 ? "#4caf50" : "#888";
+        const deltaStr = r.delta !== 0
+            ? `(${r.delta > 0 ? "+" : ""}${r.delta})`
+            : "";
         div.innerHTML = `
             <span class="ri-phrase">${r.phrase}</span>
-            ${r.correct ? "✓" : `✗ (you picked: ${r.yourAnswer})`}
+            ${r.correct ? "&#10003;" : `&#10007; (you picked: ${r.yourAnswer})`}
+            <span class="ri-score" style="color:${scoreColor}">[ ${r.newScore} ${deltaStr}]</span>
             <div class="ri-sentence">${r.sentence}</div>
         `;
         reviewDiv.appendChild(div);
     });
+
+    // Update weak panel if visible
+    if (selectedMode === "weak") renderWeakPanel();
 }
 
 function restartQuiz() {
@@ -669,17 +1155,9 @@ function updateScore() {
         `${(currentIndex / currentQuestions.length) * 100}%`;
 }
 
-// Category filter buttons
-document.querySelectorAll(".filter-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-        document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-        selectedCategory = btn.dataset.category;
-        startQuiz();
-    });
-});
-
-// Quiz size buttons
+// ============================
+// QUIZ SIZE BUTTONS
+// ============================
 document.querySelectorAll(".size-btn").forEach(btn => {
     btn.addEventListener("click", () => {
         document.querySelectorAll(".size-btn").forEach(b => b.classList.remove("active"));
@@ -689,9 +1167,13 @@ document.querySelectorAll(".size-btn").forEach(btn => {
     });
 });
 
-// Init
+// ============================
+// INIT
+// ============================
 countStats();
-buildVerbFilters();
+buildLetterRow();
+initMotherTabs();
+initSituationChips();
 startQuiz();
 </script>
 
