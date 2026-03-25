@@ -7139,4 +7139,5997 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "in", "out", "over"]
     },
+
+    // ========================================
+    // ABIDE
+    // ========================================
+    {
+        verb: "abide", particle: "by", phrase: "abide by", category: "academic", level: "high",
+        meaning: "To accept and follow a rule, law, or decision.",
+        sentences: [
+            "All employees must {verb} {blank} the company's code of conduct.",
+            "You have to {verb} {blank} the rules if you want to play.",
+            "Both sides agreed to {verb} {blank} the court's decision.",
+            "Citizens are expected to {verb} {blank} the law."
+        ],
+        options: ["by", "with", "to", "for"]
+    },
+
+    // ========================================
+    // ACT
+    // ========================================
+    {
+        verb: "act", particle: "on", phrase: "act on", category: "business", level: "high",
+        meaning: "To take action based on advice or information.",
+        sentences: [
+            "She decided to {verb} {blank} her doctor's advice and quit smoking.",
+            "The police {verb}ed {blank} a tip from an anonymous caller.",
+            "We need to {verb} {blank} these findings immediately.",
+            "He failed to {verb} {blank} the warnings and suffered the consequences."
+        ],
+        options: ["on", "out", "up", "for"]
+    },
+    {
+        verb: "act", particle: "out", phrase: "act out", category: "emotion", level: "middle",
+        meaning: "To express emotions through behavior, often badly; to perform a scene.",
+        sentences: [
+            "The child was {verb}ing {blank} because he missed his mother.",
+            "The students {verb}ed {blank} a scene from the play.",
+            "Teenagers often {verb} {blank} when they're struggling emotionally.",
+            "She {verb}ed {blank} her frustration by slamming the door."
+        ],
+        options: ["out", "on", "up", "off"]
+    },
+    {
+        verb: "act", particle: "up", phrase: "act up", category: "daily", level: "middle",
+        meaning: "To misbehave; for a machine or body part to malfunction or cause problems.",
+        sentences: [
+            "My back has been {verb}ing {blank} again lately.",
+            "The kids always {verb} {blank} when we have guests over.",
+            "The printer is {verb}ing {blank} — it keeps jamming.",
+            "Her allergies tend to {verb} {blank} in the spring."
+        ],
+        options: ["up", "out", "on", "off"]
+    },
+
+    // ========================================
+    // ADD
+    // ========================================
+    {
+        verb: "add", particle: "up", phrase: "add up", category: "academic", level: "middle",
+        meaning: "To calculate a total; to make logical sense.",
+        sentences: [
+            "Let me {verb} {blank} the numbers and see what we owe.",
+            "His story just doesn't {verb} {blank} — something's not right.",
+            "When you {verb} {blank} all the costs, it's actually quite expensive.",
+            "The evidence doesn't {verb} {blank} to a convincing case."
+        ],
+        options: ["up", "on", "in", "out"]
+    },
+
+    // ========================================
+    // ADVISE
+    // ========================================
+    {
+        verb: "advise", particle: "against", phrase: "advise against", category: "academic", level: "college",
+        meaning: "To recommend that someone should not do something.",
+        sentences: [
+            "The lawyer {verb}d {blank} signing the contract without reading it.",
+            "Doctors {verb} {blank} eating too much sugar.",
+            "I would strongly {verb} {blank} investing all your money in one stock.",
+            "She {verb}d him {blank} taking the shortcut through the mountains."
+        ],
+        options: ["against", "for", "on", "about"]
+    },
+
+    // ========================================
+    // ALLOW
+    // ========================================
+    {
+        verb: "allow", particle: "for", phrase: "allow for", category: "business", level: "college",
+        meaning: "To take something into consideration when making plans.",
+        sentences: [
+            "You should {verb} {blank} delays when planning your journey.",
+            "The budget {verb}s {blank} unexpected expenses.",
+            "We didn't {verb} {blank} the possibility of bad weather.",
+            "Make sure to {verb} {blank} extra time at airport security."
+        ],
+        options: ["for", "in", "on", "with"]
+    },
+
+    // ========================================
+    // ANSWER
+    // ========================================
+    {
+        verb: "answer", particle: "back", phrase: "answer back", category: "emotion", level: "middle",
+        meaning: "To reply rudely to someone in authority.",
+        sentences: [
+            "Don't {verb} {blank} when your teacher is speaking to you.",
+            "She got in trouble for {verb}ing {blank} to the principal.",
+            "He was always {verb}ing {blank} and being disrespectful.",
+            "Children who {verb} {blank} are often just testing boundaries."
+        ],
+        options: ["back", "up", "out", "for"]
+    },
+    {
+        verb: "answer", particle: "for", phrase: "answer for", category: "academic", level: "college",
+        meaning: "To be held responsible for something; to speak on behalf of someone.",
+        sentences: [
+            "You'll have to {verb} {blank} your actions sooner or later.",
+            "I can {verb} {blank} her honesty — she would never lie.",
+            "The manager must {verb} {blank} any losses in his department.",
+            "He has a lot to {verb} {blank} after what he did."
+        ],
+        options: ["for", "back", "to", "on"]
+    },
+
+    // ========================================
+    // APPLY
+    // ========================================
+    {
+        verb: "apply", particle: "for", phrase: "apply for", category: "business", level: "middle",
+        meaning: "To make a formal request for a job, place, or opportunity.",
+        sentences: [
+            "She {verb}ied {blank} three different jobs last week.",
+            "Have you {verb}ied {blank} the scholarship yet?",
+            "He {verb}ied {blank} a visa to study in Canada.",
+            "Over 200 people {verb}ied {blank} the position."
+        ],
+        options: ["for", "to", "on", "in"]
+    },
+
+    // ========================================
+    // BACK (more)
+    // ========================================
+    {
+        verb: "back", particle: "away", phrase: "back away", category: "daily", level: "middle",
+        meaning: "To move backwards slowly, usually from something frightening.",
+        sentences: [
+            "She {verb}ed {blank} when she saw the snake on the path.",
+            "The dog was growling, so I {verb}ed {blank} slowly.",
+            "He {verb}ed {blank} from the argument and let it go.",
+            "The crowd {verb}ed {blank} as the fire spread."
+        ],
+        options: ["away", "down", "up", "off"]
+    },
+
+    // ========================================
+    // BANK
+    // ========================================
+    {
+        verb: "bank", particle: "on", phrase: "bank on", category: "business", level: "college",
+        meaning: "To rely on or count on something happening.",
+        sentences: [
+            "Don't {verb} {blank} the weather being good for the picnic.",
+            "We're {verb}ing {blank} a strong fourth quarter to hit our targets.",
+            "You can {verb} {blank} me — I'll be there.",
+            "She {verb}ed {blank} getting the promotion, but it went to someone else."
+        ],
+        options: ["on", "in", "up", "for"]
+    },
+
+    // ========================================
+    // BEAR
+    // ========================================
+    {
+        verb: "bear", particle: "with", phrase: "bear with", category: "daily", level: "high",
+        meaning: "To be patient with someone or something.",
+        sentences: [
+            "Please {verb} {blank} me while I look up your account.",
+            "{verb} {blank} us — we're experiencing technical difficulties.",
+            "If you {verb} {blank} the long introduction, the movie gets really good.",
+            "She asked the audience to {verb} {blank} her as she set up."
+        ],
+        options: ["with", "on", "up", "out"]
+    },
+
+    // ========================================
+    // BLACK
+    // ========================================
+    {
+        verb: "black", particle: "out", phrase: "black out", category: "daily", level: "high",
+        meaning: "To faint or lose consciousness; a complete loss of electrical power.",
+        sentences: [
+            "He {verb}ed {blank} from the heat and woke up on the ground.",
+            "The whole city {verb}ed {blank} during the storm.",
+            "She {verb}ed {blank} for a few seconds after standing up too quickly.",
+            "The stadium {verb}ed {blank} right before the concert started."
+        ],
+        options: ["out", "off", "up", "down"]
+    },
+
+    // ========================================
+    // BLOCK
+    // ========================================
+    {
+        verb: "block", particle: "off", phrase: "block off", category: "daily", level: "middle",
+        meaning: "To close or separate an area using a barrier.",
+        sentences: [
+            "Police {verb}ed {blank} the street after the accident.",
+            "We need to {verb} {blank} this section for the construction crew.",
+            "She {verb}ed {blank} an hour in her calendar for exercise.",
+            "The fallen tree {verb}ed {blank} the entire road."
+        ],
+        options: ["off", "out", "up", "in"]
+    },
+
+    // ========================================
+    // BONE
+    // ========================================
+    {
+        verb: "bone", particle: "up on", phrase: "bone up on", category: "academic", level: "college",
+        meaning: "To study intensively for a short period.",
+        sentences: [
+            "I need to {verb} {blank} my Spanish before the trip to Mexico.",
+            "She spent the weekend {verb}ing {blank} contract law for the exam.",
+            "You should {verb} {blank} the company's history before the interview.",
+            "He {verb}d {blank} the latest regulations before the audit."
+        ],
+        options: ["up on", "up", "down on", "into"]
+    },
+
+    // ========================================
+    // BOOT
+    // ========================================
+    {
+        verb: "boot", particle: "up", phrase: "boot up", category: "daily", level: "middle",
+        meaning: "To start a computer by loading the operating system.",
+        sentences: [
+            "It takes about a minute for my laptop to {verb} {blank}.",
+            "Can you {verb} {blank} the computer so I can check my email?",
+            "The system failed to {verb} {blank} after the update.",
+            "She {verb}ed {blank} her tablet to show the presentation."
+        ],
+        options: ["up", "on", "in", "off"]
+    },
+
+    // ========================================
+    // BOTTOM
+    // ========================================
+    {
+        verb: "bottom", particle: "out", phrase: "bottom out", category: "business", level: "college",
+        meaning: "To reach the lowest point before starting to improve.",
+        sentences: [
+            "Economists believe the market has finally {verb}ed {blank}.",
+            "House prices seem to have {verb}ed {blank} at last.",
+            "The company's share price {verb}ed {blank} in March before recovering.",
+            "Hopefully the recession will {verb} {blank} soon."
+        ],
+        options: ["out", "up", "off", "down"]
+    },
+
+    // ========================================
+    // BREAK (more)
+    // ========================================
+    {
+        verb: "break", particle: "away", phrase: "break away", category: "daily", level: "high",
+        meaning: "To escape or separate from a group or situation.",
+        sentences: [
+            "She {verb} {blank} from the crowd and ran to the stage.",
+            "He decided to {verb} {blank} from the family business.",
+            "The prisoner {verb} {blank} from the guards during transport.",
+            "It's hard to {verb} {blank} from old habits."
+        ],
+        options: ["away", "off", "out", "through"]
+    },
+    {
+        verb: "break", particle: "even", phrase: "break even", category: "business", level: "college",
+        meaning: "To neither make a profit nor a loss.",
+        sentences: [
+            "The company expects to {verb} {blank} by the end of the year.",
+            "We need to sell 500 units just to {verb} {blank}.",
+            "After all expenses, we barely {verb} {blank}.",
+            "It took the startup three years to {verb} {blank}."
+        ],
+        options: ["even", "through", "out", "up"]
+    },
+
+    // ========================================
+    // BRING (more)
+    // ========================================
+    {
+        verb: "bring", particle: "along", phrase: "bring along", category: "travel", level: "elementary",
+        meaning: "To take someone or something with you when you go somewhere.",
+        sentences: [
+            "Don't forget to {verb} {blank} your passport.",
+            "Can I {verb} {blank} a friend to the party?",
+            "She always {verb}s {blank} a book when she travels.",
+            "He {verb} {blank} some snacks for the road trip."
+        ],
+        options: ["along", "about", "up", "on"]
+    },
+    {
+        verb: "bring", particle: "on", phrase: "bring on", category: "daily", level: "high",
+        meaning: "To cause something to happen or appear.",
+        sentences: [
+            "The stress {verb} {blank} a terrible headache.",
+            "What {verb}s {blank} these sudden changes in mood?",
+            "The cold weather {verb}s {blank} flu season every year.",
+            "Eating too fast can {verb} {blank} stomach problems."
+        ],
+        options: ["on", "about", "up", "out"]
+    },
+    {
+        verb: "bring", particle: "round", phrase: "bring round", category: "emotion", level: "college",
+        meaning: "To persuade someone to change their opinion; to make someone regain consciousness.",
+        sentences: [
+            "It took a while, but I finally {verb} her {blank} to my point of view.",
+            "The paramedics managed to {verb} him {blank} after he fainted.",
+            "She's against it now, but we'll {verb} her {blank} eventually.",
+            "A splash of cold water {verb} her {blank} quickly."
+        ],
+        options: ["round", "about", "over", "back"]
+    },
+    {
+        verb: "bring", particle: "off", phrase: "bring off", category: "business", level: "college",
+        meaning: "To successfully accomplish something difficult.",
+        sentences: [
+            "Against all odds, they managed to {verb} {blank} the deal.",
+            "Nobody thought she could {verb} it {blank}, but she did.",
+            "The team {verb} {blank} a stunning victory in the final minute.",
+            "It was a risky plan, but he {verb} it {blank} perfectly."
+        ],
+        options: ["off", "on", "about", "out"]
+    },
+
+    // ========================================
+    // BUCKLE
+    // ========================================
+    {
+        verb: "buckle", particle: "down", phrase: "buckle down", category: "academic", level: "college",
+        meaning: "To start working hard and seriously on something.",
+        sentences: [
+            "It's time to {verb} {blank} and study for the final exams.",
+            "If we {verb} {blank}, we can finish the project by Friday.",
+            "She {verb}d {blank} and wrote the entire report in one weekend.",
+            "You need to {verb} {blank} if you want to pass this course."
+        ],
+        options: ["down", "up", "in", "on"]
+    },
+
+    // ========================================
+    // BULK
+    // ========================================
+    {
+        verb: "bulk", particle: "up", phrase: "bulk up", category: "daily", level: "high",
+        meaning: "To gain muscle mass through exercise and diet.",
+        sentences: [
+            "He's been trying to {verb} {blank} by lifting weights every day.",
+            "She {verb}ed {blank} for the role by training for three months.",
+            "Athletes often {verb} {blank} during the off-season.",
+            "He wants to {verb} {blank} before football tryouts."
+        ],
+        options: ["up", "out", "on", "in"]
+    },
+
+    // ========================================
+    // BUMP
+    // ========================================
+    {
+        verb: "bump", particle: "into", phrase: "bump into", category: "daily", level: "middle",
+        meaning: "To meet someone unexpectedly by chance.",
+        sentences: [
+            "I {verb}ed {blank} my old teacher at the supermarket.",
+            "You'll never guess who I {verb}ed {blank} at the airport!",
+            "She keeps {verb}ing {blank} her ex-boyfriend around town.",
+            "We {verb}ed {blank} some friends while on vacation in Italy."
+        ],
+        options: ["into", "on", "across", "upon"]
+    },
+
+    // ========================================
+    // BUTT
+    // ========================================
+    {
+        verb: "butt", particle: "in", phrase: "butt in", category: "emotion", level: "middle",
+        meaning: "To rudely interrupt a conversation or activity.",
+        sentences: [
+            "Sorry to {verb} {blank}, but I have something important to say.",
+            "She always {verb}s {blank} when other people are talking.",
+            "He kept {verb}ing {blank} with his unwanted opinions.",
+            "Please don't {verb} {blank} — let her finish speaking."
+        ],
+        options: ["in", "out", "on", "up"]
+    },
+
+    // ========================================
+    // CALL (more)
+    // ========================================
+    {
+        verb: "call", particle: "in", phrase: "call in", category: "business", level: "high",
+        meaning: "To request someone's help or presence; to phone a workplace.",
+        sentences: [
+            "The company {verb}ed {blank} an expert to solve the problem.",
+            "He {verb}ed {blank} sick this morning.",
+            "They had to {verb} {blank} the police to handle the situation.",
+            "She {verb}ed {blank} to say she'd be late for the meeting."
+        ],
+        options: ["in", "on", "up", "for"]
+    },
+
+    // ========================================
+    // CASH
+    // ========================================
+    {
+        verb: "cash", particle: "in on", phrase: "cash in on", category: "business", level: "college",
+        meaning: "To take advantage of a situation to make money or gain benefit.",
+        sentences: [
+            "The company {verb}ed {blank} the trend by launching a new product.",
+            "He {verb}ed {blank} his fame by writing a bestselling memoir.",
+            "Retailers always {verb} {blank} the holiday season.",
+            "She {verb}ed {blank} her language skills to get a better job."
+        ],
+        options: ["in on", "out on", "up on", "in"]
+    },
+
+    // ========================================
+    // CAVE
+    // ========================================
+    {
+        verb: "cave", particle: "in", phrase: "cave in", category: "emotion", level: "college",
+        meaning: "To collapse physically; to yield or give in to pressure.",
+        sentences: [
+            "The roof of the old mine {verb}d {blank} after the heavy rain.",
+            "He finally {verb}d {blank} and let the kids have ice cream.",
+            "Under intense questioning, the suspect {verb}d {blank} and confessed.",
+            "Don't {verb} {blank} to their demands — stay firm."
+        ],
+        options: ["in", "on", "out", "down"]
+    },
+
+    // ========================================
+    // CHECK (more)
+    // ========================================
+    {
+        verb: "check", particle: "over", phrase: "check over", category: "business", level: "middle",
+        meaning: "To examine or review something carefully.",
+        sentences: [
+            "Can you {verb} {blank} this report for any errors?",
+            "The mechanic {verb}ed {blank} the car and found nothing wrong.",
+            "She {verb}ed {blank} the contract before signing it.",
+            "Always {verb} {blank} your work before submitting it."
+        ],
+        options: ["over", "out", "up", "in"]
+    },
+
+    // ========================================
+    // CHEER (more)
+    // ========================================
+    {
+        verb: "cheer", particle: "on", phrase: "cheer on", category: "emotion", level: "middle",
+        meaning: "To shout encouragement and support for someone.",
+        sentences: [
+            "The crowd {verb}ed the runners {blank} as they crossed the finish line.",
+            "We went to the stadium to {verb} {blank} our team.",
+            "His parents were there to {verb} him {blank} at the race.",
+            "She {verb}ed her daughter {blank} at the school play."
+        ],
+        options: ["on", "up", "for", "out"]
+    },
+
+    // ========================================
+    // CLAM
+    // ========================================
+    {
+        verb: "clam", particle: "up", phrase: "clam up", category: "emotion", level: "college",
+        meaning: "To suddenly become silent or refuse to talk.",
+        sentences: [
+            "He {verb}med {blank} when the police started asking questions.",
+            "She tends to {verb} {blank} whenever the topic of money comes up.",
+            "The witness {verb}med {blank} and refused to say anything more.",
+            "Don't {verb} {blank} on me — tell me what happened!"
+        ],
+        options: ["up", "down", "out", "in"]
+    },
+
+    // ========================================
+    // CLEAN (more)
+    // ========================================
+    {
+        verb: "clean", particle: "out", phrase: "clean out", category: "daily", level: "middle",
+        meaning: "To empty and clean a space completely; to use up all of someone's money.",
+        sentences: [
+            "We spent the weekend {verb}ing {blank} the garage.",
+            "The burglars {verb}ed {blank} the entire house.",
+            "I need to {verb} {blank} my closet and donate old clothes.",
+            "The casino {verb}ed him {blank} in just two hours."
+        ],
+        options: ["out", "up", "off", "through"]
+    },
+
+    // ========================================
+    // COME (even more)
+    // ========================================
+    {
+        verb: "come", particle: "on", phrase: "come on", category: "daily", level: "elementary",
+        meaning: "To encourage or urge someone; to make progress; to start working.",
+        sentences: [
+            "{verb} {blank}! We're going to be late!",
+            "The lights suddenly {verb} {blank} after the power outage.",
+            "Her English has really {verb} {blank} since she moved here.",
+            "Oh {verb} {blank}, you can't be serious!"
+        ],
+        options: ["on", "in", "up", "along"]
+    },
+    {
+        verb: "come", particle: "to", phrase: "come to", category: "daily", level: "high",
+        meaning: "To regain consciousness; to amount to a total.",
+        sentences: [
+            "She {verb} {blank} a few minutes after fainting.",
+            "The bill {verb}s {blank} over two hundred dollars.",
+            "When he {verb} {blank}, he couldn't remember what had happened.",
+            "The total {verb}s {blank} about fifty thousand a year."
+        ],
+        options: ["to", "around", "back", "through"]
+    },
+    {
+        verb: "come", particle: "forward", phrase: "come forward", category: "daily", level: "high",
+        meaning: "To present yourself or volunteer information.",
+        sentences: [
+            "Police are asking witnesses to {verb} {blank} with any information.",
+            "Several volunteers {verb} {blank} to help with the cleanup.",
+            "Nobody {verb} {blank} to claim the lost bag.",
+            "She {verb} {blank} and admitted she had made the mistake."
+        ],
+        options: ["forward", "out", "along", "up"]
+    },
+    {
+        verb: "come", particle: "by", phrase: "come by", category: "daily", level: "high",
+        meaning: "To obtain or acquire something; to visit briefly.",
+        sentences: [
+            "Good jobs are hard to {verb} {blank} in this economy.",
+            "How did you {verb} {blank} that beautiful painting?",
+            "She {verb}s {blank} every Sunday for coffee.",
+            "Genuine antiques are difficult to {verb} {blank} these days."
+        ],
+        options: ["by", "across", "upon", "along"]
+    },
+    {
+        verb: "come", particle: "down", phrase: "come down", category: "business", level: "middle",
+        meaning: "To decrease in price or level.",
+        sentences: [
+            "Gas prices have finally {verb} {blank} this month.",
+            "We're waiting for interest rates to {verb} {blank}.",
+            "The price of the house has {verb} {blank} significantly.",
+            "Temperatures are expected to {verb} {blank} this weekend."
+        ],
+        options: ["down", "off", "out", "up"]
+    },
+    {
+        verb: "come", particle: "down on", phrase: "come down on", category: "emotion", level: "college",
+        meaning: "To criticize or punish someone severely.",
+        sentences: [
+            "The boss {verb} {blank} hard on anyone who was late.",
+            "The government is {verb}ing {blank} tax evaders.",
+            "Teachers should not {verb} {blank} students too harshly.",
+            "She {verb} {blank} him like a ton of bricks for lying."
+        ],
+        options: ["down on", "up on", "out on", "in on"]
+    },
+    {
+        verb: "come", particle: "up against", phrase: "come up against", category: "business", level: "college",
+        meaning: "To be faced with a difficult problem or strong opponent.",
+        sentences: [
+            "We {verb} {blank} some unexpected legal obstacles.",
+            "Small businesses often {verb} {blank} fierce competition.",
+            "She {verb} {blank} resistance when she proposed the changes.",
+            "They {verb} {blank} a much stronger team in the semifinals."
+        ],
+        options: ["up against", "up with", "across", "along with"]
+    },
+    {
+        verb: "come", particle: "round", phrase: "come round", category: "daily", level: "high",
+        meaning: "To visit informally; to regain consciousness; to change your opinion.",
+        sentences: [
+            "Why don't you {verb} {blank} for dinner on Saturday?",
+            "He {verb} {blank} after being unconscious for a few minutes.",
+            "She'll {verb} {blank} to our way of thinking eventually.",
+            "The doctor says he should {verb} {blank} in a few hours."
+        ],
+        options: ["round", "by", "over", "along"]
+    },
+    {
+        verb: "come", particle: "up to", phrase: "come up to", category: "academic", level: "college",
+        meaning: "To reach a particular standard or expectation.",
+        sentences: [
+            "The hotel didn't {verb} {blank} our expectations.",
+            "His work doesn't {verb} {blank} the required standard.",
+            "The sequel doesn't {verb} {blank} the original movie.",
+            "She hopes the results {verb} {blank} what was promised."
+        ],
+        options: ["up to", "down to", "along with", "up with"]
+    },
+    {
+        verb: "come", particle: "in for", phrase: "come in for", category: "emotion", level: "college",
+        meaning: "To receive criticism, blame, or praise.",
+        sentences: [
+            "The government has {verb} {blank} heavy criticism over the policy.",
+            "The new design {verb} {blank} a lot of praise from reviewers.",
+            "He {verb} {blank} some harsh words from his colleagues.",
+            "The decision {verb} {blank} widespread condemnation."
+        ],
+        options: ["in for", "up for", "out for", "in on"]
+    },
+    {
+        verb: "come", particle: "after", phrase: "come after", category: "daily", level: "middle",
+        meaning: "To chase or pursue someone.",
+        sentences: [
+            "The dog {verb} {blank} me when I walked past the gate.",
+            "If you steal from them, they'll {verb} {blank} you.",
+            "The debt collectors are {verb}ing {blank} him for unpaid bills.",
+            "She feared the wolves would {verb} {blank} them."
+        ],
+        options: ["after", "for", "at", "on"]
+    },
+    {
+        verb: "come", particle: "upon", phrase: "come upon", category: "daily", level: "college",
+        meaning: "To find or discover something by chance.",
+        sentences: [
+            "While hiking, we {verb} {blank} a beautiful hidden waterfall.",
+            "She {verb} {blank} an old diary while cleaning the attic.",
+            "The researchers {verb} {blank} an unexpected finding.",
+            "He {verb} {blank} the solution quite by accident."
+        ],
+        options: ["upon", "across", "by", "into"]
+    },
+
+    // ========================================
+    // CONJURE
+    // ========================================
+    {
+        verb: "conjure", particle: "up", phrase: "conjure up", category: "academic", level: "college",
+        meaning: "To create or produce something seemingly from nothing; to evoke a memory or image.",
+        sentences: [
+            "She can {verb} {blank} a delicious meal from almost nothing.",
+            "The smell of cinnamon {verb}s {blank} memories of Christmas.",
+            "He {verb}d {blank} an excuse on the spot.",
+            "The word 'beach' {verb}s {blank} images of sunny days."
+        ],
+        options: ["up", "out", "on", "forth"]
+    },
+
+    // ========================================
+    // CROP
+    // ========================================
+    {
+        verb: "crop", particle: "up", phrase: "crop up", category: "daily", level: "college",
+        meaning: "To appear or occur unexpectedly.",
+        sentences: [
+            "Problems keep {verb}ping {blank} with the new software.",
+            "Something urgent has {verb}ped {blank} at work — I can't make dinner.",
+            "His name {verb}s {blank} frequently in conversation.",
+            "New issues {verb} {blank} every time we think we're done."
+        ],
+        options: ["up", "out", "on", "in"]
+    },
+
+    // ========================================
+    // DAWN
+    // ========================================
+    {
+        verb: "dawn", particle: "on", phrase: "dawn on", category: "emotion", level: "college",
+        meaning: "To suddenly become clear or understood.",
+        sentences: [
+            "It suddenly {verb}ed {blank} me that I had left the oven on.",
+            "The truth finally {verb}ed {blank} her after reading the letter.",
+            "It took a while, but it eventually {verb}ed {blank} him.",
+            "The full impact of the decision is only now {verb}ing {blank} us."
+        ],
+        options: ["on", "upon", "to", "at"]
+    },
+
+    // ========================================
+    // DIP
+    // ========================================
+    {
+        verb: "dip", particle: "into", phrase: "dip into", category: "business", level: "college",
+        meaning: "To use part of a supply of something; to read or look at briefly.",
+        sentences: [
+            "We had to {verb} {blank} our savings to pay for the repairs.",
+            "She likes to {verb} {blank} different books rather than finish one.",
+            "The company {verb}ped {blank} its reserves to cover the shortfall.",
+            "I've only {verb}ped {blank} the report — I haven't read it thoroughly."
+        ],
+        options: ["into", "in", "through", "out"]
+    },
+
+    // ========================================
+    // DRAG
+    // ========================================
+    {
+        verb: "drag", particle: "on", phrase: "drag on", category: "emotion", level: "high",
+        meaning: "To continue for longer than expected or desired.",
+        sentences: [
+            "The meeting {verb}ged {blank} for three hours.",
+            "The legal case has been {verb}ging {blank} for years.",
+            "Winter seems to {verb} {blank} forever in this country.",
+            "The negotiations {verb}ged {blank} with no resolution in sight."
+        ],
+        options: ["on", "out", "off", "along"]
+    },
+
+    // ========================================
+    // DRAW (more)
+    // ========================================
+    {
+        verb: "draw", particle: "back", phrase: "draw back", category: "emotion", level: "high",
+        meaning: "To move away from something; to be reluctant to do something.",
+        sentences: [
+            "She {verb} {blank} in horror when she saw the accident.",
+            "He {verb}s {blank} from any kind of confrontation.",
+            "The cat {verb} {blank} from the unfamiliar noise.",
+            "Many investors are {verb}ing {blank} from risky markets."
+        ],
+        options: ["back", "away", "out", "off"]
+    },
+
+    // ========================================
+    // DRIFT
+    // ========================================
+    {
+        verb: "drift", particle: "apart", phrase: "drift apart", category: "emotion", level: "high",
+        meaning: "To gradually become less close in a relationship.",
+        sentences: [
+            "After college, they slowly {verb}ed {blank}.",
+            "The couple {verb}ed {blank} when his job took him overseas.",
+            "Old friends sometimes {verb} {blank} as life takes different paths.",
+            "Without regular contact, even close siblings can {verb} {blank}."
+        ],
+        options: ["apart", "away", "off", "out"]
+    },
+
+    // ========================================
+    // DWELL
+    // ========================================
+    {
+        verb: "dwell", particle: "on", phrase: "dwell on", category: "emotion", level: "college",
+        meaning: "To think or talk about something for too long, especially something negative.",
+        sentences: [
+            "Try not to {verb} {blank} the past — focus on the future.",
+            "She tends to {verb} {blank} her mistakes instead of learning from them.",
+            "There's no point {verb}ing {blank} what might have been.",
+            "He {verb}s {blank} every little criticism he receives."
+        ],
+        options: ["on", "upon", "over", "about"]
+    },
+
+    // ========================================
+    // EASE
+    // ========================================
+    {
+        verb: "ease", particle: "off", phrase: "ease off", category: "daily", level: "college",
+        meaning: "To reduce in severity, pressure, or intensity.",
+        sentences: [
+            "The rain should {verb} {blank} by this afternoon.",
+            "The doctor told him to {verb} {blank} the exercise for a while.",
+            "Work pressure tends to {verb} {blank} during the summer.",
+            "The pain will {verb} {blank} once the medication kicks in."
+        ],
+        options: ["off", "up", "down", "out"]
+    },
+
+    // ========================================
+    // EDGE
+    // ========================================
+    {
+        verb: "edge", particle: "out", phrase: "edge out", category: "business", level: "college",
+        meaning: "To narrowly defeat someone in a competition.",
+        sentences: [
+            "She {verb}d {blank} the other candidate by just two votes.",
+            "The company {verb}d {blank} its rival to win the contract.",
+            "He {verb}d {blank} the defending champion in a close race.",
+            "Smaller firms are being {verb}d {blank} by larger corporations."
+        ],
+        options: ["out", "off", "over", "past"]
+    },
+
+    // ========================================
+    // EGG
+    // ========================================
+    {
+        verb: "egg", particle: "on", phrase: "egg on", category: "emotion", level: "college",
+        meaning: "To encourage someone to do something, usually something unwise.",
+        sentences: [
+            "His friends {verb}ed him {blank} to jump off the bridge into the river.",
+            "Don't {verb} her {blank} — she'll do something she regrets.",
+            "The crowd {verb}ed the fighters {blank}.",
+            "He wouldn't have done it if his mates hadn't {verb}ed him {blank}."
+        ],
+        options: ["on", "up", "off", "into"]
+    },
+
+    // ========================================
+    // EVEN
+    // ========================================
+    {
+        verb: "even", particle: "out", phrase: "even out", category: "business", level: "high",
+        meaning: "To become equal or level; to eliminate differences.",
+        sentences: [
+            "The workload should {verb} {blank} once the new staff start.",
+            "Prices tend to {verb} {blank} over time.",
+            "Use a spatula to {verb} {blank} the surface of the cake.",
+            "Things usually {verb} {blank} in the end."
+        ],
+        options: ["out", "up", "off", "down"]
+    },
+
+    // ========================================
+    // FALL (more)
+    // ========================================
+    {
+        verb: "fall", particle: "back on", phrase: "fall back on", category: "daily", level: "college",
+        meaning: "To use something as a backup or alternative when other options fail.",
+        sentences: [
+            "If the plan fails, we can always {verb} {blank} the original approach.",
+            "She has her teaching degree to {verb} {blank} if acting doesn't work.",
+            "Having savings to {verb} {blank} gives you peace of mind.",
+            "When all else fails, I {verb} {blank} my mother's advice."
+        ],
+        options: ["back on", "down on", "out on", "behind"]
+    },
+    {
+        verb: "fall", particle: "in with", phrase: "fall in with", category: "daily", level: "college",
+        meaning: "To agree with someone's plans; to become associated with a group.",
+        sentences: [
+            "She {verb} {blank} the wrong crowd at school.",
+            "He was happy to {verb} {blank} whatever the group decided.",
+            "The committee {verb} {blank} the director's proposal.",
+            "He {verb} {blank} some travelers and joined their journey."
+        ],
+        options: ["in with", "out with", "along with", "in"]
+    },
+
+    // ========================================
+    // FEND
+    // ========================================
+    {
+        verb: "fend", particle: "off", phrase: "fend off", category: "daily", level: "college",
+        meaning: "To defend against or resist an attack or unwanted attention.",
+        sentences: [
+            "She had to {verb} {blank} dozens of reporters at the airport.",
+            "The company is trying to {verb} {blank} a hostile takeover.",
+            "He {verb}ed {blank} the attacker with a stick.",
+            "They {verb}ed {blank} competition from much larger companies."
+        ],
+        options: ["off", "away", "back", "out"]
+    },
+
+    // ========================================
+    // FIX
+    // ========================================
+    {
+        verb: "fix", particle: "up", phrase: "fix up", category: "daily", level: "middle",
+        meaning: "To repair or improve something; to arrange a meeting or date.",
+        sentences: [
+            "They spent the summer {verb}ing {blank} the old farmhouse.",
+            "Can you {verb} me {blank} with a good dentist?",
+            "He {verb}ed {blank} the broken fence over the weekend.",
+            "She {verb}ed {blank} a meeting between the two parties."
+        ],
+        options: ["up", "on", "out", "in"]
+    },
+
+    // ========================================
+    // FIZZLE
+    // ========================================
+    {
+        verb: "fizzle", particle: "out", phrase: "fizzle out", category: "daily", level: "college",
+        meaning: "To gradually lose strength or enthusiasm and end weakly.",
+        sentences: [
+            "The protest {verb}d {blank} after a few days.",
+            "Their romance {verb}d {blank} once the excitement wore off.",
+            "The campaign started strong but {verb}d {blank} before election day.",
+            "The fireworks {verb}d {blank} and the crowd went home."
+        ],
+        options: ["out", "away", "off", "down"]
+    },
+
+    // ========================================
+    // FLARE
+    // ========================================
+    {
+        verb: "flare", particle: "up", phrase: "flare up", category: "emotion", level: "college",
+        meaning: "To suddenly become worse or more intense; to suddenly become angry.",
+        sentences: [
+            "Violence {verb}d {blank} again in the region after months of peace.",
+            "His back injury {verb}s {blank} whenever the weather changes.",
+            "She {verb}d {blank} when he accused her of being lazy.",
+            "Tensions between the two countries have {verb}d {blank} recently."
+        ],
+        options: ["up", "out", "off", "on"]
+    },
+
+    // ========================================
+    // FOCUS
+    // ========================================
+    {
+        verb: "focus", particle: "on", phrase: "focus on", category: "academic", level: "middle",
+        meaning: "To concentrate attention or effort on something.",
+        sentences: [
+            "Let's {verb} {blank} finding a solution instead of arguing.",
+            "She needs to {verb} {blank} her studies this semester.",
+            "The company has decided to {verb} {blank} its core business.",
+            "Try to {verb} {blank} the positive aspects of the situation."
+        ],
+        options: ["on", "in", "at", "to"]
+    },
+
+    // ========================================
+    // FOLLOW
+    // ========================================
+    {
+        verb: "follow", particle: "through", phrase: "follow through", category: "business", level: "college",
+        meaning: "To complete something that was started; to carry to conclusion.",
+        sentences: [
+            "He has great ideas but never {verb}s {blank} on any of them.",
+            "It's important to {verb} {blank} on your commitments.",
+            "The government promised reforms but failed to {verb} {blank}.",
+            "She always {verb}s {blank} on what she says she'll do."
+        ],
+        options: ["through", "up", "on", "out"]
+    },
+    {
+        verb: "follow", particle: "up", phrase: "follow up", category: "business", level: "high",
+        meaning: "To take further action after an initial effort; to check on progress.",
+        sentences: [
+            "I'll {verb} {blank} with an email to confirm the details.",
+            "She {verb}ed {blank} on the job application a week later.",
+            "The doctor asked him to {verb} {blank} in two weeks.",
+            "Don't forget to {verb} {blank} with the client after the meeting."
+        ],
+        options: ["up", "through", "on", "out"]
+    },
+
+    // ========================================
+    // FORK
+    // ========================================
+    {
+        verb: "fork", particle: "out", phrase: "fork out", category: "business", level: "college",
+        meaning: "To reluctantly spend money, usually a large amount.",
+        sentences: [
+            "We had to {verb} {blank} a fortune for the car repairs.",
+            "I don't want to {verb} {blank} fifty dollars for a taxi.",
+            "She {verb}ed {blank} thousands on the wedding reception.",
+            "Why should I {verb} {blank} money for something I'll never use?"
+        ],
+        options: ["out", "over", "up", "off"]
+    },
+
+    // ========================================
+    // GET (even more)
+    // ========================================
+    {
+        verb: "get", particle: "across", phrase: "get across", category: "business", level: "high",
+        meaning: "To communicate an idea or message successfully.",
+        sentences: [
+            "She struggled to {verb} her point {blank} to the audience.",
+            "How can we {verb} this message {blank} more effectively?",
+            "He used simple language to {verb} the idea {blank}.",
+            "The ad campaign successfully {verb} the brand's message {blank}."
+        ],
+        options: ["across", "over", "through", "along"]
+    },
+    {
+        verb: "get", particle: "at", phrase: "get at", category: "emotion", level: "college",
+        meaning: "To imply or suggest something indirectly; to reach something.",
+        sentences: [
+            "What are you {verb}ting {blank}? Just say it directly.",
+            "I think I see what you're {verb}ting {blank}.",
+            "The cat was trying to {verb} {blank} the fish on the counter.",
+            "She couldn't {verb} {blank} the truth because he kept changing the subject."
+        ],
+        options: ["at", "to", "on", "into"]
+    },
+    {
+        verb: "get", particle: "away with", phrase: "get away with", category: "daily", level: "high",
+        meaning: "To do something wrong without being punished or caught.",
+        sentences: [
+            "He cheated on the test and {verb} {blank} it.",
+            "You won't {verb} {blank} this — someone will find out.",
+            "She always {verb}s {blank} coming to class late.",
+            "How does he {verb} {blank} wearing jeans to the office?"
+        ],
+        options: ["away with", "along with", "on with", "through with"]
+    },
+    {
+        verb: "get", particle: "back at", phrase: "get back at", category: "emotion", level: "high",
+        meaning: "To take revenge on someone.",
+        sentences: [
+            "She's trying to {verb} {blank} him for what he said.",
+            "He {verb} {blank} his rival by outperforming him at work.",
+            "Don't waste your energy trying to {verb} {blank} people.",
+            "She {verb} {blank} her sister by telling their parents the truth."
+        ],
+        options: ["back at", "back on", "back to", "at"]
+    },
+    {
+        verb: "get", particle: "down to", phrase: "get down to", category: "business", level: "college",
+        meaning: "To begin to seriously focus on something.",
+        sentences: [
+            "Let's {verb} {blank} business — we have a lot to discuss.",
+            "It's time to {verb} {blank} studying for the exam.",
+            "After the small talk, they {verb} {blank} the real issues.",
+            "We need to {verb} {blank} work if we want to finish today."
+        ],
+        options: ["down to", "on with", "into", "through"]
+    },
+    {
+        verb: "get", particle: "on with", phrase: "get on with", category: "daily", level: "high",
+        meaning: "To continue doing something; to make progress.",
+        sentences: [
+            "Stop complaining and {verb} {blank} your work.",
+            "Let's {verb} {blank} the meeting — we're running behind.",
+            "She just wants to {verb} {blank} her life after the divorce.",
+            "He told them to {verb} {blank} it while he was away."
+        ],
+        options: ["on with", "along with", "up with", "through with"]
+    },
+    {
+        verb: "get", particle: "out of", phrase: "get out of", category: "daily", level: "high",
+        meaning: "To avoid doing something you should do; to leave.",
+        sentences: [
+            "He always tries to {verb} {blank} doing the dishes.",
+            "There's no way to {verb} {blank} this meeting — you have to attend.",
+            "She managed to {verb} {blank} jury duty.",
+            "I wish I could {verb} {blank} this dinner party."
+        ],
+        options: ["out of", "away from", "off", "by with"]
+    },
+    {
+        verb: "get", particle: "to", phrase: "get to", category: "travel", level: "middle",
+        meaning: "To arrive at a place; to annoy or emotionally affect someone.",
+        sentences: [
+            "What time did you {verb} {blank} the airport?",
+            "Don't let his comments {verb} {blank} you.",
+            "How do I {verb} {blank} the train station from here?",
+            "The constant noise is really {verb}ting {blank} me."
+        ],
+        options: ["to", "at", "in", "on"]
+    },
+
+    // ========================================
+    // GLOSS
+    // ========================================
+    {
+        verb: "gloss", particle: "over", phrase: "gloss over", category: "business", level: "professional",
+        meaning: "To treat something briefly to avoid discussing problems.",
+        sentences: [
+            "The report {verb}es {blank} several important safety concerns.",
+            "Don't just {verb} {blank} the mistakes — address them directly.",
+            "He tends to {verb} {blank} the negative aspects of his proposals.",
+            "The manager {verb}ed {blank} the budget problems during the meeting."
+        ],
+        options: ["over", "through", "past", "by"]
+    },
+
+    // ========================================
+    // GO (even more)
+    // ========================================
+    {
+        verb: "go", particle: "after", phrase: "go after", category: "daily", level: "middle",
+        meaning: "To chase or pursue someone or something; to try to achieve.",
+        sentences: [
+            "The police {verb} {blank} the suspect on foot.",
+            "She decided to {verb} {blank} her dream of becoming a doctor.",
+            "If you want the job, {verb} {blank} it!",
+            "The company is {verb}ing {blank} younger customers."
+        ],
+        options: ["after", "for", "at", "on"]
+    },
+    {
+        verb: "go", particle: "against", phrase: "go against", category: "academic", level: "high",
+        meaning: "To act contrary to rules, principles, or wishes.",
+        sentences: [
+            "His decision {verb}es {blank} everything we agreed on.",
+            "It {verb}es {blank} my principles to lie.",
+            "She {verb} {blank} her parents' wishes and dropped out of college.",
+            "The ruling {verb}es {blank} established legal precedent."
+        ],
+        options: ["against", "with", "for", "on"]
+    },
+    {
+        verb: "go", particle: "around", phrase: "go around", category: "daily", level: "middle",
+        meaning: "To be enough for everyone; to circulate.",
+        sentences: [
+            "There aren't enough chairs to {verb} {blank}.",
+            "A rumor is {verb}ing {blank} that the company will be sold.",
+            "Is there enough pizza to {verb} {blank}?",
+            "A nasty flu bug is {verb}ing {blank} the office."
+        ],
+        options: ["around", "about", "through", "over"]
+    },
+    {
+        verb: "go", particle: "away", phrase: "go away", category: "travel", level: "elementary",
+        meaning: "To leave a place; to travel somewhere for a holiday.",
+        sentences: [
+            "{verb} {blank}! I don't want to talk to you.",
+            "We're {verb}ing {blank} for the weekend — maybe to the coast.",
+            "The pain won't {verb} {blank} no matter what I do.",
+            "She {verb} {blank} on a business trip for a week."
+        ],
+        options: ["away", "off", "out", "back"]
+    },
+    {
+        verb: "go", particle: "by", phrase: "go by", category: "daily", level: "middle",
+        meaning: "To pass (of time); to be guided by something.",
+        sentences: [
+            "Time {verb}es {blank} so quickly when you're having fun.",
+            "We should {verb} {blank} what the manual says.",
+            "As the years {verb} {blank}, you learn to appreciate the little things.",
+            "Don't {verb} {blank} appearances — they can be deceiving."
+        ],
+        options: ["by", "past", "on", "along"]
+    },
+    {
+        verb: "go", particle: "up", phrase: "go up", category: "business", level: "middle",
+        meaning: "To increase in price, level, or amount.",
+        sentences: [
+            "Gas prices have {verb}ne {blank} again this month.",
+            "The cost of living keeps {verb}ing {blank} every year.",
+            "Temperatures are expected to {verb} {blank} over the weekend.",
+            "The number of applicants has {verb}ne {blank} dramatically."
+        ],
+        options: ["up", "on", "over", "ahead"]
+    },
+    {
+        verb: "go", particle: "under", phrase: "go under", category: "business", level: "college",
+        meaning: "To fail financially; to go bankrupt.",
+        sentences: [
+            "Many small businesses {verb} {blank} during the recession.",
+            "The restaurant {verb} {blank} after only six months.",
+            "Without additional funding, the company will {verb} {blank}.",
+            "Several airlines have {verb}ne {blank} in the past decade."
+        ],
+        options: ["under", "down", "out", "off"]
+    },
+    {
+        verb: "go", particle: "through with", phrase: "go through with", category: "emotion", level: "college",
+        meaning: "To carry out or complete something difficult despite reservations.",
+        sentences: [
+            "She decided to {verb} {blank} the surgery despite her fear.",
+            "He couldn't {verb} {blank} the wedding and called it off.",
+            "Are you sure you want to {verb} {blank} this plan?",
+            "In the end, she {verb} {blank} the move to a new city."
+        ],
+        options: ["through with", "on with", "ahead with", "along with"]
+    },
+    {
+        verb: "go", particle: "round", phrase: "go round", category: "daily", level: "middle",
+        meaning: "To visit someone informally; to be sufficient for everyone.",
+        sentences: [
+            "I'll {verb} {blank} to her house after work.",
+            "Is there enough cake to {verb} {blank}?",
+            "We should {verb} {blank} and see how she's doing.",
+            "There isn't enough time to {verb} {blank}."
+        ],
+        options: ["round", "around", "over", "by"]
+    },
+    {
+        verb: "go", particle: "past", phrase: "go past", category: "travel", level: "elementary",
+        meaning: "To pass by a place or person.",
+        sentences: [
+            "We {verb} {blank} your house every day on the way to school.",
+            "The bus {verb}es {blank} the hospital — you can get off there.",
+            "A fire truck {verb} {blank} with its sirens blaring.",
+            "She {verb} {blank} the bakery and the smell was amazing."
+        ],
+        options: ["past", "by", "through", "over"]
+    },
+    {
+        verb: "go", particle: "out with", phrase: "go out with", category: "emotion", level: "middle",
+        meaning: "To be in a romantic relationship with someone.",
+        sentences: [
+            "She's been {verb}ing {blank} Tom for about two years.",
+            "How long have you been {verb}ing {blank} her?",
+            "He asked her to {verb} {blank} him, and she said yes.",
+            "They started {verb}ing {blank} each other in high school."
+        ],
+        options: ["out with", "on with", "along with", "around with"]
+    },
+    {
+        verb: "go", particle: "in for", phrase: "go in for", category: "daily", level: "college",
+        meaning: "To enjoy or regularly participate in an activity.",
+        sentences: [
+            "She doesn't {verb} {blank} team sports — she prefers hiking.",
+            "Do you {verb} {blank} any particular type of music?",
+            "He {verb}es {blank} extreme sports like skydiving and bungee jumping.",
+            "I don't really {verb} {blank} cooking elaborate meals."
+        ],
+        options: ["in for", "on for", "up for", "out for"]
+    },
+
+    // ========================================
+    // GRAPPLE
+    // ========================================
+    {
+        verb: "grapple", particle: "with", phrase: "grapple with", category: "academic", level: "professional",
+        meaning: "To struggle to deal with a difficult problem or issue.",
+        sentences: [
+            "The government is {verb}ing {blank} rising inflation.",
+            "Scientists continue to {verb} {blank} the mysteries of dark matter.",
+            "She {verb}d {blank} the decision for weeks before making up her mind.",
+            "Many students {verb} {blank} this concept at first."
+        ],
+        options: ["with", "on", "over", "through"]
+    },
+
+    // ========================================
+    // HAMMER
+    // ========================================
+    {
+        verb: "hammer", particle: "out", phrase: "hammer out", category: "business", level: "professional",
+        meaning: "To negotiate and reach an agreement with great effort.",
+        sentences: [
+            "The two sides {verb}ed {blank} a compromise after hours of talks.",
+            "We need to {verb} {blank} the details of the contract.",
+            "They finally {verb}ed {blank} an agreement that satisfied everyone.",
+            "The committee {verb}ed {blank} a new policy on overtime."
+        ],
+        options: ["out", "through", "over", "on"]
+    },
+
+    // ========================================
+    // HIT (more)
+    // ========================================
+    {
+        verb: "hit", particle: "it off", phrase: "hit it off", category: "emotion", level: "high",
+        meaning: "To quickly form a good relationship with someone.",
+        sentences: [
+            "We {verb} {blank} immediately and became best friends.",
+            "She {verb} {blank} with her new roommate from day one.",
+            "The two teams {verb} {blank} and worked together brilliantly.",
+            "I didn't think we would, but we really {verb} {blank}."
+        ],
+        options: ["it off", "it on", "it up", "it out"]
+    },
+
+    // ========================================
+    // HOLD (more)
+    // ========================================
+    {
+        verb: "hold", particle: "out for", phrase: "hold out for", category: "business", level: "college",
+        meaning: "To wait or resist in order to get something better.",
+        sentences: [
+            "She's {verb}ing {blank} a higher salary before accepting the offer.",
+            "Don't settle — {verb} {blank} what you really want.",
+            "The union is {verb}ing {blank} better working conditions.",
+            "He {verb} {blank} a corner office and eventually got one."
+        ],
+        options: ["out for", "on for", "up for", "off for"]
+    },
+
+    // ========================================
+    // HUNKER
+    // ========================================
+    {
+        verb: "hunker", particle: "down", phrase: "hunker down", category: "daily", level: "college",
+        meaning: "To prepare to stay in a place for a long time; to work intensely.",
+        sentences: [
+            "We {verb}ed {blank} and waited for the hurricane to pass.",
+            "It's time to {verb} {blank} and finish this thesis.",
+            "The family {verb}ed {blank} in the basement during the tornado warning.",
+            "She {verb}ed {blank} in the library for a full day of studying."
+        ],
+        options: ["down", "in", "up", "on"]
+    },
+
+    // ========================================
+    // IDENTIFY
+    // ========================================
+    {
+        verb: "identify", particle: "with", phrase: "identify with", category: "emotion", level: "college",
+        meaning: "To feel a connection or similarity with someone or something.",
+        sentences: [
+            "Many readers {verb} {blank} the main character in the novel.",
+            "She {verb}s {blank} people who grew up in poverty.",
+            "It's hard to {verb} {blank} someone who's never struggled.",
+            "Young voters don't {verb} {blank} traditional politicians."
+        ],
+        options: ["with", "to", "for", "as"]
+    },
+
+    // ========================================
+    // JOIN
+    // ========================================
+    {
+        verb: "join", particle: "in", phrase: "join in", category: "daily", level: "middle",
+        meaning: "To participate in an activity that is already happening.",
+        sentences: [
+            "Everyone is welcome to {verb} {blank} the discussion.",
+            "She was too shy to {verb} {blank} the game.",
+            "Come on, {verb} {blank} — it's fun!",
+            "He sat quietly and didn't {verb} {blank} the conversation."
+        ],
+        options: ["in", "on", "up", "with"]
+    },
+    {
+        verb: "join", particle: "up", phrase: "join up", category: "daily", level: "high",
+        meaning: "To become a member of an organization, especially the military.",
+        sentences: [
+            "He {verb}ed {blank} the army right after finishing school.",
+            "Several volunteers {verb}ed {blank} to help with the relief effort.",
+            "The two roads {verb} {blank} just before the bridge.",
+            "She {verb}ed {blank} with the hiking group last month."
+        ],
+        options: ["up", "in", "on", "with"]
+    },
+
+    // ========================================
+    // JOT
+    // ========================================
+    {
+        verb: "jot", particle: "down", phrase: "jot down", category: "academic", level: "middle",
+        meaning: "To write something quickly and briefly.",
+        sentences: [
+            "Let me {verb} {blank} your phone number before I forget.",
+            "She {verb}ted {blank} a few notes during the lecture.",
+            "He {verb}ted {blank} the directions on a napkin.",
+            "I'll {verb} {blank} the key points for you."
+        ],
+        options: ["down", "up", "out", "off"]
+    },
+
+    // ========================================
+    // KEEP (more)
+    // ========================================
+    {
+        verb: "keep", particle: "down", phrase: "keep down", category: "daily", level: "high",
+        meaning: "To prevent from increasing; to stay low; to not vomit food.",
+        sentences: [
+            "We need to {verb} {blank} costs if we want to stay profitable.",
+            "{verb} your voice {blank} — the baby is sleeping.",
+            "She was so sick she couldn't {verb} any food {blank}.",
+            "The government is trying to {verb} {blank} inflation."
+        ],
+        options: ["down", "off", "out", "back"]
+    },
+    {
+        verb: "keep", particle: "in", phrase: "keep in", category: "daily", level: "middle",
+        meaning: "To not allow to leave; to hold inside.",
+        sentences: [
+            "The teacher {verb} the students {blank} during recess as punishment.",
+            "She tried to {verb} {blank} her emotions but couldn't help crying.",
+            "Close the door to {verb} the heat {blank}.",
+            "{verb} your elbows {blank} when walking through the narrow hallway."
+        ],
+        options: ["in", "on", "back", "down"]
+    },
+
+    // ========================================
+    // KNUCKLE
+    // ========================================
+    {
+        verb: "knuckle", particle: "down", phrase: "knuckle down", category: "academic", level: "college",
+        meaning: "To start working or studying hard and seriously.",
+        sentences: [
+            "Exams are next week — it's time to {verb} {blank}.",
+            "He {verb}d {blank} and finished the report in one night.",
+            "If she {verb}s {blank}, she can still pass the course.",
+            "The team {verb}d {blank} and delivered the project on time."
+        ],
+        options: ["down", "in", "on", "up"]
+    },
+
+    // ========================================
+    // LATCH
+    // ========================================
+    {
+        verb: "latch", particle: "onto", phrase: "latch onto", category: "emotion", level: "college",
+        meaning: "To become very interested in or attached to something or someone.",
+        sentences: [
+            "The media {verb}ed {blank} the story and wouldn't let it go.",
+            "She {verb}ed {blank} the idea and wouldn't consider alternatives.",
+            "The child {verb}ed {blank} his mother and refused to let go.",
+            "He {verb}ed {blank} the new trend early and profited."
+        ],
+        options: ["onto", "into", "on", "up"]
+    },
+
+    // ========================================
+    // LEVEL
+    // ========================================
+    {
+        verb: "level", particle: "off", phrase: "level off", category: "business", level: "college",
+        meaning: "To stop increasing or decreasing and become stable.",
+        sentences: [
+            "After months of growth, sales have finally {verb}ed {blank}.",
+            "The plane {verb}ed {blank} at 35,000 feet.",
+            "Infection rates seem to be {verb}ing {blank}.",
+            "Prices are expected to {verb} {blank} after the holiday season."
+        ],
+        options: ["off", "out", "up", "down"]
+    },
+    {
+        verb: "level", particle: "with", phrase: "level with", category: "emotion", level: "college",
+        meaning: "To be completely honest with someone.",
+        sentences: [
+            "I'm going to {verb} {blank} you — the situation is not good.",
+            "Can you {verb} {blank} me? I need to know the truth.",
+            "She finally {verb}ed {blank} her parents about her plans.",
+            "He appreciated that she {verb}ed {blank} him instead of lying."
+        ],
+        options: ["with", "to", "at", "on"]
+    },
+
+    // ========================================
+    // LIGHTEN
+    // ========================================
+    {
+        verb: "lighten", particle: "up", phrase: "lighten up", category: "emotion", level: "high",
+        meaning: "To become less serious or tense; to relax.",
+        sentences: [
+            "Oh {verb} {blank}! It was just a joke.",
+            "She needs to {verb} {blank} and not take everything so seriously.",
+            "The mood {verb}ed {blank} once the boss left the room.",
+            "He told her to {verb} {blank}, but she was still upset."
+        ],
+        options: ["up", "down", "off", "on"]
+    },
+
+    // ========================================
+    // LOOK (more)
+    // ========================================
+    {
+        verb: "look", particle: "on", phrase: "look on", category: "daily", level: "high",
+        meaning: "To watch something without getting involved.",
+        sentences: [
+            "A crowd gathered to {verb} {blank} as the firefighters worked.",
+            "She could only {verb} {blank} helplessly as the car rolled away.",
+            "They {verb}ed {blank} in horror as the building collapsed.",
+            "He {verb}ed {blank} while the children played in the park."
+        ],
+        options: ["on", "at", "out", "over"]
+    },
+    {
+        verb: "look", particle: "out for", phrase: "look out for", category: "daily", level: "middle",
+        meaning: "To watch for and try to notice; to take care of someone.",
+        sentences: [
+            "{verb} {blank} pickpockets when you're in the city center.",
+            "She always {verb}s {blank} her younger siblings.",
+            "I'll {verb} {blank} a good deal on flights for us.",
+            "He told her to {verb} {blank} any signs of trouble."
+        ],
+        options: ["out for", "after", "into", "over"]
+    },
+
+    // ========================================
+    // MAKE (more)
+    // ========================================
+    {
+        verb: "make", particle: "fun of", phrase: "make fun of", category: "emotion", level: "middle",
+        meaning: "To ridicule or laugh at someone in an unkind way.",
+        sentences: [
+            "Stop {verb}ing {blank} your little brother — it's not nice.",
+            "The other kids {verb} {blank} her accent when she first moved here.",
+            "It's cruel to {verb} {blank} someone for how they look.",
+            "He was always {verb}ing {blank} my cooking."
+        ],
+        options: ["fun of", "laugh at", "joke on", "mock of"]
+    },
+    {
+        verb: "make", particle: "over", phrase: "make over", category: "daily", level: "high",
+        meaning: "To completely transform or renovate the appearance of something.",
+        sentences: [
+            "They completely {verb} {blank} the kitchen with new cabinets and paint.",
+            "The stylist {verb} her {blank} for the TV appearance.",
+            "The company {verb} {blank} its brand image last year.",
+            "She {verb} {blank} her wardrobe after losing weight."
+        ],
+        options: ["over", "up", "out", "on"]
+    },
+
+    // ========================================
+    // MULL
+    // ========================================
+    {
+        verb: "mull", particle: "over", phrase: "mull over", category: "academic", level: "college",
+        meaning: "To think carefully about something over a period of time.",
+        sentences: [
+            "I need to {verb} {blank} your offer before I decide.",
+            "She {verb}ed {blank} the idea for several weeks.",
+            "He spent the weekend {verb}ing {blank} whether to accept the job.",
+            "Give me a day to {verb} it {blank}."
+        ],
+        options: ["over", "through", "on", "about"]
+    },
+
+    // ========================================
+    // NAME
+    // ========================================
+    {
+        verb: "name", particle: "after", phrase: "name after", category: "daily", level: "middle",
+        meaning: "To give someone or something the same name as another person or thing.",
+        sentences: [
+            "She was {verb}d {blank} her grandmother.",
+            "The street was {verb}d {blank} a famous local poet.",
+            "They {verb}d the baby {blank} his grandfather.",
+            "The building was {verb}d {blank} the university's founder."
+        ],
+        options: ["after", "for", "by", "from"]
+    },
+
+    // ========================================
+    // NOD
+    // ========================================
+    {
+        verb: "nod", particle: "off", phrase: "nod off", category: "daily", level: "high",
+        meaning: "To fall asleep, especially unintentionally.",
+        sentences: [
+            "He {verb}ded {blank} during the lecture.",
+            "She {verb}ded {blank} on the couch while watching TV.",
+            "I nearly {verb}ded {blank} in the meeting — it was so boring.",
+            "The long car ride made the kids {verb} {blank}."
+        ],
+        options: ["off", "out", "away", "down"]
+    },
+
+    // ========================================
+    // PENCIL
+    // ========================================
+    {
+        verb: "pencil", particle: "in", phrase: "pencil in", category: "business", level: "college",
+        meaning: "To make a tentative appointment or arrangement.",
+        sentences: [
+            "Let me {verb} you {blank} for Tuesday at 3 PM.",
+            "I'll {verb} {blank} a meeting for next week.",
+            "She {verb}ed him {blank} for lunch on Thursday.",
+            "Can we {verb} that {blank} and confirm later?"
+        ],
+        options: ["in", "on", "down", "up"]
+    },
+
+    // ========================================
+    // PITCH
+    // ========================================
+    {
+        verb: "pitch", particle: "in", phrase: "pitch in", category: "business", level: "high",
+        meaning: "To contribute effort or help as part of a group.",
+        sentences: [
+            "If everyone {verb}es {blank}, we'll finish the cleanup in no time.",
+            "She {verb}ed {blank} and helped set up the chairs for the event.",
+            "The whole community {verb}ed {blank} after the flood.",
+            "We all need to {verb} {blank} to meet the deadline."
+        ],
+        options: ["in", "on", "up", "out"]
+    },
+
+    // ========================================
+    // PLOUGH
+    // ========================================
+    {
+        verb: "plough", particle: "through", phrase: "plough through", category: "academic", level: "college",
+        meaning: "To read or work through something long and difficult.",
+        sentences: [
+            "She {verb}ed {blank} hundreds of pages of legal documents.",
+            "I'm still {verb}ing {blank} the reading list for next week.",
+            "He {verb}ed {blank} his emails after returning from vacation.",
+            "It took me a month to {verb} {blank} that textbook."
+        ],
+        options: ["through", "into", "over", "on"]
+    },
+
+    // ========================================
+    // PULL (more)
+    // ========================================
+    {
+        verb: "pull", particle: "in", phrase: "pull in", category: "business", level: "college",
+        meaning: "To attract people, money, or support; for a train to arrive at a station.",
+        sentences: [
+            "The new show is {verb}ing {blank} huge audiences.",
+            "The charity event {verb}ed {blank} over a million dollars.",
+            "The train {verb}ed {blank} right on time.",
+            "Her speech {verb}ed {blank} a lot of new supporters."
+        ],
+        options: ["in", "on", "up", "out"]
+    },
+
+    // ========================================
+    // PUT (more)
+    // ========================================
+    {
+        verb: "put", particle: "aside", phrase: "put aside", category: "business", level: "high",
+        meaning: "To save money or time for a specific purpose; to ignore differences temporarily.",
+        sentences: [
+            "She {verb}s {blank} a little money each month for emergencies.",
+            "Let's {verb} {blank} our differences and focus on the task.",
+            "He {verb} {blank} his personal feelings and made a professional decision.",
+            "They {verb} {blank} enough funds for the children's education."
+        ],
+        options: ["aside", "away", "by", "apart"]
+    },
+    {
+        verb: "put", particle: "down to", phrase: "put down to", category: "academic", level: "college",
+        meaning: "To attribute something to a particular cause.",
+        sentences: [
+            "She {verb} her success {blank} hard work and determination.",
+            "I'd {verb} it {blank} lack of experience.",
+            "His bad mood can be {verb} {blank} the fact that he didn't sleep well.",
+            "They {verb} the failure {blank} poor planning."
+        ],
+        options: ["down to", "up to", "on to", "off to"]
+    },
+    {
+        verb: "put", particle: "through", phrase: "put through", category: "business", level: "high",
+        meaning: "To connect someone by phone; to cause someone to experience something.",
+        sentences: [
+            "Can you {verb} me {blank} to the sales department?",
+            "I'll {verb} you {blank} to my manager right away.",
+            "She {verb} her family {blank} a lot with her reckless behavior.",
+            "He was {verb} {blank} a series of difficult tests."
+        ],
+        options: ["through", "over", "across", "along"]
+    },
+    {
+        verb: "put", particle: "in for", phrase: "put in for", category: "business", level: "college",
+        meaning: "To apply or make a formal request for something.",
+        sentences: [
+            "She {verb} {blank} a transfer to the London office.",
+            "He {verb} {blank} a pay rise after three years at the company.",
+            "Several employees {verb} {blank} the management position.",
+            "I'm going to {verb} {blank} a week off in July."
+        ],
+        options: ["in for", "up for", "on for", "out for"]
+    },
+
+    // ========================================
+    // RELY
+    // ========================================
+    {
+        verb: "rely", particle: "on", phrase: "rely on", category: "daily", level: "middle",
+        meaning: "To depend on or trust someone or something.",
+        sentences: [
+            "You can {verb} {blank} me — I'll be there.",
+            "Many families {verb} {blank} two incomes to survive.",
+            "Don't {verb} {blank} the bus being on time.",
+            "She {verb}s {blank} her assistant to manage her schedule."
+        ],
+        options: ["on", "in", "with", "for"]
+    },
+
+    // ========================================
+    // ROUND
+    // ========================================
+    {
+        verb: "round", particle: "up", phrase: "round up", category: "daily", level: "middle",
+        meaning: "To gather people or things together; to increase a number to the nearest whole.",
+        sentences: [
+            "Can you {verb} {blank} the kids? Dinner is ready.",
+            "The teacher {verb}ed {blank} the students for a group photo.",
+            "Let's {verb} it {blank} to the nearest dollar.",
+            "Police {verb}ed {blank} the suspects within hours."
+        ],
+        options: ["up", "off", "out", "in"]
+    },
+
+    // ========================================
+    // RUB
+    // ========================================
+    {
+        verb: "rub", particle: "off", phrase: "rub off", category: "daily", level: "college",
+        meaning: "To transfer a quality or characteristic from one person to another.",
+        sentences: [
+            "Her enthusiasm seems to {verb} {blank} on everyone around her.",
+            "I hope his good habits {verb} {blank} on the younger players.",
+            "Some of the teacher's passion for literature {verb}bed {blank} on her students.",
+            "Living abroad, the culture starts to {verb} {blank} on you."
+        ],
+        options: ["off", "on", "out", "away"]
+    },
+
+    // ========================================
+    // RUN (more)
+    // ========================================
+    {
+        verb: "run", particle: "by", phrase: "run by", category: "business", level: "high",
+        meaning: "To tell someone about something to get their opinion or approval.",
+        sentences: [
+            "Let me {verb} this idea {blank} you before the meeting.",
+            "I need to {verb} the budget {blank} my manager first.",
+            "She {verb} the plan {blank} her team and got positive feedback.",
+            "Can I {verb} something {blank} you quickly?"
+        ],
+        options: ["by", "through", "past", "over"]
+    },
+
+    // ========================================
+    // SAVE
+    // ========================================
+    {
+        verb: "save", particle: "up", phrase: "save up", category: "business", level: "middle",
+        meaning: "To accumulate money over time for a specific purpose.",
+        sentences: [
+            "She's {verb}ing {blank} to buy a new laptop.",
+            "We've been {verb}ing {blank} for a trip to Japan.",
+            "It took him two years to {verb} {blank} enough for a car.",
+            "They're {verb}ing {blank} for their children's education."
+        ],
+        options: ["up", "on", "out", "in"]
+    },
+
+    // ========================================
+    // SCALE
+    // ========================================
+    {
+        verb: "scale", particle: "up", phrase: "scale up", category: "business", level: "college",
+        meaning: "To increase the size, scope, or extent of something.",
+        sentences: [
+            "The company plans to {verb} {blank} production next year.",
+            "We need to {verb} {blank} our marketing efforts for the launch.",
+            "The project was {verb}d {blank} after receiving additional funding.",
+            "It's easier to {verb} {blank} a digital business than a physical one."
+        ],
+        options: ["up", "out", "on", "off"]
+    },
+
+    // ========================================
+    // SET (more)
+    // ========================================
+    {
+        verb: "set", particle: "down", phrase: "set down", category: "academic", level: "college",
+        meaning: "To write or record something officially; to put something down carefully.",
+        sentences: [
+            "The rules are clearly {verb} {blank} in the handbook.",
+            "She {verb} {blank} her thoughts in a journal every night.",
+            "He carefully {verb} {blank} the fragile vase on the table.",
+            "The law {verb}s {blank} strict guidelines for food safety."
+        ],
+        options: ["down", "out", "off", "up"]
+    },
+
+    // ========================================
+    // SETTLE (more)
+    // ========================================
+    {
+        verb: "settle", particle: "on", phrase: "settle on", category: "daily", level: "high",
+        meaning: "To decide on or agree upon a choice after consideration.",
+        sentences: [
+            "Have you {verb}d {blank} a date for the wedding yet?",
+            "After looking at dozens of houses, they finally {verb}d {blank} one.",
+            "We couldn't {verb} {blank} a name for the baby.",
+            "The committee {verb}d {blank} a compromise solution."
+        ],
+        options: ["on", "for", "down", "in"]
+    },
+
+    // ========================================
+    // SHOP
+    // ========================================
+    {
+        verb: "shop", particle: "around", phrase: "shop around", category: "daily", level: "middle",
+        meaning: "To compare prices at different stores before buying.",
+        sentences: [
+            "It pays to {verb} {blank} before buying car insurance.",
+            "She always {verb}s {blank} for the best deals.",
+            "We {verb}ped {blank} for weeks before choosing a contractor.",
+            "{verb} {blank} and compare prices — you might save a lot."
+        ],
+        options: ["around", "about", "for", "out"]
+    },
+
+    // ========================================
+    // SMOOTH
+    // ========================================
+    {
+        verb: "smooth", particle: "over", phrase: "smooth over", category: "business", level: "college",
+        meaning: "To make a problem or disagreement seem less serious.",
+        sentences: [
+            "She tried to {verb} {blank} the argument with a joke.",
+            "The manager {verb}ed {blank} the tension between the two teams.",
+            "You can't just {verb} {blank} this mistake — it's too serious.",
+            "He's good at {verb}ing {blank} awkward situations."
+        ],
+        options: ["over", "out", "off", "away"]
+    },
+
+    // ========================================
+    // SPLASH
+    // ========================================
+    {
+        verb: "splash", particle: "out", phrase: "splash out", category: "daily", level: "college",
+        meaning: "To spend a lot of money on something luxurious or special.",
+        sentences: [
+            "She {verb}ed {blank} on a designer handbag for her birthday.",
+            "We decided to {verb} {blank} on a five-star hotel for our anniversary.",
+            "He {verb}ed {blank} and bought first-class tickets.",
+            "You deserve to {verb} {blank} once in a while."
+        ],
+        options: ["out", "on", "off", "up"]
+    },
+
+    // ========================================
+    // SPLIT
+    // ========================================
+    {
+        verb: "split", particle: "up", phrase: "split up", category: "emotion", level: "high",
+        meaning: "To end a romantic relationship; to divide into groups.",
+        sentences: [
+            "They {verb} {blank} after five years together.",
+            "The teacher {verb} the class {blank} into groups of four.",
+            "The band {verb} {blank} due to creative differences.",
+            "Let's {verb} {blank} and search both sides of the building."
+        ],
+        options: ["up", "apart", "off", "out"]
+    },
+
+    // ========================================
+    // STAND (more)
+    // ========================================
+    {
+        verb: "stand", particle: "up to", phrase: "stand up to", category: "emotion", level: "high",
+        meaning: "To confront or resist someone bravely; to withstand.",
+        sentences: [
+            "She finally {verb} {blank} the bully at school.",
+            "These boots are designed to {verb} {blank} extreme conditions.",
+            "You need to {verb} {blank} your boss when he's being unfair.",
+            "The bridge was built to {verb} {blank} heavy traffic."
+        ],
+        options: ["up to", "up for", "out to", "by"]
+    },
+
+    // ========================================
+    // STIR
+    // ========================================
+    {
+        verb: "stir", particle: "up", phrase: "stir up", category: "emotion", level: "college",
+        meaning: "To cause trouble, strong feelings, or controversy.",
+        sentences: [
+            "His speech {verb}red {blank} a lot of controversy.",
+            "Stop trying to {verb} {blank} trouble between the two groups.",
+            "The documentary {verb}red {blank} strong emotions in viewers.",
+            "She {verb}red {blank} old memories that he'd rather forget."
+        ],
+        options: ["up", "on", "out", "off"]
+    },
+
+    // ========================================
+    // TAKE (more)
+    // ========================================
+    {
+        verb: "take", particle: "care of", phrase: "take care of", category: "daily", level: "elementary",
+        meaning: "To look after and be responsible for someone or something.",
+        sentences: [
+            "Can you {verb} {blank} the dog while I'm on vacation?",
+            "She {verb}s {blank} her elderly parents.",
+            "I'll {verb} {blank} the cooking if you do the cleaning.",
+            "Don't worry about the bill — I'll {verb} {blank} it."
+        ],
+        options: ["care of", "charge of", "hold of", "part in"]
+    },
+
+    // ========================================
+    // TEAM
+    // ========================================
+    {
+        verb: "team", particle: "up", phrase: "team up", category: "business", level: "high",
+        meaning: "To join forces with someone to work together.",
+        sentences: [
+            "The two companies {verb}ed {blank} to develop the new product.",
+            "She {verb}ed {blank} with her classmate for the science project.",
+            "Why don't we {verb} {blank} and tackle this together?",
+            "The charity {verb}ed {blank} with local businesses to raise funds."
+        ],
+        options: ["up", "on", "in", "with"]
+    },
+
+    // ========================================
+    // TRACK
+    // ========================================
+    {
+        verb: "track", particle: "down", phrase: "track down", category: "daily", level: "high",
+        meaning: "To find someone or something after searching hard.",
+        sentences: [
+            "The detective finally {verb}ed {blank} the missing witness.",
+            "I managed to {verb} {blank} a copy of the out-of-print book.",
+            "Can you help me {verb} {blank} this old friend from school?",
+            "It took weeks to {verb} {blank} the source of the problem."
+        ],
+        options: ["down", "out", "up", "off"]
+    },
+
+    // ========================================
+    // TRY (more)
+    // ========================================
+    {
+        verb: "try", particle: "for", phrase: "try for", category: "daily", level: "middle",
+        meaning: "To attempt to achieve or obtain something.",
+        sentences: [
+            "She's going to {verb} {blank} a place at Oxford University.",
+            "He decided to {verb} {blank} the gold medal this time.",
+            "They're {verb}ing {blank} a baby after years of waiting.",
+            "You should {verb} {blank} that promotion — you deserve it."
+        ],
+        options: ["for", "out", "on", "at"]
+    },
+
+    // ========================================
+    // TURN (more)
+    // ========================================
+    {
+        verb: "turn", particle: "against", phrase: "turn against", category: "emotion", level: "high",
+        meaning: "To stop supporting and become hostile toward someone.",
+        sentences: [
+            "The public {verb}ed {blank} the politician after the scandal.",
+            "She felt betrayed when her best friend {verb}ed {blank} her.",
+            "The media {verb}ed {blank} the celebrity overnight.",
+            "His own supporters {verb}ed {blank} him in the end."
+        ],
+        options: ["against", "on", "from", "away"]
+    },
+
+    // ========================================
+    // USE
+    // ========================================
+    {
+        verb: "use", particle: "up", phrase: "use up", category: "daily", level: "middle",
+        meaning: "To consume or exhaust the entire supply of something.",
+        sentences: [
+            "We've {verb}d {blank} all the milk — someone needs to go shopping.",
+            "The printer has {verb}d {blank} all the ink again.",
+            "She {verb}d {blank} the rest of the paint finishing the fence.",
+            "Don't {verb} {blank} all the hot water!"
+        ],
+        options: ["up", "out", "off", "away"]
+    },
+
+    // ========================================
+    // VOUCH
+    // ========================================
+    {
+        verb: "vouch", particle: "for", phrase: "vouch for", category: "business", level: "college",
+        meaning: "To guarantee or confirm someone's character, quality, or truth.",
+        sentences: [
+            "I can {verb} {blank} his honesty — he's a trustworthy person.",
+            "She {verb}ed {blank} the accuracy of the data in the report.",
+            "Several colleagues {verb}ed {blank} her excellent work ethic.",
+            "Can anyone {verb} {blank} this candidate's qualifications?"
+        ],
+        options: ["for", "on", "to", "with"]
+    },
+
+    // ========================================
+    // VIE
+    // ========================================
+    {
+        verb: "vie", particle: "for", phrase: "vie for", category: "business", level: "professional",
+        meaning: "To compete strongly to obtain or achieve something.",
+        sentences: [
+            "Several companies are {verb}ing {blank} the government contract.",
+            "The candidates are {verb}ing {blank} the top position.",
+            "Cities around the world {verb} {blank} the chance to host the Olympics.",
+            "Dozens of applicants are {verb}ing {blank} just three openings."
+        ],
+        options: ["for", "on", "with", "over"]
+    },
+
+    // ========================================
+    // WALK
+    // ========================================
+    {
+        verb: "walk", particle: "away", phrase: "walk away", category: "emotion", level: "high",
+        meaning: "To leave a difficult situation; to abandon something.",
+        sentences: [
+            "She decided to {verb} {blank} from the toxic relationship.",
+            "You can't just {verb} {blank} from your responsibilities.",
+            "He {verb}ed {blank} from the accident without a scratch.",
+            "Sometimes the best thing to do is {verb} {blank}."
+        ],
+        options: ["away", "off", "out", "by"]
+    },
+    {
+        verb: "walk", particle: "out", phrase: "walk out", category: "emotion", level: "high",
+        meaning: "To leave suddenly, usually as a protest or in anger.",
+        sentences: [
+            "Half the audience {verb}ed {blank} during the boring speech.",
+            "Workers {verb}ed {blank} in protest over pay cuts.",
+            "She {verb}ed {blank} of the meeting in frustration.",
+            "He {verb}ed {blank} on his family when she was just a child."
+        ],
+        options: ["out", "away", "off", "by"]
+    },
+
+    // ========================================
+    // WASH
+    // ========================================
+    {
+        verb: "wash", particle: "up", phrase: "wash up", category: "daily", level: "elementary",
+        meaning: "To clean dishes; to wash your hands and face.",
+        sentences: [
+            "Can you {verb} {blank} after dinner tonight?",
+            "Go {verb} {blank} before you sit down at the table.",
+            "There's a huge pile of dishes to {verb} {blank}.",
+            "She {verb}ed {blank} quickly before the guests arrived."
+        ],
+        options: ["up", "out", "off", "down"]
+    },
+
+    // ========================================
+    // WHILE
+    // ========================================
+    {
+        verb: "while", particle: "away", phrase: "while away", category: "daily", level: "college",
+        meaning: "To pass time in a leisurely, idle way.",
+        sentences: [
+            "They {verb}d {blank} the afternoon playing cards on the porch.",
+            "She {verb}d {blank} the hours reading novels on the beach.",
+            "He {verb}d {blank} the long wait by sketching in his notebook.",
+            "We {verb}d {blank} the rainy day watching old movies."
+        ],
+        options: ["away", "off", "out", "by"]
+    },
+
+    // ========================================
+    // WORK (more)
+    // ========================================
+    {
+        verb: "work", particle: "off", phrase: "work off", category: "daily", level: "high",
+        meaning: "To get rid of stress, energy, or calories through physical activity.",
+        sentences: [
+            "She went for a run to {verb} {blank} the stress from the day.",
+            "I need to {verb} {blank} that huge lunch with a long walk.",
+            "He {verb}s {blank} his frustration at the gym.",
+            "Let's go cycling to {verb} {blank} those extra calories."
+        ],
+        options: ["off", "out", "up", "on"]
+    },
+
+    // ========================================
+    // CATCH (more)
+    // ========================================
+    {
+        verb: "catch", particle: "up on", phrase: "catch up on", category: "daily", level: "middle",
+        meaning: "To do something that you didn't have time to do earlier.",
+        sentences: [
+            "I need to {verb} {blank} some sleep this weekend.",
+            "She spent Sunday {verb}ing {blank} emails from the week.",
+            "He used his vacation to {verb} {blank} reading.",
+            "I've got a lot of work to {verb} {blank} after being sick."
+        ],
+        options: ["up on", "on", "up with", "out on"]
+    },
+
+    // ========================================
+    // CUT (more)
+    // ========================================
+    {
+        verb: "cut", particle: "it out", phrase: "cut it out", category: "emotion", level: "middle",
+        meaning: "To stop doing something annoying.",
+        sentences: [
+            "{verb} {blank}! You're driving me crazy with that noise.",
+            "If you don't {verb} {blank}, I'm going to tell the teacher.",
+            "She told the kids to {verb} {blank} and behave.",
+            "Just {verb} {blank}, will you? I'm trying to concentrate."
+        ],
+        options: ["it out", "it off", "it up", "it down"]
+    },
+
+    // ========================================
+    // ZIP
+    // ========================================
+    {
+        verb: "zip", particle: "up", phrase: "zip up", category: "daily", level: "elementary",
+        meaning: "To fasten something with a zipper.",
+        sentences: [
+            "{verb} {blank} your jacket — it's cold outside.",
+            "She {verb}ped {blank} the suitcase and headed for the door.",
+            "Can you help me {verb} {blank} this dress?",
+            "He {verb}ped {blank} his backpack and ran to catch the bus."
+        ],
+        options: ["up", "on", "in", "off"]
+    },
+
+    // ========================================
+    // NEW ADDITIONS — BATCH 2 (301 entries)
+    // ========================================
+
+    // ========================================
+    // GET (additional)
+    // ========================================
+    {
+        verb: "get", particle: "ahead", phrase: "get ahead", category: "business", level: "middle",
+        meaning: "To make progress or become more successful than others.",
+        sentences: [
+            "She worked extra hours to {verb} {blank} in her career.",
+            "If you want to {verb} {blank}, you need to keep learning.",
+            "He studied every night to {verb} {blank} of his classmates.",
+            "It's hard to {verb} {blank} without a good education."
+        ],
+        options: ["ahead", "along", "away", "around"]
+    },
+    {
+        verb: "get", particle: "around", phrase: "get around", category: "daily", level: "middle",
+        meaning: "To travel from place to place; also to find a way to avoid a problem or rule.",
+        sentences: [
+            "It's easy to {verb} {blank} the city by subway.",
+            "He always finds a way to {verb} {blank} the rules.",
+            "News about the scandal quickly {verb} {blank}.",
+            "Without a car, it's difficult to {verb} {blank} in the suburbs."
+        ],
+        options: ["around", "about", "along", "away"]
+    },
+    {
+        verb: "get", particle: "back to", phrase: "get back to", category: "business", level: "middle",
+        meaning: "To return to a previous activity or to reply to someone later.",
+        sentences: [
+            "Let me {verb} {blank} you on that by tomorrow.",
+            "I need to {verb} {blank} work after this break.",
+            "She promised to {verb} {blank} me with an answer.",
+            "Can we {verb} {blank} the main topic now?"
+        ],
+        options: ["back to", "on to", "up to", "in to"]
+    },
+    {
+        verb: "get", particle: "down", phrase: "get down", category: "daily", level: "middle",
+        meaning: "To descend or dismount; also to make someone feel depressed.",
+        sentences: [
+            "The rainy weather really {verb}s me {blank}.",
+            "{verb} {blank} from that wall — it's dangerous!",
+            "Don't let the bad news {verb} you {blank}.",
+            "The cat can climb up the tree but can't {verb} {blank}."
+        ],
+        options: ["down", "off", "out", "up"]
+    },
+    {
+        verb: "get", particle: "in on", phrase: "get in on", category: "business", level: "high",
+        meaning: "To become involved in an activity, especially one that is profitable or exciting.",
+        sentences: [
+            "Everyone wanted to {verb} {blank} the deal.",
+            "I'd love to {verb} {blank} that investment opportunity.",
+            "She managed to {verb} {blank} the project at the last minute.",
+            "He wanted to {verb} {blank} the action."
+        ],
+        options: ["in on", "on to", "up on", "out of"]
+    },
+    {
+        verb: "get", particle: "off on", phrase: "get off on", category: "emotion", level: "college",
+        meaning: "To derive great pleasure or excitement from something.",
+        sentences: [
+            "He really {verb}s {blank} solving difficult puzzles.",
+            "Some people {verb} {blank} extreme sports.",
+            "She {verb}s {blank} the thrill of public speaking.",
+            "They seem to {verb} {blank} making others uncomfortable."
+        ],
+        options: ["off on", "on to", "up on", "into"]
+    },
+    {
+        verb: "get", particle: "on for", phrase: "get on for", category: "daily", level: "high",
+        meaning: "To approach or be nearly a certain time, age, or number.",
+        sentences: [
+            "It's {verb}ting {blank} midnight — we should leave.",
+            "She's {verb}ting {blank} sixty but looks much younger.",
+            "The temperature is {verb}ting {blank} forty degrees.",
+            "There were {verb}ting {blank} two hundred people at the event."
+        ],
+        options: ["on for", "up to", "along to", "in for"]
+    },
+    {
+        verb: "get", particle: "over with", phrase: "get over with", category: "daily", level: "middle",
+        meaning: "To finish something unpleasant as quickly as possible.",
+        sentences: [
+            "Let's just {verb} this {blank} — I hate waiting.",
+            "She wanted to {verb} the exam {blank} so she could relax.",
+            "The sooner we {verb} this {blank}, the better.",
+            "He decided to {verb} the dentist appointment {blank} early."
+        ],
+        options: ["over with", "done with", "through with", "away with"]
+    },
+    {
+        verb: "get", particle: "round", phrase: "get round", category: "daily", level: "high",
+        meaning: "To persuade someone; to find time to do something eventually.",
+        sentences: [
+            "She always manages to {verb} {blank} her father.",
+            "I'll {verb} {blank} to fixing that shelf eventually.",
+            "He tried to {verb} {blank} the new regulations.",
+            "We never {verb} {blank} to painting the spare room."
+        ],
+        options: ["round", "around", "about", "over"]
+    },
+    {
+        verb: "get", particle: "up to", phrase: "get up to", category: "daily", level: "middle",
+        meaning: "To do something, especially something mischievous or unexpected.",
+        sentences: [
+            "What have you been {verb}ting {blank} lately?",
+            "The kids are always {verb}ting {blank} mischief.",
+            "I wonder what he's {verb}ting {blank} in the garage.",
+            "She's been {verb}ting {blank} all sorts of adventures."
+        ],
+        options: ["up to", "on to", "in to", "along to"]
+    },
+    {
+        verb: "get", particle: "through to", phrase: "get through to", category: "daily", level: "high",
+        meaning: "To successfully communicate with or make someone understand.",
+        sentences: [
+            "I tried calling but couldn't {verb} {blank} the office.",
+            "No matter what I say, I can't {verb} {blank} him.",
+            "The message finally {verb} {blank} her after many attempts.",
+            "Teachers often struggle to {verb} {blank} distracted students."
+        ],
+        options: ["through to", "across to", "over to", "along to"]
+    },
+
+    // ========================================
+    // PUT (additional)
+    // ========================================
+    {
+        verb: "put", particle: "about", phrase: "put about", category: "daily", level: "college",
+        meaning: "To spread information or rumors, often false ones.",
+        sentences: [
+            "Someone has been {verb}ting {blank} rumors about the merger.",
+            "He {verb} it {blank} that the shop was closing.",
+            "Don't {verb} {blank} stories you can't verify.",
+            "The gossip was {verb} {blank} by a disgruntled employee."
+        ],
+        options: ["about", "around", "out", "across"]
+    },
+    {
+        verb: "put", particle: "up to", phrase: "put up to", category: "daily", level: "high",
+        meaning: "To encourage or persuade someone to do something wrong or unwise.",
+        sentences: [
+            "I think someone {verb} him {blank} it.",
+            "Who {verb} you {blank} this prank?",
+            "She was {verb} {blank} stealing by older kids.",
+            "Don't let anyone {verb} you {blank} anything illegal."
+        ],
+        options: ["up to", "on to", "in to", "off to"]
+    },
+    {
+        verb: "put", particle: "over", phrase: "put over", category: "business", level: "high",
+        meaning: "To communicate an idea successfully; to make something understood.",
+        sentences: [
+            "She {verb} her point {blank} very effectively.",
+            "He struggled to {verb} {blank} his ideas to the board.",
+            "The advertisement {verb}s {blank} the message clearly.",
+            "How can we {verb} this concept {blank} to the public?"
+        ],
+        options: ["over", "across", "through", "about"]
+    },
+
+    // ========================================
+    // TAKE (additional)
+    // ========================================
+    {
+        verb: "take", particle: "aback", phrase: "take aback", category: "emotion", level: "high",
+        meaning: "To surprise or shock someone greatly.",
+        sentences: [
+            "I was {verb}n {blank} by her sudden resignation.",
+            "His rude comment {verb} everyone {blank}.",
+            "She was completely {verb}n {blank} by the news.",
+            "The audience was {verb}n {blank} by the plot twist."
+        ],
+        options: ["aback", "apart", "aside", "away"]
+    },
+    {
+        verb: "take", particle: "for", phrase: "take for", category: "daily", level: "high",
+        meaning: "To wrongly believe someone or something is a particular type.",
+        sentences: [
+            "Do you {verb} me {blank} a fool?",
+            "I {verb} him {blank} a tourist, but he was a local.",
+            "She was {verb}n {blank} a celebrity at the restaurant.",
+            "What do you {verb} me {blank}? I'm not stupid."
+        ],
+        options: ["for", "as", "like", "to"]
+    },
+    {
+        verb: "take", particle: "aside", phrase: "take aside", category: "business", level: "high",
+        meaning: "To lead someone away from a group to speak privately.",
+        sentences: [
+            "The manager {verb} her {blank} to discuss the issue.",
+            "He {verb} me {blank} and told me the truth.",
+            "She {verb} the student {blank} after class.",
+            "Can I {verb} you {blank} for a moment?"
+        ],
+        options: ["aside", "apart", "away", "along"]
+    },
+    {
+        verb: "take", particle: "through", phrase: "take through", category: "business", level: "middle",
+        meaning: "To explain something to someone step by step.",
+        sentences: [
+            "Let me {verb} you {blank} the process.",
+            "She {verb} the new employees {blank} the training manual.",
+            "He {verb} us {blank} every detail of the plan.",
+            "Can you {verb} me {blank} the setup instructions?"
+        ],
+        options: ["through", "over", "around", "along"]
+    },
+
+    // ========================================
+    // COME (additional)
+    // ========================================
+    {
+        verb: "come", particle: "about", phrase: "come about", category: "academic", level: "high",
+        meaning: "To happen or occur, especially unexpectedly.",
+        sentences: [
+            "How did this situation {verb} {blank}?",
+            "The discovery {verb} {blank} by accident.",
+            "Changes in the law {verb} {blank} after years of campaigning.",
+            "Nobody knows how the error {verb} {blank}."
+        ],
+        options: ["about", "around", "along", "across"]
+    },
+    {
+        verb: "come", particle: "apart", phrase: "come apart", category: "daily", level: "middle",
+        meaning: "To break into pieces; to fail or collapse.",
+        sentences: [
+            "The old book {verb} {blank} in my hands.",
+            "Their marriage was {verb}ing {blank} at the seams.",
+            "The toy {verb} {blank} after just one day.",
+            "Everything seems to be {verb}ing {blank} right now."
+        ],
+        options: ["apart", "off", "away", "out"]
+    },
+    {
+        verb: "come", particle: "into", phrase: "come into", category: "business", level: "high",
+        meaning: "To inherit something, especially money or property.",
+        sentences: [
+            "She {verb} {blank} a large fortune when her uncle died.",
+            "He {verb} {blank} some money from his grandmother.",
+            "The property {verb} {blank} the family three generations ago.",
+            "When did you {verb} {blank} possession of this painting?"
+        ],
+        options: ["into", "upon", "across", "by"]
+    },
+    {
+        verb: "come", particle: "round to", phrase: "come round to", category: "daily", level: "high",
+        meaning: "To gradually change your opinion and accept an idea.",
+        sentences: [
+            "She eventually {verb} {blank} my way of thinking.",
+            "He'll {verb} {blank} the idea once he sees the benefits.",
+            "It took a while, but they finally {verb} {blank} our proposal.",
+            "My parents slowly {verb} {blank} accepting my career choice."
+        ],
+        options: ["round to", "around to", "up to", "along to"]
+    },
+
+    // ========================================
+    // GO (additional)
+    // ========================================
+    {
+        verb: "go", particle: "down with", phrase: "go down with", category: "daily", level: "middle",
+        meaning: "To become ill with a disease or sickness.",
+        sentences: [
+            "Half the office has {verb}ne {blank} the flu.",
+            "She {verb} {blank} a bad cold last week.",
+            "I hope I don't {verb} {blank} whatever he has.",
+            "Many students {verb} {blank} food poisoning after the trip."
+        ],
+        options: ["down with", "on with", "off with", "out with"]
+    },
+    {
+        verb: "go", particle: "into", phrase: "go into", category: "business", level: "middle",
+        meaning: "To discuss or explain something in detail; to enter a profession.",
+        sentences: [
+            "I don't want to {verb} {blank} the details right now.",
+            "She {verb} {blank} medicine like her mother.",
+            "The report {verb}es {blank} great detail about the findings.",
+            "He decided to {verb} {blank} business for himself."
+        ],
+        options: ["into", "on", "through", "over"]
+    },
+    {
+        verb: "go", particle: "on about", phrase: "go on about", category: "daily", level: "middle",
+        meaning: "To talk about something for too long in an annoying way.",
+        sentences: [
+            "He keeps {verb}ing {blank} his new car.",
+            "Please stop {verb}ing {blank} the weather.",
+            "She {verb}es {blank} her diet constantly.",
+            "My uncle always {verb}es {blank} how things were better in his day."
+        ],
+        options: ["on about", "off about", "in about", "out about"]
+    },
+
+    // ========================================
+    // TURN (additional)
+    // ========================================
+    {
+        verb: "turn", particle: "back", phrase: "turn back", category: "travel", level: "middle",
+        meaning: "To return in the direction you came from; to reverse course.",
+        sentences: [
+            "The road was blocked, so we had to {verb} {blank}.",
+            "It's too late to {verb} {blank} now — we're committed.",
+            "They {verb}ed {blank} at the border due to missing documents.",
+            "Once you start this journey, there's no {verb}ing {blank}."
+        ],
+        options: ["back", "around", "away", "off"]
+    },
+
+    // ========================================
+    // RUN (additional)
+    // ========================================
+    {
+        verb: "run", particle: "around", phrase: "run around", category: "daily", level: "elementary",
+        meaning: "To be very busy doing many things; to move around in a hurried way.",
+        sentences: [
+            "I've been {verb}ning {blank} all day trying to finish errands.",
+            "The children were {verb}ning {blank} the playground.",
+            "Stop {verb}ning {blank} and sit down for a moment.",
+            "She's always {verb}ning {blank} after her three kids."
+        ],
+        options: ["around", "about", "along", "away"]
+    },
+    {
+        verb: "run", particle: "on", phrase: "run on", category: "daily", level: "middle",
+        meaning: "To continue for longer than expected; to use a particular type of fuel or power.",
+        sentences: [
+            "The meeting {verb} {blank} for three hours.",
+            "This car {verb}s {blank} diesel fuel.",
+            "The discussion {verb} {blank} well past midnight.",
+            "Most modern devices {verb} {blank} rechargeable batteries."
+        ],
+        options: ["on", "off", "up", "out"]
+    },
+
+    // ========================================
+    // LOOK (additional)
+    // ========================================
+    {
+        verb: "look", particle: "in on", phrase: "look in on", category: "daily", level: "high",
+        meaning: "To visit someone briefly to check on their condition.",
+        sentences: [
+            "I'll {verb} {blank} grandma on my way home.",
+            "The nurse {verb}s {blank} the patients every hour.",
+            "Could you {verb} {blank} the baby while I shower?",
+            "He {verb}ed {blank} his neighbor to see if she needed anything."
+        ],
+        options: ["in on", "out on", "up on", "on at"]
+    },
+    {
+        verb: "look", particle: "on as", phrase: "look on as", category: "emotion", level: "high",
+        meaning: "To consider or regard someone in a particular way.",
+        sentences: [
+            "I {verb} {blank} him {blank} a mentor.",
+            "She {verb}s {blank} the job {blank} a great opportunity.",
+            "They {verb}ed {blank} him {blank} part of the family.",
+            "He {verb}ed {blank} the experience {blank} a turning point."
+        ],
+        options: ["on as", "up as", "at as", "to as"]
+    },
+    {
+        verb: "look", particle: "round", phrase: "look round", category: "travel", level: "middle",
+        meaning: "To explore or examine a place by walking through it.",
+        sentences: [
+            "Let's {verb} {blank} the old town before lunch.",
+            "We spent the afternoon {verb}ing {blank} the museum.",
+            "Would you like to {verb} {blank} the house before deciding?",
+            "The tourists {verb}ed {blank} the cathedral in silence."
+        ],
+        options: ["round", "around", "through", "over"]
+    },
+
+    // ========================================
+    // GIVE (additional)
+    // ========================================
+    {
+        verb: "give", particle: "rise to", phrase: "give rise to", category: "academic", level: "college",
+        meaning: "To cause something to happen or exist.",
+        sentences: [
+            "The new policy {verb} {blank} widespread protests.",
+            "Rapid urbanization has {verb}n {blank} many social problems.",
+            "His comments {verb} {blank} a heated debate.",
+            "The discovery {verb} {blank} new theories about evolution."
+        ],
+        options: ["rise to", "way to", "birth to", "in to"]
+    },
+
+    // ========================================
+    // SET (additional)
+    // ========================================
+    {
+        verb: "set", particle: "about", phrase: "set about", category: "daily", level: "high",
+        meaning: "To begin doing something with determination or purpose.",
+        sentences: [
+            "She {verb} {blank} cleaning the entire house.",
+            "He {verb} {blank} the task with great enthusiasm.",
+            "We need to {verb} {blank} finding a solution immediately.",
+            "They {verb} {blank} rebuilding the community after the disaster."
+        ],
+        options: ["about", "off", "out", "up"]
+    },
+    {
+        verb: "set", particle: "against", phrase: "set against", category: "emotion", level: "high",
+        meaning: "To cause someone to oppose or dislike another person or thing.",
+        sentences: [
+            "The dispute {verb} neighbor {blank} neighbor.",
+            "He was {verb} {blank} the idea from the start.",
+            "The scandal {verb} the public {blank} the government.",
+            "Don't let this argument {verb} you {blank} each other."
+        ],
+        options: ["against", "apart", "aside", "about"]
+    },
+    {
+        verb: "set", particle: "upon", phrase: "set upon", category: "daily", level: "college",
+        meaning: "To attack someone suddenly and violently.",
+        sentences: [
+            "The dog {verb} {blank} the intruder without warning.",
+            "He was {verb} {blank} by muggers on his way home.",
+            "The mob {verb} {blank} the politician's car.",
+            "Wasps {verb} {blank} us during the picnic."
+        ],
+        options: ["upon", "about", "against", "after"]
+    },
+
+    // ========================================
+    // HANG (additional)
+    // ========================================
+    {
+        verb: "hang", particle: "back", phrase: "hang back", category: "emotion", level: "middle",
+        meaning: "To hesitate or be reluctant to move forward or take action.",
+        sentences: [
+            "She {verb} {blank} while the others rushed to volunteer.",
+            "Don't {verb} {blank} — come and join us!",
+            "He tends to {verb} {blank} in social situations.",
+            "The shy student always {verb}s {blank} during group activities."
+        ],
+        options: ["back", "behind", "off", "out"]
+    },
+    {
+        verb: "hang", particle: "over", phrase: "hang over", category: "emotion", level: "high",
+        meaning: "To threaten or worry someone; to be imminent in a troubling way.",
+        sentences: [
+            "The threat of layoffs {verb}s {blank} the entire department.",
+            "A dark cloud of debt {verb}s {blank} them.",
+            "The deadline {verb}s {blank} me like a sword.",
+            "The scandal continued to {verb} {blank} his career."
+        ],
+        options: ["over", "around", "about", "on"]
+    },
+
+    // ========================================
+    // HAND (additional)
+    // ========================================
+    {
+        verb: "hand", particle: "on", phrase: "hand on", category: "daily", level: "middle",
+        meaning: "To pass something to the next person in a sequence.",
+        sentences: [
+            "Please {verb} {blank} the message to everyone in the group.",
+            "She {verb}ed {blank} the family recipe to her daughter.",
+            "When you're done reading it, {verb} it {blank} to the next person.",
+            "Traditions are {verb}ed {blank} from generation to generation."
+        ],
+        options: ["on", "over", "out", "in"]
+    },
+    {
+        verb: "hand", particle: "round", phrase: "hand round", category: "daily", level: "middle",
+        meaning: "To distribute something to each person in a group.",
+        sentences: [
+            "She {verb}ed {blank} the snacks at the meeting.",
+            "Could you {verb} {blank} these handouts, please?",
+            "He {verb}ed {blank} glasses of champagne to celebrate.",
+            "The teacher {verb}ed {blank} the exam papers."
+        ],
+        options: ["round", "out", "over", "off"]
+    },
+
+    // ========================================
+    // PAY (additional)
+    // ========================================
+    {
+        verb: "pay", particle: "into", phrase: "pay into", category: "business", level: "middle",
+        meaning: "To deposit money into a bank account or fund.",
+        sentences: [
+            "She {verb}s {blank} her pension fund every month.",
+            "I need to {verb} this check {blank} my savings account.",
+            "Employees {verb} {blank} the retirement scheme automatically.",
+            "How much do you {verb} {blank} your ISA each year?"
+        ],
+        options: ["into", "in", "to", "for"]
+    },
+    {
+        verb: "pay", particle: "down", phrase: "pay down", category: "business", level: "middle",
+        meaning: "To reduce a debt by making regular payments.",
+        sentences: [
+            "We're trying to {verb} {blank} the mortgage faster.",
+            "She's been {verb}ing {blank} her student loans for years.",
+            "The company plans to {verb} {blank} its debt this quarter.",
+            "He used his bonus to {verb} {blank} his credit card balance."
+        ],
+        options: ["down", "off", "out", "back"]
+    },
+
+    // ========================================
+    // SHOW (additional)
+    // ========================================
+    {
+        verb: "show", particle: "in", phrase: "show in", category: "business", level: "middle",
+        meaning: "To lead a visitor into a room or building.",
+        sentences: [
+            "Please {verb} the client {blank}.",
+            "The receptionist {verb}ed us {blank} to the meeting room.",
+            "Could you {verb} {blank} the next applicant?",
+            "She was {verb}n {blank} by the butler."
+        ],
+        options: ["in", "up", "out", "on"]
+    },
+    {
+        verb: "show", particle: "out", phrase: "show out", category: "business", level: "middle",
+        meaning: "To accompany a visitor to the exit.",
+        sentences: [
+            "Let me {verb} you {blank} — the exit is this way.",
+            "The secretary {verb}ed the guests {blank}.",
+            "He {verb}ed himself {blank} after the meeting.",
+            "Would you {verb} Mr. Davis {blank}, please?"
+        ],
+        options: ["out", "off", "in", "away"]
+    },
+
+    // ========================================
+    // THROW (additional)
+    // ========================================
+    {
+        verb: "throw", particle: "together", phrase: "throw together", category: "daily", level: "middle",
+        meaning: "To make something quickly and without much care; to bring people together by chance.",
+        sentences: [
+            "I just {verb} {blank} a quick salad for lunch.",
+            "Fate {verb} them {blank} at the airport.",
+            "She {verb} {blank} a costume from things in her closet.",
+            "He can {verb} {blank} a delicious meal in twenty minutes."
+        ],
+        options: ["together", "around", "about", "in"]
+    },
+    {
+        verb: "throw", particle: "over", phrase: "throw over", category: "emotion", level: "college",
+        meaning: "To abandon or reject a partner or plan.",
+        sentences: [
+            "She {verb} him {blank} for someone else.",
+            "He {verb} {blank} his career to become an artist.",
+            "Don't {verb} {blank} everything you've worked for.",
+            "She was {verb}n {blank} after ten years of marriage."
+        ],
+        options: ["over", "out", "away", "off"]
+    },
+
+    // ========================================
+    // WRITE (additional)
+    // ========================================
+    {
+        verb: "write", particle: "back", phrase: "write back", category: "daily", level: "elementary",
+        meaning: "To reply to a letter or message.",
+        sentences: [
+            "She {verb} {blank} to him the same day.",
+            "I haven't had time to {verb} {blank} yet.",
+            "He never {verb}s {blank} when I email him.",
+            "Please {verb} {blank} as soon as you can."
+        ],
+        options: ["back", "in", "out", "up"]
+    },
+    {
+        verb: "write", particle: "in", phrase: "write in", category: "daily", level: "middle",
+        meaning: "To send a letter or message to an organization.",
+        sentences: [
+            "Viewers can {verb} {blank} with their comments.",
+            "She {verb} {blank} to complain about the service.",
+            "Many listeners {verb} {blank} requesting that song.",
+            "If you have suggestions, please {verb} {blank}."
+        ],
+        options: ["in", "back", "out", "up"]
+    },
+    {
+        verb: "write", particle: "out", phrase: "write out", category: "daily", level: "middle",
+        meaning: "To write something in full or in complete form; to write a check.",
+        sentences: [
+            "Please {verb} {blank} your full name and address.",
+            "She {verb} {blank} a check for five hundred dollars.",
+            "He {verb} {blank} the recipe in neat handwriting.",
+            "Can you {verb} {blank} the instructions step by step?"
+        ],
+        options: ["out", "down", "up", "in"]
+    },
+
+    // ========================================
+    // SEND (additional)
+    // ========================================
+    {
+        verb: "send", particle: "away", phrase: "send away", category: "daily", level: "middle",
+        meaning: "To make someone leave; to order something by post.",
+        sentences: [
+            "The teacher {verb} the disruptive student {blank}.",
+            "They {verb} {blank} for a free brochure.",
+            "He was {verb} {blank} without an explanation.",
+            "She {verb} the children {blank} so the adults could talk."
+        ],
+        options: ["away", "off", "out", "back"]
+    },
+    {
+        verb: "send", particle: "for", phrase: "send for", category: "daily", level: "high",
+        meaning: "To request that someone come to you or that something be delivered.",
+        sentences: [
+            "Quick, {verb} {blank} an ambulance!",
+            "The queen {verb} {blank} her advisors immediately.",
+            "He {verb} {blank} the doctor when the fever worsened.",
+            "We should {verb} {blank} reinforcements right away."
+        ],
+        options: ["for", "after", "out", "in"]
+    },
+    {
+        verb: "send", particle: "out", phrase: "send out", category: "business", level: "middle",
+        meaning: "To distribute or dispatch something to many people or places.",
+        sentences: [
+            "The company {verb} {blank} invitations to all customers.",
+            "We need to {verb} {blank} the newsletters by Friday.",
+            "She {verb} {blank} her resume to twenty companies.",
+            "The charity {verb}s {blank} appeals for donations every year."
+        ],
+        options: ["out", "off", "away", "in"]
+    },
+    {
+        verb: "send", particle: "up", phrase: "send up", category: "daily", level: "high",
+        meaning: "To make fun of someone or something by imitating them humorously.",
+        sentences: [
+            "The comedian {verb}s {blank} famous politicians brilliantly.",
+            "The show {verb}s {blank} reality TV culture.",
+            "He loves to {verb} {blank} his boss's mannerisms.",
+            "The film {verb}s {blank} the spy movie genre."
+        ],
+        options: ["up", "off", "out", "over"]
+    },
+
+    // ========================================
+    // PICK (additional)
+    // ========================================
+    {
+        verb: "pick", particle: "through", phrase: "pick through", category: "daily", level: "high",
+        meaning: "To examine items carefully, selecting or sorting them.",
+        sentences: [
+            "She {verb}ed {blank} the pile of clothes at the thrift store.",
+            "Rescue workers {verb}ed {blank} the rubble for survivors.",
+            "He {verb}ed {blank} the data looking for errors.",
+            "The children {verb}ed {blank} the box of toys."
+        ],
+        options: ["through", "over", "out", "apart"]
+    },
+
+    // ========================================
+    // DROP (additional)
+    // ========================================
+    {
+        verb: "drop", particle: "back", phrase: "drop back", category: "daily", level: "middle",
+        meaning: "To fall behind or move to a lower position in a ranking.",
+        sentences: [
+            "The team {verb}ped {blank} to third place after losing.",
+            "He {verb}ped {blank} from the leading group of runners.",
+            "Sales {verb}ped {blank} slightly in the third quarter.",
+            "She {verb}ped {blank} in the polls after the debate."
+        ],
+        options: ["back", "down", "off", "behind"]
+    },
+    {
+        verb: "drop", particle: "behind", phrase: "drop behind", category: "daily", level: "middle",
+        meaning: "To fail to keep up with others in progress or position.",
+        sentences: [
+            "If you miss too many classes, you'll {verb} {blank}.",
+            "She {verb}ped {blank} the other students in math.",
+            "Don't {verb} {blank} on your mortgage payments.",
+            "The smaller companies are {verb}ping {blank} the market leaders."
+        ],
+        options: ["behind", "back", "off", "away"]
+    },
+
+    // ========================================
+    // FILL (additional)
+    // ========================================
+    {
+        verb: "fill", particle: "in on", phrase: "fill in on", category: "business", level: "middle",
+        meaning: "To give someone the information they have missed.",
+        sentences: [
+            "Can you {verb} me {blank} what happened at the meeting?",
+            "She {verb}ed him {blank} the latest developments.",
+            "I need someone to {verb} me {blank} the project's progress.",
+            "He {verb}ed the new employee {blank} the company history."
+        ],
+        options: ["in on", "up on", "out on", "in with"]
+    },
+
+    // ========================================
+    // CUT (additional)
+    // ========================================
+    {
+        verb: "cut", particle: "across", phrase: "cut across", category: "daily", level: "high",
+        meaning: "To take a shorter route; to affect or be relevant to different groups.",
+        sentences: [
+            "We can {verb} {blank} the park to save time.",
+            "This issue {verb}s {blank} all social classes.",
+            "She {verb} {blank} the field to get to school faster.",
+            "The problem {verb}s {blank} national boundaries."
+        ],
+        options: ["across", "through", "over", "around"]
+    },
+    {
+        verb: "cut", particle: "through", phrase: "cut through", category: "daily", level: "middle",
+        meaning: "To pass through something by cutting or to deal with something quickly.",
+        sentences: [
+            "The knife {verb} {blank} the bread easily.",
+            "Let's {verb} {blank} the bureaucracy and get things done.",
+            "The wind {verb} {blank} my thin jacket.",
+            "She managed to {verb} {blank} all the red tape."
+        ],
+        options: ["through", "across", "into", "off"]
+    },
+    {
+        verb: "cut", particle: "up", phrase: "cut up", category: "daily", level: "elementary",
+        meaning: "To cut something into small pieces; also to be very upset (informal).",
+        sentences: [
+            "Please {verb} {blank} the vegetables for the stew.",
+            "She was really {verb} {blank} about losing her pet.",
+            "He {verb} {blank} the paper into tiny strips.",
+            "The children {verb} {blank} the magazines for their collage."
+        ],
+        options: ["up", "out", "off", "down"]
+    },
+
+    // ========================================
+    // PASS (additional)
+    // ========================================
+    {
+        verb: "pass", particle: "around", phrase: "pass around", category: "daily", level: "elementary",
+        meaning: "To distribute something by handing it from person to person.",
+        sentences: [
+            "Please {verb} the cookies {blank} the table.",
+            "They {verb}ed {blank} a collection box for donations.",
+            "She {verb}ed {blank} copies of the report.",
+            "The bottle was {verb}ed {blank} among the friends."
+        ],
+        options: ["around", "about", "through", "over"]
+    },
+    {
+        verb: "pass", particle: "down", phrase: "pass down", category: "daily", level: "middle",
+        meaning: "To transmit knowledge, traditions, or possessions to younger generations.",
+        sentences: [
+            "These stories have been {verb}ed {blank} for centuries.",
+            "She {verb}ed {blank} her wedding ring to her granddaughter.",
+            "Cultural traditions are {verb}ed {blank} through families.",
+            "He wants to {verb} {blank} his knowledge of the craft."
+        ],
+        options: ["down", "on", "along", "over"]
+    },
+    {
+        verb: "pass", particle: "for", phrase: "pass for", category: "daily", level: "high",
+        meaning: "To be accepted as or mistaken for something or someone.",
+        sentences: [
+            "She could easily {verb} {blank} someone ten years younger.",
+            "This imitation {verb}es {blank} the real thing.",
+            "In dim light, it could {verb} {blank} genuine leather.",
+            "He speaks so well he could {verb} {blank} a native speaker."
+        ],
+        options: ["for", "as", "off as", "by"]
+    },
+    {
+        verb: "pass", particle: "over", phrase: "pass over", category: "business", level: "high",
+        meaning: "To ignore or not consider someone for a position or opportunity.",
+        sentences: [
+            "She was {verb}ed {blank} for the promotion again.",
+            "They {verb}ed him {blank} in favor of a younger candidate.",
+            "Don't {verb} {blank} this opportunity — it won't come again.",
+            "He felt he had been unfairly {verb}ed {blank}."
+        ],
+        options: ["over", "by", "up", "aside"]
+    },
+    {
+        verb: "pass", particle: "through", phrase: "pass through", category: "travel", level: "middle",
+        meaning: "To travel through a place without stopping for long.",
+        sentences: [
+            "We're just {verb}ing {blank} on our way to the coast.",
+            "The train {verb}es {blank} several small towns.",
+            "Many tourists {verb} {blank} this village in summer.",
+            "I was {verb}ing {blank} the area and decided to stop."
+        ],
+        options: ["through", "by", "along", "across"]
+    },
+
+    // ========================================
+    // MOVE (additional)
+    // ========================================
+    {
+        verb: "move", particle: "away", phrase: "move away", category: "daily", level: "elementary",
+        meaning: "To leave and go to live in a different place.",
+        sentences: [
+            "They {verb}d {blank} from the city to the countryside.",
+            "Her best friend {verb}d {blank} when they were teenagers.",
+            "We're planning to {verb} {blank} from this neighborhood.",
+            "He {verb}d {blank} to start a new life."
+        ],
+        options: ["away", "out", "off", "along"]
+    },
+    {
+        verb: "move", particle: "back", phrase: "move back", category: "daily", level: "elementary",
+        meaning: "To return to a previous place of residence.",
+        sentences: [
+            "She {verb}d {blank} to her hometown after college.",
+            "He {verb}d {blank} in with his parents temporarily.",
+            "We might {verb} {blank} to London next year.",
+            "Many people {verb} {blank} to where they grew up."
+        ],
+        options: ["back", "in", "out", "away"]
+    },
+    {
+        verb: "move", particle: "forward", phrase: "move forward", category: "business", level: "middle",
+        meaning: "To make progress; to proceed with a plan or action.",
+        sentences: [
+            "Let's {verb} {blank} with the project as planned.",
+            "The company is {verb}ing {blank} with the merger.",
+            "It's time to {verb} {blank} and leave the past behind.",
+            "We can't {verb} {blank} until we get approval."
+        ],
+        options: ["forward", "ahead", "on", "along"]
+    },
+    {
+        verb: "move", particle: "over", phrase: "move over", category: "daily", level: "elementary",
+        meaning: "To shift position to make room for someone else.",
+        sentences: [
+            "Could you {verb} {blank} a bit? There's no room.",
+            "{verb} {blank} so I can sit down too.",
+            "He {verb}d {blank} to let the ambulance pass.",
+            "She {verb}d {blank} on the bench to make space."
+        ],
+        options: ["over", "along", "aside", "away"]
+    },
+
+    // ========================================
+    // POINT (additional)
+    // ========================================
+    {
+        verb: "point", particle: "at", phrase: "point at", category: "daily", level: "elementary",
+        meaning: "To direct a finger or object toward someone or something.",
+        sentences: [
+            "It's rude to {verb} {blank} people.",
+            "She {verb}ed {blank} the painting and asked about the artist.",
+            "He {verb}ed {blank} the map and showed us our route.",
+            "The witness {verb}ed {blank} the suspect in the lineup."
+        ],
+        options: ["at", "to", "toward", "out"]
+    },
+    {
+        verb: "point", particle: "towards", phrase: "point towards", category: "academic", level: "high",
+        meaning: "To suggest or indicate something; to be evidence of.",
+        sentences: [
+            "All the evidence {verb}s {blank} his innocence.",
+            "Recent studies {verb} {blank} a different conclusion.",
+            "The data {verb}s {blank} a growing trend.",
+            "Everything {verb}s {blank} the need for reform."
+        ],
+        options: ["towards", "at", "to", "into"]
+    },
+
+    // ========================================
+    // BLOW (additional)
+    // ========================================
+    {
+        verb: "blow", particle: "away", phrase: "blow away", category: "emotion", level: "middle",
+        meaning: "To impress someone greatly; also to be carried away by wind.",
+        sentences: [
+            "Her performance {verb} the judges {blank}.",
+            "The papers were {verb}n {blank} by the strong wind.",
+            "I was completely {verb}n {blank} by the scenery.",
+            "His talent {verb} everyone {blank} at the audition."
+        ],
+        options: ["away", "off", "out", "over"]
+    },
+    {
+        verb: "blow", particle: "down", phrase: "blow down", category: "daily", level: "middle",
+        meaning: "To be knocked down by the force of wind.",
+        sentences: [
+            "The storm {verb} {blank} several trees in the park.",
+            "The fence was {verb}n {blank} during the hurricane.",
+            "Strong winds {verb} {blank} the old barn.",
+            "Part of the roof was {verb}n {blank} last night."
+        ],
+        options: ["down", "off", "away", "over"]
+    },
+
+    // ========================================
+    // DIE (additional)
+    // ========================================
+    {
+        verb: "die", particle: "away", phrase: "die away", category: "daily", level: "high",
+        meaning: "To gradually become weaker, quieter, and then disappear completely.",
+        sentences: [
+            "The sound of the engine slowly {verb}d {blank}.",
+            "The wind {verb}d {blank} as evening approached.",
+            "The applause gradually {verb}d {blank}.",
+            "His anger {verb}d {blank} when he heard the explanation."
+        ],
+        options: ["away", "down", "off", "out"]
+    },
+    {
+        verb: "die", particle: "back", phrase: "die back", category: "daily", level: "high",
+        meaning: "When plants die back, their stems and leaves die but the roots survive.",
+        sentences: [
+            "The roses {verb} {blank} in autumn but return in spring.",
+            "These plants {verb} {blank} every winter.",
+            "The vegetation had {verb}d {blank} after the frost.",
+            "The ivy will {verb} {blank} if you stop watering it."
+        ],
+        options: ["back", "down", "away", "off"]
+    },
+
+    // ========================================
+    // BURN (additional)
+    // ========================================
+    {
+        verb: "burn", particle: "off", phrase: "burn off", category: "daily", level: "middle",
+        meaning: "To use energy through physical exercise; to remove by burning.",
+        sentences: [
+            "I went for a run to {verb} {blank} the extra calories.",
+            "The morning mist will {verb} {blank} by noon.",
+            "She exercises daily to {verb} {blank} stress.",
+            "The fog usually {verb}s {blank} by mid-morning."
+        ],
+        options: ["off", "out", "up", "away"]
+    },
+    {
+        verb: "burn", particle: "through", phrase: "burn through", category: "business", level: "high",
+        meaning: "To use up money or resources very quickly.",
+        sentences: [
+            "The startup {verb}ed {blank} its funding in six months.",
+            "He {verb}s {blank} money like there's no tomorrow.",
+            "The project is {verb}ing {blank} the budget at an alarming rate.",
+            "They {verb}ed {blank} their savings during unemployment."
+        ],
+        options: ["through", "up", "out", "off"]
+    },
+
+    // ========================================
+    // CHECK (additional)
+    // ========================================
+    {
+        verb: "check", particle: "back", phrase: "check back", category: "daily", level: "middle",
+        meaning: "To return later to get more information or see if something has changed.",
+        sentences: [
+            "{verb} {blank} with us next week for updates.",
+            "I'll {verb} {blank} in an hour to see if it's ready.",
+            "She told me to {verb} {blank} after lunch.",
+            "We need to {verb} {blank} with the supplier tomorrow."
+        ],
+        options: ["back", "in", "out", "up"]
+    },
+    {
+        verb: "check", particle: "on", phrase: "check on", category: "daily", level: "elementary",
+        meaning: "To verify that someone or something is safe, healthy, or working correctly.",
+        sentences: [
+            "I'll go {verb} {blank} the children.",
+            "She {verb}s {blank} her elderly mother every day.",
+            "Can you {verb} {blank} the roast in the oven?",
+            "The nurse came to {verb} {blank} the patient."
+        ],
+        options: ["on", "in", "up", "over"]
+    },
+
+    // ========================================
+    // CLEAR (additional)
+    // ========================================
+    {
+        verb: "clear", particle: "away", phrase: "clear away", category: "daily", level: "middle",
+        meaning: "To remove things from a place; to tidy up.",
+        sentences: [
+            "Let me {verb} {blank} the dishes from the table.",
+            "She {verb}ed {blank} the clutter from her desk.",
+            "They {verb}ed {blank} the debris after the storm.",
+            "Please {verb} {blank} your things before the guests arrive."
+        ],
+        options: ["away", "out", "off", "up"]
+    },
+    {
+        verb: "clear", particle: "off", phrase: "clear off", category: "daily", level: "middle",
+        meaning: "To leave a place quickly; to go away (often used as a command).",
+        sentences: [
+            "The security guard told the teenagers to {verb} {blank}.",
+            "{verb} {blank}! This is private property.",
+            "The rain finally {verb}ed {blank} in the afternoon.",
+            "He {verb}ed {blank} without saying goodbye."
+        ],
+        options: ["off", "out", "away", "up"]
+    },
+
+    // ========================================
+    // CLOSE (additional)
+    // ========================================
+    {
+        verb: "close", particle: "in", phrase: "close in", category: "daily", level: "high",
+        meaning: "To gradually surround or approach from all sides.",
+        sentences: [
+            "The police are {verb}ing {blank} on the suspect.",
+            "Darkness was {verb}ing {blank} as we hurried home.",
+            "The fog {verb}d {blank} around the mountaintop.",
+            "Winter is {verb}ing {blank} — the days are getting shorter."
+        ],
+        options: ["in", "up", "on", "off"]
+    },
+    {
+        verb: "close", particle: "out", phrase: "close out", category: "business", level: "high",
+        meaning: "To bring something to an end; to sell remaining stock at reduced prices.",
+        sentences: [
+            "The store is {verb}ing {blank} its winter collection.",
+            "Let's {verb} {blank} this account by end of month.",
+            "They {verb}d {blank} the year with record profits.",
+            "The sale will {verb} {blank} all remaining inventory."
+        ],
+        options: ["out", "off", "down", "up"]
+    },
+
+    // ========================================
+    // DRIVE (additional)
+    // ========================================
+    {
+        verb: "drive", particle: "away", phrase: "drive away", category: "daily", level: "middle",
+        meaning: "To force someone or something to leave; to leave in a vehicle.",
+        sentences: [
+            "His bad attitude {verb}s customers {blank}.",
+            "She {verb} {blank} without looking back.",
+            "The noise {verb}s {blank} all the wildlife.",
+            "They watched him {verb} {blank} into the sunset."
+        ],
+        options: ["away", "off", "out", "back"]
+    },
+    {
+        verb: "drive", particle: "off", phrase: "drive off", category: "daily", level: "middle",
+        meaning: "To leave in a vehicle; to force an attacker to retreat.",
+        sentences: [
+            "He jumped in the car and {verb} {blank} quickly.",
+            "The guard dog {verb} {blank} the intruders.",
+            "She {verb} {blank} before I could say goodbye.",
+            "They managed to {verb} {blank} the attackers."
+        ],
+        options: ["off", "away", "out", "back"]
+    },
+    {
+        verb: "drive", particle: "out", phrase: "drive out", category: "daily", level: "high",
+        meaning: "To force someone to leave a place permanently.",
+        sentences: [
+            "Rising rents are {verb}ing residents {blank} of the city.",
+            "The invaders were {verb}n {blank} by the resistance.",
+            "Competition from big chains {verb}s {blank} small shops.",
+            "They tried to {verb} {blank} the corruption from the system."
+        ],
+        options: ["out", "off", "away", "back"]
+    },
+    {
+        verb: "drive", particle: "up", phrase: "drive up", category: "business", level: "high",
+        meaning: "To cause something, especially prices, to increase.",
+        sentences: [
+            "Increased demand is {verb}ing {blank} prices.",
+            "The shortage {verb}s {blank} the cost of raw materials.",
+            "Speculation {verb}s {blank} property values.",
+            "Oil prices were {verb}n {blank} by the conflict."
+        ],
+        options: ["up", "on", "out", "off"]
+    },
+
+    // ========================================
+    // EAT (additional)
+    // ========================================
+    {
+        verb: "eat", particle: "in", phrase: "eat in", category: "daily", level: "elementary",
+        meaning: "To have a meal at home rather than at a restaurant.",
+        sentences: [
+            "Shall we {verb} {blank} tonight or go out?",
+            "We decided to {verb} {blank} to save money.",
+            "They usually {verb} {blank} during the week.",
+            "Let's {verb} {blank} — I'll cook something nice."
+        ],
+        options: ["in", "out", "up", "on"]
+    },
+
+    // ========================================
+    // FIGHT (additional)
+    // ========================================
+    {
+        verb: "fight", particle: "back", phrase: "fight back", category: "emotion", level: "middle",
+        meaning: "To defend yourself; to resist or retaliate.",
+        sentences: [
+            "She {verb} {blank} tears as she read the letter.",
+            "The villagers decided to {verb} {blank} against the developers.",
+            "He's not the type to just give up — he'll {verb} {blank}.",
+            "The company is {verb}ing {blank} against the accusations."
+        ],
+        options: ["back", "off", "on", "out"]
+    },
+    {
+        verb: "fight", particle: "off", phrase: "fight off", category: "daily", level: "middle",
+        meaning: "To resist or repel an attack, illness, or unwanted feeling.",
+        sentences: [
+            "She managed to {verb} {blank} the cold with rest and vitamins.",
+            "He {verb} {blank} the mugger and escaped.",
+            "I'm trying to {verb} {blank} the urge to eat chocolate.",
+            "The immune system {verb}s {blank} infections."
+        ],
+        options: ["off", "back", "away", "out"]
+    },
+    {
+        verb: "fight", particle: "for", phrase: "fight for", category: "emotion", level: "middle",
+        meaning: "To struggle or campaign in order to achieve or keep something.",
+        sentences: [
+            "They're {verb}ing {blank} equal rights.",
+            "She {verb}s {blank} what she believes in.",
+            "Workers are {verb}ing {blank} better conditions.",
+            "He has been {verb}ing {blank} custody of his children."
+        ],
+        options: ["for", "over", "about", "with"]
+    },
+
+    // ========================================
+    // FLY (additional)
+    // ========================================
+    {
+        verb: "fly", particle: "away", phrase: "fly away", category: "daily", level: "elementary",
+        meaning: "To depart by flying; to leave through the air.",
+        sentences: [
+            "The bird {verb} {blank} when I opened the cage.",
+            "She wishes she could just {verb} {blank} from her problems.",
+            "The balloon {verb} {blank} into the sky.",
+            "The butterflies {verb} {blank} south for winter."
+        ],
+        options: ["away", "off", "out", "up"]
+    },
+    {
+        verb: "fly", particle: "off", phrase: "fly off", category: "daily", level: "middle",
+        meaning: "To leave suddenly or quickly; to detach and move through the air.",
+        sentences: [
+            "His hat {verb} {blank} in the strong wind.",
+            "She {verb} {blank} to Paris at a moment's notice.",
+            "The lid {verb} {blank} the pot when the pressure built up.",
+            "Sparks {verb} {blank} in all directions from the fire."
+        ],
+        options: ["off", "away", "out", "up"]
+    },
+
+    // ========================================
+    // LAY (additional)
+    // ========================================
+    {
+        verb: "lay", particle: "into", phrase: "lay into", category: "emotion", level: "college",
+        meaning: "To attack someone physically or verbally with great force.",
+        sentences: [
+            "She really {verb}id {blank} him for forgetting their anniversary.",
+            "The critic {verb}id {blank} the film with a scathing review.",
+            "He {verb}id {blank} the bully without hesitation.",
+            "The boss {verb}id {blank} the team for missing the deadline."
+        ],
+        options: ["into", "on", "at", "upon"]
+    },
+    {
+        verb: "lay", particle: "on", phrase: "lay on", category: "daily", level: "high",
+        meaning: "To provide or organize something, especially food or entertainment.",
+        sentences: [
+            "They {verb}id {blank} a fantastic buffet for the guests.",
+            "The company {verb}id {blank} a bus for the employees.",
+            "She {verb}id {blank} a wonderful spread for the party.",
+            "They {verb}id {blank} extra trains for the holiday weekend."
+        ],
+        options: ["on", "out", "in", "up"]
+    },
+    {
+        verb: "lay", particle: "up", phrase: "lay up", category: "daily", level: "high",
+        meaning: "To be forced to stay in bed due to illness or injury.",
+        sentences: [
+            "He was {verb}id {blank} with the flu for a week.",
+            "She's been {verb}id {blank} since the car accident.",
+            "A bad back {verb}id him {blank} for several days.",
+            "I was {verb}id {blank} with a broken ankle all summer."
+        ],
+        options: ["up", "down", "in", "out"]
+    },
+
+    // ========================================
+    // LEAD (additional)
+    // ========================================
+    {
+        verb: "lead", particle: "on", phrase: "lead on", category: "emotion", level: "high",
+        meaning: "To deceive someone into believing something that is not true, especially about your feelings.",
+        sentences: [
+            "She felt he had {verb} her {blank} about his intentions.",
+            "Don't {verb} people {blank} if you're not interested.",
+            "He was {verb}ing her {blank} the whole time.",
+            "Stop {verb}ing me {blank} and tell me the truth."
+        ],
+        options: ["on", "along", "in", "up"]
+    },
+    {
+        verb: "lead", particle: "to", phrase: "lead to", category: "academic", level: "middle",
+        meaning: "To result in or cause something to happen.",
+        sentences: [
+            "Smoking can {verb} {blank} serious health problems.",
+            "The investigation {verb} {blank} several arrests.",
+            "Hard work usually {verb}s {blank} success.",
+            "The road {verb}s {blank} the old castle."
+        ],
+        options: ["to", "into", "up", "on"]
+    },
+    {
+        verb: "lead", particle: "up to", phrase: "lead up to", category: "academic", level: "high",
+        meaning: "To happen during the time before an event; to gradually introduce a topic.",
+        sentences: [
+            "In the weeks {verb}ing {blank} the election, tensions were high.",
+            "The events {verb}ing {blank} the war are well documented.",
+            "He was clearly {verb}ing {blank} something important.",
+            "What were the factors {verb}ing {blank} the crisis?"
+        ],
+        options: ["up to", "on to", "in to", "along to"]
+    },
+
+    // ========================================
+    // PLAY (additional)
+    // ========================================
+    {
+        verb: "play", particle: "back", phrase: "play back", category: "daily", level: "middle",
+        meaning: "To watch or listen to a recording that has been made.",
+        sentences: [
+            "Let me {verb} {blank} the message so you can hear it.",
+            "She {verb}ed {blank} the video to check for errors.",
+            "He {verb}ed {blank} the interview recording at home.",
+            "Can you {verb} that {blank} once more? I missed it."
+        ],
+        options: ["back", "on", "out", "over"]
+    },
+    {
+        verb: "play", particle: "off", phrase: "play off", category: "business", level: "high",
+        meaning: "To set two people or groups against each other for your own advantage.",
+        sentences: [
+            "She {verb}ed the two bidders {blank} against each other.",
+            "He's clever at {verb}ing people {blank} against one another.",
+            "The child {verb}s one parent {blank} against the other.",
+            "The company {verb}ed rivals {blank} to get the best deal."
+        ],
+        options: ["off", "on", "against", "out"]
+    },
+    {
+        verb: "play", particle: "on", phrase: "play on", category: "emotion", level: "high",
+        meaning: "To exploit someone's feelings or weaknesses to your advantage.",
+        sentences: [
+            "The advertisement {verb}s {blank} people's fears.",
+            "He {verb}ed {blank} her sympathy to get money.",
+            "Politicians often {verb} {blank} voters' emotions.",
+            "The con artist {verb}ed {blank} the old woman's loneliness."
+        ],
+        options: ["on", "off", "up", "with"]
+    },
+
+    // ========================================
+    // POUR (additional)
+    // ========================================
+    {
+        verb: "pour", particle: "in", phrase: "pour in", category: "daily", level: "middle",
+        meaning: "To arrive in large quantities or numbers.",
+        sentences: [
+            "Donations {verb}ed {blank} after the disaster.",
+            "Letters of complaint began to {verb} {blank}.",
+            "Tourists {verb} {blank} during the summer months.",
+            "Applications {verb}ed {blank} from all over the country."
+        ],
+        options: ["in", "out", "on", "up"]
+    },
+    {
+        verb: "pour", particle: "out", phrase: "pour out", category: "emotion", level: "middle",
+        meaning: "To express feelings or thoughts freely and in great detail.",
+        sentences: [
+            "She {verb}ed {blank} her heart to her best friend.",
+            "He {verb}ed {blank} his troubles over a cup of coffee.",
+            "The words just {verb}ed {blank} of her mouth.",
+            "People {verb}ed {blank} of the building when the alarm sounded."
+        ],
+        options: ["out", "in", "off", "away"]
+    },
+    {
+        verb: "pour", particle: "down", phrase: "pour down", category: "daily", level: "middle",
+        meaning: "To rain very heavily.",
+        sentences: [
+            "It's been {verb}ing {blank} all morning.",
+            "The rain {verb}ed {blank} as we ran to the car.",
+            "It started {verb}ing {blank} just as the picnic began.",
+            "Water was {verb}ing {blank} the windows."
+        ],
+        options: ["down", "in", "out", "on"]
+    },
+
+    // ========================================
+    // RIDE (additional)
+    // ========================================
+    {
+        verb: "ride", particle: "out", phrase: "ride out", category: "business", level: "high",
+        meaning: "To survive a difficult situation or period without being badly affected.",
+        sentences: [
+            "The company managed to {verb} {blank} the recession.",
+            "We just have to {verb} {blank} the storm and things will improve.",
+            "Small businesses struggled to {verb} {blank} the pandemic.",
+            "She {verb} {blank} the controversy with grace."
+        ],
+        options: ["out", "through", "over", "off"]
+    },
+    {
+        verb: "ride", particle: "on", phrase: "ride on", category: "business", level: "high",
+        meaning: "To depend on something for success or survival.",
+        sentences: [
+            "A lot is {verb}ing {blank} the outcome of this meeting.",
+            "The company's future {verb}s {blank} this product launch.",
+            "His reputation {verb}s {blank} winning this case.",
+            "Everything {verb}s {blank} the next election."
+        ],
+        options: ["on", "out", "up", "off"]
+    },
+
+    // ========================================
+    // RISE (additional)
+    // ========================================
+    {
+        verb: "rise", particle: "above", phrase: "rise above", category: "emotion", level: "high",
+        meaning: "To not be affected by something bad or to deal with it without stooping to a low level.",
+        sentences: [
+            "She managed to {verb} {blank} the criticism.",
+            "We must {verb} {blank} petty disagreements.",
+            "He {verb} {blank} his difficult childhood to become successful.",
+            "True leaders {verb} {blank} personal attacks."
+        ],
+        options: ["above", "over", "beyond", "past"]
+    },
+    {
+        verb: "rise", particle: "up", phrase: "rise up", category: "academic", level: "high",
+        meaning: "To rebel or revolt against authority or oppression.",
+        sentences: [
+            "The people {verb} {blank} against the dictator.",
+            "Workers {verb} {blank} to demand better conditions.",
+            "Citizens {verb} {blank} in protest across the country.",
+            "History shows that oppressed people will eventually {verb} {blank}."
+        ],
+        options: ["up", "against", "above", "out"]
+    },
+
+    // ========================================
+    // RUSH (additional)
+    // ========================================
+    {
+        verb: "rush", particle: "in", phrase: "rush in", category: "daily", level: "middle",
+        meaning: "To enter a place quickly; to act too hastily.",
+        sentences: [
+            "The paramedics {verb}ed {blank} to help the injured.",
+            "Don't {verb} {blank} — think about it carefully first.",
+            "She {verb}ed {blank} without knocking on the door.",
+            "He tends to {verb} {blank} to things without planning."
+        ],
+        options: ["in", "into", "on", "out"]
+    },
+    {
+        verb: "rush", particle: "into", phrase: "rush into", category: "daily", level: "middle",
+        meaning: "To begin something too quickly without proper thought.",
+        sentences: [
+            "Don't {verb} {blank} a decision you'll regret.",
+            "They {verb}ed {blank} marriage after just three months.",
+            "She always {verb}es {blank} things without thinking.",
+            "He was warned not to {verb} {blank} buying a house."
+        ],
+        options: ["into", "in", "on", "to"]
+    },
+    {
+        verb: "rush", particle: "off", phrase: "rush off", category: "daily", level: "middle",
+        meaning: "To leave very quickly.",
+        sentences: [
+            "She {verb}ed {blank} to catch her train.",
+            "Sorry, I have to {verb} {blank} — I'm late for a meeting.",
+            "He {verb}ed {blank} without finishing his breakfast.",
+            "They {verb}ed {blank} as soon as they heard the news."
+        ],
+        options: ["off", "away", "out", "on"]
+    },
+
+    // ========================================
+    // SAIL (additional)
+    // ========================================
+    {
+        verb: "sail", particle: "through", phrase: "sail through", category: "academic", level: "high",
+        meaning: "To pass a test or deal with a situation easily and successfully.",
+        sentences: [
+            "She {verb}ed {blank} the interview without any difficulty.",
+            "He {verb}ed {blank} his exams with top marks.",
+            "The bill {verb}ed {blank} parliament without opposition.",
+            "She {verb}ed {blank} the driving test on her first attempt."
+        ],
+        options: ["through", "past", "over", "by"]
+    },
+
+    // ========================================
+    // SHAKE (additional)
+    // ========================================
+    {
+        verb: "shake", particle: "off", phrase: "shake off", category: "daily", level: "middle",
+        meaning: "To get rid of something unwanted such as an illness, a person, or a feeling.",
+        sentences: [
+            "I can't seem to {verb} {blank} this cold.",
+            "She {verb} {blank} the feeling of being watched.",
+            "The spy managed to {verb} {blank} his pursuers.",
+            "He's trying to {verb} {blank} his reputation as a troublemaker."
+        ],
+        options: ["off", "out", "away", "up"]
+    },
+    {
+        verb: "shake", particle: "up", phrase: "shake up", category: "business", level: "high",
+        meaning: "To make major changes to an organization; to shock or upset someone.",
+        sentences: [
+            "The new CEO plans to {verb} {blank} the entire company.",
+            "The accident really {verb} her {blank}.",
+            "They need to {verb} {blank} the management structure.",
+            "The scandal {verb} {blank} the political establishment."
+        ],
+        options: ["up", "out", "off", "down"]
+    },
+    {
+        verb: "shake", particle: "down", phrase: "shake down", category: "daily", level: "college",
+        meaning: "To extort money from someone; to search a person or place thoroughly.",
+        sentences: [
+            "The gang {verb} local businesses {blank} for protection money.",
+            "The guards {verb} {blank} the prisoners' cells.",
+            "He was {verb}n {blank} by corrupt officials at the border.",
+            "The police {verb} {blank} the car for hidden drugs."
+        ],
+        options: ["down", "off", "out", "up"]
+    },
+
+    // ========================================
+    // SHOOT (additional)
+    // ========================================
+    {
+        verb: "shoot", particle: "down", phrase: "shoot down", category: "business", level: "middle",
+        meaning: "To reject an idea or suggestion; to destroy an aircraft in flight.",
+        sentences: [
+            "Every proposal I make gets {verb} {blank} by the committee.",
+            "She {verb} {blank} his idea without even considering it.",
+            "Two enemy planes were {verb} {blank} during the battle.",
+            "Don't {verb} {blank} the suggestion before hearing the details."
+        ],
+        options: ["down", "off", "out", "up"]
+    },
+    {
+        verb: "shoot", particle: "up", phrase: "shoot up", category: "business", level: "high",
+        meaning: "To increase very quickly and dramatically.",
+        sentences: [
+            "Prices have {verb} {blank} since last year.",
+            "The child has {verb} {blank} — he's so tall now!",
+            "Unemployment {verb} {blank} during the recession.",
+            "The stock {verb} {blank} after the positive earnings report."
+        ],
+        options: ["up", "off", "out", "through"]
+    },
+
+    // ========================================
+    // SHOUT (additional)
+    // ========================================
+    {
+        verb: "shout", particle: "out", phrase: "shout out", category: "daily", level: "middle",
+        meaning: "To say something loudly so it can be heard; to give public recognition.",
+        sentences: [
+            "She {verb}ed {blank} his name across the crowded room.",
+            "I want to {verb} {blank} to everyone who helped with this event.",
+            "He {verb}ed {blank} the answer before anyone else.",
+            "The DJ gave a {verb}-{blank} to the birthday girl."
+        ],
+        options: ["out", "at", "off", "up"]
+    },
+    {
+        verb: "shout", particle: "down", phrase: "shout down", category: "emotion", level: "high",
+        meaning: "To prevent someone from speaking by shouting louder than them.",
+        sentences: [
+            "The protesters {verb}ed {blank} the politician during his speech.",
+            "She was {verb}ed {blank} every time she tried to speak.",
+            "The crowd {verb}ed {blank} the unpopular proposal.",
+            "Don't try to {verb} me {blank} — let me finish."
+        ],
+        options: ["down", "out", "off", "at"]
+    },
+
+    // ========================================
+    // SINK (additional)
+    // ========================================
+    {
+        verb: "sink", particle: "in", phrase: "sink in", category: "emotion", level: "middle",
+        meaning: "To be fully understood or realized gradually.",
+        sentences: [
+            "It took a moment for the news to {verb} {blank}.",
+            "The reality of the situation hasn't {verb} {blank} yet.",
+            "Let that {verb} {blank} for a moment before you respond.",
+            "When the truth finally {verb} {blank}, she started to cry."
+        ],
+        options: ["in", "down", "through", "into"]
+    },
+
+    // ========================================
+    // SLEEP (additional)
+    // ========================================
+    {
+        verb: "sleep", particle: "in", phrase: "sleep in", category: "daily", level: "elementary",
+        meaning: "To sleep later than usual in the morning.",
+        sentences: [
+            "It's Saturday — I'm going to {verb} {blank}.",
+            "She {verb} {blank} and missed her first class.",
+            "We usually {verb} {blank} on weekends.",
+            "I accidentally {verb} {blank} and was late for work."
+        ],
+        options: ["in", "on", "out", "over"]
+    },
+    {
+        verb: "sleep", particle: "over", phrase: "sleep over", category: "daily", level: "elementary",
+        meaning: "To stay the night at someone else's house.",
+        sentences: [
+            "Can I {verb} {blank} at your house tonight?",
+            "The children love to {verb} {blank} at their cousins' house.",
+            "She {verb} {blank} because it was too late to drive home.",
+            "We used to {verb} {blank} at each other's houses all the time."
+        ],
+        options: ["over", "in", "out", "on"]
+    },
+    {
+        verb: "sleep", particle: "through", phrase: "sleep through", category: "daily", level: "middle",
+        meaning: "To remain asleep despite noise or disturbance.",
+        sentences: [
+            "How did you {verb} {blank} that thunderstorm?",
+            "The baby {verb} {blank} the entire night for the first time.",
+            "He {verb} {blank} his alarm again this morning.",
+            "She could {verb} {blank} an earthquake."
+        ],
+        options: ["through", "over", "past", "in"]
+    },
+    {
+        verb: "sleep", particle: "off", phrase: "sleep off", category: "daily", level: "middle",
+        meaning: "To recover from something, especially illness or the effects of alcohol, by sleeping.",
+        sentences: [
+            "He went to bed to {verb} {blank} the jet lag.",
+            "She needs to {verb} {blank} the effects of the anesthesia.",
+            "I'll just {verb} it {blank} and feel better tomorrow.",
+            "He was trying to {verb} {blank} last night's party."
+        ],
+        options: ["off", "out", "away", "through"]
+    },
+
+    // ========================================
+    // SLIP (additional)
+    // ========================================
+    {
+        verb: "slip", particle: "away", phrase: "slip away", category: "daily", level: "middle",
+        meaning: "To leave quietly without being noticed; to gradually disappear.",
+        sentences: [
+            "She managed to {verb} {blank} from the party unnoticed.",
+            "The opportunity {verb}ped {blank} before he could act.",
+            "Time seems to just {verb} {blank} when you're having fun.",
+            "The old man peacefully {verb}ped {blank} in his sleep."
+        ],
+        options: ["away", "off", "out", "by"]
+    },
+    {
+        verb: "slip", particle: "in", phrase: "slip in", category: "daily", level: "middle",
+        meaning: "To enter quietly or without being noticed; to mention something casually.",
+        sentences: [
+            "She {verb}ped {blank} through the back door.",
+            "He {verb}ped {blank} a comment about the raise.",
+            "I managed to {verb} {blank} just before the doors closed.",
+            "She {verb}ped {blank} a reference to her book during the interview."
+        ],
+        options: ["in", "into", "by", "through"]
+    },
+    {
+        verb: "slip", particle: "out", phrase: "slip out", category: "daily", level: "middle",
+        meaning: "To leave quietly; to say something accidentally.",
+        sentences: [
+            "The secret {verb}ped {blank} before she could stop herself.",
+            "He {verb}ped {blank} of the meeting to take a call.",
+            "I'm just going to {verb} {blank} for some fresh air.",
+            "The words {verb}ped {blank} before I realized what I was saying."
+        ],
+        options: ["out", "off", "away", "by"]
+    },
+    {
+        verb: "slip", particle: "up", phrase: "slip up", category: "daily", level: "middle",
+        meaning: "To make a careless mistake.",
+        sentences: [
+            "I {verb}ped {blank} and gave them the wrong date.",
+            "Be careful not to {verb} {blank} during the presentation.",
+            "She {verb}ped {blank} by mentioning the surprise party.",
+            "Everyone {verb}s {blank} from time to time."
+        ],
+        options: ["up", "out", "off", "in"]
+    },
+
+    // ========================================
+    // SPELL (additional)
+    // ========================================
+    {
+        verb: "spell", particle: "out", phrase: "spell out", category: "business", level: "middle",
+        meaning: "To explain something in a very clear and detailed way.",
+        sentences: [
+            "Do I have to {verb} it {blank} for you?",
+            "The contract {verb}s {blank} the terms very clearly.",
+            "She {verb}ed {blank} exactly what was expected of the team.",
+            "Let me {verb} {blank} what will happen if we miss the deadline."
+        ],
+        options: ["out", "off", "up", "through"]
+    },
+
+    // ========================================
+    // START (additional)
+    // ========================================
+    {
+        verb: "start", particle: "off", phrase: "start off", category: "daily", level: "middle",
+        meaning: "To begin something in a particular way.",
+        sentences: [
+            "Let's {verb} {blank} with a brief introduction.",
+            "The day {verb}ed {blank} well but ended terribly.",
+            "She {verb}ed {blank} as an intern and became CEO.",
+            "I'd like to {verb} {blank} by thanking everyone for coming."
+        ],
+        options: ["off", "up", "on", "out"]
+    },
+    {
+        verb: "start", particle: "out", phrase: "start out", category: "daily", level: "middle",
+        meaning: "To begin a journey, career, or process.",
+        sentences: [
+            "They {verb}ed {blank} as a small family business.",
+            "She {verb}ed {blank} wanting to be a doctor.",
+            "We {verb}ed {blank} early to avoid the traffic.",
+            "He {verb}ed {blank} in sales before moving to marketing."
+        ],
+        options: ["out", "off", "up", "on"]
+    },
+    {
+        verb: "start", particle: "up", phrase: "start up", category: "business", level: "middle",
+        meaning: "To begin operating; to establish a new business.",
+        sentences: [
+            "{verb} {blank} the engine and let it warm up.",
+            "She {verb}ed {blank} her own consulting firm last year.",
+            "The machine failed to {verb} {blank} this morning.",
+            "He's planning to {verb} {blank} a restaurant in town."
+        ],
+        options: ["up", "off", "on", "out"]
+    },
+    {
+        verb: "start", particle: "over", phrase: "start over", category: "daily", level: "middle",
+        meaning: "To begin something again from the very beginning.",
+        sentences: [
+            "The essay was terrible, so she decided to {verb} {blank}.",
+            "After the divorce, he wanted to {verb} {blank} in a new city.",
+            "If the dough doesn't rise, you'll have to {verb} {blank}.",
+            "Sometimes life gives you a chance to {verb} {blank}."
+        ],
+        options: ["over", "again", "up", "out"]
+    },
+
+    // ========================================
+    // STAY (additional)
+    // ========================================
+    {
+        verb: "stay", particle: "away", phrase: "stay away", category: "daily", level: "elementary",
+        meaning: "To not go near or not get involved with something or someone.",
+        sentences: [
+            "{verb} {blank} from the edge of the cliff!",
+            "She told the children to {verb} {blank} from the river.",
+            "I'd {verb} {blank} from that neighborhood at night.",
+            "He was warned to {verb} {blank} from the investigation."
+        ],
+        options: ["away", "back", "off", "out"]
+    },
+    {
+        verb: "stay", particle: "behind", phrase: "stay behind", category: "daily", level: "middle",
+        meaning: "To remain in a place after others have left.",
+        sentences: [
+            "The teacher asked two students to {verb} {blank} after class.",
+            "She {verb}ed {blank} to finish the report.",
+            "He {verb}ed {blank} while the others went to lunch.",
+            "Who wants to {verb} {blank} and clean up?"
+        ],
+        options: ["behind", "back", "in", "on"]
+    },
+    {
+        verb: "stay", particle: "in", phrase: "stay in", category: "daily", level: "elementary",
+        meaning: "To remain at home, especially in the evening.",
+        sentences: [
+            "It's raining — let's just {verb} {blank} tonight.",
+            "She decided to {verb} {blank} and watch a movie.",
+            "I'm too tired to go out; I'll {verb} {blank}.",
+            "We {verb}ed {blank} all weekend because of the storm."
+        ],
+        options: ["in", "on", "back", "up"]
+    },
+    {
+        verb: "stay", particle: "on", phrase: "stay on", category: "business", level: "middle",
+        meaning: "To continue in a job, school, or place longer than planned.",
+        sentences: [
+            "She was asked to {verb} {blank} as manager for another year.",
+            "He decided to {verb} {blank} at university to do a master's.",
+            "Will you {verb} {blank} after the meeting to help clean up?",
+            "The temp worker was invited to {verb} {blank} permanently."
+        ],
+        options: ["on", "in", "at", "for"]
+    },
+    {
+        verb: "stay", particle: "out", phrase: "stay out", category: "daily", level: "elementary",
+        meaning: "To remain away from home, especially late at night.",
+        sentences: [
+            "Don't {verb} {blank} too late — it's a school night.",
+            "They {verb}ed {blank} until three in the morning.",
+            "Her parents told her not to {verb} {blank} past midnight.",
+            "He {verb}s {blank} late every Friday with his friends."
+        ],
+        options: ["out", "away", "off", "up"]
+    },
+    {
+        verb: "stay", particle: "up", phrase: "stay up", category: "daily", level: "elementary",
+        meaning: "To remain awake past one's usual bedtime.",
+        sentences: [
+            "The children begged to {verb} {blank} and watch the fireworks.",
+            "She {verb}ed {blank} all night studying for the exam.",
+            "I can't {verb} {blank} much longer — I'm exhausted.",
+            "We {verb}ed {blank} to watch the New Year countdown."
+        ],
+        options: ["up", "on", "out", "in"]
+    },
+
+    // ========================================
+    // STOP (additional)
+    // ========================================
+    {
+        verb: "stop", particle: "by", phrase: "stop by", category: "daily", level: "middle",
+        meaning: "To visit someone or a place briefly and informally.",
+        sentences: [
+            "I'll {verb} {blank} your office on my way out.",
+            "She {verb}ped {blank} to drop off a package.",
+            "Feel free to {verb} {blank} whenever you're in the area.",
+            "He {verb}ped {blank} the bakery to pick up some bread."
+        ],
+        options: ["by", "in", "at", "over"]
+    },
+    {
+        verb: "stop", particle: "off", phrase: "stop off", category: "travel", level: "middle",
+        meaning: "To make a short visit or stop at a place during a longer journey.",
+        sentences: [
+            "We {verb}ped {blank} in Paris on the way to Rome.",
+            "Let's {verb} {blank} at the gas station before the highway.",
+            "She {verb}ped {blank} to see her friend on the way home.",
+            "They {verb}ped {blank} for lunch at a roadside café."
+        ],
+        options: ["off", "by", "over", "in"]
+    },
+    {
+        verb: "stop", particle: "over", phrase: "stop over", category: "travel", level: "middle",
+        meaning: "To stay somewhere for a short time during a long journey.",
+        sentences: [
+            "We {verb}ped {blank} in Dubai on our way to Australia.",
+            "The flight {verb}s {blank} in Singapore for refueling.",
+            "Would you like to {verb} {blank} in London for a night?",
+            "They {verb}ped {blank} at their aunt's house during the road trip."
+        ],
+        options: ["over", "off", "by", "in"]
+    },
+
+    // ========================================
+    // STRIKE (additional)
+    // ========================================
+    {
+        verb: "strike", particle: "back", phrase: "strike back", category: "emotion", level: "high",
+        meaning: "To attack in return; to retaliate against someone.",
+        sentences: [
+            "The rebels {verb} {blank} against the government forces.",
+            "She {verb} {blank} at her critics with a powerful speech.",
+            "The company {verb} {blank} with a lawsuit of its own.",
+            "When attacked, it's natural to want to {verb} {blank}."
+        ],
+        options: ["back", "out", "down", "at"]
+    },
+    {
+        verb: "strike", particle: "down", phrase: "strike down", category: "academic", level: "college",
+        meaning: "To declare a law invalid; to kill or cause to fall.",
+        sentences: [
+            "The court {verb} {blank} the controversial law.",
+            "The disease {verb} him {blank} in his prime.",
+            "Several regulations were {verb} {blank} by the judge.",
+            "Lightning {verb} {blank} the old oak tree."
+        ],
+        options: ["down", "out", "off", "back"]
+    },
+    {
+        verb: "strike", particle: "out", phrase: "strike out", category: "daily", level: "high",
+        meaning: "To fail in an attempt; to start doing something independently.",
+        sentences: [
+            "He {verb} {blank} with every girl he talked to at the party.",
+            "She decided to {verb} {blank} on her own and start a business.",
+            "The batter {verb} {blank} three times in the game.",
+            "After years at the firm, he {verb} {blank} independently."
+        ],
+        options: ["out", "off", "through", "up"]
+    },
+    {
+        verb: "strike", particle: "up", phrase: "strike up", category: "daily", level: "high",
+        meaning: "To begin a conversation or friendship, often with a stranger.",
+        sentences: [
+            "She {verb} {blank} a conversation with the man next to her.",
+            "They {verb} {blank} a friendship during the conference.",
+            "It's easy to {verb} {blank} a chat at the local pub.",
+            "The band {verb} {blank} a lively tune."
+        ],
+        options: ["up", "out", "on", "off"]
+    },
+
+    // ========================================
+    // SWEEP (additional)
+    // ========================================
+    {
+        verb: "sweep", particle: "up", phrase: "sweep up", category: "daily", level: "elementary",
+        meaning: "To clean a floor or area using a broom.",
+        sentences: [
+            "Can you {verb} {blank} the broken glass?",
+            "She {verb} {blank} the leaves in the garden.",
+            "He {verb} {blank} the kitchen floor after dinner.",
+            "The janitor {verb}s {blank} the hallway every evening."
+        ],
+        options: ["up", "out", "off", "away"]
+    },
+    {
+        verb: "sweep", particle: "away", phrase: "sweep away", category: "emotion", level: "high",
+        meaning: "To remove completely; to impress or affect strongly.",
+        sentences: [
+            "The flood {verb} {blank} everything in its path.",
+            "She was {verb} {blank} by his romantic gesture.",
+            "The revolution {verb} {blank} the old regime.",
+            "The audience was {verb} {blank} by the performance."
+        ],
+        options: ["away", "up", "off", "out"]
+    },
+
+    // ========================================
+    // TICK (additional)
+    // ========================================
+    {
+        verb: "tick", particle: "off", phrase: "tick off", category: "daily", level: "middle",
+        meaning: "To annoy someone; to mark items on a list as completed.",
+        sentences: [
+            "His constant lateness really {verb}s me {blank}.",
+            "{verb} {blank} each item as you complete it.",
+            "She was {verb}ed {blank} when they cancelled the meeting.",
+            "I've {verb}ed {blank} everything on the shopping list."
+        ],
+        options: ["off", "on", "out", "up"]
+    },
+    {
+        verb: "tick", particle: "over", phrase: "tick over", category: "business", level: "high",
+        meaning: "To operate at a basic level; to continue functioning without major activity.",
+        sentences: [
+            "The engine was {verb}ing {blank} quietly.",
+            "The business is just {verb}ing {blank} — nothing exciting happening.",
+            "Sales are {verb}ing {blank} but not growing.",
+            "The company {verb}s {blank} while the CEO is on leave."
+        ],
+        options: ["over", "on", "along", "by"]
+    },
+
+    // ========================================
+    // TIP (additional)
+    // ========================================
+    {
+        verb: "tip", particle: "off", phrase: "tip off", category: "daily", level: "high",
+        meaning: "To give someone secret information or a warning.",
+        sentences: [
+            "Someone {verb}ped {blank} the police about the robbery.",
+            "A journalist was {verb}ped {blank} about the scandal.",
+            "Who {verb}ped them {blank} about the surprise inspection?",
+            "An anonymous caller {verb}ped {blank} the authorities."
+        ],
+        options: ["off", "on", "out", "in"]
+    },
+    {
+        verb: "tip", particle: "over", phrase: "tip over", category: "daily", level: "elementary",
+        meaning: "To fall or knock something so it falls from an upright position.",
+        sentences: [
+            "Be careful not to {verb} {blank} your glass.",
+            "The vase {verb}ped {blank} and shattered on the floor.",
+            "The canoe {verb}ped {blank} in the rough water.",
+            "The child accidentally {verb}ped the lamp {blank}."
+        ],
+        options: ["over", "off", "down", "out"]
+    },
+
+    // ========================================
+    // TRADE (additional)
+    // ========================================
+    {
+        verb: "trade", particle: "in", phrase: "trade in", category: "business", level: "middle",
+        meaning: "To give an old item as partial payment for a new one.",
+        sentences: [
+            "I {verb}d {blank} my old car for a newer model.",
+            "You can {verb} {blank} your used phone at the store.",
+            "She {verb}d {blank} her laptop when upgrading.",
+            "They offer good prices if you {verb} {blank} your old equipment."
+        ],
+        options: ["in", "off", "up", "over"]
+    },
+    {
+        verb: "trade", particle: "off", phrase: "trade off", category: "business", level: "high",
+        meaning: "To exchange one thing for another, accepting a disadvantage in one area for an advantage in another.",
+        sentences: [
+            "You have to {verb} {blank} speed against accuracy.",
+            "Workers {verb} {blank} higher pay for better benefits.",
+            "She {verb}d {blank} a shorter commute for a smaller apartment.",
+            "There's always something to {verb} {blank} in these decisions."
+        ],
+        options: ["off", "in", "on", "away"]
+    },
+
+    // ========================================
+    // TRIP (additional)
+    // ========================================
+    {
+        verb: "trip", particle: "up", phrase: "trip up", category: "daily", level: "middle",
+        meaning: "To make a mistake; to cause someone to stumble or make an error.",
+        sentences: [
+            "The tricky question {verb}ped {blank} most of the students.",
+            "Don't let the pressure {verb} you {blank}.",
+            "She {verb}ped {blank} over an uneven paving stone.",
+            "The unexpected quiz {verb}ped {blank} the entire class."
+        ],
+        options: ["up", "over", "on", "out"]
+    },
+    {
+        verb: "trip", particle: "over", phrase: "trip over", category: "daily", level: "elementary",
+        meaning: "To catch your foot on something and stumble or fall.",
+        sentences: [
+            "I {verb}ped {blank} the cat in the dark.",
+            "She {verb}ped {blank} a cable on the office floor.",
+            "He {verb}ped {blank} his own shoelaces.",
+            "Be careful not to {verb} {blank} that step."
+        ],
+        options: ["over", "up", "on", "into"]
+    },
+
+    // ========================================
+    // WASH (additional)
+    // ========================================
+    {
+        verb: "wash", particle: "away", phrase: "wash away", category: "daily", level: "middle",
+        meaning: "To be removed or destroyed by water; to eliminate a feeling.",
+        sentences: [
+            "The heavy rain {verb}ed {blank} the topsoil.",
+            "She hoped the bath would {verb} {blank} her stress.",
+            "The bridge was {verb}ed {blank} by the flood.",
+            "Let the ocean waves {verb} {blank} your worries."
+        ],
+        options: ["away", "out", "off", "down"]
+    },
+    {
+        verb: "wash", particle: "out", phrase: "wash out", category: "daily", level: "middle",
+        meaning: "To remove a stain by washing; to cancel due to rain.",
+        sentences: [
+            "This stain won't {verb} {blank} no matter what I try.",
+            "The cricket match was {verb}ed {blank} by rain.",
+            "The color {verb}es {blank} after a few washes.",
+            "The picnic was {verb}ed {blank} by a sudden downpour."
+        ],
+        options: ["out", "off", "away", "up"]
+    },
+    {
+        verb: "wash", particle: "off", phrase: "wash off", category: "daily", level: "elementary",
+        meaning: "To remove something by washing the surface.",
+        sentences: [
+            "This paint {verb}es {blank} easily with water.",
+            "{verb} {blank} the mud from your shoes before coming inside.",
+            "She {verb}ed {blank} the makeup before going to bed.",
+            "The dirt will {verb} {blank} in the rain."
+        ],
+        options: ["off", "out", "away", "up"]
+    },
+
+    // ========================================
+    // WEED (additional)
+    // ========================================
+    {
+        verb: "weed", particle: "out", phrase: "weed out", category: "business", level: "high",
+        meaning: "To remove unwanted or unsuitable people or things from a group.",
+        sentences: [
+            "The first round of interviews will {verb} {blank} weaker candidates.",
+            "We need to {verb} {blank} the errors in this data.",
+            "The new rules are designed to {verb} {blank} cheaters.",
+            "She {verb}ed {blank} the dead plants from the flower bed."
+        ],
+        options: ["out", "off", "away", "through"]
+    },
+
+    // ========================================
+    // WHIP (additional)
+    // ========================================
+    {
+        verb: "whip", particle: "up", phrase: "whip up", category: "daily", level: "middle",
+        meaning: "To prepare food quickly; to deliberately excite or provoke an emotion.",
+        sentences: [
+            "She can {verb} {blank} a meal in fifteen minutes.",
+            "The politician tried to {verb} {blank} support for the campaign.",
+            "Let me {verb} {blank} some scrambled eggs for breakfast.",
+            "The media {verb}ped {blank} public outrage over the incident."
+        ],
+        options: ["up", "out", "off", "together"]
+    },
+
+    // ========================================
+    // WIPE (additional)
+    // ========================================
+    {
+        verb: "wipe", particle: "away", phrase: "wipe away", category: "emotion", level: "middle",
+        meaning: "To remove something by wiping, especially tears.",
+        sentences: [
+            "She {verb}d {blank} her tears and smiled bravely.",
+            "He {verb}d {blank} the sweat from his forehead.",
+            "{verb} {blank} the dust from the shelf, please.",
+            "Time doesn't {verb} {blank} the pain of losing someone."
+        ],
+        options: ["away", "off", "out", "up"]
+    },
+    {
+        verb: "wipe", particle: "down", phrase: "wipe down", category: "daily", level: "middle",
+        meaning: "To clean a surface thoroughly by wiping it.",
+        sentences: [
+            "Please {verb} {blank} the kitchen counters after cooking.",
+            "She {verb}d {blank} the table before setting it for dinner.",
+            "The waiter {verb}d {blank} the table between customers.",
+            "Don't forget to {verb} {blank} the equipment after use."
+        ],
+        options: ["down", "off", "out", "up"]
+    },
+
+    // ========================================
+    // YIELD (additional)
+    // ========================================
+    {
+        verb: "yield", particle: "to", phrase: "yield to", category: "academic", level: "college",
+        meaning: "To give way to pressure, temptation, or a superior force.",
+        sentences: [
+            "She finally {verb}ed {blank} their demands.",
+            "Don't {verb} {blank} the temptation to cheat.",
+            "The old system gradually {verb}ed {blank} modern technology.",
+            "He refused to {verb} {blank} pressure from his rivals."
+        ],
+        options: ["to", "in", "for", "at"]
+    },
+
+    // ========================================
+    // STORE (additional)
+    // ========================================
+    {
+        verb: "store", particle: "up", phrase: "store up", category: "daily", level: "high",
+        meaning: "To accumulate and keep something for future use; to accumulate emotions.",
+        sentences: [
+            "Squirrels {verb} {blank} nuts for the winter.",
+            "She's been {verb}ing {blank} resentment for years.",
+            "We need to {verb} {blank} enough supplies for the trip.",
+            "He {verb}d {blank} all his anger until he finally exploded."
+        ],
+        options: ["up", "away", "in", "out"]
+    },
+
+    // ========================================
+    // RULE (additional)
+    // ========================================
+    {
+        verb: "rule", particle: "on", phrase: "rule on", category: "academic", level: "college",
+        meaning: "To make an official decision about a legal matter.",
+        sentences: [
+            "The judge will {verb} {blank} the case next week.",
+            "The court has yet to {verb} {blank} the appeal.",
+            "The committee {verb}d {blank} the dispute in our favor.",
+            "When will the Supreme Court {verb} {blank} this issue?"
+        ],
+        options: ["on", "over", "for", "about"]
+    },
+
+    // ========================================
+    // STAMP (additional)
+    // ========================================
+    {
+        verb: "stamp", particle: "on", phrase: "stamp on", category: "daily", level: "high",
+        meaning: "To suppress or put an end to something forcefully.",
+        sentences: [
+            "The government wants to {verb} {blank} corruption.",
+            "She {verb}ed {blank} the rumor before it spread.",
+            "They {verb}ed {blank} any sign of dissent immediately.",
+            "The authorities {verb}ed {blank} the illegal trade."
+        ],
+        options: ["on", "out", "down", "off"]
+    },
+
+    // ========================================
+    // ADDITIONAL COMMON PHRASAL VERBS
+    // ========================================
+
+    // ASK
+    {
+        verb: "ask", particle: "back", phrase: "ask back", category: "daily", level: "middle",
+        meaning: "To invite someone to return or to come to one's home.",
+        sentences: [
+            "She {verb}ed him {blank} for a second date.",
+            "After the show, we {verb}ed our friends {blank} for drinks.",
+            "He was so charming she {verb}ed him {blank}.",
+            "They {verb}ed us {blank} to their house for dinner."
+        ],
+        options: ["back", "in", "over", "out"]
+    },
+
+    // BLOW
+    {
+        verb: "blow", particle: "in", phrase: "blow in", category: "daily", level: "high",
+        meaning: "To arrive unexpectedly at a place.",
+        sentences: [
+            "My cousin {verb} {blank} from Australia unannounced.",
+            "A stranger {verb} {blank} and sat down at the bar.",
+            "She just {verb} {blank} like she owned the place.",
+            "Who {verb} {blank} this time?"
+        ],
+        options: ["in", "up", "by", "through"]
+    },
+
+    // BOW
+    {
+        verb: "bow", particle: "down", phrase: "bow down", category: "emotion", level: "high",
+        meaning: "To show great respect or submission to someone.",
+        sentences: [
+            "The subjects {verb}ed {blank} before the queen.",
+            "I refuse to {verb} {blank} to anyone.",
+            "They {verb}ed {blank} in reverence at the temple.",
+            "He expects everyone to {verb} {blank} to his authority."
+        ],
+        options: ["down", "out", "in", "over"]
+    },
+
+    // BOW
+    {
+        verb: "bow", particle: "out", phrase: "bow out", category: "business", level: "high",
+        meaning: "To withdraw from a commitment, competition, or role gracefully.",
+        sentences: [
+            "She decided to {verb} {blank} of the race due to injury.",
+            "The CEO {verb}ed {blank} after twenty years at the company.",
+            "He {verb}ed {blank} gracefully from the competition.",
+            "It's time for me to {verb} {blank} and let someone younger take charge."
+        ],
+        options: ["out", "down", "off", "away"]
+    },
+
+    // BREAK
+    {
+        verb: "break", particle: "free", phrase: "break free", category: "emotion", level: "middle",
+        meaning: "To escape from a situation, constraint, or physical hold.",
+        sentences: [
+            "She {verb} {blank} from the ropes and escaped.",
+            "He finally {verb} {blank} of his toxic relationship.",
+            "The dog {verb} {blank} from its leash.",
+            "It's time to {verb} {blank} from old habits."
+        ],
+        options: ["free", "away", "out", "loose"]
+    },
+
+    // BRING
+    {
+        verb: "bring", particle: "together", phrase: "bring together", category: "emotion", level: "middle",
+        meaning: "To unite people; to cause people to meet and work with each other.",
+        sentences: [
+            "The festival {verb}s {blank} artists from around the world.",
+            "Music has the power to {verb} people {blank}.",
+            "The project {verb}s {blank} experts from many fields.",
+            "Tragedy often {verb}s families {blank}."
+        ],
+        options: ["together", "along", "around", "about"]
+    },
+
+    // BURST
+    {
+        verb: "burst", particle: "out", phrase: "burst out", category: "emotion", level: "middle",
+        meaning: "To suddenly start doing something, especially laughing or crying.",
+        sentences: [
+            "She {verb} {blank} laughing at the joke.",
+            "He {verb} {blank} crying when he heard the news.",
+            "The whole class {verb} {blank} laughing.",
+            "She {verb} {blank}, 'That's not true!'"
+        ],
+        options: ["out", "up", "in", "into"]
+    },
+
+    // BURST
+    {
+        verb: "burst", particle: "into", phrase: "burst into", category: "emotion", level: "middle",
+        meaning: "To suddenly enter a room forcefully; to suddenly begin to cry, laugh, etc.",
+        sentences: [
+            "She {verb} {blank} the room demanding answers.",
+            "The child {verb} {blank} tears when scolded.",
+            "The audience {verb} {blank} applause.",
+            "He {verb} {blank} the office without knocking."
+        ],
+        options: ["into", "in", "out", "through"]
+    },
+
+    // CLUE
+    {
+        verb: "clue", particle: "in", phrase: "clue in", category: "daily", level: "high",
+        meaning: "To inform someone about something they do not know.",
+        sentences: [
+            "Can someone {verb} me {blank} on what's happening?",
+            "She {verb}d him {blank} on the office gossip.",
+            "Nobody bothered to {verb} me {blank} about the change of plans.",
+            "Let me {verb} you {blank} — the meeting was moved to Tuesday."
+        ],
+        options: ["in", "up", "on", "out"]
+    },
+
+    // CARE
+    {
+        verb: "care", particle: "for", phrase: "care for", category: "daily", level: "middle",
+        meaning: "To look after someone or something; to like or have affection for.",
+        sentences: [
+            "She {verb}s {blank} her elderly parents at home.",
+            "Would you {verb} {blank} a cup of tea?",
+            "He never really {verb}d {blank} classical music.",
+            "The nurse {verb}s {blank} the patients with great dedication."
+        ],
+        options: ["for", "about", "of", "with"]
+    },
+
+    // CHAIN
+    {
+        verb: "chain", particle: "up", phrase: "chain up", category: "daily", level: "high",
+        meaning: "To fasten someone or something with a chain to restrict movement.",
+        sentences: [
+            "They {verb}ed {blank} the bicycles outside the shop.",
+            "The dog was {verb}ed {blank} in the yard.",
+            "In medieval times, prisoners were {verb}ed {blank} in dungeons.",
+            "Don't forget to {verb} {blank} your bike before going inside."
+        ],
+        options: ["up", "down", "on", "to"]
+    },
+
+    // CHILL
+    {
+        verb: "chill", particle: "out", phrase: "chill out", category: "emotion", level: "elementary",
+        meaning: "To relax and stop feeling anxious or angry (informal).",
+        sentences: [
+            "Just {verb} {blank} — everything will be fine.",
+            "We spent the afternoon {verb}ing {blank} by the pool.",
+            "He needs to {verb} {blank} and stop worrying so much.",
+            "Let's {verb} {blank} at home this weekend."
+        ],
+        options: ["out", "off", "down", "up"]
+    },
+
+    // COME
+    {
+        verb: "come", particle: "out with", phrase: "come out with", category: "daily", level: "high",
+        meaning: "To say something suddenly or unexpectedly.",
+        sentences: [
+            "She {verb}s {blank} the funniest remarks.",
+            "You never know what he's going to {verb} {blank} next.",
+            "He {verb} {blank} a surprising confession.",
+            "The child {verb} {blank} the most adorable things."
+        ],
+        options: ["out with", "up with", "along with", "on with"]
+    },
+
+    // COME
+    {
+        verb: "come", particle: "under", phrase: "come under", category: "business", level: "high",
+        meaning: "To be subjected to something, especially criticism, pressure, or attack.",
+        sentences: [
+            "The company has {verb} {blank} fire for its environmental record.",
+            "She {verb} {blank} pressure to resign.",
+            "The project {verb}s {blank} the finance department's jurisdiction.",
+            "He {verb} {blank} scrutiny for his spending habits."
+        ],
+        options: ["under", "into", "upon", "over"]
+    },
+
+    // COOK
+    {
+        verb: "cook", particle: "up", phrase: "cook up", category: "daily", level: "middle",
+        meaning: "To prepare food; to invent a story or scheme (often dishonest).",
+        sentences: [
+            "She {verb}ed {blank} a delicious stir-fry for dinner.",
+            "He {verb}ed {blank} an excuse for being late.",
+            "They {verb}ed {blank} a plan to surprise their teacher.",
+            "I wonder what scheme he's {verb}ing {blank} now."
+        ],
+        options: ["up", "out", "off", "in"]
+    },
+
+    // COUNT
+    {
+        verb: "count", particle: "up", phrase: "count up", category: "business", level: "middle",
+        meaning: "To add up or calculate the total of something.",
+        sentences: [
+            "Let's {verb} {blank} all the votes before announcing the result.",
+            "She {verb}ed {blank} the receipts at the end of the day.",
+            "Have you {verb}ed {blank} the number of attendees?",
+            "He {verb}ed {blank} his savings and was pleasantly surprised."
+        ],
+        options: ["up", "out", "in", "down"]
+    },
+
+    // CREEP
+    {
+        verb: "creep", particle: "up", phrase: "creep up", category: "daily", level: "high",
+        meaning: "To gradually increase; to approach someone quietly without being noticed.",
+        sentences: [
+            "Inflation has been {verb}ing {blank} steadily this year.",
+            "He {verb}t {blank} behind her and tapped her shoulder.",
+            "Costs are {verb}ing {blank} faster than expected.",
+            "Old age has a way of {verb}ing {blank} on you."
+        ],
+        options: ["up", "in", "on", "along"]
+    },
+
+    // CRY
+    {
+        verb: "cry", particle: "out", phrase: "cry out", category: "emotion", level: "middle",
+        meaning: "To shout or scream because of pain, fear, or surprise.",
+        sentences: [
+            "She {verb}ied {blank} in pain when she twisted her ankle.",
+            "He {verb}ied {blank} for help but no one heard.",
+            "The children {verb}ied {blank} with excitement.",
+            "The old building {verb}ies {blank} for renovation."
+        ],
+        options: ["out", "off", "up", "away"]
+    },
+
+    // DOZE
+    {
+        verb: "doze", particle: "off", phrase: "doze off", category: "daily", level: "middle",
+        meaning: "To fall asleep gradually, especially without intending to.",
+        sentences: [
+            "I {verb}d {blank} during the boring lecture.",
+            "She {verb}d {blank} on the sofa while watching TV.",
+            "He {verb}d {blank} in the middle of the meeting.",
+            "Try not to {verb} {blank} while driving."
+        ],
+        options: ["off", "out", "away", "in"]
+    },
+
+    // DRAG
+    {
+        verb: "drag", particle: "out", phrase: "drag out", category: "daily", level: "high",
+        meaning: "To make something last longer than necessary.",
+        sentences: [
+            "The lawyer tried to {verb} {blank} the proceedings.",
+            "Let's not {verb} this {blank} — just make a decision.",
+            "The meeting was {verb}ged {blank} for three hours.",
+            "He {verb}ged {blank} the goodbye longer than needed."
+        ],
+        options: ["out", "on", "along", "through"]
+    },
+
+    // DROP
+    {
+        verb: "drop", particle: "around", phrase: "drop around", category: "daily", level: "middle",
+        meaning: "To visit someone casually and without a formal arrangement.",
+        sentences: [
+            "Feel free to {verb} {blank} anytime.",
+            "She {verb}ped {blank} to return the book she borrowed.",
+            "My neighbor {verb}s {blank} for coffee most mornings.",
+            "Why don't you {verb} {blank} this weekend?"
+        ],
+        options: ["around", "by", "in", "over"]
+    },
+
+    // DUMB
+    {
+        verb: "dumb", particle: "down", phrase: "dumb down", category: "academic", level: "college",
+        meaning: "To simplify something excessively, making it less intellectually demanding.",
+        sentences: [
+            "Critics say TV has been {verb}ed {blank} over the decades.",
+            "Don't {verb} {blank} the content — our readers are intelligent.",
+            "The textbook has been {verb}ed {blank} for a younger audience.",
+            "Some argue that social media {verb}s {blank} political discourse."
+        ],
+        options: ["down", "out", "off", "up"]
+    },
+
+    // FACE
+    {
+        verb: "face", particle: "up", phrase: "face up", category: "emotion", level: "high",
+        meaning: "To accept and deal with something difficult or unpleasant.",
+        sentences: [
+            "You need to {verb} {blank} to your responsibilities.",
+            "It's time to {verb} {blank} to the truth.",
+            "She finally {verb}d {blank} to the fact that she needed help.",
+            "He refused to {verb} {blank} to the consequences of his actions."
+        ],
+        options: ["up", "on", "off", "out"]
+    },
+
+    // FARM
+    {
+        verb: "farm", particle: "out", phrase: "farm out", category: "business", level: "high",
+        meaning: "To send work out to be done by others, especially to external companies.",
+        sentences: [
+            "The company {verb}s {blank} most of its IT work.",
+            "They {verb}ed {blank} the design work to a freelancer.",
+            "We need to {verb} {blank} some of these projects.",
+            "Many factories {verb} {blank} production to cheaper countries."
+        ],
+        options: ["out", "off", "over", "away"]
+    },
+
+    // FLICK
+    {
+        verb: "flick", particle: "through", phrase: "flick through", category: "daily", level: "middle",
+        meaning: "To quickly look at the pages of a book, magazine, or document.",
+        sentences: [
+            "She {verb}ed {blank} the magazine while waiting.",
+            "He {verb}ed {blank} the channels looking for something to watch.",
+            "I {verb}ed {blank} the report quickly before the meeting.",
+            "She sat {verb}ing {blank} a fashion catalogue."
+        ],
+        options: ["through", "over", "past", "by"]
+    },
+
+    // FLOOD
+    {
+        verb: "flood", particle: "in", phrase: "flood in", category: "daily", level: "high",
+        meaning: "To arrive in very large numbers or quantities.",
+        sentences: [
+            "Complaints {verb}ed {blank} after the show aired.",
+            "Orders have been {verb}ing {blank} since the sale started.",
+            "Refugees were {verb}ing {blank} from the war zone.",
+            "Donations {verb}ed {blank} from all over the world."
+        ],
+        options: ["in", "out", "over", "through"]
+    },
+
+    // FORK
+    {
+        verb: "fork", particle: "over", phrase: "fork over", category: "business", level: "high",
+        meaning: "To pay money reluctantly, especially a large amount.",
+        sentences: [
+            "We had to {verb} {blank} $500 for the repair.",
+            "He was forced to {verb} {blank} the money he owed.",
+            "I can't believe I have to {verb} {blank} so much for parking.",
+            "She {verb}ed {blank} the cash with a heavy sigh."
+        ],
+        options: ["over", "out", "up", "off"]
+    },
+
+    // FLESH
+    {
+        verb: "flesh", particle: "out", phrase: "flesh out", category: "business", level: "high",
+        meaning: "To add more details or substance to an idea, plan, or argument.",
+        sentences: [
+            "We need to {verb} {blank} this proposal before the meeting.",
+            "She {verb}ed {blank} the outline into a full report.",
+            "Can you {verb} {blank} the marketing section a bit more?",
+            "The author {verb}ed {blank} the character's backstory in the sequel."
+        ],
+        options: ["out", "up", "in", "off"]
+    },
+
+    // GANG
+    {
+        verb: "gang", particle: "up on", phrase: "gang up on", category: "emotion", level: "middle",
+        meaning: "To join together as a group to oppose or attack someone.",
+        sentences: [
+            "The other kids used to {verb} {blank} him at school.",
+            "It felt like everyone was {verb}ing {blank} me.",
+            "They all {verb}ed {blank} the new employee.",
+            "Don't {verb} {blank} your sister — that's not fair."
+        ],
+        options: ["up on", "in on", "out on", "off on"]
+    },
+
+    // GEAR
+    {
+        verb: "gear", particle: "towards", phrase: "gear towards", category: "business", level: "high",
+        meaning: "To design or organize something for a particular purpose or audience.",
+        sentences: [
+            "The program is {verb}ed {blank} young professionals.",
+            "The course is {verb}ed {blank} beginners.",
+            "Our products are {verb}ed {blank} the European market.",
+            "The campaign was {verb}ed {blank} first-time voters."
+        ],
+        options: ["towards", "for", "at", "into"]
+    },
+
+    // GIVE
+    {
+        verb: "give", particle: "over to", phrase: "give over to", category: "business", level: "college",
+        meaning: "To dedicate time, space, or resources to a particular purpose.",
+        sentences: [
+            "The ground floor is {verb}n {blank} retail space.",
+            "She {verb}s most of her weekends {blank} volunteering.",
+            "The meeting was {verb}n {blank} discussing the new budget.",
+            "They {verb} the entire building {blank} offices."
+        ],
+        options: ["over to", "up to", "in to", "away to"]
+    },
+
+    // GO
+    {
+        verb: "go", particle: "on with", phrase: "go on with", category: "daily", level: "middle",
+        meaning: "To continue doing something.",
+        sentences: [
+            "She decided to {verb} {blank} her studies despite the difficulties.",
+            "Please {verb} {blank} what you were saying.",
+            "He {verb}es {blank} his work as if nothing happened.",
+            "We must {verb} {blank} the show."
+        ],
+        options: ["on with", "off with", "along with", "ahead with"]
+    },
+
+    // GROW
+    {
+        verb: "grow", particle: "out", phrase: "grow out", category: "daily", level: "middle",
+        meaning: "To allow hair or nails to get longer by not cutting them.",
+        sentences: [
+            "She's {verb}ing {blank} her bangs.",
+            "I'm going to {verb} {blank} my beard this winter.",
+            "He decided to {verb} {blank} his hair for the role.",
+            "It takes months to {verb} {blank} a bad haircut."
+        ],
+        options: ["out", "up", "on", "off"]
+    },
+
+    // HACK
+    {
+        verb: "hack", particle: "into", phrase: "hack into", category: "business", level: "high",
+        meaning: "To gain unauthorized access to a computer system.",
+        sentences: [
+            "Someone managed to {verb} {blank} the company's database.",
+            "He {verb}ed {blank} the email server in minutes.",
+            "Criminals {verb}ed {blank} the bank's security system.",
+            "It's illegal to {verb} {blank} other people's accounts."
+        ],
+        options: ["into", "in", "through", "to"]
+    },
+
+    // HEAT
+    {
+        verb: "heat", particle: "up", phrase: "heat up", category: "daily", level: "elementary",
+        meaning: "To make something warm or hot; to become more intense.",
+        sentences: [
+            "Can you {verb} {blank} the leftovers for dinner?",
+            "The competition is really {verb}ing {blank}.",
+            "The debate {verb}ed {blank} as election day approached.",
+            "Wait for the oven to {verb} {blank} before putting the cake in."
+        ],
+        options: ["up", "on", "off", "out"]
+    },
+
+    // HOLD
+    {
+        verb: "hold", particle: "together", phrase: "hold together", category: "daily", level: "middle",
+        meaning: "To remain intact; to manage to stay calm and functional.",
+        sentences: [
+            "The old bridge barely {verb}s {blank}.",
+            "She managed to {verb} {blank} despite the pressure.",
+            "The team {verb}s {blank} well under stress.",
+            "Their relationship is barely {verb}ing {blank}."
+        ],
+        options: ["together", "on", "up", "out"]
+    },
+
+    // HURRY
+    {
+        verb: "hurry", particle: "along", phrase: "hurry along", category: "daily", level: "middle",
+        meaning: "To make something happen faster; to tell someone to move quickly.",
+        sentences: [
+            "The teacher {verb}ied the students {blank} to assembly.",
+            "We need to {verb} things {blank} if we want to finish on time.",
+            "The guard {verb}ied the visitors {blank}.",
+            "Let's {verb} {blank} — the museum closes at five."
+        ],
+        options: ["along", "up", "on", "off"]
+    },
+
+    // KEY
+    {
+        verb: "key", particle: "in", phrase: "key in", category: "business", level: "middle",
+        meaning: "To enter data or text using a keyboard.",
+        sentences: [
+            "Please {verb} {blank} your password to continue.",
+            "She {verb}ed {blank} the figures into the spreadsheet.",
+            "He {verb}ed {blank} the wrong number by mistake.",
+            "{verb} {blank} your details and click 'Submit'."
+        ],
+        options: ["in", "on", "up", "out"]
+    },
+
+    // KICK
+    {
+        verb: "kick", particle: "around", phrase: "kick around", category: "business", level: "middle",
+        meaning: "To discuss an idea casually; to treat someone badly.",
+        sentences: [
+            "Let's {verb} {blank} some ideas for the new campaign.",
+            "We've been {verb}ing this proposal {blank} for weeks.",
+            "She felt {verb}ed {blank} by the management.",
+            "They spent the meeting {verb}ing {blank} possible solutions."
+        ],
+        options: ["around", "about", "over", "through"]
+    },
+
+    // KNOCK
+    {
+        verb: "knock", particle: "around", phrase: "knock around", category: "daily", level: "middle",
+        meaning: "To spend time relaxing without doing anything specific; to travel casually.",
+        sentences: [
+            "We spent the summer {verb}ing {blank} Europe.",
+            "He's been {verb}ing {blank} the house all day.",
+            "I spent my gap year {verb}ing {blank} Southeast Asia.",
+            "She likes to {verb} {blank} the shops on weekends."
+        ],
+        options: ["around", "about", "along", "through"]
+    },
+
+    // LASH
+    {
+        verb: "lash", particle: "out", phrase: "lash out", category: "emotion", level: "high",
+        meaning: "To suddenly attack someone physically or verbally.",
+        sentences: [
+            "He {verb}ed {blank} at the journalist who criticized him.",
+            "When cornered, the cat {verb}ed {blank} with its claws.",
+            "She {verb}ed {blank} in anger and said things she didn't mean.",
+            "Frustrated workers sometimes {verb} {blank} at their managers."
+        ],
+        options: ["out", "back", "off", "at"]
+    },
+
+    // LET
+    {
+        verb: "let", particle: "up", phrase: "let up", category: "daily", level: "middle",
+        meaning: "To become less intense or to stop.",
+        sentences: [
+            "The rain finally {verb} {blank} after three days.",
+            "He never {verb}s {blank} — he works all the time.",
+            "When will this heat {verb} {blank}?",
+            "The pressure at work just doesn't {verb} {blank}."
+        ],
+        options: ["up", "off", "down", "out"]
+    },
+
+    // LISTEN
+    {
+        verb: "listen", particle: "in", phrase: "listen in", category: "daily", level: "middle",
+        meaning: "To secretly listen to a conversation or broadcast.",
+        sentences: [
+            "Someone was {verb}ing {blank} on our phone call.",
+            "I accidentally {verb}ed {blank} on their argument.",
+            "The spy {verb}ed {blank} to the meeting through a hidden microphone.",
+            "Thousands of people {verb} {blank} to the radio show every day."
+        ],
+        options: ["in", "on", "to", "through"]
+    },
+
+    // LIVE
+    {
+        verb: "live", particle: "down", phrase: "live down", category: "emotion", level: "high",
+        meaning: "To overcome the shame or embarrassment of a past event (usually negative).",
+        sentences: [
+            "He'll never {verb} {blank} that embarrassing speech.",
+            "She couldn't {verb} {blank} the incident at the office party.",
+            "It took him years to {verb} {blank} the nickname.",
+            "That mistake is something I'll never {verb} {blank}."
+        ],
+        options: ["down", "off", "out", "through"]
+    },
+
+    // LOCK
+    {
+        verb: "lock", particle: "down", phrase: "lock down", category: "business", level: "high",
+        meaning: "To secure a place completely; to finalize or make something definite.",
+        sentences: [
+            "The prison was {verb}ed {blank} after the escape attempt.",
+            "We need to {verb} {blank} the budget by Friday.",
+            "The entire city was {verb}ed {blank} during the pandemic.",
+            "Let's {verb} {blank} the details before the announcement."
+        ],
+        options: ["down", "up", "in", "out"]
+    },
+
+    // MARK
+    {
+        verb: "mark", particle: "out", phrase: "mark out", category: "business", level: "high",
+        meaning: "To draw the boundaries of something; to distinguish someone as special.",
+        sentences: [
+            "They {verb}ed {blank} the area for the new playground.",
+            "Her talent {verb}s her {blank} as a future star.",
+            "The pitch was {verb}ed {blank} with white lines.",
+            "His ambition {verb}ed him {blank} from his peers."
+        ],
+        options: ["out", "off", "up", "down"]
+    },
+
+    // MIX
+    {
+        verb: "mix", particle: "with", phrase: "mix with", category: "daily", level: "middle",
+        meaning: "To socialize with other people.",
+        sentences: [
+            "She doesn't {verb} {blank} many people outside work.",
+            "It's important for children to learn to {verb} {blank} others.",
+            "He prefers not to {verb} {blank} his colleagues socially.",
+            "The new student found it hard to {verb} {blank} the class."
+        ],
+        options: ["with", "in", "up", "along"]
+    },
+
+    // OPT
+    {
+        verb: "opt", particle: "out of", phrase: "opt out of", category: "business", level: "high",
+        meaning: "To choose not to participate in something.",
+        sentences: [
+            "You can {verb} {blank} receiving marketing emails at any time.",
+            "She {verb}ed {blank} the team-building event.",
+            "Many employees {verb}ed {blank} the pension scheme.",
+            "Customers must actively {verb} {blank} data collection."
+        ],
+        options: ["out of", "in to", "off of", "away from"]
+    },
+
+    // PAIR
+    {
+        verb: "pair", particle: "up", phrase: "pair up", category: "daily", level: "middle",
+        meaning: "To form groups of two; to match two things or people together.",
+        sentences: [
+            "The teacher told the students to {verb} {blank}.",
+            "Shall we {verb} {blank} for the project?",
+            "They {verb}ed {blank} and started working.",
+            "I {verb}ed {blank} with Sarah for the assignment."
+        ],
+        options: ["up", "off", "together", "in"]
+    },
+
+    // PATCH
+    {
+        verb: "patch", particle: "up", phrase: "patch up", category: "emotion", level: "middle",
+        meaning: "To repair something temporarily; to resolve a disagreement.",
+        sentences: [
+            "They {verb}ed {blank} their differences and moved on.",
+            "She {verb}ed {blank} the hole in the wall.",
+            "The couple managed to {verb} things {blank} after the argument.",
+            "He {verb}ed {blank} the wound with a bandage."
+        ],
+        options: ["up", "over", "in", "together"]
+    },
+
+    // PETER
+    {
+        verb: "peter", particle: "out", phrase: "peter out", category: "daily", level: "college",
+        meaning: "To gradually diminish and come to an end.",
+        sentences: [
+            "The trail {verb}ed {blank} near the top of the mountain.",
+            "Interest in the story {verb}ed {blank} after a few days.",
+            "The conversation {verb}ed {blank} as everyone grew tired.",
+            "The river {verb}s {blank} before reaching the desert."
+        ],
+        options: ["out", "off", "away", "down"]
+    },
+
+    // PILE
+    {
+        verb: "pile", particle: "in", phrase: "pile in", category: "daily", level: "middle",
+        meaning: "To crowd into a place or vehicle in a disorderly way.",
+        sentences: [
+            "The kids all {verb}d {blank} to the car.",
+            "Everyone {verb}d {blank} to the tiny elevator.",
+            "The fans {verb}d {blank} to the stadium.",
+            "They {verb}d {blank} through the doors as soon as they opened."
+        ],
+        options: ["in", "into", "on", "up"]
+    },
+
+    // PIN
+    {
+        verb: "pin", particle: "down", phrase: "pin down", category: "business", level: "high",
+        meaning: "To force someone to be specific; to hold someone so they cannot move.",
+        sentences: [
+            "It's hard to {verb} her {blank} to a specific date.",
+            "I can't {verb} {blank} exactly what's wrong.",
+            "They {verb}ned him {blank} and demanded answers.",
+            "The wrestler {verb}ned his opponent {blank}."
+        ],
+        options: ["down", "up", "in", "on"]
+    },
+
+    // PIPE
+    {
+        verb: "pipe", particle: "down", phrase: "pipe down", category: "daily", level: "middle",
+        meaning: "To be quiet or make less noise (informal).",
+        sentences: [
+            "{verb} {blank}! I'm trying to study.",
+            "The teacher told the class to {verb} {blank}.",
+            "Could you {verb} {blank} a bit? It's very loud.",
+            "He was asked to {verb} {blank} by the librarian."
+        ],
+        options: ["down", "off", "out", "up"]
+    },
+
+    // POP
+    {
+        verb: "pop", particle: "in", phrase: "pop in", category: "daily", level: "middle",
+        meaning: "To visit someone briefly and casually.",
+        sentences: [
+            "I'll {verb} {blank} on my way home from work.",
+            "She just {verb}ped {blank} to say hello.",
+            "Why don't you {verb} {blank} for a cup of tea?",
+            "He {verb}s {blank} every now and then to check on us."
+        ],
+        options: ["in", "by", "over", "around"]
+    },
+
+    // POP
+    {
+        verb: "pop", particle: "up", phrase: "pop up", category: "daily", level: "middle",
+        meaning: "To appear suddenly or unexpectedly.",
+        sentences: [
+            "New coffee shops seem to {verb} {blank} everywhere.",
+            "An error message {verb}ped {blank} on the screen.",
+            "Problems keep {verb}ping {blank} during the project.",
+            "His name {verb}s {blank} frequently in the news."
+        ],
+        options: ["up", "out", "in", "off"]
+    },
+
+    // PROP
+    {
+        verb: "prop", particle: "up", phrase: "prop up", category: "business", level: "high",
+        meaning: "To support something to prevent it from falling; to keep something going artificially.",
+        sentences: [
+            "The government has been {verb}ping {blank} the failing industry.",
+            "She {verb}ped {blank} the shelf with a piece of wood.",
+            "Subsidies {verb} {blank} unprofitable businesses.",
+            "He {verb}ped himself {blank} on a pillow and read."
+        ],
+        options: ["up", "on", "off", "out"]
+    },
+
+    // PULL
+    {
+        verb: "pull", particle: "up", phrase: "pull up", category: "daily", level: "middle",
+        meaning: "To stop a vehicle; to move a chair closer; to criticize someone for their behavior.",
+        sentences: [
+            "A taxi {verb}ed {blank} outside the hotel.",
+            "{verb} {blank} a chair and join us.",
+            "She was {verb}ed {blank} by her boss for being late.",
+            "He {verb}ed {blank} at the traffic lights."
+        ],
+        options: ["up", "over", "in", "off"]
+    },
+
+    // PUT
+    {
+        verb: "put", particle: "down for", phrase: "put down for", category: "daily", level: "high",
+        meaning: "To add someone's name to a list for something.",
+        sentences: [
+            "{verb} me {blank} two tickets, please.",
+            "I'll {verb} you {blank} the Thursday shift.",
+            "She {verb} herself {blank} the volunteering program.",
+            "They {verb} all the staff {blank} the training course."
+        ],
+        options: ["down for", "in for", "up for", "on for"]
+    },
+
+    // QUEUE
+    {
+        verb: "queue", particle: "up", phrase: "queue up", category: "daily", level: "middle",
+        meaning: "To line up and wait for one's turn.",
+        sentences: [
+            "People {verb}d {blank} for hours to buy concert tickets.",
+            "We had to {verb} {blank} in the rain.",
+            "They {verb}d {blank} outside the shop before it opened.",
+            "There's no need to {verb} {blank} — take a number instead."
+        ],
+        options: ["up", "in", "along", "on"]
+    },
+
+    // RATTLE
+    {
+        verb: "rattle", particle: "off", phrase: "rattle off", category: "daily", level: "high",
+        meaning: "To say something quickly and easily from memory.",
+        sentences: [
+            "She can {verb} {blank} all the US presidents in order.",
+            "He {verb}d {blank} the statistics without looking at his notes.",
+            "The child {verb}d {blank} the multiplication tables.",
+            "She {verb}d {blank} a list of reasons why we should go."
+        ],
+        options: ["off", "out", "on", "through"]
+    },
+
+    // RING
+    {
+        verb: "ring", particle: "around", phrase: "ring around", category: "daily", level: "middle",
+        meaning: "To telephone several people or organizations to get information.",
+        sentences: [
+            "I {verb}ed {blank} all the hotels but they were fully booked.",
+            "She {verb}ed {blank} trying to find the best price.",
+            "He {verb}ed {blank} various suppliers for quotes.",
+            "I'll {verb} {blank} and see who can fix it."
+        ],
+        options: ["around", "about", "up", "through"]
+    },
+
+    // ROOT
+    {
+        verb: "root", particle: "for", phrase: "root for", category: "emotion", level: "middle",
+        meaning: "To support or cheer for someone enthusiastically.",
+        sentences: [
+            "The whole school is {verb}ing {blank} the football team.",
+            "I'll be {verb}ing {blank} you at the competition.",
+            "Everyone was {verb}ing {blank} the underdog.",
+            "Who are you {verb}ing {blank} in the election?"
+        ],
+        options: ["for", "on", "at", "with"]
+    },
+
+    // RULE
+    {
+        verb: "rule", particle: "out of", phrase: "rule out of", category: "daily", level: "high",
+        meaning: "To prevent someone from participating due to injury or other reasons.",
+        sentences: [
+            "The injury {verb}d him {blank} the final match.",
+            "She was {verb}d {blank} the competition due to illness.",
+            "Bad weather {verb}d {blank} any outdoor activities.",
+            "His age {verb}d him {blank} military service."
+        ],
+        options: ["out of", "off of", "away from", "in on"]
+    },
+
+    // SCALE
+    {
+        verb: "scale", particle: "back", phrase: "scale back", category: "business", level: "high",
+        meaning: "To reduce the size, extent, or amount of something.",
+        sentences: [
+            "The company had to {verb} {blank} its operations due to losses.",
+            "They decided to {verb} {blank} the project's scope.",
+            "The government {verb}d {blank} military spending.",
+            "We may need to {verb} {blank} our ambitions a little."
+        ],
+        options: ["back", "down", "off", "out"]
+    },
+
+    // SCRAPE
+    {
+        verb: "scrape", particle: "by", phrase: "scrape by", category: "daily", level: "high",
+        meaning: "To manage to survive with very little money.",
+        sentences: [
+            "They barely {verb} {blank} on her salary alone.",
+            "Many families are {verb}ing {blank} in the current economy.",
+            "He {verb}d {blank} on his savings for a few months.",
+            "Students often have to {verb} {blank} on a tight budget."
+        ],
+        options: ["by", "through", "along", "on"]
+    },
+
+    // SEE
+    {
+        verb: "see", particle: "about", phrase: "see about", category: "daily", level: "middle",
+        meaning: "To deal with or make arrangements for something.",
+        sentences: [
+            "I'll {verb} {blank} getting the car repaired tomorrow.",
+            "She went to {verb} {blank} booking the flights.",
+            "Let me {verb} {blank} that for you.",
+            "He said he'd {verb} {blank} finding us a hotel."
+        ],
+        options: ["about", "to", "into", "for"]
+    },
+
+    // SEIZE
+    {
+        verb: "seize", particle: "on", phrase: "seize on", category: "business", level: "college",
+        meaning: "To take advantage of something quickly and eagerly.",
+        sentences: [
+            "The opposition {verb}d {blank} the scandal to attack the government.",
+            "She {verb}d {blank} the opportunity to study abroad.",
+            "The media {verb}d {blank} the story and ran it for weeks.",
+            "He {verb}d {blank} the idea and developed it further."
+        ],
+        options: ["on", "upon", "at", "into"]
+    },
+
+    // SIMMER
+    {
+        verb: "simmer", particle: "down", phrase: "simmer down", category: "emotion", level: "middle",
+        meaning: "To become calmer after being angry or excited.",
+        sentences: [
+            "The argument finally {verb}ed {blank} after an hour.",
+            "Just {verb} {blank} and listen to what I have to say.",
+            "It took him a while to {verb} {blank} after the incident.",
+            "Tensions in the office eventually {verb}ed {blank}."
+        ],
+        options: ["down", "off", "out", "away"]
+    },
+
+    // SIT
+    {
+        verb: "sit", particle: "around", phrase: "sit around", category: "daily", level: "elementary",
+        meaning: "To spend time sitting doing nothing productive.",
+        sentences: [
+            "Stop {verb}ting {blank} and do something useful!",
+            "We just {verb} {blank} all afternoon chatting.",
+            "He spends weekends {verb}ting {blank} watching TV.",
+            "I can't just {verb} {blank} while others are working."
+        ],
+        options: ["around", "about", "in", "on"]
+    },
+
+    // SNAP
+    {
+        verb: "snap", particle: "at", phrase: "snap at", category: "emotion", level: "middle",
+        meaning: "To speak to someone in a sharp, angry way.",
+        sentences: [
+            "She {verb}ped {blank} him when he asked about the deadline.",
+            "Don't {verb} {blank} me — I was just trying to help.",
+            "He's been {verb}ping {blank} everyone all morning.",
+            "I'm sorry I {verb}ped {blank} you — I was stressed."
+        ],
+        options: ["at", "on", "back", "out"]
+    },
+
+    // SNEAK
+    {
+        verb: "sneak", particle: "in", phrase: "sneak in", category: "daily", level: "middle",
+        meaning: "To enter a place quietly and secretly.",
+        sentences: [
+            "He {verb}ed {blank} through the back door.",
+            "She {verb}ed {blank} after curfew.",
+            "They managed to {verb} {blank} without being noticed.",
+            "He {verb}ed {blank} a quick nap during his lunch break."
+        ],
+        options: ["in", "into", "through", "past"]
+    },
+
+    // SOAK
+    {
+        verb: "soak", particle: "up", phrase: "soak up", category: "daily", level: "middle",
+        meaning: "To absorb something; to enjoy an experience fully.",
+        sentences: [
+            "We lay on the beach to {verb} {blank} the sun.",
+            "The sponge {verb}ed {blank} all the water.",
+            "She loves to {verb} {blank} the atmosphere at concerts.",
+            "He's like a sponge — he {verb}s {blank} knowledge quickly."
+        ],
+        options: ["up", "in", "on", "out"]
+    },
+
+    // SPARK
+    {
+        verb: "spark", particle: "off", phrase: "spark off", category: "academic", level: "high",
+        meaning: "To cause something to begin, especially a debate or conflict.",
+        sentences: [
+            "His comments {verb}ed {blank} a heated debate.",
+            "The incident {verb}ed {blank} widespread protests.",
+            "A small misunderstanding {verb}ed {blank} a major conflict.",
+            "The discovery {verb}ed {blank} a revolution in the field."
+        ],
+        options: ["off", "up", "out", "on"]
+    },
+
+    // SPIN
+    {
+        verb: "spin", particle: "off", phrase: "spin off", category: "business", level: "high",
+        meaning: "To create a new company or product from an existing one.",
+        sentences: [
+            "The TV show was so popular they {verb} {blank} a new series.",
+            "The company decided to {verb} {blank} its technology division.",
+            "The research {verb} {blank} several commercial applications.",
+            "They {verb} {blank} the subsidiary into an independent company."
+        ],
+        options: ["off", "out", "away", "up"]
+    },
+
+    // SPRING
+    {
+        verb: "spring", particle: "back", phrase: "spring back", category: "daily", level: "high",
+        meaning: "To return quickly to a previous position or condition.",
+        sentences: [
+            "The branch {verb} {blank} and hit him in the face.",
+            "The economy {verb} {blank} faster than expected.",
+            "She has an amazing ability to {verb} {blank} from setbacks.",
+            "The elastic band {verb}s {blank} when you release it."
+        ],
+        options: ["back", "up", "out", "off"]
+    },
+
+    // SQUARE
+    {
+        verb: "square", particle: "up", phrase: "square up", category: "business", level: "high",
+        meaning: "To settle a bill or debt; to prepare to fight someone.",
+        sentences: [
+            "Let me {verb} {blank} the bill — this dinner is on me.",
+            "The two fighters {verb}d {blank} in the ring.",
+            "We need to {verb} {blank} accounts before the end of the month.",
+            "He {verb}d {blank} to the bully and refused to back down."
+        ],
+        options: ["up", "off", "away", "out"]
+    },
+
+    // STACK
+    {
+        verb: "stack", particle: "up", phrase: "stack up", category: "business", level: "high",
+        meaning: "To compare; to accumulate or build up.",
+        sentences: [
+            "How does our product {verb} {blank} against the competition?",
+            "The evidence is {verb}ing {blank} against him.",
+            "Problems are {verb}ing {blank} at an alarming rate.",
+            "Let's see how these two phones {verb} {blank}."
+        ],
+        options: ["up", "out", "off", "on"]
+    },
+
+    // STEM
+    {
+        verb: "stem", particle: "from", phrase: "stem from", category: "academic", level: "college",
+        meaning: "To originate from or be caused by something.",
+        sentences: [
+            "His anger {verb}s {blank} a deep sense of injustice.",
+            "The problem {verb}s {blank} a lack of communication.",
+            "Many health issues {verb} {blank} poor diet.",
+            "These traditions {verb} {blank} ancient customs."
+        ],
+        options: ["from", "out of", "off", "by"]
+    },
+
+    // STEP
+    {
+        verb: "step", particle: "back", phrase: "step back", category: "business", level: "middle",
+        meaning: "To withdraw from a situation to consider it more objectively.",
+        sentences: [
+            "Let's {verb} {blank} and look at the bigger picture.",
+            "She needed to {verb} {blank} from the project for a while.",
+            "Sometimes you need to {verb} {blank} to see things clearly.",
+            "He {verb}ped {blank} from his duties temporarily."
+        ],
+        options: ["back", "down", "aside", "away"]
+    },
+
+    // STUMP
+    {
+        verb: "stump", particle: "up", phrase: "stump up", category: "business", level: "high",
+        meaning: "To pay a sum of money, especially unwillingly.",
+        sentences: [
+            "Customers have to {verb} {blank} a deposit of £200.",
+            "He refused to {verb} {blank} for the repairs.",
+            "Taxpayers end up having to {verb} {blank} for the project.",
+            "She had to {verb} {blank} the full amount upfront."
+        ],
+        options: ["up", "out", "over", "off"]
+    },
+
+    // SUSS
+    {
+        verb: "suss", particle: "out", phrase: "suss out", category: "daily", level: "high",
+        meaning: "To discover the truth about something or someone; to figure out.",
+        sentences: [
+            "It didn't take long to {verb} {blank} what was going on.",
+            "She quickly {verb}ed {blank} who was responsible.",
+            "I need to {verb} {blank} the best route to the venue.",
+            "He {verb}ed {blank} the problem within minutes."
+        ],
+        options: ["out", "up", "off", "through"]
+    },
+
+    // TAG
+    {
+        verb: "tag", particle: "along", phrase: "tag along", category: "daily", level: "middle",
+        meaning: "To go somewhere with someone, often without being invited.",
+        sentences: [
+            "Mind if I {verb} {blank}?",
+            "His little sister always wants to {verb} {blank}.",
+            "She {verb}ged {blank} with us to the concert.",
+            "You're welcome to {verb} {blank} if you'd like."
+        ],
+        options: ["along", "on", "in", "with"]
+    },
+
+    // THINK
+    {
+        verb: "think", particle: "of", phrase: "think of", category: "daily", level: "elementary",
+        meaning: "To consider or have an opinion about something; to remember or imagine.",
+        sentences: [
+            "What do you {verb} {blank} this color for the walls?",
+            "I can't {verb} {blank} his name right now.",
+            "She {verb}s {blank} everything — so organized.",
+            "Can you {verb} {blank} a good restaurant nearby?"
+        ],
+        options: ["of", "about", "on", "over"]
+    },
+
+    // TOUCH
+    {
+        verb: "touch", particle: "down", phrase: "touch down", category: "travel", level: "middle",
+        meaning: "To land on the ground, especially referring to an aircraft.",
+        sentences: [
+            "The plane {verb}ed {blank} at 3:15 p.m. local time.",
+            "We {verb}ed {blank} safely despite the turbulence.",
+            "The flight is expected to {verb} {blank} in twenty minutes.",
+            "The spacecraft {verb}ed {blank} on the moon's surface."
+        ],
+        options: ["down", "off", "in", "on"]
+    },
+
+    // TUCK
+    {
+        verb: "tuck", particle: "in", phrase: "tuck in", category: "daily", level: "middle",
+        meaning: "To start eating enthusiastically; to push cloth edges under to make neat.",
+        sentences: [
+            "The food is ready — {verb} {blank}!",
+            "She {verb}ed the children {blank} and kissed them goodnight.",
+            "He {verb}ed {blank} his shirt before the meeting.",
+            "Everyone {verb}ed {blank} to the delicious meal."
+        ],
+        options: ["in", "into", "up", "on"]
+    },
+
+    // TURN
+    {
+        verb: "turn", particle: "loose", phrase: "turn loose", category: "daily", level: "high",
+        meaning: "To set free; to release from confinement.",
+        sentences: [
+            "They {verb}ed the horse {blank} in the meadow.",
+            "The children were {verb}ed {blank} in the playground.",
+            "She {verb}ed her creativity {blank} on the project.",
+            "Don't {verb} {blank} those dogs near the chickens."
+        ],
+        options: ["loose", "free", "out", "off"]
+    },
+
+    // TYPE
+    {
+        verb: "type", particle: "up", phrase: "type up", category: "business", level: "middle",
+        meaning: "To make a typed copy of handwritten or rough notes.",
+        sentences: [
+            "I need to {verb} {blank} the meeting minutes.",
+            "She {verb}d {blank} her notes from the lecture.",
+            "He asked his assistant to {verb} {blank} the report.",
+            "Can you {verb} {blank} these handwritten comments?"
+        ],
+        options: ["up", "out", "in", "off"]
+    },
+
+    // USHER
+    {
+        verb: "usher", particle: "in", phrase: "usher in", category: "academic", level: "college",
+        meaning: "To mark the beginning of a new period or era.",
+        sentences: [
+            "The internet {verb}ed {blank} a new age of communication.",
+            "The revolution {verb}ed {blank} dramatic social change.",
+            "This discovery could {verb} {blank} a new era of medicine.",
+            "The election {verb}ed {blank} a period of reform."
+        ],
+        options: ["in", "on", "up", "out"]
+    },
+
+    // WADE
+    {
+        verb: "wade", particle: "through", phrase: "wade through", category: "business", level: "high",
+        meaning: "To read or deal with a large amount of boring material.",
+        sentences: [
+            "I had to {verb} {blank} hundreds of pages of legal documents.",
+            "She {verb}d {blank} the entire manual looking for the answer.",
+            "We spent hours {verb}ing {blank} the data.",
+            "He {verb}d {blank} his inbox after returning from vacation."
+        ],
+        options: ["through", "into", "over", "past"]
+    },
+
+    // WAIT
+    {
+        verb: "wait", particle: "around", phrase: "wait around", category: "daily", level: "elementary",
+        meaning: "To stay in a place doing nothing while waiting for something to happen.",
+        sentences: [
+            "I'm not going to {verb} {blank} all day for you.",
+            "They {verb}ed {blank} for an hour before the doctor saw them.",
+            "She hates {verb}ing {blank} at airports.",
+            "We {verb}ed {blank} but nobody showed up."
+        ],
+        options: ["around", "about", "on", "in"]
+    },
+
+    // WARM
+    {
+        verb: "warm", particle: "up to", phrase: "warm up to", category: "emotion", level: "middle",
+        meaning: "To begin to like or feel comfortable with someone or something gradually.",
+        sentences: [
+            "It took a while, but she eventually {verb}ed {blank} the new teacher.",
+            "He's {verb}ing {blank} the idea of moving abroad.",
+            "The cat slowly {verb}ed {blank} the new family member.",
+            "Voters are {verb}ing {blank} the candidate."
+        ],
+        options: ["up to", "on to", "in to", "along to"]
+    },
+
+    // WIND
+    {
+        verb: "wind", particle: "around", phrase: "wind around", category: "daily", level: "high",
+        meaning: "To wrap or coil something around an object.",
+        sentences: [
+            "She {verb}ed the scarf {blank} her neck.",
+            "The ivy {verb}s {blank} the old tree trunk.",
+            "He {verb}ed the rope {blank} the post to secure the boat.",
+            "The path {verb}s {blank} the hillside."
+        ],
+        options: ["around", "up", "about", "over"]
+    },
+
+    // WOLF
+    {
+        verb: "wolf", particle: "down", phrase: "wolf down", category: "daily", level: "middle",
+        meaning: "To eat food very quickly and eagerly.",
+        sentences: [
+            "He {verb}ed {blank} his lunch in five minutes.",
+            "Don't {verb} {blank} your food — eat slowly.",
+            "She {verb}ed {blank} the pizza before anyone else could have a slice.",
+            "The kids {verb}ed {blank} the cookies as soon as they came out of the oven."
+        ],
+        options: ["down", "up", "in", "off"]
+    },
+
+    // WORK
+    {
+        verb: "work", particle: "up to", phrase: "work up to", category: "daily", level: "middle",
+        meaning: "To gradually build toward something more difficult or demanding.",
+        sentences: [
+            "She {verb}ed {blank} running five miles a day.",
+            "Start small and {verb} {blank} more challenging exercises.",
+            "He's {verb}ing {blank} asking her on a date.",
+            "They {verb}ed {blank} the grand finale with smaller acts."
+        ],
+        options: ["up to", "on to", "along to", "in to"]
+    },
+
+    // ZERO
+    {
+        verb: "zero", particle: "in", phrase: "zero in", category: "business", level: "high",
+        meaning: "To focus all attention on a particular thing.",
+        sentences: [
+            "The investigation {verb}ed {blank} on the main suspect.",
+            "Let's {verb} {blank} on the core issues.",
+            "She {verb}ed {blank} on the problem and solved it quickly.",
+            "The camera {verb}ed {blank} on the actor's face."
+        ],
+        options: ["in", "on", "out", "at"]
+    },
+
+    // BAIL
+    {
+        verb: "bail", particle: "on", phrase: "bail on", category: "daily", level: "middle",
+        meaning: "To abandon or leave someone or something, especially at the last minute.",
+        sentences: [
+            "He always {verb}s {blank} us when we make plans.",
+            "Don't {verb} {blank} me — I need your help tonight.",
+            "She {verb}ed {blank} the project halfway through.",
+            "They {verb}ed {blank} the concert when it started raining."
+        ],
+        options: ["on", "out", "off", "from"]
+    },
+
+    // BIG
+    {
+        verb: "big", particle: "up", phrase: "big up", category: "daily", level: "high",
+        meaning: "To praise or promote someone or something enthusiastically (informal).",
+        sentences: [
+            "She's always {verb}ging {blank} her team's achievements.",
+            "He {verb}ged {blank} the restaurant to everyone he met.",
+            "I want to {verb} {blank} the volunteers who made this possible.",
+            "The DJ {verb}ged {blank} the next performer."
+        ],
+        options: ["up", "out", "off", "on"]
+    },
+
+    // CLOCK
+    {
+        verb: "clock", particle: "in", phrase: "clock in", category: "business", level: "middle",
+        meaning: "To record one's arrival time at work.",
+        sentences: [
+            "Employees must {verb} {blank} by 9 a.m.",
+            "She {verb}ed {blank} five minutes early.",
+            "Don't forget to {verb} {blank} when you arrive.",
+            "The system records the time you {verb} {blank}."
+        ],
+        options: ["in", "on", "up", "at"]
+    },
+
+    // CLOCK
+    {
+        verb: "clock", particle: "out", phrase: "clock out", category: "business", level: "middle",
+        meaning: "To record one's departure time at work.",
+        sentences: [
+            "I usually {verb} {blank} at 5:30 p.m.",
+            "She {verb}ed {blank} early to pick up her kids.",
+            "Remember to {verb} {blank} before you leave.",
+            "He {verb}ed {blank} and headed straight home."
+        ],
+        options: ["out", "off", "in", "up"]
+    },
+
+    // COME
+    {
+        verb: "come", particle: "undone", phrase: "come undone", category: "daily", level: "high",
+        meaning: "To become unfastened; to fail or go wrong.",
+        sentences: [
+            "My shoelaces keep {verb}ing {blank}.",
+            "All his careful plans {verb} {blank} at the last minute.",
+            "The stitching has {verb} {blank} at the seam.",
+            "Everything started to {verb} {blank} when the main investor pulled out."
+        ],
+        options: ["undone", "apart", "loose", "off"]
+    },
+
+    // CRACK
+    {
+        verb: "crack", particle: "on", phrase: "crack on", category: "daily", level: "high",
+        meaning: "To continue doing something quickly and with determination.",
+        sentences: [
+            "We need to {verb} {blank} with this project.",
+            "Let's {verb} {blank} — we've wasted enough time.",
+            "She {verb}ed {blank} with the housework despite her cold.",
+            "If we {verb} {blank}, we can finish by tonight."
+        ],
+        options: ["on", "up", "at", "off"]
+    },
+
+    // DUCK
+    {
+        verb: "duck", particle: "out", phrase: "duck out", category: "daily", level: "high",
+        meaning: "To leave a place quickly and quietly to avoid something.",
+        sentences: [
+            "She {verb}ed {blank} of the meeting early.",
+            "He tried to {verb} {blank} before anyone noticed.",
+            "I need to {verb} {blank} for a minute to make a phone call.",
+            "They {verb}ed {blank} of the party before the speeches started."
+        ],
+        options: ["out", "off", "away", "in"]
+    },
+
+    // EVEN
+    {
+        verb: "even", particle: "up", phrase: "even up", category: "daily", level: "middle",
+        meaning: "To make something equal or balanced.",
+        sentences: [
+            "Let's split the bill to {verb} things {blank}.",
+            "That goal {verb}ed {blank} the score nicely.",
+            "Adding another player should {verb} {blank} the teams.",
+            "She {verb}ed {blank} the hemline of the curtains."
+        ],
+        options: ["up", "out", "off", "down"]
+    },
+
+    // FEND
+    {
+        verb: "fend", particle: "for", phrase: "fend for", category: "daily", level: "high",
+        meaning: "To take care of oneself without help from others.",
+        sentences: [
+            "He had to {verb} {blank} himself from a young age.",
+            "The kids will have to {verb} {blank} themselves tonight — we're going out.",
+            "She learned to {verb} {blank} herself in the big city.",
+            "After leaving home, he had to {verb} {blank} himself."
+        ],
+        options: ["for", "off", "against", "from"]
+    },
+
+    // GLAZE
+    {
+        verb: "glaze", particle: "over", phrase: "glaze over", category: "emotion", level: "high",
+        meaning: "When eyes glaze over, they become dull, showing a lack of interest or understanding.",
+        sentences: [
+            "His eyes {verb}d {blank} during the boring presentation.",
+            "Students' eyes start to {verb} {blank} after the first hour.",
+            "As soon as math was mentioned, her eyes {verb}d {blank}.",
+            "I could see his eyes {verb}ing {blank} as I explained the rules."
+        ],
+        options: ["over", "out", "up", "off"]
+    },
+
+    // HAND
+    {
+        verb: "hand", particle: "off", phrase: "hand off", category: "business", level: "middle",
+        meaning: "To transfer responsibility or pass something to another person.",
+        sentences: [
+            "She {verb}ed {blank} the project to her colleague before leaving.",
+            "The quarterback {verb}ed {blank} the ball to the running back.",
+            "He {verb}ed {blank} the client to the senior partner.",
+            "I'll {verb} this {blank} to the design team."
+        ],
+        options: ["off", "over", "on", "out"]
+    },
+
+    // HASH
+    {
+        verb: "hash", particle: "out", phrase: "hash out", category: "business", level: "high",
+        meaning: "To discuss something thoroughly to reach an agreement.",
+        sentences: [
+            "We need to {verb} {blank} the details of the contract.",
+            "They spent hours {verb}ing {blank} the terms of the deal.",
+            "Let's sit down and {verb} this {blank}.",
+            "The committee {verb}ed {blank} a compromise."
+        ],
+        options: ["out", "through", "over", "up"]
+    },
+
+    // MUSCLE
+    {
+        verb: "muscle", particle: "in", phrase: "muscle in", category: "business", level: "college",
+        meaning: "To force one's way into a situation where one is not wanted.",
+        sentences: [
+            "Larger companies are {verb}ing {blank} on the small firms' territory.",
+            "He tried to {verb} {blank} on the conversation.",
+            "They {verb}d {blank} on the deal despite not being invited.",
+            "The new competitor is {verb}ing {blank} on our market share."
+        ],
+        options: ["in", "into", "on", "through"]
+    },
+
+    // MEASURE
+    {
+        verb: "measure", particle: "up", phrase: "measure up", category: "business", level: "high",
+        meaning: "To meet the required standard; to be good enough.",
+        sentences: [
+            "She was afraid she wouldn't {verb} {blank} to their expectations.",
+            "Does the new recruit {verb} {blank}?",
+            "The product didn't {verb} {blank} to the competition.",
+            "He constantly felt he didn't {verb} {blank}."
+        ],
+        options: ["up", "out", "in", "off"]
+    },
+
+    // MISS
+    {
+        verb: "miss", particle: "out", phrase: "miss out", category: "daily", level: "middle",
+        meaning: "To fail to take advantage of an opportunity or to not experience something.",
+        sentences: [
+            "You'll {verb} {blank} if you don't apply for the scholarship.",
+            "She {verb}ed {blank} on the promotion because she was on leave.",
+            "Don't {verb} {blank} on this amazing deal!",
+            "He felt he had {verb}ed {blank} on a lot during his years abroad."
+        ],
+        options: ["out", "off", "by", "up"]
+    },
+
+    // MOUTH
+    {
+        verb: "mouth", particle: "off", phrase: "mouth off", category: "emotion", level: "high",
+        meaning: "To speak rudely or disrespectfully to someone.",
+        sentences: [
+            "The student was suspended for {verb}ing {blank} to a teacher.",
+            "He's always {verb}ing {blank} about his boss.",
+            "If you {verb} {blank} to the referee, you'll get a red card.",
+            "She got in trouble for {verb}ing {blank} during the assembly."
+        ],
+        options: ["off", "out", "at", "on"]
+    },
+
+    // NOSE
+    {
+        verb: "nose", particle: "around", phrase: "nose around", category: "daily", level: "middle",
+        meaning: "To look around or investigate in a nosy way.",
+        sentences: [
+            "I caught him {verb}ing {blank} in my office.",
+            "Stop {verb}ing {blank} in my things!",
+            "Journalists were {verb}ing {blank} the politician's finances.",
+            "She was {verb}ing {blank} the shop looking for bargains."
+        ],
+        options: ["around", "about", "into", "through"]
+    },
+
+    // OWE
+    {
+        verb: "owe", particle: "to", phrase: "owe to", category: "daily", level: "high",
+        meaning: "To have something as a result of the actions or qualities of someone or something.",
+        sentences: [
+            "I {verb} my success {blank} my parents' support.",
+            "She {verb}s her recovery {blank} the excellent medical team.",
+            "He {verb}s everything {blank} hard work and determination.",
+            "They {verb} their victory {blank} superior teamwork."
+        ],
+        options: ["to", "for", "from", "with"]
+    },
+
+    // PACK
+    {
+        verb: "pack", particle: "in", phrase: "pack in", category: "daily", level: "middle",
+        meaning: "To stop doing something; to fit a lot into a limited time or space.",
+        sentences: [
+            "She's thinking of {verb}ing {blank} her job.",
+            "We {verb}ed {blank} a lot of sightseeing during the trip.",
+            "He decided to {verb} it {blank} and go home early.",
+            "The concert was {verb}ed with fans — they really {verb}ed them {blank}."
+        ],
+        options: ["in", "up", "off", "out"]
+    },
+
+    // PEEL
+    {
+        verb: "peel", particle: "off", phrase: "peel off", category: "daily", level: "middle",
+        meaning: "To remove something by peeling; to separate from a group.",
+        sentences: [
+            "She {verb}ed {blank} the old wallpaper.",
+            "Two runners {verb}ed {blank} from the main group.",
+            "The label won't {verb} {blank} cleanly.",
+            "He {verb}ed {blank} his wet clothes after the race."
+        ],
+        options: ["off", "away", "out", "back"]
+    },
+
+    // POLISH
+    {
+        verb: "polish", particle: "off", phrase: "polish off", category: "daily", level: "middle",
+        meaning: "To finish something completely, especially food or a task.",
+        sentences: [
+            "He {verb}ed {blank} the entire pizza by himself.",
+            "She {verb}ed {blank} the report in just one hour.",
+            "The kids {verb}ed {blank} the ice cream before dinner.",
+            "Let me just {verb} {blank} this last chapter."
+        ],
+        options: ["off", "up", "out", "down"]
+    },
+
+    // PLOUGH
+    {
+        verb: "plough", particle: "into", phrase: "plough into", category: "business", level: "high",
+        meaning: "To invest a large amount of money or effort into something.",
+        sentences: [
+            "The company has {verb}ed millions {blank} research.",
+            "She {verb}s all her energy {blank} the business.",
+            "Investors {verb}ed money {blank} the startup.",
+            "They {verb}ed their savings {blank} the renovation."
+        ],
+        options: ["into", "in", "to", "through"]
+    },
+
+    // PULL
+    {
+        verb: "pull", particle: "ahead", phrase: "pull ahead", category: "business", level: "high",
+        meaning: "To move into a leading position in a race or competition.",
+        sentences: [
+            "The candidate {verb}ed {blank} in the polls.",
+            "Our team {verb}ed {blank} in the second half.",
+            "The company {verb}ed {blank} of its competitors this quarter.",
+            "She {verb}ed {blank} of the other runners in the final lap."
+        ],
+        options: ["ahead", "away", "forward", "out"]
+    },
+
+    // PUSH
+    {
+        verb: "push", particle: "for", phrase: "push for", category: "business", level: "high",
+        meaning: "To make a strong effort to achieve or obtain something.",
+        sentences: [
+            "Workers are {verb}ing {blank} higher wages.",
+            "She's been {verb}ing {blank} reform for years.",
+            "The union is {verb}ing {blank} better working conditions.",
+            "They're {verb}ing {blank} a vote before the recess."
+        ],
+        options: ["for", "on", "at", "to"]
+    },
+
+    // RACK
+    {
+        verb: "rack", particle: "up", phrase: "rack up", category: "business", level: "high",
+        meaning: "To accumulate a large amount of something, especially debts or achievements.",
+        sentences: [
+            "She {verb}ed {blank} an impressive number of wins this season.",
+            "He {verb}ed {blank} thousands in credit card debt.",
+            "The company has {verb}ed {blank} record profits.",
+            "They {verb}ed {blank} miles of travel during the campaign."
+        ],
+        options: ["up", "on", "off", "in"]
+    },
+
+    // ROUGH
+    {
+        verb: "rough", particle: "up", phrase: "rough up", category: "daily", level: "college",
+        meaning: "To physically attack someone without causing serious injury.",
+        sentences: [
+            "The bouncers {verb}ed {blank} the troublemaker outside the club.",
+            "He claimed the police had {verb}ed him {blank} during the arrest.",
+            "The thugs {verb}ed {blank} the shopkeeper.",
+            "Nobody is going to {verb} you {blank} — just tell us what happened."
+        ],
+        options: ["up", "out", "off", "over"]
+    },
+
+    // ROPE
+    {
+        verb: "rope", particle: "in", phrase: "rope in", category: "daily", level: "high",
+        meaning: "To persuade someone to help with something, especially when they are reluctant.",
+        sentences: [
+            "She managed to {verb} me {blank} to help with the move.",
+            "They {verb}d {blank} every available volunteer.",
+            "He got {verb}d {blank} to organize the office party.",
+            "Don't let them {verb} you {blank} — you'll be there all weekend."
+        ],
+        options: ["in", "into", "up", "on"]
+    },
+
+    // RUN
+    {
+        verb: "run", particle: "out", phrase: "run out", category: "daily", level: "elementary",
+        meaning: "To use up all the supply of something.",
+        sentences: [
+            "We've {verb} {blank} of milk — can you buy some?",
+            "The printer has {verb} {blank} of ink again.",
+            "Time is {verb}ning {blank} — we need to decide now.",
+            "She {verb} {blank} of patience with the slow service."
+        ],
+        options: ["out", "off", "down", "through"]
+    },
+
+    // SEND
+    {
+        verb: "send", particle: "in", phrase: "send in", category: "business", level: "middle",
+        meaning: "To submit something, especially by post or electronically.",
+        sentences: [
+            "Please {verb} {blank} your application before the deadline.",
+            "She {verb} {blank} her report two days early.",
+            "The troops were {verb} {blank} to restore order.",
+            "Don't forget to {verb} {blank} your tax forms."
+        ],
+        options: ["in", "out", "off", "back"]
+    },
+
+    // SHAPE
+    {
+        verb: "shape", particle: "up", phrase: "shape up", category: "daily", level: "middle",
+        meaning: "To improve one's behavior or performance; to develop in a particular way.",
+        sentences: [
+            "You'd better {verb} {blank} or you'll lose your job.",
+            "The project is {verb}ing {blank} nicely.",
+            "Things are really {verb}ing {blank} for the new season.",
+            "The team needs to {verb} {blank} before the playoffs."
+        ],
+        options: ["up", "out", "off", "in"]
+    },
+
+    // SHORE
+    {
+        verb: "shore", particle: "up", phrase: "shore up", category: "business", level: "college",
+        meaning: "To support or strengthen something that is weakening.",
+        sentences: [
+            "The government took steps to {verb} {blank} the economy.",
+            "They {verb}d {blank} the foundation of the old building.",
+            "New evidence {verb}d {blank} the prosecution's case.",
+            "The company borrowed money to {verb} {blank} its finances."
+        ],
+        options: ["up", "on", "off", "out"]
+    },
+
+    // SINGLE
+    {
+        verb: "single", particle: "out", phrase: "single out", category: "business", level: "high",
+        meaning: "To select one person or thing from a group for special attention or treatment.",
+        sentences: [
+            "She was {verb}d {blank} for praise by the manager.",
+            "Why are you {verb}ing me {blank}? Everyone was involved.",
+            "The teacher {verb}d {blank} three students for scholarships.",
+            "He felt {verb}d {blank} and unfairly targeted."
+        ],
+        options: ["out", "off", "on", "up"]
+    },
+
+    // STAND
+    {
+        verb: "stand", particle: "down", phrase: "stand down", category: "business", level: "high",
+        meaning: "To resign from a position; to withdraw from a confrontation.",
+        sentences: [
+            "The CEO agreed to {verb} {blank} after the scandal.",
+            "The troops were ordered to {verb} {blank}.",
+            "She was asked to {verb} {blank} from the committee.",
+            "The police {verb} {blank} after the suspect surrendered."
+        ],
+        options: ["down", "back", "off", "aside"]
+    },
+
+    // SWEAR
+    {
+        verb: "swear", particle: "by", phrase: "swear by", category: "daily", level: "high",
+        meaning: "To have complete confidence in something as being effective.",
+        sentences: [
+            "She {verb}s {blank} this brand of coffee.",
+            "He {verb}s {blank} cold showers for good health.",
+            "My grandmother {verb}s {blank} honey for sore throats.",
+            "Many athletes {verb} {blank} this training method."
+        ],
+        options: ["by", "on", "to", "for"]
+    },
+
+    // TALK
+    {
+        verb: "talk", particle: "through", phrase: "talk through", category: "business", level: "middle",
+        meaning: "To discuss something in detail to help someone understand or resolve it.",
+        sentences: [
+            "Let me {verb} you {blank} the new procedure.",
+            "She {verb}ed the students {blank} the exercise step by step.",
+            "He {verb}ed her {blank} the panic attack over the phone.",
+            "Can we {verb} {blank} the options before making a decision?"
+        ],
+        options: ["through", "over", "about", "around"]
+    },
+
+    // THIN
+    {
+        verb: "thin", particle: "out", phrase: "thin out", category: "daily", level: "high",
+        meaning: "To become less crowded or dense; to reduce in number.",
+        sentences: [
+            "The crowd started to {verb} {blank} after the main act finished.",
+            "Traffic {verb}ned {blank} once we passed the city center.",
+            "You should {verb} {blank} the seedlings to give them room to grow.",
+            "His hair has been {verb}ning {blank} since he turned forty."
+        ],
+        options: ["out", "down", "off", "away"]
+    },
+
+    // TOW
+    {
+        verb: "tow", particle: "away", phrase: "tow away", category: "daily", level: "middle",
+        meaning: "To remove a vehicle by pulling it with another vehicle.",
+        sentences: [
+            "My car was {verb}ed {blank} because I parked illegally.",
+            "The broken-down truck was {verb}ed {blank} by a recovery vehicle.",
+            "If you park here, your car will be {verb}ed {blank}.",
+            "They {verb}ed {blank} dozens of cars during the street cleaning."
+        ],
+        options: ["away", "off", "out", "in"]
+    },
+
+    // TOSS
+    {
+        verb: "toss", particle: "around", phrase: "toss around", category: "business", level: "middle",
+        meaning: "To casually discuss or consider various ideas.",
+        sentences: [
+            "We {verb}ed {blank} a few ideas for the new project.",
+            "The name has been {verb}ed {blank} as a possible candidate.",
+            "Let's {verb} {blank} some options before committing.",
+            "They spent the afternoon {verb}ing {blank} solutions."
+        ],
+        options: ["around", "about", "out", "over"]
+    },
+
+    // TUMBLE
+    {
+        verb: "tumble", particle: "down", phrase: "tumble down", category: "daily", level: "middle",
+        meaning: "To fall suddenly; to collapse.",
+        sentences: [
+            "The old wall finally {verb}d {blank} in the storm.",
+            "Stock prices {verb}d {blank} after the announcement.",
+            "The child {verb}d {blank} the stairs but wasn't hurt.",
+            "The house of cards {verb}d {blank} when she sneezed."
+        ],
+        options: ["down", "over", "off", "apart"]
+    },
+
+    // WALK
+    {
+        verb: "walk", particle: "in on", phrase: "walk in on", category: "daily", level: "middle",
+        meaning: "To enter a room and unexpectedly find someone doing something.",
+        sentences: [
+            "I accidentally {verb}ed {blank} their private conversation.",
+            "She {verb}ed {blank} him wrapping her birthday present.",
+            "The boss {verb}ed {blank} them taking an unauthorized break.",
+            "How embarrassing — my mom {verb}ed {blank} the surprise rehearsal."
+        ],
+        options: ["in on", "into", "up on", "on to"]
+    },
+
+    // WEAR
+    {
+        verb: "wear", particle: "on", phrase: "wear on", category: "daily", level: "high",
+        meaning: "To pass gradually, especially in a tedious way; to become increasingly annoying.",
+        sentences: [
+            "As the day {verb}s {blank}, the heat becomes unbearable.",
+            "His constant complaining is beginning to {verb} {blank} me.",
+            "As the hours {verb} {blank}, the audience grew restless.",
+            "Her patience was {verb}ing thin as the delays {verb}ed {blank}."
+        ],
+        options: ["on", "off", "out", "down"]
+    },
+
+    // WANDER
+    {
+        verb: "wander", particle: "off", phrase: "wander off", category: "daily", level: "middle",
+        meaning: "To move away from where you are supposed to be, often without realizing it.",
+        sentences: [
+            "The toddler {verb}ed {blank} while his mother wasn't looking.",
+            "Don't let the dog {verb} {blank} the trail.",
+            "My mind kept {verb}ing {blank} during the lecture.",
+            "She {verb}ed {blank} to explore the old town."
+        ],
+        options: ["off", "away", "out", "about"]
+    },
+
+    // WRAP
+    {
+        verb: "wrap", particle: "up in", phrase: "wrap up in", category: "emotion", level: "high",
+        meaning: "To be completely absorbed or involved in something.",
+        sentences: [
+            "She got {verb}ped {blank} her work and forgot the time.",
+            "He was too {verb}ped {blank} himself to notice others.",
+            "Don't get so {verb}ped {blank} the details that you miss the big picture.",
+            "They were {verb}ped {blank} the excitement of the festival."
+        ],
+        options: ["up in", "on in", "around in", "into"]
+    },
 ];
