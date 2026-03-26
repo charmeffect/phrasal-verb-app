@@ -1,7 +1,4 @@
 const PHRASAL_VERBS = [
-    // ========================================
-    // TAKE
-    // ========================================
     {
         verb: "take", particle: "off", phrase: "take off", category: "travel", level: "elementary",
         meaning: "To leave the ground and begin to fly; also means to suddenly become successful or to remove clothing.",
@@ -107,14 +104,11 @@ const PHRASAL_VERBS = [
         sentences: [
             "He {verb} the engine {blank} to find the problem.",
             "The kids love to {verb} {blank} their toys to see how they work.",
-            "She {verb} the old clock {blank} and cleaned every piece."
+            "She {verb} the old clock {blank} and cleaned every piece.",
+            "The mechanic {verb} the machine {blank} to replace the broken part."
         ],
         options: ["apart", "away", "off", "down"]
     },
-
-    // ========================================
-    // GIVE
-    // ========================================
     {
         verb: "give", particle: "up", phrase: "give up", category: "emotion", level: "middle",
         meaning: "To stop trying; to quit an activity or effort.",
@@ -181,10 +175,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "up", "away"]
     },
-
-    // ========================================
-    // MAKE
-    // ========================================
     {
         verb: "make", particle: "up", phrase: "make up", category: "emotion", level: "middle",
         meaning: "To reconcile after a disagreement; also to invent a story or apply cosmetics.",
@@ -240,10 +230,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["do", "up", "off", "out"]
     },
-
-    // ========================================
-    // TURN
-    // ========================================
     {
         verb: "turn", particle: "down", phrase: "turn down", category: "business", level: "elementary",
         meaning: "To reject or refuse an offer, request, or invitation; also to reduce volume or temperature.",
@@ -321,10 +307,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["into", "over", "up", "out"]
     },
-
-    // ========================================
-    // PUT
-    // ========================================
     {
         verb: "put", particle: "off", phrase: "put off", category: "academic", level: "middle",
         meaning: "To postpone or delay doing something; also to discourage someone.",
@@ -402,10 +384,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "off", "away"]
     },
-
-    // ========================================
-    // LOOK
-    // ========================================
     {
         verb: "look", particle: "up", phrase: "look up", category: "academic", level: "middle",
         meaning: "To search for information in a reference source or database; also to improve.",
@@ -494,10 +472,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "up", "into", "through"]
     },
-
-    // ========================================
-    // BREAK
-    // ========================================
     {
         verb: "break", particle: "down", phrase: "break down", category: "daily", level: "middle",
         meaning: "To stop functioning (for a machine); to lose emotional control; to divide into smaller parts.",
@@ -553,10 +527,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "down", "out", "up"]
     },
-
-    // ========================================
-    // COME
-    // ========================================
     {
         verb: "come", particle: "across", phrase: "come across", category: "daily", level: "high",
         meaning: "To find or encounter something or someone by chance; also to give an impression.",
@@ -634,10 +604,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down with", "up with", "out with", "along with"]
     },
-
-    // ========================================
-    // RUN
-    // ========================================
     {
         verb: "run", particle: "out of", phrase: "run out of", category: "daily", level: "high",
         meaning: "To use up the entire supply of something; to have no more left.",
@@ -682,10 +648,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "out", "off", "into"]
     },
-
-    // ========================================
-    // CARRY
-    // ========================================
     {
         verb: "carry", particle: "out", phrase: "carry out", category: "academic", level: "high",
         meaning: "To perform or complete a task, plan, or order.",
@@ -719,10 +681,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "on", "out", "off"]
     },
-
-    // ========================================
-    // FIGURE
-    // ========================================
     {
         verb: "figure", particle: "out", phrase: "figure out", category: "academic", level: "high",
         meaning: "To understand or solve something through thinking.",
@@ -734,10 +692,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "in", "on"]
     },
-
-    // ========================================
-    // SET
-    // ========================================
     {
         verb: "set", particle: "up", phrase: "set up", category: "business", level: "middle",
         meaning: "To prepare, arrange, or establish something for use.",
@@ -782,10 +736,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "back"]
     },
-
-    // ========================================
-    // BRING
-    // ========================================
     {
         verb: "bring", particle: "up", phrase: "bring up", category: "daily", level: "middle",
         meaning: "To mention or introduce a topic into a conversation; also to raise a child.",
@@ -841,10 +791,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "out", "back"]
     },
-
-    // ========================================
-    // WORK
-    // ========================================
     {
         verb: "work", particle: "out", phrase: "work out", category: "daily", level: "middle",
         meaning: "To exercise; to find a solution; to have a good result.",
@@ -878,10 +824,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "on", "off"]
     },
-
-    // ========================================
-    // CALL
-    // ========================================
     {
         verb: "call", particle: "off", phrase: "call off", category: "daily", level: "high",
         meaning: "To cancel an event or activity that was planned.",
@@ -926,10 +868,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "off", "up", "for"]
     },
-
-    // ========================================
-    // GO
-    // ========================================
     {
         verb: "go", particle: "through", phrase: "go through", category: "emotion", level: "middle",
         meaning: "To experience something difficult or unpleasant; also to examine carefully.",
@@ -1018,10 +956,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["with", "for", "on", "by"]
     },
-
-    // ========================================
-    // PICK
-    // ========================================
     {
         verb: "pick", particle: "up", phrase: "pick up", category: "daily", level: "elementary",
         meaning: "To collect or buy something; to learn informally; to improve; to lift something.",
@@ -1055,10 +989,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "up", "out", "at"]
     },
-
-    // ========================================
-    // POINT
-    // ========================================
     {
         verb: "point", particle: "out", phrase: "point out", category: "business", level: "middle",
         meaning: "To draw attention to something; to indicate or highlight.",
@@ -1070,10 +1000,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "at", "to"]
     },
-
-    // ========================================
-    // HOLD
-    // ========================================
     {
         verb: "hold", particle: "on", phrase: "hold on", category: "daily", level: "middle",
         meaning: "To wait for a short time; also to grip something tightly.",
@@ -1107,10 +1033,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "on", "up", "off"]
     },
-
-    // ========================================
-    // CHECK
-    // ========================================
     {
         verb: "check", particle: "in", phrase: "check in", category: "travel", level: "middle",
         meaning: "To register upon arrival at a hotel, airport, or event.",
@@ -1144,10 +1066,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up on", "out", "in", "off"]
     },
-
-    // ========================================
-    // DROP
-    // ========================================
     {
         verb: "drop", particle: "off", phrase: "drop off", category: "travel", level: "middle",
         meaning: "To take someone or something to a place and leave them there; to decrease; to fall asleep.",
@@ -1181,10 +1099,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "by", "in"]
     },
-
-    // ========================================
-    // FILL
-    // ========================================
     {
         verb: "fill", particle: "in", phrase: "fill in", category: "business", level: "middle",
         meaning: "To complete a form or document; to inform someone about something; to substitute for someone.",
@@ -1218,10 +1132,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "in", "out", "on"]
     },
-
-    // ========================================
-    // CUT
-    // ========================================
     {
         verb: "cut", particle: "down on", phrase: "cut down on", category: "daily", level: "middle",
         meaning: "To reduce the amount or frequency of something.",
@@ -1255,10 +1165,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "down", "up"]
     },
-
-    // ========================================
-    // GET
-    // ========================================
     {
         verb: "get", particle: "up", phrase: "get up", category: "daily", level: "elementary",
         meaning: "To rise from bed; to stand up.",
@@ -1391,10 +1297,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["together", "along", "around", "on"]
     },
-
-    // ========================================
-    // KEEP
-    // ========================================
     {
         verb: "keep", particle: "up", phrase: "keep up", category: "academic", level: "middle",
         meaning: "To maintain the same speed or level as others; to continue doing something.",
@@ -1439,10 +1341,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "off", "out", "back"]
     },
-
-    // ========================================
-    // THROW
-    // ========================================
     {
         verb: "throw", particle: "away", phrase: "throw away", category: "daily", level: "elementary",
         meaning: "To discard something; to waste an opportunity.",
@@ -1476,10 +1374,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "away", "up", "off"]
     },
-
-    // ========================================
-    // PULL
-    // ========================================
     {
         verb: "pull", particle: "off", phrase: "pull off", category: "business", level: "high",
         meaning: "To succeed in doing something difficult or unexpected.",
@@ -1513,10 +1407,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "off", "over", "out"]
     },
-
-    // ========================================
-    // HAND
-    // ========================================
     {
         verb: "hand", particle: "in", phrase: "hand in", category: "academic", level: "middle",
         meaning: "To submit work or a document to someone in authority.",
@@ -1550,10 +1440,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "in", "out", "off"]
     },
-
-    // ========================================
-    // STAND
-    // ========================================
     {
         verb: "stand", particle: "up", phrase: "stand up", category: "daily", level: "elementary",
         meaning: "To rise to a standing position; to fail to meet someone for a date.",
@@ -1587,10 +1473,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "out", "up", "by"]
     },
-
-    // ========================================
-    // PAY
-    // ========================================
     {
         verb: "pay", particle: "off", phrase: "pay off", category: "business", level: "middle",
         meaning: "To finish paying a debt; for an effort to finally bring good results.",
@@ -1613,10 +1495,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "off", "up", "out"]
     },
-
-    // ========================================
-    // SHOW
-    // ========================================
     {
         verb: "show", particle: "up", phrase: "show up", category: "daily", level: "middle",
         meaning: "To arrive or appear, especially unexpectedly or late; also to outperform someone embarrassingly.",
@@ -1650,10 +1528,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "up", "off", "out"]
     },
-
-    // ========================================
-    // THINK
-    // ========================================
     {
         verb: "think", particle: "over", phrase: "think over", category: "business", level: "high",
         meaning: "To consider something carefully before making a decision.",
@@ -1676,10 +1550,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "over", "out", "through"]
     },
-
-    // ========================================
-    // SORT
-    // ========================================
     {
         verb: "sort", particle: "out", phrase: "sort out", category: "business", level: "middle",
         meaning: "To resolve a problem; to organize or arrange things.",
@@ -1691,10 +1561,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "through", "up", "off"]
     },
-
-    // ========================================
-    // FIND
-    // ========================================
     {
         verb: "find", particle: "out", phrase: "find out", category: "daily", level: "elementary",
         meaning: "To discover information; to learn something new.",
@@ -1706,10 +1572,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "off", "about"]
     },
-
-    // ========================================
-    // CLOSE
-    // ========================================
     {
         verb: "close", particle: "down", phrase: "close down", category: "business", level: "middle",
         meaning: "To permanently shut a business or establishment.",
@@ -1721,10 +1583,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "up"]
     },
-
-    // ========================================
-    // BLOW
-    // ========================================
     {
         verb: "blow", particle: "up", phrase: "blow up", category: "daily", level: "middle",
         meaning: "To explode; to suddenly become very angry; to become very popular quickly.",
@@ -1747,10 +1605,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "off", "away"]
     },
-
-    // ========================================
-    // PASS
-    // ========================================
     {
         verb: "pass", particle: "away", phrase: "pass away", category: "emotion", level: "middle",
         meaning: "To die (a polite or euphemistic way to say someone died).",
@@ -1784,10 +1638,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "out", "away", "off"]
     },
-
-    // ========================================
-    // SETTLE
-    // ========================================
     {
         verb: "settle", particle: "down", phrase: "settle down", category: "daily", level: "middle",
         meaning: "To become calm; to start living a stable life (often with a family).",
@@ -1810,10 +1660,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "down", "in", "on"]
     },
-
-    // ========================================
-    // STICK
-    // ========================================
     {
         verb: "stick", particle: "to", phrase: "stick to", category: "daily", level: "high",
         meaning: "To continue doing something as planned; to not change from something.",
@@ -1836,10 +1682,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "to", "up", "with"]
     },
-
-    // ========================================
-    // SHUT
-    // ========================================
     {
         verb: "shut", particle: "down", phrase: "shut down", category: "business", level: "middle",
         meaning: "To close permanently; to turn off a computer or machine; to stop someone from speaking.",
@@ -1862,10 +1704,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "off", "out"]
     },
-
-    // ========================================
-    // HANG
-    // ========================================
     {
         verb: "hang", particle: "out", phrase: "hang out", category: "daily", level: "middle",
         meaning: "To spend time casually with friends.",
@@ -1899,10 +1737,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "up", "out", "in"]
     },
-
-    // ========================================
-    // BACK
-    // ========================================
     {
         verb: "back", particle: "up", phrase: "back up", category: "daily", level: "middle",
         meaning: "To support someone; to make a copy of data; to move in reverse.",
@@ -1925,10 +1759,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "off", "out"]
     },
-
-    // ========================================
-    // WIND
-    // ========================================
     {
         verb: "wind", particle: "up", phrase: "wind up", category: "daily", level: "high",
         meaning: "To end up in a situation, often unexpectedly; to bring something to an end.",
@@ -1940,10 +1770,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "off", "out"]
     },
-
-    // ========================================
-    // WEAR
-    // ========================================
     {
         verb: "wear", particle: "out", phrase: "wear out", category: "daily", level: "middle",
         meaning: "To become damaged from overuse; to exhaust someone.",
@@ -1966,10 +1792,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "down", "away"]
     },
-
-    // ========================================
-    // RULE
-    // ========================================
     {
         verb: "rule", particle: "out", phrase: "rule out", category: "academic", level: "college",
         meaning: "To eliminate a possibility; to decide something is not possible.",
@@ -1981,10 +1803,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "in", "over"]
     },
-
-    // ========================================
-    // PHASE
-    // ========================================
     {
         verb: "phase", particle: "out", phrase: "phase out", category: "business", level: "college",
         meaning: "To gradually stop using or producing something.",
@@ -1996,10 +1814,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "in", "off", "down"]
     },
-
-    // ========================================
-    // SLOW
-    // ========================================
     {
         verb: "slow", particle: "down", phrase: "slow down", category: "daily", level: "elementary",
         meaning: "To reduce speed; to become less active or busy.",
@@ -2011,10 +1825,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "off", "out"]
     },
-
-    // ========================================
-    // SIGN
-    // ========================================
     {
         verb: "sign", particle: "up", phrase: "sign up", category: "daily", level: "middle",
         meaning: "To register or enroll for something.",
@@ -2026,10 +1836,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "in", "on", "out"]
     },
-
-    // ========================================
-    // END
-    // ========================================
     {
         verb: "end", particle: "up", phrase: "end up", category: "daily", level: "middle",
         meaning: "To finally be in a particular place or situation, often unplanned.",
@@ -2041,10 +1847,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "down"]
     },
-
-    // ========================================
-    // CATCH
-    // ========================================
     {
         verb: "catch", particle: "up", phrase: "catch up", category: "daily", level: "middle",
         meaning: "To reach the same level as others; to update on recent events.",
@@ -2067,10 +1869,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "up", "out", "off"]
     },
-
-    // ========================================
-    // SPEAK
-    // ========================================
     {
         verb: "speak", particle: "up", phrase: "speak up", category: "business", level: "middle",
         meaning: "To talk louder; to express your opinion, especially in public.",
@@ -2082,10 +1880,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "on", "off"]
     },
-
-    // ========================================
-    // WRAP
-    // ========================================
     {
         verb: "wrap", particle: "up", phrase: "wrap up", category: "business", level: "high",
         meaning: "To finish or conclude something; to dress warmly.",
@@ -2097,10 +1891,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "off", "on", "out"]
     },
-
-    // ========================================
-    // LIVE
-    // ========================================
     {
         verb: "live", particle: "up to", phrase: "live up to", category: "emotion", level: "high",
         meaning: "To meet the standards or expectations that others have set.",
@@ -2112,10 +1902,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up to", "on", "with", "for"]
     },
-
-    // ========================================
-    // MOVE
-    // ========================================
     {
         verb: "move", particle: "on", phrase: "move on", category: "emotion", level: "middle",
         meaning: "To stop thinking about something and start something new; to continue to the next thing.",
@@ -2149,10 +1935,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "in", "on", "away"]
     },
-
-    // ========================================
-    // TAKE (additional)
-    // ========================================
     {
         verb: "take", particle: "to", phrase: "take to", category: "daily", level: "high",
         meaning: "To begin to like something or someone; to start doing something as a habit.",
@@ -2164,10 +1946,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["to", "up", "on", "after"]
     },
-
-    // ========================================
-    // GIVE (additional)
-    // ========================================
     {
         verb: "give", particle: "up on", phrase: "give up on", category: "emotion", level: "high",
         meaning: "To stop believing that someone or something will improve or succeed.",
@@ -2179,10 +1957,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up on", "in to", "away", "out"]
     },
-
-    // ========================================
-    // CHEER
-    // ========================================
     {
         verb: "cheer", particle: "up", phrase: "cheer up", category: "emotion", level: "middle",
         meaning: "To become happier or to make someone feel happier.",
@@ -2194,10 +1968,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "off", "out"]
     },
-
-    // ========================================
-    // CALM
-    // ========================================
     {
         verb: "calm", particle: "down", phrase: "calm down", category: "emotion", level: "elementary",
         meaning: "To become less angry, upset, or excited.",
@@ -2209,10 +1979,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "up"]
     },
-
-    // ========================================
-    // CLEAN
-    // ========================================
     {
         verb: "clean", particle: "up", phrase: "clean up", category: "daily", level: "elementary",
         meaning: "To make a place tidy; to wash yourself and make yourself neat.",
@@ -2224,10 +1990,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "away"]
     },
-
-    // ========================================
-    // RIP
-    // ========================================
     {
         verb: "rip", particle: "off", phrase: "rip off", category: "daily", level: "high",
         meaning: "To cheat someone by charging too much; to steal or copy something.",
@@ -2239,10 +2001,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "up", "apart"]
     },
-
-    // ========================================
-    // FREAK
-    // ========================================
     {
         verb: "freak", particle: "out", phrase: "freak out", category: "emotion", level: "high",
         meaning: "To become very anxious, scared, or excited.",
@@ -2254,10 +2012,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "away"]
     },
-
-    // ========================================
-    // LINE
-    // ========================================
     {
         verb: "line", particle: "up", phrase: "line up", category: "daily", level: "middle",
         meaning: "To form a queue; to arrange or organize something.",
@@ -2269,10 +2023,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "in", "off"]
     },
-
-    // ========================================
-    // LOCK
-    // ========================================
     {
         verb: "lock", particle: "out", phrase: "lock out", category: "daily", level: "high",
         meaning: "To prevent someone from entering by locking the door.",
@@ -2284,10 +2034,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "in", "up", "off"]
     },
-
-    // ========================================
-    // MIX
-    // ========================================
     {
         verb: "mix", particle: "up", phrase: "mix up", category: "daily", level: "middle",
         meaning: "To confuse two or more things; to make a mistake about the identity of something.",
@@ -2299,10 +2045,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "in", "out", "around"]
     },
-
-    // ========================================
-    // OPT
-    // ========================================
     {
         verb: "opt", particle: "out", phrase: "opt out", category: "business", level: "high",
         meaning: "To choose not to participate in something.",
@@ -2314,10 +2056,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "in", "off", "away"]
     },
-
-    // ========================================
-    // SELL
-    // ========================================
     {
         verb: "sell", particle: "out", phrase: "sell out", category: "business", level: "high",
         meaning: "To sell all of a product; to betray one's principles for money or advantage.",
@@ -2329,10 +2067,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "away"]
     },
-
-    // ========================================
-    // MESS
-    // ========================================
     {
         verb: "mess", particle: "up", phrase: "mess up", category: "daily", level: "middle",
         meaning: "To make a mistake; to ruin or spoil something.",
@@ -2344,10 +2078,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "around", "about"]
     },
-
-    // ========================================
-    // ASK
-    // ========================================
     {
         verb: "ask", particle: "out", phrase: "ask out", category: "emotion", level: "high",
         meaning: "To invite someone on a date.",
@@ -2359,10 +2089,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "off", "in"]
     },
-
-    // ========================================
-    // COME (additional)
-    // ========================================
     {
         verb: "come", particle: "over", phrase: "come over", category: "daily", level: "elementary",
         meaning: "To visit someone at their home.",
@@ -2374,10 +2100,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "along", "around", "in"]
     },
-
-    // ========================================
-    // GROW
-    // ========================================
     {
         verb: "grow", particle: "up", phrase: "grow up", category: "daily", level: "elementary",
         meaning: "To develop from a child into an adult; to act maturely.",
@@ -2389,10 +2111,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "into", "on"]
     },
-
-    // ========================================
-    // GIVE (additional)
-    // ========================================
     {
         verb: "give", particle: "birth to", phrase: "give birth to", category: "daily", level: "high",
         meaning: "To produce a baby; to create or be the origin of something new.",
@@ -2404,10 +2122,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["birth to", "up", "out", "away"]
     },
-
-    // ========================================
-    // WARD
-    // ========================================
     {
         verb: "ward", particle: "off", phrase: "ward off", category: "daily", level: "high",
         meaning: "To prevent something harmful from affecting you.",
@@ -2419,10 +2133,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "away", "out", "back"]
     },
-
-    // ========================================
-    // WIPE
-    // ========================================
     {
         verb: "wipe", particle: "out", phrase: "wipe out", category: "daily", level: "high",
         meaning: "To destroy completely; to exhaust someone; to fall off (surfing, skiing).",
@@ -2434,10 +2144,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "away", "down"]
     },
-
-    // ========================================
-    // ZOOM
-    // ========================================
     {
         verb: "zoom", particle: "in", phrase: "zoom in", category: "academic", level: "high",
         meaning: "To look more closely at something, especially on a screen.",
@@ -2449,10 +2155,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "up", "on"]
     },
-
-    // ========================================
-    // OPEN
-    // ========================================
     {
         verb: "open", particle: "up", phrase: "open up", category: "emotion", level: "middle",
         meaning: "To share feelings honestly; to start a business; to become available.",
@@ -2464,10 +2166,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "in", "on"]
     },
-
-    // ========================================
-    // STEP
-    // ========================================
     {
         verb: "step", particle: "down", phrase: "step down", category: "business", level: "high",
         meaning: "To resign from an important position.",
@@ -2490,10 +2188,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "in", "out"]
     },
-
-    // ========================================
-    // TURN (additional)
-    // ========================================
     {
         verb: "turn", particle: "in", phrase: "turn in", category: "daily", level: "high",
         meaning: "To go to bed; to submit work; to report someone to the authorities.",
@@ -2505,10 +2199,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "off", "up"]
     },
-
-    // ========================================
-    // SPRING
-    // ========================================
     {
         verb: "spring", particle: "up", phrase: "spring up", category: "daily", level: "professional",
         meaning: "To appear or develop suddenly and quickly.",
@@ -2520,10 +2210,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "on"]
     },
-
-    // ========================================
-    // PLAY
-    // ========================================
     {
         verb: "play", particle: "down", phrase: "play down", category: "business", level: "high",
         meaning: "To make something seem less important or serious than it really is.",
@@ -2535,10 +2221,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "up", "out"]
     },
-
-    // ========================================
-    // WEIGH
-    // ========================================
     {
         verb: "weigh", particle: "up", phrase: "weigh up", category: "business", level: "professional",
         meaning: "To consider carefully the advantages and disadvantages before deciding.",
@@ -2550,10 +2232,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "in", "out", "down"]
     },
-
-    // ========================================
-    // LAY
-    // ========================================
     {
         verb: "lay", particle: "off", phrase: "lay off", category: "business", level: "high",
         meaning: "To dismiss employees because there is not enough work; to stop doing something annoying.",
@@ -2565,10 +2243,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "down", "up"]
     },
-
-    // ========================================
-    // SWITCH
-    // ========================================
     {
         verb: "switch", particle: "off", phrase: "switch off", category: "daily", level: "elementary",
         meaning: "To turn off an electrical device; to stop paying attention.",
@@ -2580,10 +2254,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "on", "up", "out"]
     },
-
-    // ========================================
-    // KNOCK
-    // ========================================
     {
         verb: "knock", particle: "out", phrase: "knock out", category: "daily", level: "high",
         meaning: "To make someone unconscious; to impress someone greatly; to eliminate from a competition.",
@@ -2606,10 +2276,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "out", "off", "over"]
     },
-
-    // ========================================
-    // EAT
-    // ========================================
     {
         verb: "eat", particle: "out", phrase: "eat out", category: "daily", level: "middle",
         meaning: "To eat at a restaurant rather than at home.",
@@ -2621,10 +2287,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "in", "off"]
     },
-
-    // ========================================
-    // COUNT
-    // ========================================
     {
         verb: "count", particle: "on", phrase: "count on", category: "emotion", level: "middle",
         meaning: "To rely on or depend on someone or something.",
@@ -2636,10 +2298,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "up", "in", "for"]
     },
-
-    // ========================================
-    // FALL
-    // ========================================
     {
         verb: "fall", particle: "behind", phrase: "fall behind", category: "academic", level: "middle",
         meaning: "To fail to keep up with others in progress or payments.",
@@ -2673,10 +2331,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "apart", "down", "out"]
     },
-
-    // ========================================
-    // DO
-    // ========================================
     {
         verb: "do", particle: "away with", phrase: "do away with", category: "business", level: "high",
         meaning: "To get rid of or abolish something.",
@@ -2699,10 +2353,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "up", "again", "out"]
     },
-
-    // ========================================
-    // HOLD (additional)
-    // ========================================
     {
         verb: "hold", particle: "off", phrase: "hold off", category: "business", level: "high",
         meaning: "To delay or postpone doing something; to resist an attack.",
@@ -2714,10 +2364,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "on", "up", "back"]
     },
-
-    // ========================================
-    // WATCH
-    // ========================================
     {
         verb: "watch", particle: "out", phrase: "watch out", category: "daily", level: "middle",
         meaning: "To be careful; to look out for danger.",
@@ -2729,10 +2375,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "over", "up", "on"]
     },
-
-    // ========================================
-    // BUILD
-    // ========================================
     {
         verb: "build", particle: "up", phrase: "build up", category: "business", level: "middle",
         meaning: "To develop or increase gradually over time.",
@@ -2744,10 +2386,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "out", "off"]
     },
-
-    // ========================================
-    // TEAR
-    // ========================================
     {
         verb: "tear", particle: "down", phrase: "tear down", category: "daily", level: "high",
         meaning: "To demolish a building or structure; to criticize harshly.",
@@ -2759,10 +2397,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "apart", "off"]
     },
-
-    // ========================================
-    // PUT (additional)
-    // ========================================
     {
         verb: "put", particle: "up", phrase: "put up", category: "daily", level: "middle",
         meaning: "To erect or hang something; to accommodate someone temporarily.",
@@ -2774,10 +2408,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "out", "down"]
     },
-
-    // ========================================
-    // ZIP / BRUSH / BEEF
-    // ========================================
     {
         verb: "brush", particle: "up on", phrase: "brush up on", category: "academic", level: "high",
         meaning: "To review or improve skills or knowledge that you haven't used recently.",
@@ -2789,10 +2419,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up on", "off", "through", "over"]
     },
-
-    // ========================================
-    // NARROW
-    // ========================================
     {
         verb: "narrow", particle: "down", phrase: "narrow down", category: "business", level: "high",
         meaning: "To reduce the number of possibilities or options.",
@@ -2804,10 +2430,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "out", "off", "up"]
     },
-
-    // ========================================
-    // CLOG
-    // ========================================
     {
         verb: "clog", particle: "up", phrase: "clog up", category: "daily", level: "professional",
         meaning: "To block or become blocked so that movement or flow is difficult.",
@@ -2819,10 +2441,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "down"]
     },
-
-    // ========================================
-    // BOIL
-    // ========================================
     {
         verb: "boil", particle: "down to", phrase: "boil down to", category: "business", level: "college",
         meaning: "To be reduced to the most essential point or element.",
@@ -2834,10 +2452,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down to", "up to", "over", "out"]
     },
-
-    // ========================================
-    // IRON
-    // ========================================
     {
         verb: "iron", particle: "out", phrase: "iron out", category: "business", level: "high",
         meaning: "To resolve problems or difficulties.",
@@ -2849,10 +2463,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "down"]
     },
-
-    // ========================================
-    // ASK (expanded)
-    // ========================================
     {
         verb: "ask", particle: "for", phrase: "ask for", category: "daily", level: "middle",
         meaning: "To request something from someone.",
@@ -2897,10 +2507,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "out", "around", "in"]
     },
-
-    // ========================================
-    // DO (expanded)
-    // ========================================
     {
         verb: "do", particle: "up", phrase: "do up", category: "daily", level: "middle",
         meaning: "To fasten or button something; to renovate or decorate a place.",
@@ -2945,10 +2551,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["with", "without", "up", "for"]
     },
-
-    // ========================================
-    // THINK (expanded)
-    // ========================================
     {
         verb: "think", particle: "through", phrase: "think through", category: "business", level: "high",
         meaning: "To consider all aspects of something carefully before acting.",
@@ -2982,10 +2584,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["ahead", "through", "over", "back"]
     },
-
-    // ========================================
-    // PLAY (expanded)
-    // ========================================
     {
         verb: "play", particle: "along", phrase: "play along", category: "daily", level: "high",
         meaning: "To pretend to agree or cooperate with someone.",
@@ -3019,10 +2617,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "along", "up", "out"]
     },
-
-    // ========================================
-    // FIND (expanded)
-    // ========================================
     {
         verb: "find", particle: "out about", phrase: "find out about", category: "daily", level: "high",
         meaning: "To discover information about something or someone.",
@@ -3034,10 +2628,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out about", "out", "up", "out for"]
     },
-
-    // ========================================
-    // GROW (expanded)
-    // ========================================
     {
         verb: "grow", particle: "into", phrase: "grow into", category: "daily", level: "high",
         meaning: "To gradually develop into something; to become big enough for clothing.",
@@ -3082,10 +2672,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "up", "into", "out"]
     },
-
-    // ========================================
-    // BUILD (expanded)
-    // ========================================
     {
         verb: "build", particle: "on", phrase: "build on", category: "business", level: "high",
         meaning: "To use something as a foundation for further development.",
@@ -3108,10 +2694,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "up", "on", "out"]
     },
-
-    // ========================================
-    // EAT (expanded)
-    // ========================================
     {
         verb: "eat", particle: "up", phrase: "eat up", category: "daily", level: "high",
         meaning: "To eat all of something; to use a lot of resources; to enjoy something greatly.",
@@ -3145,10 +2727,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["into", "up", "away at", "out"]
     },
-
-    // ========================================
-    // CATCH (expanded)
-    // ========================================
     {
         verb: "catch", particle: "up with", phrase: "catch up with", category: "daily", level: "high",
         meaning: "To reach someone who is ahead; to finally affect someone negatively.",
@@ -3171,10 +2749,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "on", "off"]
     },
-
-    // ========================================
-    // COUNT (expanded)
-    // ========================================
     {
         verb: "count", particle: "down", phrase: "count down", category: "daily", level: "high",
         meaning: "To count backwards to zero; to eagerly wait for something.",
@@ -3208,10 +2782,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "in", "down", "on"]
     },
-
-    // ========================================
-    // SIGN (expanded)
-    // ========================================
     {
         verb: "sign", particle: "in", phrase: "sign in", category: "daily", level: "high",
         meaning: "To register your arrival by writing your name; to log into an account.",
@@ -3256,10 +2826,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "off", "out", "up"]
     },
-
-    // ========================================
-    // END (expanded)
-    // ========================================
     {
         verb: "end", particle: "in", phrase: "end in", category: "daily", level: "high",
         meaning: "To have a particular result or conclusion.",
@@ -3271,10 +2837,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "up", "with", "on"]
     },
-
-    // ========================================
-    // CLOSE (expanded)
-    // ========================================
     {
         verb: "close", particle: "off", phrase: "close off", category: "daily", level: "high",
         meaning: "To block or seal an area to prevent access.",
@@ -3297,10 +2859,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in on", "down on", "off", "out on"]
     },
-
-    // ========================================
-    // RUN (expanded)
-    // ========================================
     {
         verb: "run", particle: "down", phrase: "run down", category: "daily", level: "high",
         meaning: "To lose power; to criticize someone; to give a quick summary.",
@@ -3334,10 +2892,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "over", "down", "out"]
     },
-
-    // ========================================
-    // KEEP (expanded)
-    // ========================================
     {
         verb: "keep", particle: "out", phrase: "keep out", category: "daily", level: "middle",
         meaning: "To prevent someone or something from entering.",
@@ -3371,10 +2925,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "off", "out", "away"]
     },
-
-    // ========================================
-    // HOLD (expanded)
-    // ========================================
     {
         verb: "hold", particle: "out", phrase: "hold out", category: "business", level: "high",
         meaning: "To resist or last; to extend something toward someone.",
@@ -3397,10 +2947,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "on", "off"]
     },
-
-    // ========================================
-    // FALL (expanded)
-    // ========================================
     {
         verb: "fall", particle: "for", phrase: "fall for", category: "emotion", level: "middle",
         meaning: "To develop romantic feelings; to be deceived by a trick.",
@@ -3434,10 +2980,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "behind", "apart"]
     },
-
-    // ========================================
-    // BRING (expanded)
-    // ========================================
     {
         verb: "bring", particle: "in", phrase: "bring in", category: "business", level: "middle",
         meaning: "To earn or generate money; to introduce something new; to involve someone.",
@@ -3460,10 +3002,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["forward", "back", "up", "about"]
     },
-
-    // ========================================
-    // BREAK (expanded)
-    // ========================================
     {
         verb: "break", particle: "off", phrase: "break off", category: "emotion", level: "high",
         meaning: "To suddenly stop speaking; to end a relationship or agreement.",
@@ -3486,10 +3024,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["into", "in", "through", "out"]
     },
-
-    // ========================================
-    // COME (expanded)
-    // ========================================
     {
         verb: "come", particle: "around", phrase: "come around", category: "emotion", level: "middle",
         meaning: "To change your opinion; to regain consciousness; to visit.",
@@ -3523,10 +3057,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "around", "along", "over"]
     },
-
-    // ========================================
-    // PUT (expanded)
-    // ========================================
     {
         verb: "put", particle: "across", phrase: "put across", category: "business", level: "high",
         meaning: "To communicate or explain an idea clearly.",
@@ -3560,10 +3090,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "up", "out"]
     },
-
-    // ========================================
-    // LOOK (expanded)
-    // ========================================
     {
         verb: "look", particle: "through", phrase: "look through", category: "academic", level: "middle",
         meaning: "To examine or read something carefully from beginning to end.",
@@ -3586,10 +3112,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back on", "up to", "forward to", "down on"]
     },
-
-    // ========================================
-    // TURN (expanded)
-    // ========================================
     {
         verb: "turn", particle: "over", phrase: "turn over", category: "daily", level: "high",
         meaning: "To flip something; to give control to someone; to consider carefully.",
@@ -3601,10 +3123,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "around", "in", "out"]
     },
-
-    // ========================================
-    // SET (expanded)
-    // ========================================
     {
         verb: "set", particle: "in", phrase: "set in", category: "daily", level: "high",
         meaning: "To begin and seem likely to continue (usually something unpleasant).",
@@ -3638,10 +3156,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["aside", "apart", "away", "off"]
     },
-
-    // ========================================
-    // WORK (expanded)
-    // ========================================
     {
         verb: "work", particle: "through", phrase: "work through", category: "emotion", level: "high",
         meaning: "To deal with a problem or difficult emotion over time.",
@@ -3664,10 +3178,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "through", "out", "on"]
     },
-
-    // ========================================
-    // CALL (expanded)
-    // ========================================
     {
         verb: "call", particle: "up", phrase: "call up", category: "daily", level: "middle",
         meaning: "To phone someone; to bring back memories; to summon for military service.",
@@ -3690,10 +3200,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "on", "off", "up"]
     },
-
-    // ========================================
-    // STAND (expanded)
-    // ========================================
     {
         verb: "stand", particle: "by", phrase: "stand by", category: "emotion", level: "high",
         meaning: "To support someone; to wait and be ready; to maintain a statement.",
@@ -3716,10 +3222,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in for", "up for", "out for", "by"]
     },
-
-    // ========================================
-    // PAY (expanded)
-    // ========================================
     {
         verb: "pay", particle: "up", phrase: "pay up", category: "daily", level: "high",
         meaning: "To pay a debt or bill, often reluctantly.",
@@ -3753,10 +3255,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "off", "back", "out"]
     },
-
-    // ========================================
-    // PULL (expanded)
-    // ========================================
     {
         verb: "pull", particle: "out", phrase: "pull out", category: "business", level: "high",
         meaning: "To withdraw from an agreement, project, or situation.",
@@ -3790,10 +3288,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["apart", "off", "out", "through"]
     },
-
-    // ========================================
-    // THROW (expanded)
-    // ========================================
     {
         verb: "throw", particle: "in", phrase: "throw in", category: "daily", level: "high",
         meaning: "To include something extra for free; to add a comment casually.",
@@ -3816,10 +3310,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "away", "up"]
     },
-
-    // ========================================
-    // PASS (expanded)
-    // ========================================
     {
         verb: "pass", particle: "up", phrase: "pass up", category: "business", level: "high",
         meaning: "To decline or not take advantage of an opportunity.",
@@ -3853,10 +3343,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off as", "out as", "on as", "by as"]
     },
-
-    // ========================================
-    // HAND (expanded)
-    // ========================================
     {
         verb: "hand", particle: "down", phrase: "hand down", category: "daily", level: "high",
         meaning: "To pass something from one generation to the next; to announce a verdict.",
@@ -3879,10 +3365,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "in", "over", "out"]
     },
-
-    // ========================================
-    // HANG (expanded)
-    // ========================================
     {
         verb: "hang", particle: "around", phrase: "hang around", category: "daily", level: "middle",
         meaning: "To stay in a place without any particular purpose.",
@@ -3905,10 +3387,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "out", "up"]
     },
-
-    // ========================================
-    // PICK (expanded)
-    // ========================================
     {
         verb: "pick", particle: "off", phrase: "pick off", category: "daily", level: "high",
         meaning: "To remove something by pulling; to shoot targets one by one.",
@@ -3920,10 +3398,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "up", "on"]
     },
-
-    // ========================================
-    // MOVE (expanded)
-    // ========================================
     {
         verb: "move", particle: "up", phrase: "move up", category: "business", level: "middle",
         meaning: "To advance to a higher position or level.",
@@ -3946,10 +3420,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["along", "on", "up", "out"]
     },
-
-    // ========================================
-    // STEP (expanded)
-    // ========================================
     {
         verb: "step", particle: "in", phrase: "step in", category: "business", level: "middle",
         meaning: "To become involved in a situation to help or take control.",
@@ -3972,10 +3442,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "in", "up", "down"]
     },
-
-    // ========================================
-    // SHUT (expanded)
-    // ========================================
     {
         verb: "shut", particle: "out", phrase: "shut out", category: "emotion", level: "high",
         meaning: "To exclude someone; to block something from entering; to prevent from scoring.",
@@ -3987,10 +3453,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "down", "up", "off"]
     },
-
-    // ========================================
-    // STICK (expanded)
-    // ========================================
     {
         verb: "stick", particle: "with", phrase: "stick with", category: "daily", level: "high",
         meaning: "To continue with something; to remain loyal to someone.",
@@ -4024,10 +3486,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "out", "with", "to"]
     },
-
-    // ========================================
-    // SETTLE (expanded)
-    // ========================================
     {
         verb: "settle", particle: "in", phrase: "settle in", category: "daily", level: "high",
         meaning: "To become comfortable in a new home, job, or situation.",
@@ -4050,10 +3508,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "for", "in"]
     },
-
-    // ========================================
-    // BLOW (expanded)
-    // ========================================
     {
         verb: "blow", particle: "off", phrase: "blow off", category: "daily", level: "high",
         meaning: "To ignore someone or not attend something; to release built-up energy.",
@@ -4076,10 +3530,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "out", "up", "off"]
     },
-
-    // ========================================
-    // WEAR (expanded)
-    // ========================================
     {
         verb: "wear", particle: "down", phrase: "wear down", category: "emotion", level: "high",
         meaning: "To make someone gradually lose resistance or energy.",
@@ -4091,10 +3541,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "away"]
     },
-
-    // ========================================
-    // DROP (expanded)
-    // ========================================
     {
         verb: "drop", particle: "in", phrase: "drop in", category: "daily", level: "middle",
         meaning: "To visit someone casually without a prior arrangement.",
@@ -4106,9 +3552,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "by", "off", "out"]
     },
-    // ========================================
-    // CUT (expanded)
-    // ========================================
     {
         verb: "cut", particle: "in", phrase: "cut in", category: "daily", level: "high",
         meaning: "To interrupt someone; to move in front of others in a line.",
@@ -4131,10 +3574,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back on", "down on", "off", "out"]
     },
-
-    // ========================================
-    // FILL (expanded)
-    // ========================================
     {
         verb: "fill", particle: "in for", phrase: "fill in for", category: "business", level: "high",
         meaning: "To temporarily do someone else's job or take their place.",
@@ -4146,10 +3585,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in for", "out for", "up for", "on for"]
     },
-
-    // ========================================
-    // CHECK (expanded)
-    // ========================================
     {
         verb: "check", particle: "off", phrase: "check off", category: "daily", level: "middle",
         meaning: "To mark items on a list as completed or verified.",
@@ -4172,10 +3607,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["into", "in", "up on", "out"]
     },
-
-    // ========================================
-    // WRITE - NEW VERB
-    // ========================================
     {
         verb: "write", particle: "down", phrase: "write down", category: "academic", level: "elementary",
         meaning: "To record something on paper or in a document.",
@@ -4209,10 +3640,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "off", "out"]
     },
-
-    // ========================================
-    // READ - NEW VERB
-    // ========================================
     {
         verb: "read", particle: "up on", phrase: "read up on", category: "academic", level: "high",
         meaning: "To study or learn about a subject by reading.",
@@ -4246,10 +3673,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "up on", "into", "out"]
     },
-
-    // ========================================
-    // POINT - NEW ENTRIES
-    // ========================================
     {
         verb: "point", particle: "to", phrase: "point to", category: "academic", level: "high",
         meaning: "To indicate or suggest something as evidence.",
@@ -4261,10 +3684,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["to", "out", "at", "up"]
     },
-
-    // ========================================
-    // TRY - NEW VERB
-    // ========================================
     {
         verb: "try", particle: "out", phrase: "try out", category: "daily", level: "high",
         meaning: "To test something to see if it works or if you like it.",
@@ -4287,10 +3706,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "out", "up", "off"]
     },
-
-    // ========================================
-    // TURN - MORE
-    // ========================================
     {
         verb: "turn", particle: "to", phrase: "turn to", category: "emotion", level: "middle",
         meaning: "To go to someone for help or support; to start doing something.",
@@ -4302,10 +3717,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["to", "on", "in", "up"]
     },
-
-    // ========================================
-    // SHUT (expanded)
-    // ========================================
     {
         verb: "shut", particle: "off", phrase: "shut off", category: "daily", level: "middle",
         meaning: "To stop the flow or operation of something.",
@@ -4317,10 +3728,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "down", "up", "out"]
     },
-
-    // ========================================
-    // MARK - NEW VERB
-    // ========================================
     {
         verb: "mark", particle: "down", phrase: "mark down", category: "business", level: "high",
         meaning: "To reduce the price of something; to note something.",
@@ -4343,10 +3750,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "off", "out"]
     },
-
-    // ========================================
-    // PILE - NEW VERB
-    // ========================================
     {
         verb: "pile", particle: "up", phrase: "pile up", category: "daily", level: "professional",
         meaning: "To accumulate in a large amount.",
@@ -4358,10 +3761,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "in", "out"]
     },
-
-    // ========================================
-    // SHUT / CLOSE extras
-    // ========================================
     {
         verb: "close", particle: "up", phrase: "close up", category: "business", level: "high",
         meaning: "To close a business or shop for the day; to come closer together.",
@@ -4373,10 +3772,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "off", "out"]
     },
-
-    // ========================================
-    // SORT (expanded)
-    // ========================================
     {
         verb: "sort", particle: "through", phrase: "sort through", category: "daily", level: "high",
         meaning: "To examine a collection of things to organize or find something.",
@@ -4388,10 +3783,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "out", "over", "into"]
     },
-
-    // ========================================
-    // CARRY (expanded)
-    // ========================================
     {
         verb: "carry", particle: "over", phrase: "carry over", category: "business", level: "college",
         meaning: "To transfer something from one situation or period to another.",
@@ -4414,10 +3805,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "on", "out", "over"]
     },
-
-    // ========================================
-    // RULE (expanded)
-    // ========================================
     {
         verb: "rule", particle: "over", phrase: "rule over", category: "academic", level: "college",
         meaning: "To govern or have authority over a people or territory.",
@@ -4429,10 +3816,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "out", "on", "off"]
     },
-
-    // ========================================
-    // WIPE (expanded)
-    // ========================================
     {
         verb: "wipe", particle: "off", phrase: "wipe off", category: "daily", level: "professional",
         meaning: "To clean or remove something by rubbing.",
@@ -4444,10 +3827,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "up", "away"]
     },
-
-    // ========================================
-    // DRAW - NEW VERB
-    // ========================================
     {
         verb: "draw", particle: "up", phrase: "draw up", category: "business", level: "college",
         meaning: "To prepare a document, plan, or list.",
@@ -4481,10 +3860,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "out", "up", "from"]
     },
-
-    // ========================================
-    // CARRY (more)
-    // ========================================
     {
         verb: "carry", particle: "off", phrase: "carry off", category: "daily", level: "college",
         meaning: "To succeed in doing something difficult; to steal and take away.",
@@ -4496,10 +3871,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "on", "through"]
     },
-
-    // ========================================
-    // PHASE (expanded)
-    // ========================================
     {
         verb: "phase", particle: "in", phrase: "phase in", category: "business", level: "college",
         meaning: "To gradually introduce something new.",
@@ -4511,10 +3882,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "on", "off"]
     },
-
-    // ========================================
-    // LAY (expanded)
-    // ========================================
     {
         verb: "lay", particle: "out", phrase: "lay out", category: "business", level: "college",
         meaning: "To arrange or spread something out; to explain a plan clearly; to spend money.",
@@ -4537,10 +3904,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "up"]
     },
-
-    // ========================================
-    // KNOCK (expanded)
-    // ========================================
     {
         verb: "knock", particle: "off", phrase: "knock off", category: "daily", level: "college",
         meaning: "To stop working; to reduce a price; to produce cheap copies.",
@@ -4552,10 +3915,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "down", "out", "up"]
     },
-
-    // ========================================
-    // GIVE (more expanded)
-    // ========================================
     {
         verb: "give", particle: "over", phrase: "give over", category: "daily", level: "college",
         meaning: "To dedicate time or space to a particular purpose; to stop doing something annoying.",
@@ -4567,10 +3926,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "up", "in", "away"]
     },
-
-    // ========================================
-    // SPEAK (expanded)
-    // ========================================
     {
         verb: "speak", particle: "out", phrase: "speak out", category: "business", level: "college",
         meaning: "To publicly express your opinions, especially on a controversial topic.",
@@ -4593,10 +3948,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "out", "up", "to"]
     },
-
-    // ========================================
-    // LIVE (expanded)
-    // ========================================
     {
         verb: "live", particle: "on", phrase: "live on", category: "daily", level: "college",
         meaning: "To survive with a small amount of money or food; to continue to exist after death.",
@@ -4630,10 +3981,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["with", "on", "off", "through"]
     },
-
-    // ========================================
-    // WIND (expanded)
-    // ========================================
     {
         verb: "wind", particle: "down", phrase: "wind down", category: "daily", level: "college",
         meaning: "To gradually relax; to gradually reduce activity before stopping.",
@@ -4645,10 +3992,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "off", "out"]
     },
-
-    // ========================================
-    // OPEN (expanded)
-    // ========================================
     {
         verb: "open", particle: "out", phrase: "open out", category: "daily", level: "college",
         meaning: "To unfold; to become wider; to become more open and communicative.",
@@ -4660,10 +4003,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "on", "off"]
     },
-
-    // ========================================
-    // SLOW (expanded)
-    // ========================================
     {
         verb: "slow", particle: "up", phrase: "slow up", category: "daily", level: "college",
         meaning: "To reduce speed; to cause a delay.",
@@ -4675,10 +4014,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "off", "out"]
     },
-
-    // ========================================
-    // SNAP - NEW VERB
-    // ========================================
     {
         verb: "snap", particle: "up", phrase: "snap up", category: "daily", level: "college",
         meaning: "To buy or take something quickly and eagerly.",
@@ -4701,10 +4036,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out of", "into", "up", "off"]
     },
-
-    // ========================================
-    // WATER - NEW VERB
-    // ========================================
     {
         verb: "water", particle: "down", phrase: "water down", category: "business", level: "college",
         meaning: "To make something weaker or less effective; to dilute.",
@@ -4716,10 +4047,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "up"]
     },
-
-    // ========================================
-    // BRUSH (expanded)
-    // ========================================
     {
         verb: "brush", particle: "off", phrase: "brush off", category: "emotion", level: "college",
         meaning: "To dismiss something or someone as unimportant.",
@@ -4731,10 +4058,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "up on", "aside", "away"]
     },
-
-    // ========================================
-    // STAMP - NEW VERB
-    // ========================================
     {
         verb: "stamp", particle: "out", phrase: "stamp out", category: "business", level: "college",
         meaning: "To put an end to something bad by taking strong action.",
@@ -4746,10 +4069,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "down", "on"]
     },
-
-    // ========================================
-    // MAP - NEW VERB
-    // ========================================
     {
         verb: "map", particle: "out", phrase: "map out", category: "business", level: "college",
         meaning: "To plan something in detail.",
@@ -4761,10 +4080,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "on", "off"]
     },
-
-    // ========================================
-    // CRACK - NEW VERB
-    // ========================================
     {
         verb: "crack", particle: "down on", phrase: "crack down on", category: "business", level: "professional",
         meaning: "To take strong action to stop bad or illegal behavior.",
@@ -4787,10 +4102,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down on", "out", "off"]
     },
-
-    // ========================================
-    // TAKE (more expanded)
-    // ========================================
     {
         verb: "take", particle: "up on", phrase: "take up on", category: "daily", level: "professional",
         meaning: "To accept an offer or invitation that someone has made.",
@@ -4802,10 +4113,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up on", "on", "over", "off"]
     },
-
-    // ========================================
-    // TOUCH - NEW VERB
-    // ========================================
     {
         verb: "touch", particle: "on", phrase: "touch on", category: "academic", level: "college",
         meaning: "To mention or discuss something briefly.",
@@ -4828,10 +4135,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "off", "out"]
     },
-
-    // ========================================
-    // BAIL - NEW VERB
-    // ========================================
     {
         verb: "bail", particle: "out", phrase: "bail out", category: "business", level: "college",
         meaning: "To rescue someone from a difficult situation, especially financially.",
@@ -4843,10 +4146,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "in"]
     },
-
-    // ========================================
-    // PAN - NEW VERB
-    // ========================================
     {
         verb: "pan", particle: "out", phrase: "pan out", category: "daily", level: "college",
         meaning: "To develop or turn out in a particular way.",
@@ -4858,10 +4157,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "through"]
     },
-
-    // ========================================
-    // GEAR - NEW VERB
-    // ========================================
     {
         verb: "gear", particle: "up", phrase: "gear up", category: "business", level: "college",
         meaning: "To prepare for an activity or event.",
@@ -4873,10 +4168,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "on", "off"]
     },
-
-    // ========================================
-    // ZERO - NEW VERB
-    // ========================================
     {
         verb: "zero", particle: "in on", phrase: "zero in on", category: "business", level: "professional",
         meaning: "To focus attention directly on something specific.",
@@ -4888,10 +4179,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in on", "out on", "up on", "down on"]
     },
-
-    // ========================================
-    // OWN - NEW VERB
-    // ========================================
     {
         verb: "own", particle: "up", phrase: "own up", category: "emotion", level: "college",
         meaning: "To admit that you have done something wrong.",
@@ -4903,10 +4190,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "in", "off"]
     },
-
-    // ========================================
-    // BRANCH - NEW VERB
-    // ========================================
     {
         verb: "branch", particle: "out", phrase: "branch out", category: "business", level: "college",
         meaning: "To expand activities into new areas or directions.",
@@ -4918,10 +4201,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "in"]
     },
-
-    // ========================================
-    // SIZE - NEW VERB
-    // ========================================
     {
         verb: "size", particle: "up", phrase: "size up", category: "daily", level: "college",
         meaning: "To evaluate or assess someone or something.",
@@ -4933,10 +4212,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "out", "off"]
     },
-
-    // ========================================
-    // TONE - NEW VERB
-    // ========================================
     {
         verb: "tone", particle: "down", phrase: "tone down", category: "business", level: "college",
         meaning: "To make something less extreme, forceful, or offensive.",
@@ -4948,10 +4223,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "off", "out"]
     },
-
-    // ========================================
-    // CLAMP - NEW VERB
-    // ========================================
     {
         verb: "clamp", particle: "down on", phrase: "clamp down on", category: "business", level: "professional",
         meaning: "To take strict action to prevent or limit something.",
@@ -4963,10 +4234,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down on", "up on", "out on", "off"]
     },
-
-    // ========================================
-    // SPRING (expanded)
-    // ========================================
     {
         verb: "spring", particle: "from", phrase: "spring from", category: "academic", level: "college",
         meaning: "To originate from; to be caused by.",
@@ -4978,10 +4245,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["from", "up", "out", "off"]
     },
-
-    // ========================================
-    // ACCOUNT - NEW VERB
-    // ========================================
     {
         verb: "account", particle: "for", phrase: "account for", category: "academic", level: "college",
         meaning: "To explain the reason for something; to represent a proportion.",
@@ -4993,10 +4256,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "on", "to", "in"]
     },
-
-    // ========================================
-    // FACTOR - NEW VERB
-    // ========================================
     {
         verb: "factor", particle: "in", phrase: "factor in", category: "business", level: "college",
         meaning: "To include something as a relevant element when making a decision.",
@@ -5008,10 +4267,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "up", "on"]
     },
-
-    // ========================================
-    // OPT (expanded)
-    // ========================================
     {
         verb: "opt", particle: "for", phrase: "opt for", category: "daily", level: "college",
         meaning: "To choose one option over another.",
@@ -5034,10 +4289,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "for", "on"]
     },
-
-    // ========================================
-    // MIX (expanded)
-    // ========================================
     {
         verb: "mix", particle: "in", phrase: "mix in", category: "daily", level: "college",
         meaning: "To add and combine something with a mixture; to socialize with others.",
@@ -5049,10 +4300,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "up", "out", "together"]
     },
-
-    // ========================================
-    // MESS (expanded)
-    // ========================================
     {
         verb: "mess", particle: "around", phrase: "mess around", category: "daily", level: "college",
         meaning: "To waste time doing silly things; to behave irresponsibly.",
@@ -5075,10 +4322,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["with", "around", "up", "about"]
     },
-
-    // ========================================
-    // SELL (expanded)
-    // ========================================
     {
         verb: "sell", particle: "off", phrase: "sell off", category: "business", level: "college",
         meaning: "To sell something, often at a low price, to get rid of it quickly.",
@@ -5090,10 +4333,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "up", "away"]
     },
-
-    // ========================================
-    // WRAP (expanded)
-    // ========================================
     {
         verb: "wrap", particle: "around", phrase: "wrap around", category: "daily", level: "college",
         meaning: "To encircle something; used figuratively to mean fully understanding something.",
@@ -5105,10 +4344,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "up", "in", "over"]
     },
-
-    // ========================================
-    // NARROW (expanded)
-    // ========================================
     {
         verb: "narrow", particle: "down to", phrase: "narrow down to", category: "business", level: "college",
         meaning: "To reduce options until only specific ones remain.",
@@ -5120,10 +4355,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down to", "out to", "off to", "up to"]
     },
-
-    // ========================================
-    // TAP - NEW VERB
-    // ========================================
     {
         verb: "tap", particle: "into", phrase: "tap into", category: "business", level: "college",
         meaning: "To access and use a resource or market that already exists.",
@@ -5135,10 +4366,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["into", "on", "out", "up"]
     },
-
-    // ========================================
-    // WEIGH (expanded)
-    // ========================================
     {
         verb: "weigh", particle: "in", phrase: "weigh in", category: "business", level: "college",
         meaning: "To give your opinion about something; to be officially weighed before a competition.",
@@ -5161,10 +4388,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "in", "on"]
     },
-
-    // ========================================
-    // SIGN (more expanded)
-    // ========================================
     {
         verb: "sign", particle: "on", phrase: "sign on", category: "business", level: "college",
         meaning: "To agree to do a job or task; to register as unemployed.",
@@ -5176,10 +4399,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "up", "in", "off"]
     },
-
-    // ========================================
-    // GO (expanded)
-    // ========================================
     {
         verb: "go", particle: "about", phrase: "go about", category: "daily", level: "high",
         meaning: "To begin or carry out a task; to approach something.",
@@ -5213,10 +4432,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "with", "on", "about"]
     },
-
-    // ========================================
-    // MAKE (expanded)
-    // ========================================
     {
         verb: "make", particle: "for", phrase: "make for", category: "daily", level: "college",
         meaning: "To move toward a place; to contribute to or result in.",
@@ -5239,10 +4454,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["of", "out", "up", "for"]
     },
-
-    // ========================================
-    // RUN (more expanded)
-    // ========================================
     {
         verb: "run", particle: "off", phrase: "run off", category: "daily", level: "college",
         meaning: "To leave quickly; to make copies of a document.",
@@ -5265,10 +4476,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["across", "into", "over", "through"]
     },
-
-    // ========================================
-    // PICK (more expanded)
-    // ========================================
     {
         verb: "pick", particle: "apart", phrase: "pick apart", category: "academic", level: "college",
         meaning: "To criticize something in great detail; to find faults.",
@@ -5280,10 +4487,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["apart", "out", "on", "up"]
     },
-
-    // ========================================
-    // LINE (expanded)
-    // ========================================
     {
         verb: "line", particle: "up with", phrase: "line up with", category: "business", level: "college",
         meaning: "To be consistent or in agreement with something.",
@@ -5295,10 +4498,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up with", "up", "out with", "in with"]
     },
-
-    // ========================================
-    // FIGURE (expanded)
-    // ========================================
     {
         verb: "figure", particle: "in", phrase: "figure in", category: "business", level: "college",
         meaning: "To be included as an important part; to include in calculations.",
@@ -5310,10 +4509,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "up", "on"]
     },
-
-    // ========================================
-    // SWITCH (expanded)
-    // ========================================
     {
         verb: "switch", particle: "on", phrase: "switch on", category: "daily", level: "elementary",
         meaning: "To turn on a device or light.",
@@ -5336,10 +4531,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "off", "on", "up"]
     },
-
-    // ========================================
-    // COVER - NEW VERB
-    // ========================================
     {
         verb: "cover", particle: "up", phrase: "cover up", category: "business", level: "college",
         meaning: "To hide the truth about something; to conceal wrongdoing.",
@@ -5362,10 +4553,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "up", "over", "out"]
     },
-
-    // ========================================
-    // WEAR (more expanded)
-    // ========================================
     {
         verb: "wear", particle: "in", phrase: "wear in", category: "daily", level: "college",
         meaning: "To make new shoes or clothes more comfortable by wearing them.",
@@ -5377,10 +4564,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "off", "down"]
     },
-
-    // ========================================
-    // LOCK (expanded)
-    // ========================================
     {
         verb: "lock", particle: "in", phrase: "lock in", category: "business", level: "college",
         meaning: "To secure or guarantee something; to commit to an agreement.",
@@ -5403,10 +4586,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "in", "off"]
     },
-
-    // ========================================
-    // ZOOM (expanded)
-    // ========================================
     {
         verb: "zoom", particle: "out", phrase: "zoom out", category: "academic", level: "college",
         meaning: "To make an image smaller to see more of the surroundings; to take a broader view.",
@@ -5418,13 +4597,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "in", "up", "on"]
     },
-
-    // ========================================
-    // IRON (expanded)
-    // ========================================
-    // ========================================
-    // ROLL - NEW VERB
-    // ========================================
     {
         verb: "roll", particle: "out", phrase: "roll out", category: "business", level: "professional",
         meaning: "To officially launch or introduce a new product or plan.",
@@ -5447,10 +4619,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "out", "up", "off"]
     },
-
-    // ========================================
-    // RAMP - NEW VERB
-    // ========================================
     {
         verb: "ramp", particle: "up", phrase: "ramp up", category: "business", level: "professional",
         meaning: "To increase or intensify something significantly.",
@@ -5462,10 +4630,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "off", "on"]
     },
-
-    // ========================================
-    // STOCK - NEW VERB
-    // ========================================
     {
         verb: "stock", particle: "up", phrase: "stock up", category: "daily", level: "college",
         meaning: "To buy a large supply of something.",
@@ -5477,10 +4641,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "in", "out", "off"]
     },
-
-    // ========================================
-    // SEND - NEW VERB
-    // ========================================
     {
         verb: "send", particle: "off", phrase: "send off", category: "daily", level: "college",
         meaning: "To post something by mail; to say goodbye to someone who is leaving.",
@@ -5503,10 +4663,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "off", "out", "away"]
     },
-
-    // ========================================
-    // LAND - NEW VERB
-    // ========================================
     {
         verb: "land", particle: "on", phrase: "land on", category: "daily", level: "high",
         meaning: "To finally choose or decide on something after consideration.",
@@ -5518,10 +4674,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "in", "at", "upon"]
     },
-
-    // ========================================
-    // HOLD (more expanded)
-    // ========================================
     {
         verb: "hold", particle: "against", phrase: "hold against", category: "emotion", level: "high",
         meaning: "To let something negative that someone did affect your opinion of them.",
@@ -5533,10 +4685,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["against", "back", "on", "down"]
     },
-
-    // ========================================
-    // HAVE
-    // ========================================
     {
         verb: "have", particle: "on", phrase: "have on", category: "daily", level: "college",
         meaning: "To be wearing something; to trick or deceive someone playfully.",
@@ -5592,10 +4740,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["against", "on", "out", "over"]
     },
-
-    // ========================================
-    // BE
-    // ========================================
     {
         verb: "be", particle: "into", phrase: "be into", category: "daily", level: "college",
         meaning: "To be very interested in or enthusiastic about something.",
@@ -5651,10 +4795,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "over", "up to"]
     },
-
-    // ========================================
-    // LET
-    // ========================================
     {
         verb: "let", particle: "down", phrase: "let down", category: "emotion", level: "middle",
         meaning: "To disappoint someone by failing to do what they expected.",
@@ -5710,10 +4850,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["go", "off", "out", "down"]
     },
-
-    // ========================================
-    // SEE
-    // ========================================
     {
         verb: "see", particle: "through", phrase: "see through", category: "emotion", level: "college",
         meaning: "To recognize someone's deception; to continue until something is completed.",
@@ -5758,10 +4894,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "to", "through"]
     },
-
-    // ========================================
-    // TALK
-    // ========================================
     {
         verb: "talk", particle: "into", phrase: "talk into", category: "daily", level: "college",
         meaning: "To persuade someone to do something.",
@@ -5806,10 +4938,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "over", "into", "out"]
     },
-
-    // ========================================
-    // SIT
-    // ========================================
     {
         verb: "sit", particle: "down", phrase: "sit down", category: "daily", level: "elementary",
         meaning: "To take a seat; to have a serious conversation.",
@@ -5854,10 +4982,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "back", "in on", "down"]
     },
-
-    // ========================================
-    // LEAVE
-    // ========================================
     {
         verb: "leave", particle: "out", phrase: "leave out", category: "daily", level: "college",
         meaning: "To not include something or someone; to omit.",
@@ -5902,10 +5026,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["alone", "out", "behind", "off"]
     },
-
-    // ========================================
-    // KICK
-    // ========================================
     {
         verb: "kick", particle: "off", phrase: "kick off", category: "business", level: "college",
         meaning: "To start something; the beginning of a game or event.",
@@ -5950,10 +5070,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "off", "out", "back"]
     },
-
-    // ========================================
-    // BURN
-    // ========================================
     {
         verb: "burn", particle: "out", phrase: "burn out", category: "emotion", level: "college",
         meaning: "To become exhausted from overwork; to stop functioning due to excessive use.",
@@ -5987,10 +5103,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "out", "off"]
     },
-
-    // ========================================
-    // DIE
-    // ========================================
     {
         verb: "die", particle: "down", phrase: "die down", category: "daily", level: "college",
         meaning: "To gradually become weaker or less intense.",
@@ -6024,10 +5136,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "down", "away"]
     },
-
-    // ========================================
-    // CLEAR
-    // ========================================
     {
         verb: "clear", particle: "up", phrase: "clear up", category: "daily", level: "college",
         meaning: "To explain or resolve confusion; for weather to improve; to tidy.",
@@ -6050,10 +5158,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "off", "away"]
     },
-
-    // ========================================
-    // PUSH
-    // ========================================
     {
         verb: "push", particle: "through", phrase: "push through", category: "business", level: "college",
         meaning: "To get something accepted despite opposition; to persevere.",
@@ -6087,10 +5191,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["ahead", "back", "through", "forward"]
     },
-
-    // ========================================
-    // HELP
-    // ========================================
     {
         verb: "help", particle: "out", phrase: "help out", category: "daily", level: "college",
         meaning: "To assist someone, especially when they are in difficulty.",
@@ -6102,10 +5202,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "in", "on"]
     },
-
-    // ========================================
-    // REACH
-    // ========================================
     {
         verb: "reach", particle: "out", phrase: "reach out", category: "emotion", level: "college",
         meaning: "To contact someone; to offer help or support.",
@@ -6128,10 +5224,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out to", "in to", "up to", "over to"]
     },
-
-    // ========================================
-    // HIT
-    // ========================================
     {
         verb: "hit", particle: "on", phrase: "hit on", category: "daily", level: "professional",
         meaning: "To suddenly discover an idea; to flirt with someone.",
@@ -6165,10 +5257,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "back", "off"]
     },
-
-    // ========================================
-    // HURRY
-    // ========================================
     {
         verb: "hurry", particle: "up", phrase: "hurry up", category: "daily", level: "elementary",
         meaning: "To do something more quickly; to rush.",
@@ -6180,10 +5268,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "along", "off"]
     },
-
-    // ========================================
-    // LOG
-    // ========================================
     {
         verb: "log", particle: "in", phrase: "log in", category: "daily", level: "elementary",
         meaning: "To enter a username and password to access a computer system.",
@@ -6206,10 +5290,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "in", "on", "off"]
     },
-
-    // ========================================
-    // PLUG
-    // ========================================
     {
         verb: "plug", particle: "in", phrase: "plug in", category: "daily", level: "elementary",
         meaning: "To connect an electrical device to a power source.",
@@ -6232,10 +5312,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "in", "on", "up"]
     },
-
-    // ========================================
-    // WARM
-    // ========================================
     {
         verb: "warm", particle: "up", phrase: "warm up", category: "daily", level: "elementary",
         meaning: "To prepare the body for exercise; to heat food; to become friendlier.",
@@ -6258,10 +5334,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["to", "up", "down", "off"]
     },
-
-    // ========================================
-    // COOL
-    // ========================================
     {
         verb: "cool", particle: "down", phrase: "cool down", category: "emotion", level: "elementary",
         meaning: "To become less hot; to become calmer after being angry.",
@@ -6284,10 +5356,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "down", "out", "up"]
     },
-
-    // ========================================
-    // DIG
-    // ========================================
     {
         verb: "dig", particle: "into", phrase: "dig into", category: "academic", level: "professional",
         meaning: "To start eating enthusiastically; to research something thoroughly.",
@@ -6310,10 +5378,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "into", "out", "through"]
     },
-
-    // ========================================
-    // SUM
-    // ========================================
     {
         verb: "sum", particle: "up", phrase: "sum up", category: "academic", level: "professional",
         meaning: "To summarize the main points of something.",
@@ -6325,10 +5389,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "on"]
     },
-
-    // ========================================
-    // FADE
-    // ========================================
     {
         verb: "fade", particle: "away", phrase: "fade away", category: "daily", level: "professional",
         meaning: "To gradually disappear or lose strength.",
@@ -6351,10 +5411,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "away", "off", "down"]
     },
-
-    // ========================================
-    // FIRE
-    // ========================================
     {
         verb: "fire", particle: "up", phrase: "fire up", category: "emotion", level: "professional",
         meaning: "To start a machine or engine; to become very excited or motivated.",
@@ -6377,10 +5433,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "up", "off", "out"]
     },
-
-    // ========================================
-    // DRY
-    // ========================================
     {
         verb: "dry", particle: "up", phrase: "dry up", category: "daily", level: "professional",
         meaning: "To become completely dry; to run out of supply; to stop talking suddenly.",
@@ -6403,10 +5455,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "off", "away"]
     },
-
-    // ========================================
-    // CHIP
-    // ========================================
     {
         verb: "chip", particle: "in", phrase: "chip in", category: "daily", level: "professional",
         meaning: "To contribute money or effort together with others.",
@@ -6429,10 +5477,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away at", "in", "off", "out"]
     },
-
-    // ========================================
-    // TOP
-    // ========================================
     {
         verb: "top", particle: "up", phrase: "top up", category: "daily", level: "professional",
         meaning: "To refill something to the top; to add more to make it full.",
@@ -6455,10 +5499,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "up", "out", "in"]
     },
-
-    // ========================================
-    // PRINT
-    // ========================================
     {
         verb: "print", particle: "out", phrase: "print out", category: "daily", level: "elementary",
         meaning: "To produce a paper copy of a document from a computer.",
@@ -6470,10 +5510,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "in"]
     },
-
-    // ========================================
-    // BEEF
-    // ========================================
     {
         verb: "beef", particle: "up", phrase: "beef up", category: "business", level: "professional",
         meaning: "To strengthen or make something bigger and more powerful.",
@@ -6485,10 +5521,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "in"]
     },
-
-    // ========================================
-    // FIGURE (more)
-    // ========================================
     {
         verb: "figure", particle: "on", phrase: "figure on", category: "daily", level: "professional",
         meaning: "To plan or expect something to happen.",
@@ -6500,10 +5532,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "out", "in", "up"]
     },
-
-    // ========================================
-    // RULE (more)
-    // ========================================
     {
         verb: "rule", particle: "in", phrase: "rule in", category: "academic", level: "professional",
         meaning: "To include something as a possibility.",
@@ -6515,10 +5543,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "off", "on"]
     },
-
-    // ========================================
-    // TIDY - NEW VERB
-    // ========================================
     {
         verb: "tidy", particle: "up", phrase: "tidy up", category: "daily", level: "elementary",
         meaning: "To make a place neat and organized.",
@@ -6530,10 +5554,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "away", "off"]
     },
-
-    // ========================================
-    // RING - NEW VERB
-    // ========================================
     {
         verb: "ring", particle: "up", phrase: "ring up", category: "daily", level: "professional",
         meaning: "To call someone on the phone; to record a sale on a cash register.",
@@ -6556,10 +5576,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "up", "off", "out"]
     },
-
-    // ========================================
-    // GIVE (more)
-    // ========================================
     {
         verb: "give", particle: "in to", phrase: "give in to", category: "emotion", level: "professional",
         meaning: "To surrender to a desire, temptation, or demand.",
@@ -6571,10 +5587,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in to", "up on", "away", "out"]
     },
-
-    // ========================================
-    // TUNE - NEW VERB
-    // ========================================
     {
         verb: "tune", particle: "in", phrase: "tune in", category: "daily", level: "professional",
         meaning: "To watch or listen to a broadcast; to pay attention.",
@@ -6597,10 +5609,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "in", "up", "off"]
     },
-
-    // ========================================
-    // TURN (more)
-    // ========================================
     {
         verb: "turn", particle: "away", phrase: "turn away", category: "daily", level: "professional",
         meaning: "To refuse entry or service; to look in a different direction.",
@@ -6612,10 +5620,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "down", "off", "out"]
     },
-
-    // ========================================
-    // PICK (more)
-    // ========================================
     {
         verb: "pick", particle: "up on", phrase: "pick up on", category: "daily", level: "professional",
         meaning: "To notice something subtle that others might miss.",
@@ -6627,10 +5631,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up on", "out", "on", "up"]
     },
-
-    // ========================================
-    // GO (more)
-    // ========================================
     {
         verb: "go", particle: "without", phrase: "go without", category: "daily", level: "professional",
         meaning: "To manage without having something you usually have.",
@@ -6642,10 +5642,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["without", "with", "about", "on"]
     },
-
-    // ========================================
-    // FRESHEN - NEW VERB
-    // ========================================
     {
         verb: "freshen", particle: "up", phrase: "freshen up", category: "daily", level: "professional",
         meaning: "To wash yourself and make yourself look tidy.",
@@ -6657,10 +5653,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "on"]
     },
-
-    // ========================================
-    // JACK - NEW VERB
-    // ========================================
     {
         verb: "jack", particle: "up", phrase: "jack up", category: "business", level: "professional",
         meaning: "To increase prices sharply; to lift something with a jack.",
@@ -6672,10 +5664,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "off", "out", "in"]
     },
-
-    // ========================================
-    // RUN (more)
-    // ========================================
     {
         verb: "run", particle: "up against", phrase: "run up against", category: "business", level: "professional",
         meaning: "To encounter an unexpected problem or obstacle.",
@@ -6687,10 +5675,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up against", "into", "out of", "over"]
     },
-
-    // ========================================
-    // GET (more)
-    // ========================================
     {
         verb: "get", particle: "around to", phrase: "get around to", category: "daily", level: "professional",
         meaning: "To finally find time to do something you've been meaning to do.",
@@ -6702,10 +5686,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around to", "on with", "up to", "through"]
     },
-
-    // ========================================
-    // COME (more)
-    // ========================================
     {
         verb: "come", particle: "down to", phrase: "come down to", category: "daily", level: "professional",
         meaning: "To be the most important factor; the essential issue.",
@@ -6717,10 +5697,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down to", "up with", "along with", "out of"]
     },
-
-    // ========================================
-    // WAKE
-    // ========================================
     {
         verb: "wake", particle: "up", phrase: "wake up", category: "daily", level: "elementary",
         meaning: "To stop sleeping; to become alert or aware of something.",
@@ -6732,10 +5708,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "on"]
     },
-
-    // ========================================
-    // LIE
-    // ========================================
     {
         verb: "lie", particle: "down", phrase: "lie down", category: "daily", level: "elementary",
         meaning: "To put yourself in a flat position, usually to rest.",
@@ -6747,10 +5719,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "out", "back", "off"]
     },
-
-    // ========================================
-    // DRESS
-    // ========================================
     {
         verb: "dress", particle: "up", phrase: "dress up", category: "daily", level: "elementary",
         meaning: "To wear formal or fancy clothes; to wear a costume.",
@@ -6762,10 +5730,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "out", "on"]
     },
-
-    // ========================================
-    // SPEED
-    // ========================================
     {
         verb: "speed", particle: "up", phrase: "speed up", category: "daily", level: "elementary",
         meaning: "To go faster; to make something happen more quickly.",
@@ -6777,10 +5741,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "off", "out"]
     },
-
-    // ========================================
-    // COME (basics)
-    // ========================================
     {
         verb: "come", particle: "in", phrase: "come in", category: "daily", level: "elementary",
         meaning: "To enter a room or building.",
@@ -6792,10 +5752,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "on", "up"]
     },
-
-    // ========================================
-    // GO (basics)
-    // ========================================
     {
         verb: "go", particle: "out", phrase: "go out", category: "daily", level: "elementary",
         meaning: "To leave the house for social activities; to stop burning; to date someone.",
@@ -6807,10 +5763,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "on", "back"]
     },
-
-    // ========================================
-    // GET (basics)
-    // ========================================
     {
         verb: "get", particle: "in", phrase: "get in", category: "daily", level: "elementary",
         meaning: "To enter a car or taxi; to arrive home; to be accepted.",
@@ -6844,10 +5796,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["along with", "on with", "up with", "over with"]
     },
-
-    // ========================================
-    // FALL (basics)
-    // ========================================
     {
         verb: "fall", particle: "down", phrase: "fall down", category: "daily", level: "elementary",
         meaning: "To drop to the ground; to collapse.",
@@ -6870,10 +5818,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "down", "off", "out"]
     },
-
-    // ========================================
-    // LOOK (basics)
-    // ========================================
     {
         verb: "look", particle: "for", phrase: "look for", category: "daily", level: "elementary",
         meaning: "To try to find something or someone.",
@@ -6896,10 +5840,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "for", "into", "through"]
     },
-
-    // ========================================
-    // DEAL
-    // ========================================
     {
         verb: "deal", particle: "with", phrase: "deal with", category: "business", level: "college",
         meaning: "To handle or manage a problem or situation; to do business with.",
@@ -6911,10 +5851,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["with", "in", "for", "on"]
     },
-
-    // ========================================
-    // TELL
-    // ========================================
     {
         verb: "tell", particle: "off", phrase: "tell off", category: "emotion", level: "middle",
         meaning: "To speak angrily to someone because they did something wrong.",
@@ -6937,10 +5873,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["apart", "off", "out", "away"]
     },
-
-    // ========================================
-    // HEAD
-    // ========================================
     {
         verb: "head", particle: "out", phrase: "head out", category: "daily", level: "middle",
         meaning: "To leave; to start a journey.",
@@ -6963,10 +5895,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "out", "off", "to"]
     },
-
-    // ========================================
-    // RUN (basics)
-    // ========================================
     {
         verb: "run", particle: "after", phrase: "run after", category: "daily", level: "middle",
         meaning: "To chase someone or something.",
@@ -6978,10 +5906,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["after", "into", "away", "out"]
     },
-
-    // ========================================
-    // PUT (basics)
-    // ========================================
     {
         verb: "put", particle: "back", phrase: "put back", category: "daily", level: "middle",
         meaning: "To return something to where it was before; to delay.",
@@ -6993,10 +5917,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "away", "down", "off"]
     },
-
-    // ========================================
-    // GIVE (basics)
-    // ========================================
     {
         verb: "give", particle: "way", phrase: "give way", category: "daily", level: "middle",
         meaning: "To collapse or break under pressure; to yield to traffic or other people.",
@@ -7008,10 +5928,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["way", "in", "up", "out"]
     },
-
-    // ========================================
-    // TAKE (basics)
-    // ========================================
     {
         verb: "take", particle: "away", phrase: "take away", category: "daily", level: "elementary",
         meaning: "To remove something from a place; to buy food to eat elsewhere.",
@@ -7023,10 +5939,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "off", "out", "back"]
     },
-
-    // ========================================
-    // CROSS
-    // ========================================
     {
         verb: "cross", particle: "out", phrase: "cross out", category: "academic", level: "elementary",
         meaning: "To draw a line through something written to show it is wrong or not needed.",
@@ -7038,10 +5950,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "over", "through"]
     },
-
-    // ========================================
-    // BEAT
-    // ========================================
     {
         verb: "beat", particle: "up", phrase: "beat up", category: "emotion", level: "middle",
         meaning: "To physically attack someone violently; to criticize yourself harshly.",
@@ -7053,10 +5961,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "out", "off"]
     },
-
-    // ========================================
-    // FACE
-    // ========================================
     {
         verb: "face", particle: "up to", phrase: "face up to", category: "emotion", level: "college",
         meaning: "To accept and deal with a difficult situation bravely.",
@@ -7068,10 +5972,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up to", "off", "down", "out"]
     },
-
-    // ========================================
-    // FIT
-    // ========================================
     {
         verb: "fit", particle: "in", phrase: "fit in", category: "emotion", level: "college",
         meaning: "To feel accepted as part of a group; to find time for something.",
@@ -7094,10 +5994,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in with", "out", "on with", "up with"]
     },
-
-    // ========================================
-    // FOLD
-    // ========================================
     {
         verb: "fold", particle: "up", phrase: "fold up", category: "daily", level: "elementary",
         meaning: "To make something smaller by folding; for a business to fail.",
@@ -7109,10 +6005,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "down", "over"]
     },
-
-    // ========================================
-    // NOTE
-    // ========================================
     {
         verb: "note", particle: "down", phrase: "note down", category: "academic", level: "elementary",
         meaning: "To write something down so you remember it.",
@@ -7124,10 +6016,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "out", "off"]
     },
-
-    // ========================================
-    // HAND (more)
-    // ========================================
     {
         verb: "hand", particle: "around", phrase: "hand around", category: "daily", level: "middle",
         meaning: "To distribute something to each person in a group.",
@@ -7139,10 +6027,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "in", "out", "over"]
     },
-
-    // ========================================
-    // ABIDE
-    // ========================================
     {
         verb: "abide", particle: "by", phrase: "abide by", category: "academic", level: "high",
         meaning: "To accept and follow a rule, law, or decision.",
@@ -7154,10 +6038,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["by", "with", "to", "for"]
     },
-
-    // ========================================
-    // ACT
-    // ========================================
     {
         verb: "act", particle: "on", phrase: "act on", category: "business", level: "high",
         meaning: "To take action based on advice or information.",
@@ -7191,10 +6071,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "on", "off"]
     },
-
-    // ========================================
-    // ADD
-    // ========================================
     {
         verb: "add", particle: "up", phrase: "add up", category: "academic", level: "middle",
         meaning: "To calculate a total; to make logical sense.",
@@ -7206,10 +6082,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "in", "out"]
     },
-
-    // ========================================
-    // ADVISE
-    // ========================================
     {
         verb: "advise", particle: "against", phrase: "advise against", category: "academic", level: "college",
         meaning: "To recommend that someone should not do something.",
@@ -7221,10 +6093,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["against", "for", "on", "about"]
     },
-
-    // ========================================
-    // ALLOW
-    // ========================================
     {
         verb: "allow", particle: "for", phrase: "allow for", category: "business", level: "college",
         meaning: "To take something into consideration when making plans.",
@@ -7236,10 +6104,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "in", "on", "with"]
     },
-
-    // ========================================
-    // ANSWER
-    // ========================================
     {
         verb: "answer", particle: "back", phrase: "answer back", category: "emotion", level: "middle",
         meaning: "To reply rudely to someone in authority.",
@@ -7262,10 +6126,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "back", "to", "on"]
     },
-
-    // ========================================
-    // APPLY
-    // ========================================
     {
         verb: "apply", particle: "for", phrase: "apply for", category: "business", level: "middle",
         meaning: "To make a formal request for a job, place, or opportunity.",
@@ -7277,10 +6137,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "to", "on", "in"]
     },
-
-    // ========================================
-    // BACK (more)
-    // ========================================
     {
         verb: "back", particle: "away", phrase: "back away", category: "daily", level: "middle",
         meaning: "To move backwards slowly, usually from something frightening.",
@@ -7292,10 +6148,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "down", "up", "off"]
     },
-
-    // ========================================
-    // BANK
-    // ========================================
     {
         verb: "bank", particle: "on", phrase: "bank on", category: "business", level: "college",
         meaning: "To rely on or count on something happening.",
@@ -7307,10 +6159,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "in", "up", "for"]
     },
-
-    // ========================================
-    // BEAR
-    // ========================================
     {
         verb: "bear", particle: "with", phrase: "bear with", category: "daily", level: "high",
         meaning: "To be patient with someone or something.",
@@ -7322,10 +6170,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["with", "on", "up", "out"]
     },
-
-    // ========================================
-    // BLACK
-    // ========================================
     {
         verb: "black", particle: "out", phrase: "black out", category: "daily", level: "high",
         meaning: "To faint or lose consciousness; a complete loss of electrical power.",
@@ -7337,10 +6181,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "down"]
     },
-
-    // ========================================
-    // BLOCK
-    // ========================================
     {
         verb: "block", particle: "off", phrase: "block off", category: "daily", level: "middle",
         meaning: "To close or separate an area using a barrier.",
@@ -7352,10 +6192,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "up", "in"]
     },
-
-    // ========================================
-    // BONE
-    // ========================================
     {
         verb: "bone", particle: "up on", phrase: "bone up on", category: "academic", level: "college",
         meaning: "To study intensively for a short period.",
@@ -7367,10 +6203,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up on", "up", "down on", "into"]
     },
-
-    // ========================================
-    // BOOT
-    // ========================================
     {
         verb: "boot", particle: "up", phrase: "boot up", category: "daily", level: "middle",
         meaning: "To start a computer by loading the operating system.",
@@ -7382,10 +6214,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "in", "off"]
     },
-
-    // ========================================
-    // BOTTOM
-    // ========================================
     {
         verb: "bottom", particle: "out", phrase: "bottom out", category: "business", level: "college",
         meaning: "To reach the lowest point before starting to improve.",
@@ -7397,10 +6225,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "off", "down"]
     },
-
-    // ========================================
-    // BREAK (more)
-    // ========================================
     {
         verb: "break", particle: "away", phrase: "break away", category: "daily", level: "high",
         meaning: "To escape or separate from a group or situation.",
@@ -7423,10 +6247,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["even", "through", "out", "up"]
     },
-
-    // ========================================
-    // BRING (more)
-    // ========================================
     {
         verb: "bring", particle: "along", phrase: "bring along", category: "travel", level: "elementary",
         meaning: "To take someone or something with you when you go somewhere.",
@@ -7471,10 +6291,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "on", "about", "out"]
     },
-
-    // ========================================
-    // BUCKLE
-    // ========================================
     {
         verb: "buckle", particle: "down", phrase: "buckle down", category: "academic", level: "college",
         meaning: "To start working hard and seriously on something.",
@@ -7486,10 +6302,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "in", "on"]
     },
-
-    // ========================================
-    // BULK
-    // ========================================
     {
         verb: "bulk", particle: "up", phrase: "bulk up", category: "daily", level: "high",
         meaning: "To gain muscle mass through exercise and diet.",
@@ -7501,10 +6313,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "on", "in"]
     },
-
-    // ========================================
-    // BUMP
-    // ========================================
     {
         verb: "bump", particle: "into", phrase: "bump into", category: "daily", level: "middle",
         meaning: "To meet someone unexpectedly by chance.",
@@ -7516,10 +6324,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["into", "on", "across", "upon"]
     },
-
-    // ========================================
-    // BUTT
-    // ========================================
     {
         verb: "butt", particle: "in", phrase: "butt in", category: "emotion", level: "middle",
         meaning: "To rudely interrupt a conversation or activity.",
@@ -7531,10 +6335,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "on", "up"]
     },
-
-    // ========================================
-    // CALL (more)
-    // ========================================
     {
         verb: "call", particle: "in", phrase: "call in", category: "business", level: "high",
         meaning: "To request someone's help or presence; to phone a workplace.",
@@ -7546,10 +6346,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "up", "for"]
     },
-
-    // ========================================
-    // CASH
-    // ========================================
     {
         verb: "cash", particle: "in on", phrase: "cash in on", category: "business", level: "college",
         meaning: "To take advantage of a situation to make money or gain benefit.",
@@ -7561,10 +6357,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in on", "out on", "up on", "in"]
     },
-
-    // ========================================
-    // CAVE
-    // ========================================
     {
         verb: "cave", particle: "in", phrase: "cave in", category: "emotion", level: "college",
         meaning: "To collapse physically; to yield or give in to pressure.",
@@ -7576,10 +6368,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "out", "down"]
     },
-
-    // ========================================
-    // CHECK (more)
-    // ========================================
     {
         verb: "check", particle: "over", phrase: "check over", category: "business", level: "middle",
         meaning: "To examine or review something carefully.",
@@ -7591,10 +6379,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "out", "up", "in"]
     },
-
-    // ========================================
-    // CHEER (more)
-    // ========================================
     {
         verb: "cheer", particle: "on", phrase: "cheer on", category: "emotion", level: "middle",
         meaning: "To shout encouragement and support for someone.",
@@ -7606,10 +6390,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "up", "for", "out"]
     },
-
-    // ========================================
-    // CLAM
-    // ========================================
     {
         verb: "clam", particle: "up", phrase: "clam up", category: "emotion", level: "college",
         meaning: "To suddenly become silent or refuse to talk.",
@@ -7621,10 +6401,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "out", "in"]
     },
-
-    // ========================================
-    // CLEAN (more)
-    // ========================================
     {
         verb: "clean", particle: "out", phrase: "clean out", category: "daily", level: "middle",
         meaning: "To empty and clean a space completely; to use up all of someone's money.",
@@ -7636,10 +6412,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "off", "through"]
     },
-
-    // ========================================
-    // COME (even more)
-    // ========================================
     {
         verb: "come", particle: "on", phrase: "come on", category: "daily", level: "elementary",
         meaning: "To encourage or urge someone; to make progress; to start working.",
@@ -7772,10 +6544,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["upon", "across", "by", "into"]
     },
-
-    // ========================================
-    // CONJURE
-    // ========================================
     {
         verb: "conjure", particle: "up", phrase: "conjure up", category: "academic", level: "college",
         meaning: "To create or produce something seemingly from nothing; to evoke a memory or image.",
@@ -7787,10 +6555,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "on", "forth"]
     },
-
-    // ========================================
-    // CROP
-    // ========================================
     {
         verb: "crop", particle: "up", phrase: "crop up", category: "daily", level: "college",
         meaning: "To appear or occur unexpectedly.",
@@ -7802,10 +6566,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "on", "in"]
     },
-
-    // ========================================
-    // DAWN
-    // ========================================
     {
         verb: "dawn", particle: "on", phrase: "dawn on", category: "emotion", level: "college",
         meaning: "To suddenly become clear or understood.",
@@ -7817,10 +6577,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "upon", "to", "at"]
     },
-
-    // ========================================
-    // DIP
-    // ========================================
     {
         verb: "dip", particle: "into", phrase: "dip into", category: "business", level: "college",
         meaning: "To use part of a supply of something; to read or look at briefly.",
@@ -7832,10 +6588,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["into", "in", "through", "out"]
     },
-
-    // ========================================
-    // DRAG
-    // ========================================
     {
         verb: "drag", particle: "on", phrase: "drag on", category: "emotion", level: "high",
         meaning: "To continue for longer than expected or desired.",
@@ -7847,10 +6599,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "out", "off", "along"]
     },
-
-    // ========================================
-    // DRAW (more)
-    // ========================================
     {
         verb: "draw", particle: "back", phrase: "draw back", category: "emotion", level: "high",
         meaning: "To move away from something; to be reluctant to do something.",
@@ -7862,10 +6610,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "away", "out", "off"]
     },
-
-    // ========================================
-    // DRIFT
-    // ========================================
     {
         verb: "drift", particle: "apart", phrase: "drift apart", category: "emotion", level: "high",
         meaning: "To gradually become less close in a relationship.",
@@ -7877,10 +6621,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["apart", "away", "off", "out"]
     },
-
-    // ========================================
-    // DWELL
-    // ========================================
     {
         verb: "dwell", particle: "on", phrase: "dwell on", category: "emotion", level: "college",
         meaning: "To think or talk about something for too long, especially something negative.",
@@ -7892,10 +6632,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "upon", "over", "about"]
     },
-
-    // ========================================
-    // EASE
-    // ========================================
     {
         verb: "ease", particle: "off", phrase: "ease off", category: "daily", level: "college",
         meaning: "To reduce in severity, pressure, or intensity.",
@@ -7907,10 +6643,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "up", "down", "out"]
     },
-
-    // ========================================
-    // EDGE
-    // ========================================
     {
         verb: "edge", particle: "out", phrase: "edge out", category: "business", level: "college",
         meaning: "To narrowly defeat someone in a competition.",
@@ -7922,10 +6654,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "over", "past"]
     },
-
-    // ========================================
-    // EGG
-    // ========================================
     {
         verb: "egg", particle: "on", phrase: "egg on", category: "emotion", level: "college",
         meaning: "To encourage someone to do something, usually something unwise.",
@@ -7937,10 +6665,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "up", "off", "into"]
     },
-
-    // ========================================
-    // EVEN
-    // ========================================
     {
         verb: "even", particle: "out", phrase: "even out", category: "business", level: "high",
         meaning: "To become equal or level; to eliminate differences.",
@@ -7952,10 +6676,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "off", "down"]
     },
-
-    // ========================================
-    // FALL (more)
-    // ========================================
     {
         verb: "fall", particle: "back on", phrase: "fall back on", category: "daily", level: "college",
         meaning: "To use something as a backup or alternative when other options fail.",
@@ -7978,10 +6698,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in with", "out with", "along with", "in"]
     },
-
-    // ========================================
-    // FEND
-    // ========================================
     {
         verb: "fend", particle: "off", phrase: "fend off", category: "daily", level: "college",
         meaning: "To defend against or resist an attack or unwanted attention.",
@@ -7993,10 +6709,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "away", "back", "out"]
     },
-
-    // ========================================
-    // FIX
-    // ========================================
     {
         verb: "fix", particle: "up", phrase: "fix up", category: "daily", level: "middle",
         meaning: "To repair or improve something; to arrange a meeting or date.",
@@ -8008,10 +6720,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "out", "in"]
     },
-
-    // ========================================
-    // FIZZLE
-    // ========================================
     {
         verb: "fizzle", particle: "out", phrase: "fizzle out", category: "daily", level: "college",
         meaning: "To gradually lose strength or enthusiasm and end weakly.",
@@ -8023,10 +6731,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "away", "off", "down"]
     },
-
-    // ========================================
-    // FLARE
-    // ========================================
     {
         verb: "flare", particle: "up", phrase: "flare up", category: "emotion", level: "college",
         meaning: "To suddenly become worse or more intense; to suddenly become angry.",
@@ -8038,10 +6742,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "on"]
     },
-
-    // ========================================
-    // FOCUS
-    // ========================================
     {
         verb: "focus", particle: "on", phrase: "focus on", category: "academic", level: "middle",
         meaning: "To concentrate attention or effort on something.",
@@ -8053,10 +6753,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "in", "at", "to"]
     },
-
-    // ========================================
-    // FOLLOW
-    // ========================================
     {
         verb: "follow", particle: "through", phrase: "follow through", category: "business", level: "college",
         meaning: "To complete something that was started; to carry to conclusion.",
@@ -8079,10 +6775,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "through", "on", "out"]
     },
-
-    // ========================================
-    // FORK
-    // ========================================
     {
         verb: "fork", particle: "out", phrase: "fork out", category: "business", level: "college",
         meaning: "To reluctantly spend money, usually a large amount.",
@@ -8094,10 +6786,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "over", "up", "off"]
     },
-
-    // ========================================
-    // GET (even more)
-    // ========================================
     {
         verb: "get", particle: "across", phrase: "get across", category: "business", level: "high",
         meaning: "To communicate an idea or message successfully.",
@@ -8186,10 +6874,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["to", "at", "in", "on"]
     },
-
-    // ========================================
-    // GLOSS
-    // ========================================
     {
         verb: "gloss", particle: "over", phrase: "gloss over", category: "business", level: "professional",
         meaning: "To treat something briefly to avoid discussing problems.",
@@ -8201,10 +6885,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "through", "past", "by"]
     },
-
-    // ========================================
-    // GO (even more)
-    // ========================================
     {
         verb: "go", particle: "after", phrase: "go after", category: "daily", level: "middle",
         meaning: "To chase or pursue someone or something; to try to achieve.",
@@ -8337,10 +7017,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in for", "on for", "up for", "out for"]
     },
-
-    // ========================================
-    // GRAPPLE
-    // ========================================
     {
         verb: "grapple", particle: "with", phrase: "grapple with", category: "academic", level: "professional",
         meaning: "To struggle to deal with a difficult problem or issue.",
@@ -8352,10 +7028,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["with", "on", "over", "through"]
     },
-
-    // ========================================
-    // HAMMER
-    // ========================================
     {
         verb: "hammer", particle: "out", phrase: "hammer out", category: "business", level: "professional",
         meaning: "To negotiate and reach an agreement with great effort.",
@@ -8367,10 +7039,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "through", "over", "on"]
     },
-
-    // ========================================
-    // HIT (more)
-    // ========================================
     {
         verb: "hit", particle: "it off", phrase: "hit it off", category: "emotion", level: "high",
         meaning: "To quickly form a good relationship with someone.",
@@ -8382,10 +7050,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["it off", "it on", "it up", "it out"]
     },
-
-    // ========================================
-    // HOLD (more)
-    // ========================================
     {
         verb: "hold", particle: "out for", phrase: "hold out for", category: "business", level: "college",
         meaning: "To wait or resist in order to get something better.",
@@ -8397,10 +7061,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out for", "on for", "up for", "off for"]
     },
-
-    // ========================================
-    // HUNKER
-    // ========================================
     {
         verb: "hunker", particle: "down", phrase: "hunker down", category: "daily", level: "college",
         meaning: "To prepare to stay in a place for a long time; to work intensely.",
@@ -8412,10 +7072,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "in", "up", "on"]
     },
-
-    // ========================================
-    // IDENTIFY
-    // ========================================
     {
         verb: "identify", particle: "with", phrase: "identify with", category: "emotion", level: "college",
         meaning: "To feel a connection or similarity with someone or something.",
@@ -8427,10 +7083,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["with", "to", "for", "as"]
     },
-
-    // ========================================
-    // JOIN
-    // ========================================
     {
         verb: "join", particle: "in", phrase: "join in", category: "daily", level: "middle",
         meaning: "To participate in an activity that is already happening.",
@@ -8453,10 +7105,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "in", "on", "with"]
     },
-
-    // ========================================
-    // JOT
-    // ========================================
     {
         verb: "jot", particle: "down", phrase: "jot down", category: "academic", level: "middle",
         meaning: "To write something quickly and briefly.",
@@ -8468,10 +7116,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "out", "off"]
     },
-
-    // ========================================
-    // KEEP (more)
-    // ========================================
     {
         verb: "keep", particle: "down", phrase: "keep down", category: "daily", level: "high",
         meaning: "To prevent from increasing; to stay low; to not vomit food.",
@@ -8494,10 +7138,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "back", "down"]
     },
-
-    // ========================================
-    // KNUCKLE
-    // ========================================
     {
         verb: "knuckle", particle: "down", phrase: "knuckle down", category: "academic", level: "college",
         meaning: "To start working or studying hard and seriously.",
@@ -8509,10 +7149,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "in", "on", "up"]
     },
-
-    // ========================================
-    // LATCH
-    // ========================================
     {
         verb: "latch", particle: "onto", phrase: "latch onto", category: "emotion", level: "college",
         meaning: "To become very interested in or attached to something or someone.",
@@ -8524,10 +7160,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["onto", "into", "on", "up"]
     },
-
-    // ========================================
-    // LEVEL
-    // ========================================
     {
         verb: "level", particle: "off", phrase: "level off", category: "business", level: "college",
         meaning: "To stop increasing or decreasing and become stable.",
@@ -8550,10 +7182,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["with", "to", "at", "on"]
     },
-
-    // ========================================
-    // LIGHTEN
-    // ========================================
     {
         verb: "lighten", particle: "up", phrase: "lighten up", category: "emotion", level: "high",
         meaning: "To become less serious or tense; to relax.",
@@ -8565,10 +7193,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "off", "on"]
     },
-
-    // ========================================
-    // LOOK (more)
-    // ========================================
     {
         verb: "look", particle: "on", phrase: "look on", category: "daily", level: "high",
         meaning: "To watch something without getting involved.",
@@ -8591,10 +7215,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out for", "after", "into", "over"]
     },
-
-    // ========================================
-    // MAKE (more)
-    // ========================================
     {
         verb: "make", particle: "fun of", phrase: "make fun of", category: "emotion", level: "middle",
         meaning: "To ridicule or laugh at someone in an unkind way.",
@@ -8617,10 +7237,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "up", "out", "on"]
     },
-
-    // ========================================
-    // MULL
-    // ========================================
     {
         verb: "mull", particle: "over", phrase: "mull over", category: "academic", level: "college",
         meaning: "To think carefully about something over a period of time.",
@@ -8632,10 +7248,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "through", "on", "about"]
     },
-
-    // ========================================
-    // NAME
-    // ========================================
     {
         verb: "name", particle: "after", phrase: "name after", category: "daily", level: "middle",
         meaning: "To give someone or something the same name as another person or thing.",
@@ -8647,10 +7259,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["after", "for", "by", "from"]
     },
-
-    // ========================================
-    // NOD
-    // ========================================
     {
         verb: "nod", particle: "off", phrase: "nod off", category: "daily", level: "high",
         meaning: "To fall asleep, especially unintentionally.",
@@ -8662,10 +7270,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "away", "down"]
     },
-
-    // ========================================
-    // PENCIL
-    // ========================================
     {
         verb: "pencil", particle: "in", phrase: "pencil in", category: "business", level: "college",
         meaning: "To make a tentative appointment or arrangement.",
@@ -8677,10 +7281,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "down", "up"]
     },
-
-    // ========================================
-    // PITCH
-    // ========================================
     {
         verb: "pitch", particle: "in", phrase: "pitch in", category: "business", level: "high",
         meaning: "To contribute effort or help as part of a group.",
@@ -8692,10 +7292,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "up", "out"]
     },
-
-    // ========================================
-    // PLOUGH
-    // ========================================
     {
         verb: "plough", particle: "through", phrase: "plough through", category: "academic", level: "college",
         meaning: "To read or work through something long and difficult.",
@@ -8707,10 +7303,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "into", "over", "on"]
     },
-
-    // ========================================
-    // PULL (more)
-    // ========================================
     {
         verb: "pull", particle: "in", phrase: "pull in", category: "business", level: "college",
         meaning: "To attract people, money, or support; for a train to arrive at a station.",
@@ -8722,10 +7314,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "up", "out"]
     },
-
-    // ========================================
-    // PUT (more)
-    // ========================================
     {
         verb: "put", particle: "aside", phrase: "put aside", category: "business", level: "high",
         meaning: "To save money or time for a specific purpose; to ignore differences temporarily.",
@@ -8770,10 +7358,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in for", "up for", "on for", "out for"]
     },
-
-    // ========================================
-    // RELY
-    // ========================================
     {
         verb: "rely", particle: "on", phrase: "rely on", category: "daily", level: "middle",
         meaning: "To depend on or trust someone or something.",
@@ -8785,10 +7369,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "in", "with", "for"]
     },
-
-    // ========================================
-    // ROUND
-    // ========================================
     {
         verb: "round", particle: "up", phrase: "round up", category: "daily", level: "middle",
         meaning: "To gather people or things together; to increase a number to the nearest whole.",
@@ -8800,10 +7380,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "off", "out", "in"]
     },
-
-    // ========================================
-    // RUB
-    // ========================================
     {
         verb: "rub", particle: "off", phrase: "rub off", category: "daily", level: "college",
         meaning: "To transfer a quality or characteristic from one person to another.",
@@ -8815,10 +7391,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "on", "out", "away"]
     },
-
-    // ========================================
-    // RUN (more)
-    // ========================================
     {
         verb: "run", particle: "by", phrase: "run by", category: "business", level: "high",
         meaning: "To tell someone about something to get their opinion or approval.",
@@ -8830,10 +7402,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["by", "through", "past", "over"]
     },
-
-    // ========================================
-    // SAVE
-    // ========================================
     {
         verb: "save", particle: "up", phrase: "save up", category: "business", level: "middle",
         meaning: "To accumulate money over time for a specific purpose.",
@@ -8845,10 +7413,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "out", "in"]
     },
-
-    // ========================================
-    // SCALE
-    // ========================================
     {
         verb: "scale", particle: "up", phrase: "scale up", category: "business", level: "college",
         meaning: "To increase the size, scope, or extent of something.",
@@ -8860,10 +7424,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "on", "off"]
     },
-
-    // ========================================
-    // SET (more)
-    // ========================================
     {
         verb: "set", particle: "down", phrase: "set down", category: "academic", level: "college",
         meaning: "To write or record something officially; to put something down carefully.",
@@ -8875,10 +7435,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "out", "off", "up"]
     },
-
-    // ========================================
-    // SETTLE (more)
-    // ========================================
     {
         verb: "settle", particle: "on", phrase: "settle on", category: "daily", level: "high",
         meaning: "To decide on or agree upon a choice after consideration.",
@@ -8890,10 +7446,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "for", "down", "in"]
     },
-
-    // ========================================
-    // SHOP
-    // ========================================
     {
         verb: "shop", particle: "around", phrase: "shop around", category: "daily", level: "middle",
         meaning: "To compare prices at different stores before buying.",
@@ -8905,10 +7457,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "about", "for", "out"]
     },
-
-    // ========================================
-    // SMOOTH
-    // ========================================
     {
         verb: "smooth", particle: "over", phrase: "smooth over", category: "business", level: "college",
         meaning: "To make a problem or disagreement seem less serious.",
@@ -8920,10 +7468,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "out", "off", "away"]
     },
-
-    // ========================================
-    // SPLASH
-    // ========================================
     {
         verb: "splash", particle: "out", phrase: "splash out", category: "daily", level: "college",
         meaning: "To spend a lot of money on something luxurious or special.",
@@ -8935,10 +7479,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "on", "off", "up"]
     },
-
-    // ========================================
-    // SPLIT
-    // ========================================
     {
         verb: "split", particle: "up", phrase: "split up", category: "emotion", level: "high",
         meaning: "To end a romantic relationship; to divide into groups.",
@@ -8950,10 +7490,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "apart", "off", "out"]
     },
-
-    // ========================================
-    // STAND (more)
-    // ========================================
     {
         verb: "stand", particle: "up to", phrase: "stand up to", category: "emotion", level: "high",
         meaning: "To confront or resist someone bravely; to withstand.",
@@ -8965,10 +7501,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up to", "up for", "out to", "by"]
     },
-
-    // ========================================
-    // STIR
-    // ========================================
     {
         verb: "stir", particle: "up", phrase: "stir up", category: "emotion", level: "college",
         meaning: "To cause trouble, strong feelings, or controversy.",
@@ -8980,10 +7512,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "out", "off"]
     },
-
-    // ========================================
-    // TAKE (more)
-    // ========================================
     {
         verb: "take", particle: "care of", phrase: "take care of", category: "daily", level: "elementary",
         meaning: "To look after and be responsible for someone or something.",
@@ -8995,10 +7523,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["care of", "charge of", "hold of", "part in"]
     },
-
-    // ========================================
-    // TEAM
-    // ========================================
     {
         verb: "team", particle: "up", phrase: "team up", category: "business", level: "high",
         meaning: "To join forces with someone to work together.",
@@ -9010,10 +7534,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "in", "with"]
     },
-
-    // ========================================
-    // TRACK
-    // ========================================
     {
         verb: "track", particle: "down", phrase: "track down", category: "daily", level: "high",
         meaning: "To find someone or something after searching hard.",
@@ -9025,10 +7545,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "out", "up", "off"]
     },
-
-    // ========================================
-    // TRY (more)
-    // ========================================
     {
         verb: "try", particle: "for", phrase: "try for", category: "daily", level: "middle",
         meaning: "To attempt to achieve or obtain something.",
@@ -9040,10 +7556,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "out", "on", "at"]
     },
-
-    // ========================================
-    // TURN (more)
-    // ========================================
     {
         verb: "turn", particle: "against", phrase: "turn against", category: "emotion", level: "high",
         meaning: "To stop supporting and become hostile toward someone.",
@@ -9055,10 +7567,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["against", "on", "from", "away"]
     },
-
-    // ========================================
-    // USE
-    // ========================================
     {
         verb: "use", particle: "up", phrase: "use up", category: "daily", level: "middle",
         meaning: "To consume or exhaust the entire supply of something.",
@@ -9070,10 +7578,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "away"]
     },
-
-    // ========================================
-    // VOUCH
-    // ========================================
     {
         verb: "vouch", particle: "for", phrase: "vouch for", category: "business", level: "college",
         meaning: "To guarantee or confirm someone's character, quality, or truth.",
@@ -9085,10 +7589,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "on", "to", "with"]
     },
-
-    // ========================================
-    // VIE
-    // ========================================
     {
         verb: "vie", particle: "for", phrase: "vie for", category: "business", level: "professional",
         meaning: "To compete strongly to obtain or achieve something.",
@@ -9100,10 +7600,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "on", "with", "over"]
     },
-
-    // ========================================
-    // WALK
-    // ========================================
     {
         verb: "walk", particle: "away", phrase: "walk away", category: "emotion", level: "high",
         meaning: "To leave a difficult situation; to abandon something.",
@@ -9126,10 +7622,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "away", "off", "by"]
     },
-
-    // ========================================
-    // WASH
-    // ========================================
     {
         verb: "wash", particle: "up", phrase: "wash up", category: "daily", level: "elementary",
         meaning: "To clean dishes; to wash your hands and face.",
@@ -9141,10 +7633,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "down"]
     },
-
-    // ========================================
-    // WHILE
-    // ========================================
     {
         verb: "while", particle: "away", phrase: "while away", category: "daily", level: "college",
         meaning: "To pass time in a leisurely, idle way.",
@@ -9156,10 +7644,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "off", "out", "by"]
     },
-
-    // ========================================
-    // WORK (more)
-    // ========================================
     {
         verb: "work", particle: "off", phrase: "work off", category: "daily", level: "high",
         meaning: "To get rid of stress, energy, or calories through physical activity.",
@@ -9171,10 +7655,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "up", "on"]
     },
-
-    // ========================================
-    // CATCH (more)
-    // ========================================
     {
         verb: "catch", particle: "up on", phrase: "catch up on", category: "daily", level: "middle",
         meaning: "To do something that you didn't have time to do earlier.",
@@ -9186,10 +7666,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up on", "on", "up with", "out on"]
     },
-
-    // ========================================
-    // CUT (more)
-    // ========================================
     {
         verb: "cut", particle: "it out", phrase: "cut it out", category: "emotion", level: "middle",
         meaning: "To stop doing something annoying.",
@@ -9201,10 +7677,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["it out", "it off", "it up", "it down"]
     },
-
-    // ========================================
-    // ZIP
-    // ========================================
     {
         verb: "zip", particle: "up", phrase: "zip up", category: "daily", level: "elementary",
         meaning: "To fasten something with a zipper.",
@@ -9216,14 +7688,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "in", "off"]
     },
-
-    // ========================================
-    // NEW ADDITIONS — BATCH 2 (301 entries)
-    // ========================================
-
-    // ========================================
-    // GET (additional)
-    // ========================================
     {
         verb: "get", particle: "ahead", phrase: "get ahead", category: "business", level: "middle",
         meaning: "To make progress or become more successful than others.",
@@ -9345,10 +7809,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through to", "across to", "over to", "along to"]
     },
-
-    // ========================================
-    // PUT (additional)
-    // ========================================
     {
         verb: "put", particle: "about", phrase: "put about", category: "daily", level: "college",
         meaning: "To spread information or rumors, often false ones.",
@@ -9382,10 +7842,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "across", "through", "about"]
     },
-
-    // ========================================
-    // TAKE (additional)
-    // ========================================
     {
         verb: "take", particle: "aback", phrase: "take aback", category: "emotion", level: "high",
         meaning: "To surprise or shock someone greatly.",
@@ -9430,10 +7886,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "over", "around", "along"]
     },
-
-    // ========================================
-    // COME (additional)
-    // ========================================
     {
         verb: "come", particle: "about", phrase: "come about", category: "academic", level: "high",
         meaning: "To happen or occur, especially unexpectedly.",
@@ -9478,10 +7930,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["round to", "around to", "up to", "along to"]
     },
-
-    // ========================================
-    // GO (additional)
-    // ========================================
     {
         verb: "go", particle: "down with", phrase: "go down with", category: "daily", level: "middle",
         meaning: "To become ill with a disease or sickness.",
@@ -9515,10 +7963,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on about", "off about", "in about", "out about"]
     },
-
-    // ========================================
-    // TURN (additional)
-    // ========================================
     {
         verb: "turn", particle: "back", phrase: "turn back", category: "travel", level: "middle",
         meaning: "To return in the direction you came from; to reverse course.",
@@ -9530,10 +7974,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "around", "away", "off"]
     },
-
-    // ========================================
-    // RUN (additional)
-    // ========================================
     {
         verb: "run", particle: "around", phrase: "run around", category: "daily", level: "elementary",
         meaning: "To be very busy doing many things; to move around in a hurried way.",
@@ -9556,10 +7996,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "off", "up", "out"]
     },
-
-    // ========================================
-    // LOOK (additional)
-    // ========================================
     {
         verb: "look", particle: "in on", phrase: "look in on", category: "daily", level: "high",
         meaning: "To visit someone briefly to check on their condition.",
@@ -9593,10 +8029,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["round", "around", "through", "over"]
     },
-
-    // ========================================
-    // GIVE (additional)
-    // ========================================
     {
         verb: "give", particle: "rise to", phrase: "give rise to", category: "academic", level: "college",
         meaning: "To cause something to happen or exist.",
@@ -9608,10 +8040,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["rise to", "way to", "birth to", "in to"]
     },
-
-    // ========================================
-    // SET (additional)
-    // ========================================
     {
         verb: "set", particle: "about", phrase: "set about", category: "daily", level: "high",
         meaning: "To begin doing something with determination or purpose.",
@@ -9645,10 +8073,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["upon", "about", "against", "after"]
     },
-
-    // ========================================
-    // HANG (additional)
-    // ========================================
     {
         verb: "hang", particle: "back", phrase: "hang back", category: "emotion", level: "middle",
         meaning: "To hesitate or be reluctant to move forward or take action.",
@@ -9671,10 +8095,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "around", "about", "on"]
     },
-
-    // ========================================
-    // HAND (additional)
-    // ========================================
     {
         verb: "hand", particle: "on", phrase: "hand on", category: "daily", level: "middle",
         meaning: "To pass something to the next person in a sequence.",
@@ -9697,10 +8117,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["round", "out", "over", "off"]
     },
-
-    // ========================================
-    // PAY (additional)
-    // ========================================
     {
         verb: "pay", particle: "into", phrase: "pay into", category: "business", level: "middle",
         meaning: "To deposit money into a bank account or fund.",
@@ -9723,10 +8139,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "back"]
     },
-
-    // ========================================
-    // SHOW (additional)
-    // ========================================
     {
         verb: "show", particle: "in", phrase: "show in", category: "business", level: "middle",
         meaning: "To lead a visitor into a room or building.",
@@ -9749,10 +8161,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "in", "away"]
     },
-
-    // ========================================
-    // THROW (additional)
-    // ========================================
     {
         verb: "throw", particle: "together", phrase: "throw together", category: "daily", level: "middle",
         meaning: "To make something quickly and without much care; to bring people together by chance.",
@@ -9775,10 +8183,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "out", "away", "off"]
     },
-
-    // ========================================
-    // WRITE (additional)
-    // ========================================
     {
         verb: "write", particle: "back", phrase: "write back", category: "daily", level: "elementary",
         meaning: "To reply to a letter or message.",
@@ -9812,10 +8216,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "down", "up", "in"]
     },
-
-    // ========================================
-    // SEND (additional)
-    // ========================================
     {
         verb: "send", particle: "away", phrase: "send away", category: "daily", level: "middle",
         meaning: "To make someone leave; to order something by post.",
@@ -9860,10 +8260,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "off", "out", "over"]
     },
-
-    // ========================================
-    // PICK (additional)
-    // ========================================
     {
         verb: "pick", particle: "through", phrase: "pick through", category: "daily", level: "high",
         meaning: "To examine items carefully, selecting or sorting them.",
@@ -9875,10 +8271,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "over", "out", "apart"]
     },
-
-    // ========================================
-    // DROP (additional)
-    // ========================================
     {
         verb: "drop", particle: "back", phrase: "drop back", category: "daily", level: "middle",
         meaning: "To fall behind or move to a lower position in a ranking.",
@@ -9901,10 +8293,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["behind", "back", "off", "away"]
     },
-
-    // ========================================
-    // FILL (additional)
-    // ========================================
     {
         verb: "fill", particle: "in on", phrase: "fill in on", category: "business", level: "middle",
         meaning: "To give someone the information they have missed.",
@@ -9916,10 +8304,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in on", "up on", "out on", "in with"]
     },
-
-    // ========================================
-    // CUT (additional)
-    // ========================================
     {
         verb: "cut", particle: "across", phrase: "cut across", category: "daily", level: "high",
         meaning: "To take a shorter route; to affect or be relevant to different groups.",
@@ -9953,10 +8337,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "down"]
     },
-
-    // ========================================
-    // PASS (additional)
-    // ========================================
     {
         verb: "pass", particle: "around", phrase: "pass around", category: "daily", level: "elementary",
         meaning: "To distribute something by handing it from person to person.",
@@ -10012,10 +8392,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "by", "along", "across"]
     },
-
-    // ========================================
-    // MOVE (additional)
-    // ========================================
     {
         verb: "move", particle: "away", phrase: "move away", category: "daily", level: "elementary",
         meaning: "To leave and go to live in a different place.",
@@ -10060,10 +8436,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "along", "aside", "away"]
     },
-
-    // ========================================
-    // POINT (additional)
-    // ========================================
     {
         verb: "point", particle: "at", phrase: "point at", category: "daily", level: "elementary",
         meaning: "To direct a finger or object toward someone or something.",
@@ -10086,10 +8458,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["towards", "at", "to", "into"]
     },
-
-    // ========================================
-    // BLOW (additional)
-    // ========================================
     {
         verb: "blow", particle: "away", phrase: "blow away", category: "emotion", level: "middle",
         meaning: "To impress someone greatly; also to be carried away by wind.",
@@ -10112,10 +8480,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "away", "over"]
     },
-
-    // ========================================
-    // DIE (additional)
-    // ========================================
     {
         verb: "die", particle: "away", phrase: "die away", category: "daily", level: "high",
         meaning: "To gradually become weaker, quieter, and then disappear completely.",
@@ -10138,10 +8502,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "down", "away", "off"]
     },
-
-    // ========================================
-    // BURN (additional)
-    // ========================================
     {
         verb: "burn", particle: "off", phrase: "burn off", category: "daily", level: "middle",
         meaning: "To use energy through physical exercise; to remove by burning.",
@@ -10164,10 +8524,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "up", "out", "off"]
     },
-
-    // ========================================
-    // CHECK (additional)
-    // ========================================
     {
         verb: "check", particle: "back", phrase: "check back", category: "daily", level: "middle",
         meaning: "To return later to get more information or see if something has changed.",
@@ -10190,10 +8546,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "in", "up", "over"]
     },
-
-    // ========================================
-    // CLEAR (additional)
-    // ========================================
     {
         verb: "clear", particle: "away", phrase: "clear away", category: "daily", level: "middle",
         meaning: "To remove things from a place; to tidy up.",
@@ -10216,10 +8568,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "away", "up"]
     },
-
-    // ========================================
-    // CLOSE (additional)
-    // ========================================
     {
         verb: "close", particle: "in", phrase: "close in", category: "daily", level: "high",
         meaning: "To gradually surround or approach from all sides.",
@@ -10242,10 +8590,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "down", "up"]
     },
-
-    // ========================================
-    // DRIVE (additional)
-    // ========================================
     {
         verb: "drive", particle: "away", phrase: "drive away", category: "daily", level: "middle",
         meaning: "To force someone or something to leave; to leave in a vehicle.",
@@ -10290,10 +8634,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "out", "off"]
     },
-
-    // ========================================
-    // EAT (additional)
-    // ========================================
     {
         verb: "eat", particle: "in", phrase: "eat in", category: "daily", level: "elementary",
         meaning: "To have a meal at home rather than at a restaurant.",
@@ -10305,10 +8645,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "up", "on"]
     },
-
-    // ========================================
-    // FIGHT (additional)
-    // ========================================
     {
         verb: "fight", particle: "back", phrase: "fight back", category: "emotion", level: "middle",
         meaning: "To defend yourself; to resist or retaliate.",
@@ -10342,10 +8678,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "over", "about", "with"]
     },
-
-    // ========================================
-    // FLY (additional)
-    // ========================================
     {
         verb: "fly", particle: "away", phrase: "fly away", category: "daily", level: "elementary",
         meaning: "To depart by flying; to leave through the air.",
@@ -10368,10 +8700,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "away", "out", "up"]
     },
-
-    // ========================================
-    // LAY (additional)
-    // ========================================
     {
         verb: "lay", particle: "into", phrase: "lay into", category: "emotion", level: "college",
         meaning: "To attack someone physically or verbally with great force.",
@@ -10405,10 +8733,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "in", "out"]
     },
-
-    // ========================================
-    // LEAD (additional)
-    // ========================================
     {
         verb: "lead", particle: "on", phrase: "lead on", category: "emotion", level: "high",
         meaning: "To deceive someone into believing something that is not true, especially about your feelings.",
@@ -10442,10 +8766,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up to", "on to", "in to", "along to"]
     },
-
-    // ========================================
-    // PLAY (additional)
-    // ========================================
     {
         verb: "play", particle: "back", phrase: "play back", category: "daily", level: "middle",
         meaning: "To watch or listen to a recording that has been made.",
@@ -10479,10 +8799,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "off", "up", "with"]
     },
-
-    // ========================================
-    // POUR (additional)
-    // ========================================
     {
         verb: "pour", particle: "in", phrase: "pour in", category: "daily", level: "middle",
         meaning: "To arrive in large quantities or numbers.",
@@ -10516,10 +8832,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "in", "out", "on"]
     },
-
-    // ========================================
-    // RIDE (additional)
-    // ========================================
     {
         verb: "ride", particle: "out", phrase: "ride out", category: "business", level: "high",
         meaning: "To survive a difficult situation or period without being badly affected.",
@@ -10542,10 +8854,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "out", "up", "off"]
     },
-
-    // ========================================
-    // RISE (additional)
-    // ========================================
     {
         verb: "rise", particle: "above", phrase: "rise above", category: "emotion", level: "high",
         meaning: "To not be affected by something bad or to deal with it without stooping to a low level.",
@@ -10568,10 +8876,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "against", "above", "out"]
     },
-
-    // ========================================
-    // RUSH (additional)
-    // ========================================
     {
         verb: "rush", particle: "in", phrase: "rush in", category: "daily", level: "middle",
         meaning: "To enter a place quickly; to act too hastily.",
@@ -10605,10 +8909,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "away", "out", "on"]
     },
-
-    // ========================================
-    // SAIL (additional)
-    // ========================================
     {
         verb: "sail", particle: "through", phrase: "sail through", category: "academic", level: "high",
         meaning: "To pass a test or deal with a situation easily and successfully.",
@@ -10620,10 +8920,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "past", "over", "by"]
     },
-
-    // ========================================
-    // SHAKE (additional)
-    // ========================================
     {
         verb: "shake", particle: "off", phrase: "shake off", category: "daily", level: "middle",
         meaning: "To get rid of something unwanted such as an illness, a person, or a feeling.",
@@ -10657,10 +8953,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "up"]
     },
-
-    // ========================================
-    // SHOOT (additional)
-    // ========================================
     {
         verb: "shoot", particle: "down", phrase: "shoot down", category: "business", level: "middle",
         meaning: "To reject an idea or suggestion; to destroy an aircraft in flight.",
@@ -10683,10 +8975,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "off", "out", "through"]
     },
-
-    // ========================================
-    // SHOUT (additional)
-    // ========================================
     {
         verb: "shout", particle: "out", phrase: "shout out", category: "daily", level: "middle",
         meaning: "To say something loudly so it can be heard; to give public recognition.",
@@ -10709,10 +8997,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "out", "off", "at"]
     },
-
-    // ========================================
-    // SINK (additional)
-    // ========================================
     {
         verb: "sink", particle: "in", phrase: "sink in", category: "emotion", level: "middle",
         meaning: "To be fully understood or realized gradually.",
@@ -10724,10 +9008,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "down", "through", "into"]
     },
-
-    // ========================================
-    // SLEEP (additional)
-    // ========================================
     {
         verb: "sleep", particle: "in", phrase: "sleep in", category: "daily", level: "elementary",
         meaning: "To sleep later than usual in the morning.",
@@ -10772,10 +9052,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "away", "through"]
     },
-
-    // ========================================
-    // SLIP (additional)
-    // ========================================
     {
         verb: "slip", particle: "away", phrase: "slip away", category: "daily", level: "middle",
         meaning: "To leave quietly without being noticed; to gradually disappear.",
@@ -10820,10 +9096,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "in"]
     },
-
-    // ========================================
-    // SPELL (additional)
-    // ========================================
     {
         verb: "spell", particle: "out", phrase: "spell out", category: "business", level: "middle",
         meaning: "To explain something in a very clear and detailed way.",
@@ -10835,10 +9107,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "through"]
     },
-
-    // ========================================
-    // START (additional)
-    // ========================================
     {
         verb: "start", particle: "off", phrase: "start off", category: "daily", level: "middle",
         meaning: "To begin something in a particular way.",
@@ -10883,10 +9151,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "again", "up", "out"]
     },
-
-    // ========================================
-    // STAY (additional)
-    // ========================================
     {
         verb: "stay", particle: "away", phrase: "stay away", category: "daily", level: "elementary",
         meaning: "To not go near or not get involved with something or someone.",
@@ -10953,10 +9217,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "out", "in"]
     },
-
-    // ========================================
-    // STOP (additional)
-    // ========================================
     {
         verb: "stop", particle: "by", phrase: "stop by", category: "daily", level: "middle",
         meaning: "To visit someone or a place briefly and informally.",
@@ -10990,10 +9250,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "off", "by", "in"]
     },
-
-    // ========================================
-    // STRIKE (additional)
-    // ========================================
     {
         verb: "strike", particle: "back", phrase: "strike back", category: "emotion", level: "high",
         meaning: "To attack in return; to retaliate against someone.",
@@ -11038,10 +9294,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "on", "off"]
     },
-
-    // ========================================
-    // SWEEP (additional)
-    // ========================================
     {
         verb: "sweep", particle: "up", phrase: "sweep up", category: "daily", level: "elementary",
         meaning: "To clean a floor or area using a broom.",
@@ -11064,10 +9316,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "up", "off", "out"]
     },
-
-    // ========================================
-    // TICK (additional)
-    // ========================================
     {
         verb: "tick", particle: "off", phrase: "tick off", category: "daily", level: "middle",
         meaning: "To annoy someone; to mark items on a list as completed.",
@@ -11090,10 +9338,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "on", "along", "by"]
     },
-
-    // ========================================
-    // TIP (additional)
-    // ========================================
     {
         verb: "tip", particle: "off", phrase: "tip off", category: "daily", level: "high",
         meaning: "To give someone secret information or a warning.",
@@ -11116,10 +9360,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "off", "down", "out"]
     },
-
-    // ========================================
-    // TRADE (additional)
-    // ========================================
     {
         verb: "trade", particle: "in", phrase: "trade in", category: "business", level: "middle",
         meaning: "To give an old item as partial payment for a new one.",
@@ -11142,10 +9382,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "in", "on", "away"]
     },
-
-    // ========================================
-    // TRIP (additional)
-    // ========================================
     {
         verb: "trip", particle: "up", phrase: "trip up", category: "daily", level: "middle",
         meaning: "To make a mistake; to cause someone to stumble or make an error.",
@@ -11168,10 +9404,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "up", "on", "into"]
     },
-
-    // ========================================
-    // WASH (additional)
-    // ========================================
     {
         verb: "wash", particle: "away", phrase: "wash away", category: "daily", level: "middle",
         meaning: "To be removed or destroyed by water; to eliminate a feeling.",
@@ -11205,10 +9437,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "away", "up"]
     },
-
-    // ========================================
-    // WEED (additional)
-    // ========================================
     {
         verb: "weed", particle: "out", phrase: "weed out", category: "business", level: "high",
         meaning: "To remove unwanted or unsuitable people or things from a group.",
@@ -11220,10 +9448,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "away", "through"]
     },
-
-    // ========================================
-    // WHIP (additional)
-    // ========================================
     {
         verb: "whip", particle: "up", phrase: "whip up", category: "daily", level: "middle",
         meaning: "To prepare food quickly; to deliberately excite or provoke an emotion.",
@@ -11235,10 +9459,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "together"]
     },
-
-    // ========================================
-    // WIPE (additional)
-    // ========================================
     {
         verb: "wipe", particle: "away", phrase: "wipe away", category: "emotion", level: "middle",
         meaning: "To remove something by wiping, especially tears.",
@@ -11261,10 +9481,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "up"]
     },
-
-    // ========================================
-    // YIELD (additional)
-    // ========================================
     {
         verb: "yield", particle: "to", phrase: "yield to", category: "academic", level: "college",
         meaning: "To give way to pressure, temptation, or a superior force.",
@@ -11276,10 +9492,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["to", "in", "for", "at"]
     },
-
-    // ========================================
-    // STORE (additional)
-    // ========================================
     {
         verb: "store", particle: "up", phrase: "store up", category: "daily", level: "high",
         meaning: "To accumulate and keep something for future use; to accumulate emotions.",
@@ -11291,10 +9503,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "away", "in", "out"]
     },
-
-    // ========================================
-    // RULE (additional)
-    // ========================================
     {
         verb: "rule", particle: "on", phrase: "rule on", category: "academic", level: "college",
         meaning: "To make an official decision about a legal matter.",
@@ -11306,10 +9514,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "over", "for", "about"]
     },
-
-    // ========================================
-    // STAMP (additional)
-    // ========================================
     {
         verb: "stamp", particle: "on", phrase: "stamp on", category: "daily", level: "high",
         meaning: "To suppress or put an end to something forcefully.",
@@ -11321,12 +9525,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "out", "down", "off"]
     },
-
-    // ========================================
-    // ADDITIONAL COMMON PHRASAL VERBS
-    // ========================================
-
-    // ASK
     {
         verb: "ask", particle: "back", phrase: "ask back", category: "daily", level: "middle",
         meaning: "To invite someone to return or to come to one's home.",
@@ -11338,8 +9536,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "in", "over", "out"]
     },
-
-    // BLOW
     {
         verb: "blow", particle: "in", phrase: "blow in", category: "daily", level: "high",
         meaning: "To arrive unexpectedly at a place.",
@@ -11351,8 +9547,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "up", "by", "through"]
     },
-
-    // BOW
     {
         verb: "bow", particle: "down", phrase: "bow down", category: "emotion", level: "high",
         meaning: "To show great respect or submission to someone.",
@@ -11364,8 +9558,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "out", "in", "over"]
     },
-
-    // BOW
     {
         verb: "bow", particle: "out", phrase: "bow out", category: "business", level: "high",
         meaning: "To withdraw from a commitment, competition, or role gracefully.",
@@ -11377,8 +9569,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "down", "off", "away"]
     },
-
-    // BREAK
     {
         verb: "break", particle: "free", phrase: "break free", category: "emotion", level: "middle",
         meaning: "To escape from a situation, constraint, or physical hold.",
@@ -11390,8 +9580,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["free", "away", "out", "loose"]
     },
-
-    // BRING
     {
         verb: "bring", particle: "together", phrase: "bring together", category: "emotion", level: "middle",
         meaning: "To unite people; to cause people to meet and work with each other.",
@@ -11403,8 +9591,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["together", "along", "around", "about"]
     },
-
-    // BURST
     {
         verb: "burst", particle: "out", phrase: "burst out", category: "emotion", level: "middle",
         meaning: "To suddenly start doing something, especially laughing or crying.",
@@ -11416,8 +9602,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "in", "into"]
     },
-
-    // BURST
     {
         verb: "burst", particle: "into", phrase: "burst into", category: "emotion", level: "middle",
         meaning: "To suddenly enter a room forcefully; to suddenly begin to cry, laugh, etc.",
@@ -11429,8 +9613,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["into", "in", "out", "through"]
     },
-
-    // CLUE
     {
         verb: "clue", particle: "in", phrase: "clue in", category: "daily", level: "high",
         meaning: "To inform someone about something they do not know.",
@@ -11442,8 +9624,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "up", "on", "out"]
     },
-
-    // CARE
     {
         verb: "care", particle: "for", phrase: "care for", category: "daily", level: "middle",
         meaning: "To look after someone or something; to like or have affection for.",
@@ -11455,8 +9635,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "about", "of", "with"]
     },
-
-    // CHAIN
     {
         verb: "chain", particle: "up", phrase: "chain up", category: "daily", level: "high",
         meaning: "To fasten someone or something with a chain to restrict movement.",
@@ -11468,8 +9646,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "down", "on", "to"]
     },
-
-    // CHILL
     {
         verb: "chill", particle: "out", phrase: "chill out", category: "emotion", level: "elementary",
         meaning: "To relax and stop feeling anxious or angry (informal).",
@@ -11481,8 +9657,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "down", "up"]
     },
-
-    // COME
     {
         verb: "come", particle: "out with", phrase: "come out with", category: "daily", level: "high",
         meaning: "To say something suddenly or unexpectedly.",
@@ -11494,8 +9668,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out with", "up with", "along with", "on with"]
     },
-
-    // COME
     {
         verb: "come", particle: "under", phrase: "come under", category: "business", level: "high",
         meaning: "To be subjected to something, especially criticism, pressure, or attack.",
@@ -11507,8 +9679,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["under", "into", "upon", "over"]
     },
-
-    // COOK
     {
         verb: "cook", particle: "up", phrase: "cook up", category: "daily", level: "middle",
         meaning: "To prepare food; to invent a story or scheme (often dishonest).",
@@ -11520,8 +9690,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "in"]
     },
-
-    // COUNT
     {
         verb: "count", particle: "up", phrase: "count up", category: "business", level: "middle",
         meaning: "To add up or calculate the total of something.",
@@ -11533,8 +9701,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "in", "down"]
     },
-
-    // CREEP
     {
         verb: "creep", particle: "up", phrase: "creep up", category: "daily", level: "high",
         meaning: "To gradually increase; to approach someone quietly without being noticed.",
@@ -11546,8 +9712,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "in", "on", "along"]
     },
-
-    // CRY
     {
         verb: "cry", particle: "out", phrase: "cry out", category: "emotion", level: "middle",
         meaning: "To shout or scream because of pain, fear, or surprise.",
@@ -11559,8 +9723,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "away"]
     },
-
-    // DOZE
     {
         verb: "doze", particle: "off", phrase: "doze off", category: "daily", level: "middle",
         meaning: "To fall asleep gradually, especially without intending to.",
@@ -11572,8 +9734,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "away", "in"]
     },
-
-    // DRAG
     {
         verb: "drag", particle: "out", phrase: "drag out", category: "daily", level: "high",
         meaning: "To make something last longer than necessary.",
@@ -11585,8 +9745,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "on", "along", "through"]
     },
-
-    // DROP
     {
         verb: "drop", particle: "around", phrase: "drop around", category: "daily", level: "middle",
         meaning: "To visit someone casually and without a formal arrangement.",
@@ -11598,8 +9756,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "by", "in", "over"]
     },
-
-    // DUMB
     {
         verb: "dumb", particle: "down", phrase: "dumb down", category: "academic", level: "college",
         meaning: "To simplify something excessively, making it less intellectually demanding.",
@@ -11611,8 +9767,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "out", "off", "up"]
     },
-
-    // FACE
     {
         verb: "face", particle: "up", phrase: "face up", category: "emotion", level: "high",
         meaning: "To accept and deal with something difficult or unpleasant.",
@@ -11624,8 +9778,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "off", "out"]
     },
-
-    // FARM
     {
         verb: "farm", particle: "out", phrase: "farm out", category: "business", level: "high",
         meaning: "To send work out to be done by others, especially to external companies.",
@@ -11637,8 +9789,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "over", "away"]
     },
-
-    // FLICK
     {
         verb: "flick", particle: "through", phrase: "flick through", category: "daily", level: "middle",
         meaning: "To quickly look at the pages of a book, magazine, or document.",
@@ -11650,8 +9800,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "over", "past", "by"]
     },
-
-    // FLOOD
     {
         verb: "flood", particle: "in", phrase: "flood in", category: "daily", level: "high",
         meaning: "To arrive in very large numbers or quantities.",
@@ -11663,8 +9811,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "over", "through"]
     },
-
-    // FORK
     {
         verb: "fork", particle: "over", phrase: "fork over", category: "business", level: "high",
         meaning: "To pay money reluctantly, especially a large amount.",
@@ -11676,8 +9822,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "out", "up", "off"]
     },
-
-    // FLESH
     {
         verb: "flesh", particle: "out", phrase: "flesh out", category: "business", level: "high",
         meaning: "To add more details or substance to an idea, plan, or argument.",
@@ -11689,8 +9833,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "in", "off"]
     },
-
-    // GANG
     {
         verb: "gang", particle: "up on", phrase: "gang up on", category: "emotion", level: "middle",
         meaning: "To join together as a group to oppose or attack someone.",
@@ -11702,8 +9844,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up on", "in on", "out on", "off on"]
     },
-
-    // GEAR
     {
         verb: "gear", particle: "towards", phrase: "gear towards", category: "business", level: "high",
         meaning: "To design or organize something for a particular purpose or audience.",
@@ -11715,8 +9855,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["towards", "for", "at", "into"]
     },
-
-    // GIVE
     {
         verb: "give", particle: "over to", phrase: "give over to", category: "business", level: "college",
         meaning: "To dedicate time, space, or resources to a particular purpose.",
@@ -11728,8 +9866,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over to", "up to", "in to", "away to"]
     },
-
-    // GO
     {
         verb: "go", particle: "on with", phrase: "go on with", category: "daily", level: "middle",
         meaning: "To continue doing something.",
@@ -11741,8 +9877,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on with", "off with", "along with", "ahead with"]
     },
-
-    // GROW
     {
         verb: "grow", particle: "out", phrase: "grow out", category: "daily", level: "middle",
         meaning: "To allow hair or nails to get longer by not cutting them.",
@@ -11754,8 +9888,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "on", "off"]
     },
-
-    // HACK
     {
         verb: "hack", particle: "into", phrase: "hack into", category: "business", level: "high",
         meaning: "To gain unauthorized access to a computer system.",
@@ -11767,8 +9899,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["into", "in", "through", "to"]
     },
-
-    // HEAT
     {
         verb: "heat", particle: "up", phrase: "heat up", category: "daily", level: "elementary",
         meaning: "To make something warm or hot; to become more intense.",
@@ -11780,8 +9910,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "off", "out"]
     },
-
-    // HOLD
     {
         verb: "hold", particle: "together", phrase: "hold together", category: "daily", level: "middle",
         meaning: "To remain intact; to manage to stay calm and functional.",
@@ -11793,8 +9921,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["together", "on", "up", "out"]
     },
-
-    // HURRY
     {
         verb: "hurry", particle: "along", phrase: "hurry along", category: "daily", level: "middle",
         meaning: "To make something happen faster; to tell someone to move quickly.",
@@ -11806,8 +9932,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["along", "up", "on", "off"]
     },
-
-    // KEY
     {
         verb: "key", particle: "in", phrase: "key in", category: "business", level: "middle",
         meaning: "To enter data or text using a keyboard.",
@@ -11819,8 +9943,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "up", "out"]
     },
-
-    // KICK
     {
         verb: "kick", particle: "around", phrase: "kick around", category: "business", level: "middle",
         meaning: "To discuss an idea casually; to treat someone badly.",
@@ -11832,8 +9954,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "about", "over", "through"]
     },
-
-    // KNOCK
     {
         verb: "knock", particle: "around", phrase: "knock around", category: "daily", level: "middle",
         meaning: "To spend time relaxing without doing anything specific; to travel casually.",
@@ -11845,8 +9965,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "about", "along", "through"]
     },
-
-    // LASH
     {
         verb: "lash", particle: "out", phrase: "lash out", category: "emotion", level: "high",
         meaning: "To suddenly attack someone physically or verbally.",
@@ -11858,8 +9976,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "back", "off", "at"]
     },
-
-    // LET
     {
         verb: "let", particle: "up", phrase: "let up", category: "daily", level: "middle",
         meaning: "To become less intense or to stop.",
@@ -11871,8 +9987,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "off", "down", "out"]
     },
-
-    // LISTEN
     {
         verb: "listen", particle: "in", phrase: "listen in", category: "daily", level: "middle",
         meaning: "To secretly listen to a conversation or broadcast.",
@@ -11884,8 +9998,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "to", "through"]
     },
-
-    // LIVE
     {
         verb: "live", particle: "down", phrase: "live down", category: "emotion", level: "high",
         meaning: "To overcome the shame or embarrassment of a past event (usually negative).",
@@ -11897,8 +10009,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "through"]
     },
-
-    // LOCK
     {
         verb: "lock", particle: "down", phrase: "lock down", category: "business", level: "high",
         meaning: "To secure a place completely; to finalize or make something definite.",
@@ -11910,8 +10020,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "in", "out"]
     },
-
-    // MARK
     {
         verb: "mark", particle: "out", phrase: "mark out", category: "business", level: "high",
         meaning: "To draw the boundaries of something; to distinguish someone as special.",
@@ -11923,8 +10031,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "up", "down"]
     },
-
-    // MIX
     {
         verb: "mix", particle: "with", phrase: "mix with", category: "daily", level: "middle",
         meaning: "To socialize with other people.",
@@ -11936,8 +10042,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["with", "in", "up", "along"]
     },
-
-    // OPT
     {
         verb: "opt", particle: "out of", phrase: "opt out of", category: "business", level: "high",
         meaning: "To choose not to participate in something.",
@@ -11949,8 +10053,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out of", "in to", "off of", "away from"]
     },
-
-    // PAIR
     {
         verb: "pair", particle: "up", phrase: "pair up", category: "daily", level: "middle",
         meaning: "To form groups of two; to match two things or people together.",
@@ -11962,8 +10064,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "off", "together", "in"]
     },
-
-    // PATCH
     {
         verb: "patch", particle: "up", phrase: "patch up", category: "emotion", level: "middle",
         meaning: "To repair something temporarily; to resolve a disagreement.",
@@ -11975,8 +10075,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "over", "in", "together"]
     },
-
-    // PETER
     {
         verb: "peter", particle: "out", phrase: "peter out", category: "daily", level: "college",
         meaning: "To gradually diminish and come to an end.",
@@ -11988,8 +10086,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "away", "down"]
     },
-
-    // PILE
     {
         verb: "pile", particle: "in", phrase: "pile in", category: "daily", level: "middle",
         meaning: "To crowd into a place or vehicle in a disorderly way.",
@@ -12001,8 +10097,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "into", "on", "up"]
     },
-
-    // PIN
     {
         verb: "pin", particle: "down", phrase: "pin down", category: "business", level: "high",
         meaning: "To force someone to be specific; to hold someone so they cannot move.",
@@ -12014,8 +10108,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "in", "on"]
     },
-
-    // PIPE
     {
         verb: "pipe", particle: "down", phrase: "pipe down", category: "daily", level: "middle",
         meaning: "To be quiet or make less noise (informal).",
@@ -12027,8 +10119,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "up"]
     },
-
-    // POP
     {
         verb: "pop", particle: "in", phrase: "pop in", category: "daily", level: "middle",
         meaning: "To visit someone briefly and casually.",
@@ -12040,8 +10130,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "by", "over", "around"]
     },
-
-    // POP
     {
         verb: "pop", particle: "up", phrase: "pop up", category: "daily", level: "middle",
         meaning: "To appear suddenly or unexpectedly.",
@@ -12053,8 +10141,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "in", "off"]
     },
-
-    // PROP
     {
         verb: "prop", particle: "up", phrase: "prop up", category: "business", level: "high",
         meaning: "To support something to prevent it from falling; to keep something going artificially.",
@@ -12066,8 +10152,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "off", "out"]
     },
-
-    // PULL
     {
         verb: "pull", particle: "up", phrase: "pull up", category: "daily", level: "middle",
         meaning: "To stop a vehicle; to move a chair closer; to criticize someone for their behavior.",
@@ -12079,8 +10163,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "over", "in", "off"]
     },
-
-    // PUT
     {
         verb: "put", particle: "down for", phrase: "put down for", category: "daily", level: "high",
         meaning: "To add someone's name to a list for something.",
@@ -12092,8 +10174,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down for", "in for", "up for", "on for"]
     },
-
-    // QUEUE
     {
         verb: "queue", particle: "up", phrase: "queue up", category: "daily", level: "middle",
         meaning: "To line up and wait for one's turn.",
@@ -12105,8 +10185,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "in", "along", "on"]
     },
-
-    // RATTLE
     {
         verb: "rattle", particle: "off", phrase: "rattle off", category: "daily", level: "high",
         meaning: "To say something quickly and easily from memory.",
@@ -12118,8 +10196,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "on", "through"]
     },
-
-    // RING
     {
         verb: "ring", particle: "around", phrase: "ring around", category: "daily", level: "middle",
         meaning: "To telephone several people or organizations to get information.",
@@ -12131,8 +10207,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "about", "up", "through"]
     },
-
-    // ROOT
     {
         verb: "root", particle: "for", phrase: "root for", category: "emotion", level: "middle",
         meaning: "To support or cheer for someone enthusiastically.",
@@ -12144,8 +10218,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "on", "at", "with"]
     },
-
-    // RULE
     {
         verb: "rule", particle: "out of", phrase: "rule out of", category: "daily", level: "high",
         meaning: "To prevent someone from participating due to injury or other reasons.",
@@ -12157,8 +10229,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out of", "off of", "away from", "in on"]
     },
-
-    // SCALE
     {
         verb: "scale", particle: "back", phrase: "scale back", category: "business", level: "high",
         meaning: "To reduce the size, extent, or amount of something.",
@@ -12170,8 +10240,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "down", "off", "out"]
     },
-
-    // SCRAPE
     {
         verb: "scrape", particle: "by", phrase: "scrape by", category: "daily", level: "high",
         meaning: "To manage to survive with very little money.",
@@ -12183,8 +10251,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["by", "through", "along", "on"]
     },
-
-    // SEE
     {
         verb: "see", particle: "about", phrase: "see about", category: "daily", level: "middle",
         meaning: "To deal with or make arrangements for something.",
@@ -12196,8 +10262,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["about", "to", "into", "for"]
     },
-
-    // SEIZE
     {
         verb: "seize", particle: "on", phrase: "seize on", category: "business", level: "college",
         meaning: "To take advantage of something quickly and eagerly.",
@@ -12209,8 +10273,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "upon", "at", "into"]
     },
-
-    // SIMMER
     {
         verb: "simmer", particle: "down", phrase: "simmer down", category: "emotion", level: "middle",
         meaning: "To become calmer after being angry or excited.",
@@ -12222,8 +10284,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "out", "away"]
     },
-
-    // SIT
     {
         verb: "sit", particle: "around", phrase: "sit around", category: "daily", level: "elementary",
         meaning: "To spend time sitting doing nothing productive.",
@@ -12235,8 +10295,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "about", "in", "on"]
     },
-
-    // SNAP
     {
         verb: "snap", particle: "at", phrase: "snap at", category: "emotion", level: "middle",
         meaning: "To speak to someone in a sharp, angry way.",
@@ -12248,8 +10306,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["at", "on", "back", "out"]
     },
-
-    // SNEAK
     {
         verb: "sneak", particle: "in", phrase: "sneak in", category: "daily", level: "middle",
         meaning: "To enter a place quietly and secretly.",
@@ -12261,8 +10317,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "into", "through", "past"]
     },
-
-    // SOAK
     {
         verb: "soak", particle: "up", phrase: "soak up", category: "daily", level: "middle",
         meaning: "To absorb something; to enjoy an experience fully.",
@@ -12274,8 +10328,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "in", "on", "out"]
     },
-
-    // SPARK
     {
         verb: "spark", particle: "off", phrase: "spark off", category: "academic", level: "high",
         meaning: "To cause something to begin, especially a debate or conflict.",
@@ -12287,8 +10339,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "up", "out", "on"]
     },
-
-    // SPIN
     {
         verb: "spin", particle: "off", phrase: "spin off", category: "business", level: "high",
         meaning: "To create a new company or product from an existing one.",
@@ -12300,8 +10350,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "away", "up"]
     },
-
-    // SPRING
     {
         verb: "spring", particle: "back", phrase: "spring back", category: "daily", level: "high",
         meaning: "To return quickly to a previous position or condition.",
@@ -12313,8 +10361,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "up", "out", "off"]
     },
-
-    // SQUARE
     {
         verb: "square", particle: "up", phrase: "square up", category: "business", level: "high",
         meaning: "To settle a bill or debt; to prepare to fight someone.",
@@ -12326,8 +10372,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "off", "away", "out"]
     },
-
-    // STACK
     {
         verb: "stack", particle: "up", phrase: "stack up", category: "business", level: "high",
         meaning: "To compare; to accumulate or build up.",
@@ -12339,8 +10383,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "on"]
     },
-
-    // STEM
     {
         verb: "stem", particle: "from", phrase: "stem from", category: "academic", level: "college",
         meaning: "To originate from or be caused by something.",
@@ -12352,8 +10394,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["from", "out of", "off", "by"]
     },
-
-    // STEP
     {
         verb: "step", particle: "back", phrase: "step back", category: "business", level: "middle",
         meaning: "To withdraw from a situation to consider it more objectively.",
@@ -12365,8 +10405,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["back", "down", "aside", "away"]
     },
-
-    // STUMP
     {
         verb: "stump", particle: "up", phrase: "stump up", category: "business", level: "high",
         meaning: "To pay a sum of money, especially unwillingly.",
@@ -12378,8 +10416,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "over", "off"]
     },
-
-    // SUSS
     {
         verb: "suss", particle: "out", phrase: "suss out", category: "daily", level: "high",
         meaning: "To discover the truth about something or someone; to figure out.",
@@ -12391,8 +10427,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "up", "off", "through"]
     },
-
-    // TAG
     {
         verb: "tag", particle: "along", phrase: "tag along", category: "daily", level: "middle",
         meaning: "To go somewhere with someone, often without being invited.",
@@ -12404,8 +10438,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["along", "on", "in", "with"]
     },
-
-    // THINK
     {
         verb: "think", particle: "of", phrase: "think of", category: "daily", level: "elementary",
         meaning: "To consider or have an opinion about something; to remember or imagine.",
@@ -12417,8 +10449,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["of", "about", "on", "over"]
     },
-
-    // TOUCH
     {
         verb: "touch", particle: "down", phrase: "touch down", category: "travel", level: "middle",
         meaning: "To land on the ground, especially referring to an aircraft.",
@@ -12430,8 +10460,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "off", "in", "on"]
     },
-
-    // TUCK
     {
         verb: "tuck", particle: "in", phrase: "tuck in", category: "daily", level: "middle",
         meaning: "To start eating enthusiastically; to push cloth edges under to make neat.",
@@ -12443,8 +10471,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "into", "up", "on"]
     },
-
-    // TURN
     {
         verb: "turn", particle: "loose", phrase: "turn loose", category: "daily", level: "high",
         meaning: "To set free; to release from confinement.",
@@ -12456,8 +10482,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["loose", "free", "out", "off"]
     },
-
-    // TYPE
     {
         verb: "type", particle: "up", phrase: "type up", category: "business", level: "middle",
         meaning: "To make a typed copy of handwritten or rough notes.",
@@ -12469,8 +10493,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "in", "off"]
     },
-
-    // USHER
     {
         verb: "usher", particle: "in", phrase: "usher in", category: "academic", level: "college",
         meaning: "To mark the beginning of a new period or era.",
@@ -12482,8 +10504,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "up", "out"]
     },
-
-    // WADE
     {
         verb: "wade", particle: "through", phrase: "wade through", category: "business", level: "high",
         meaning: "To read or deal with a large amount of boring material.",
@@ -12495,8 +10515,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "into", "over", "past"]
     },
-
-    // WAIT
     {
         verb: "wait", particle: "around", phrase: "wait around", category: "daily", level: "elementary",
         meaning: "To stay in a place doing nothing while waiting for something to happen.",
@@ -12508,8 +10526,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "about", "on", "in"]
     },
-
-    // WARM
     {
         verb: "warm", particle: "up to", phrase: "warm up to", category: "emotion", level: "middle",
         meaning: "To begin to like or feel comfortable with someone or something gradually.",
@@ -12521,8 +10537,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up to", "on to", "in to", "along to"]
     },
-
-    // WIND
     {
         verb: "wind", particle: "around", phrase: "wind around", category: "daily", level: "high",
         meaning: "To wrap or coil something around an object.",
@@ -12534,8 +10548,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "up", "about", "over"]
     },
-
-    // WOLF
     {
         verb: "wolf", particle: "down", phrase: "wolf down", category: "daily", level: "middle",
         meaning: "To eat food very quickly and eagerly.",
@@ -12547,8 +10559,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "up", "in", "off"]
     },
-
-    // WORK
     {
         verb: "work", particle: "up to", phrase: "work up to", category: "daily", level: "middle",
         meaning: "To gradually build toward something more difficult or demanding.",
@@ -12560,8 +10570,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up to", "on to", "along to", "in to"]
     },
-
-    // ZERO
     {
         verb: "zero", particle: "in", phrase: "zero in", category: "business", level: "high",
         meaning: "To focus all attention on a particular thing.",
@@ -12573,8 +10581,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "out", "at"]
     },
-
-    // BAIL
     {
         verb: "bail", particle: "on", phrase: "bail on", category: "daily", level: "middle",
         meaning: "To abandon or leave someone or something, especially at the last minute.",
@@ -12586,8 +10592,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "out", "off", "from"]
     },
-
-    // BIG
     {
         verb: "big", particle: "up", phrase: "big up", category: "daily", level: "high",
         meaning: "To praise or promote someone or something enthusiastically (informal).",
@@ -12599,8 +10603,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "on"]
     },
-
-    // CLOCK
     {
         verb: "clock", particle: "in", phrase: "clock in", category: "business", level: "middle",
         meaning: "To record one's arrival time at work.",
@@ -12612,8 +10614,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "on", "up", "at"]
     },
-
-    // CLOCK
     {
         verb: "clock", particle: "out", phrase: "clock out", category: "business", level: "middle",
         meaning: "To record one's departure time at work.",
@@ -12625,8 +10625,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "in", "up"]
     },
-
-    // COME
     {
         verb: "come", particle: "undone", phrase: "come undone", category: "daily", level: "high",
         meaning: "To become unfastened; to fail or go wrong.",
@@ -12638,8 +10636,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["undone", "apart", "loose", "off"]
     },
-
-    // CRACK
     {
         verb: "crack", particle: "on", phrase: "crack on", category: "daily", level: "high",
         meaning: "To continue doing something quickly and with determination.",
@@ -12651,8 +10647,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "up", "at", "off"]
     },
-
-    // DUCK
     {
         verb: "duck", particle: "out", phrase: "duck out", category: "daily", level: "high",
         meaning: "To leave a place quickly and quietly to avoid something.",
@@ -12664,8 +10658,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "away", "in"]
     },
-
-    // EVEN
     {
         verb: "even", particle: "up", phrase: "even up", category: "daily", level: "middle",
         meaning: "To make something equal or balanced.",
@@ -12677,8 +10669,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "down"]
     },
-
-    // FEND
     {
         verb: "fend", particle: "for", phrase: "fend for", category: "daily", level: "high",
         meaning: "To take care of oneself without help from others.",
@@ -12690,8 +10680,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "off", "against", "from"]
     },
-
-    // GLAZE
     {
         verb: "glaze", particle: "over", phrase: "glaze over", category: "emotion", level: "high",
         meaning: "When eyes glaze over, they become dull, showing a lack of interest or understanding.",
@@ -12703,8 +10691,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["over", "out", "up", "off"]
     },
-
-    // HAND
     {
         verb: "hand", particle: "off", phrase: "hand off", category: "business", level: "middle",
         meaning: "To transfer responsibility or pass something to another person.",
@@ -12716,8 +10702,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "over", "on", "out"]
     },
-
-    // HASH
     {
         verb: "hash", particle: "out", phrase: "hash out", category: "business", level: "high",
         meaning: "To discuss something thoroughly to reach an agreement.",
@@ -12729,8 +10713,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "through", "over", "up"]
     },
-
-    // MUSCLE
     {
         verb: "muscle", particle: "in", phrase: "muscle in", category: "business", level: "college",
         meaning: "To force one's way into a situation where one is not wanted.",
@@ -12742,8 +10724,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "into", "on", "through"]
     },
-
-    // MEASURE
     {
         verb: "measure", particle: "up", phrase: "measure up", category: "business", level: "high",
         meaning: "To meet the required standard; to be good enough.",
@@ -12755,8 +10735,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "in", "off"]
     },
-
-    // MISS
     {
         verb: "miss", particle: "out", phrase: "miss out", category: "daily", level: "middle",
         meaning: "To fail to take advantage of an opportunity or to not experience something.",
@@ -12768,8 +10746,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "by", "up"]
     },
-
-    // MOUTH
     {
         verb: "mouth", particle: "off", phrase: "mouth off", category: "emotion", level: "high",
         meaning: "To speak rudely or disrespectfully to someone.",
@@ -12781,8 +10757,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "out", "at", "on"]
     },
-
-    // NOSE
     {
         verb: "nose", particle: "around", phrase: "nose around", category: "daily", level: "middle",
         meaning: "To look around or investigate in a nosy way.",
@@ -12794,8 +10768,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "about", "into", "through"]
     },
-
-    // OWE
     {
         verb: "owe", particle: "to", phrase: "owe to", category: "daily", level: "high",
         meaning: "To have something as a result of the actions or qualities of someone or something.",
@@ -12807,8 +10779,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["to", "for", "from", "with"]
     },
-
-    // PACK
     {
         verb: "pack", particle: "in", phrase: "pack in", category: "daily", level: "middle",
         meaning: "To stop doing something; to fit a lot into a limited time or space.",
@@ -12820,8 +10790,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "up", "off", "out"]
     },
-
-    // PEEL
     {
         verb: "peel", particle: "off", phrase: "peel off", category: "daily", level: "middle",
         meaning: "To remove something by peeling; to separate from a group.",
@@ -12833,8 +10801,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "away", "out", "back"]
     },
-
-    // POLISH
     {
         verb: "polish", particle: "off", phrase: "polish off", category: "daily", level: "middle",
         meaning: "To finish something completely, especially food or a task.",
@@ -12846,8 +10812,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "up", "out", "down"]
     },
-
-    // PLOUGH
     {
         verb: "plough", particle: "into", phrase: "plough into", category: "business", level: "high",
         meaning: "To invest a large amount of money or effort into something.",
@@ -12859,8 +10823,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["into", "in", "to", "through"]
     },
-
-    // PULL
     {
         verb: "pull", particle: "ahead", phrase: "pull ahead", category: "business", level: "high",
         meaning: "To move into a leading position in a race or competition.",
@@ -12872,8 +10834,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["ahead", "away", "forward", "out"]
     },
-
-    // PUSH
     {
         verb: "push", particle: "for", phrase: "push for", category: "business", level: "high",
         meaning: "To make a strong effort to achieve or obtain something.",
@@ -12885,8 +10845,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["for", "on", "at", "to"]
     },
-
-    // RACK
     {
         verb: "rack", particle: "up", phrase: "rack up", category: "business", level: "high",
         meaning: "To accumulate a large amount of something, especially debts or achievements.",
@@ -12898,8 +10856,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "off", "in"]
     },
-
-    // ROUGH
     {
         verb: "rough", particle: "up", phrase: "rough up", category: "daily", level: "college",
         meaning: "To physically attack someone without causing serious injury.",
@@ -12911,8 +10867,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "over"]
     },
-
-    // ROPE
     {
         verb: "rope", particle: "in", phrase: "rope in", category: "daily", level: "high",
         meaning: "To persuade someone to help with something, especially when they are reluctant.",
@@ -12924,8 +10878,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "into", "up", "on"]
     },
-
-    // RUN
     {
         verb: "run", particle: "out", phrase: "run out", category: "daily", level: "elementary",
         meaning: "To use up all the supply of something.",
@@ -12937,8 +10889,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "down", "through"]
     },
-
-    // SEND
     {
         verb: "send", particle: "in", phrase: "send in", category: "business", level: "middle",
         meaning: "To submit something, especially by post or electronically.",
@@ -12950,8 +10900,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in", "out", "off", "back"]
     },
-
-    // SHAPE
     {
         verb: "shape", particle: "up", phrase: "shape up", category: "daily", level: "middle",
         meaning: "To improve one's behavior or performance; to develop in a particular way.",
@@ -12963,8 +10911,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "out", "off", "in"]
     },
-
-    // SHORE
     {
         verb: "shore", particle: "up", phrase: "shore up", category: "business", level: "college",
         meaning: "To support or strengthen something that is weakening.",
@@ -12976,8 +10922,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["up", "on", "off", "out"]
     },
-
-    // SINGLE
     {
         verb: "single", particle: "out", phrase: "single out", category: "business", level: "high",
         meaning: "To select one person or thing from a group for special attention or treatment.",
@@ -12989,8 +10933,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "off", "on", "up"]
     },
-
-    // STAND
     {
         verb: "stand", particle: "down", phrase: "stand down", category: "business", level: "high",
         meaning: "To resign from a position; to withdraw from a confrontation.",
@@ -13002,8 +10944,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "back", "off", "aside"]
     },
-
-    // SWEAR
     {
         verb: "swear", particle: "by", phrase: "swear by", category: "daily", level: "high",
         meaning: "To have complete confidence in something as being effective.",
@@ -13015,8 +10955,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["by", "on", "to", "for"]
     },
-
-    // TALK
     {
         verb: "talk", particle: "through", phrase: "talk through", category: "business", level: "middle",
         meaning: "To discuss something in detail to help someone understand or resolve it.",
@@ -13028,8 +10966,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["through", "over", "about", "around"]
     },
-
-    // THIN
     {
         verb: "thin", particle: "out", phrase: "thin out", category: "daily", level: "high",
         meaning: "To become less crowded or dense; to reduce in number.",
@@ -13041,8 +10977,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["out", "down", "off", "away"]
     },
-
-    // TOW
     {
         verb: "tow", particle: "away", phrase: "tow away", category: "daily", level: "middle",
         meaning: "To remove a vehicle by pulling it with another vehicle.",
@@ -13054,8 +10988,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["away", "off", "out", "in"]
     },
-
-    // TOSS
     {
         verb: "toss", particle: "around", phrase: "toss around", category: "business", level: "middle",
         meaning: "To casually discuss or consider various ideas.",
@@ -13067,8 +10999,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["around", "about", "out", "over"]
     },
-
-    // TUMBLE
     {
         verb: "tumble", particle: "down", phrase: "tumble down", category: "daily", level: "middle",
         meaning: "To fall suddenly; to collapse.",
@@ -13080,8 +11010,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["down", "over", "off", "apart"]
     },
-
-    // WALK
     {
         verb: "walk", particle: "in on", phrase: "walk in on", category: "daily", level: "middle",
         meaning: "To enter a room and unexpectedly find someone doing something.",
@@ -13093,8 +11021,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["in on", "into", "up on", "on to"]
     },
-
-    // WEAR
     {
         verb: "wear", particle: "on", phrase: "wear on", category: "daily", level: "high",
         meaning: "To pass gradually, especially in a tedious way; to become increasingly annoying.",
@@ -13106,8 +11032,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["on", "off", "out", "down"]
     },
-
-    // WANDER
     {
         verb: "wander", particle: "off", phrase: "wander off", category: "daily", level: "middle",
         meaning: "To move away from where you are supposed to be, often without realizing it.",
@@ -13119,8 +11043,6 @@ const PHRASAL_VERBS = [
         ],
         options: ["off", "away", "out", "about"]
     },
-
-    // WRAP
     {
         verb: "wrap", particle: "up in", phrase: "wrap up in", category: "emotion", level: "high",
         meaning: "To be completely absorbed or involved in something.",
@@ -13132,4 +11054,1203 @@ const PHRASAL_VERBS = [
         ],
         options: ["up in", "on in", "around in", "into"]
     },
+    {
+        verb: "allude", particle: "to", phrase: "allude to", category: "academic", level: "college",
+        meaning: "To refer to something indirectly or briefly without going into detail.",
+        sentences: [
+            "The professor {verb}d {blank} several historical events in his lecture.",
+            "She didn't name anyone directly but {verb}d {blank} the scandal.",
+            "The report {verb}s {blank} potential risks without specifying them.",
+            "He kept {verb}ing {blank} a secret he wasn't ready to share."
+        ],
+        options: ["to", "at", "on", "for"]
+    },
+    {
+        verb: "amount", particle: "to", phrase: "amount to", category: "business", level: "high",
+        meaning: "To be equal to or add up to a particular total or significance.",
+        sentences: [
+            "The total damages {verb}ed {blank} over three million dollars.",
+            "His efforts didn't {verb} {blank} much in the end.",
+            "The quarterly expenses {verb} {blank} a significant portion of revenue.",
+            "All those small charges {verb}ing {blank} a huge bill surprised everyone."
+        ],
+        options: ["to", "up", "for", "at"]
+    },
+    {
+        verb: "attribute", particle: "to", phrase: "attribute to", category: "academic", level: "college",
+        meaning: "To regard something as being caused by a particular factor or person.",
+        sentences: [
+            "Scientists {verb} the warming trend {blank} increased carbon emissions.",
+            "She {verb}d her success {blank} years of dedicated practice.",
+            "The painting is {verb}d {blank} a lesser-known Renaissance artist.",
+            "Historians {verb} the empire's fall {blank} internal corruption."
+        ],
+        options: ["to", "for", "with", "by"]
+    },
+    {
+        verb: "bear", particle: "out", phrase: "bear out", category: "academic", level: "college",
+        meaning: "To confirm or support something with evidence.",
+        sentences: [
+            "The data {verb}s {blank} the researcher's original hypothesis.",
+            "Recent findings {verb} {blank} what we suspected all along.",
+            "The witness's testimony {verb}s {blank} the defendant's alibi.",
+            "Further investigation will {verb} {blank} whether the theory is correct."
+        ],
+        options: ["out", "up", "on", "through"]
+    },
+    {
+        verb: "build", particle: "upon", phrase: "build upon", category: "academic", level: "college",
+        meaning: "To use something as a basis for further development.",
+        sentences: [
+            "The new theory {verb}s {blank} decades of prior research.",
+            "We need to {verb} {blank} the progress we've already made.",
+            "She {verb}t {blank} her mentor's groundwork to create a new framework.",
+            "Each generation {verb}s {blank} the knowledge of the last."
+        ],
+        options: ["upon", "into", "over", "from"]
+    },
+    {
+        verb: "capitalize", particle: "on", phrase: "capitalize on", category: "business", level: "professional",
+        meaning: "To take advantage of a situation or opportunity for personal gain.",
+        sentences: [
+            "The company {verb}d {blank} the growing demand for organic products.",
+            "Smart investors {verb} {blank} market fluctuations to maximize returns.",
+            "She {verb}d {blank} her bilingual skills to land the international role.",
+            "We must {verb} {blank} this momentum before competitors catch up."
+        ],
+        options: ["on", "in", "at", "to"]
+    },
+    {
+        verb: "center", particle: "on", phrase: "center on", category: "academic", level: "high",
+        meaning: "To focus on or revolve around a particular subject or theme.",
+        sentences: [
+            "The debate {verb}s {blank} the ethical implications of artificial intelligence.",
+            "Her research {verb}s {blank} the effects of climate change on coral reefs.",
+            "The discussion {verb}ed {blank} budget allocation for next year.",
+            "Most complaints {verb} {blank} the lack of transparency in the process."
+        ],
+        options: ["on", "at", "to", "in"]
+    },
+    {
+        verb: "contribute", particle: "to", phrase: "contribute to", category: "academic", level: "middle",
+        meaning: "To help cause or bring about a result or situation.",
+        sentences: [
+            "Poor diet can {verb} {blank} serious health problems over time.",
+            "Many factors {verb}d {blank} the company's eventual bankruptcy.",
+            "Regular exercise {verb}s {blank} better mental health.",
+            "Everyone should {verb} {blank} making the community a better place."
+        ],
+        options: ["to", "for", "with", "at"]
+    },
+    {
+        verb: "delve", particle: "into", phrase: "delve into", category: "academic", level: "college",
+        meaning: "To investigate or research something thoroughly and in depth.",
+        sentences: [
+            "The documentary {verb}s {blank} the hidden history of the cold war.",
+            "She {verb}d {blank} the archives to find the original manuscript.",
+            "Researchers are {verb}ing {blank} the genetic causes of the disease.",
+            "The journalist {verb}d {blank} the politician's financial records."
+        ],
+        options: ["into", "onto", "over", "upon"]
+    },
+    {
+        verb: "derive", particle: "from", phrase: "derive from", category: "academic", level: "college",
+        meaning: "To originate from a particular source or root.",
+        sentences: [
+            "The word 'democracy' {verb}s {blank} ancient Greek roots.",
+            "Much of his confidence {verb}s {blank} years of experience.",
+            "The recipe {verb}s {blank} a traditional family cooking method.",
+            "These principles {verb} {blank} Enlightenment philosophy."
+        ],
+        options: ["from", "of", "by", "through"]
+    },
+    {
+        verb: "elaborate", particle: "on", phrase: "elaborate on", category: "academic", level: "high",
+        meaning: "To explain something in more detail or add further information.",
+        sentences: [
+            "Could you {verb} {blank} your earlier point about sustainability?",
+            "The speaker {verb}d {blank} the benefits of the new policy.",
+            "She refused to {verb} {blank} the reasons for her resignation.",
+            "The report {verb}s {blank} the key findings of the study."
+        ],
+        options: ["on", "to", "at", "for"]
+    },
+    {
+        verb: "embark", particle: "on", phrase: "embark on", category: "business", level: "high",
+        meaning: "To begin a new project, journey, or significant undertaking.",
+        sentences: [
+            "The team {verb}ed {blank} an ambitious plan to expand overseas.",
+            "She decided to {verb} {blank} a career change at forty.",
+            "The company is {verb}ing {blank} a major restructuring initiative.",
+            "They {verb}ed {blank} a three-year research program together."
+        ],
+        options: ["on", "in", "to", "at"]
+    },
+    {
+        verb: "hinge", particle: "on", phrase: "hinge on", category: "business", level: "college",
+        meaning: "To depend entirely on a single factor or condition.",
+        sentences: [
+            "The success of the deal {verb}s {blank} the board's approval.",
+            "Everything {verb}d {blank} whether they could secure the funding.",
+            "The verdict {verb}s {blank} the credibility of the key witness.",
+            "Our expansion plan {verb}s {blank} favorable market conditions."
+        ],
+        options: ["on", "to", "at", "by"]
+    },
+    {
+        verb: "home", particle: "in on", phrase: "home in on", category: "business", level: "college",
+        meaning: "To focus closely on a target, issue, or specific detail.",
+        sentences: [
+            "The auditors {verb}d {blank} several suspicious transactions.",
+            "Let's {verb} {blank} the root cause of the problem.",
+            "The detective {verb}d {blank} the most likely suspect.",
+            "Investors are {verb}ing {blank} sectors with the highest growth potential."
+        ],
+        options: ["in on", "on to", "up on", "at on"]
+    },
+    {
+        verb: "reflect", particle: "on", phrase: "reflect on", category: "academic", level: "high",
+        meaning: "To think carefully and deeply about something.",
+        sentences: [
+            "Take a moment to {verb} {blank} what you've learned this semester.",
+            "She {verb}ed {blank} her childhood memories with a smile.",
+            "The essay asks students to {verb} {blank} the impact of technology.",
+            "He often {verb}s {blank} the decisions that shaped his career."
+        ],
+        options: ["on", "at", "to", "in"]
+    },
+    {
+        verb: "buy", particle: "out", phrase: "buy out", category: "business", level: "professional",
+        meaning: "To purchase someone's share or ownership in a business.",
+        sentences: [
+            "The corporation {verb}s {blank} smaller competitors to eliminate rivalry.",
+            "She {verb}ed {blank} her partner's stake in the restaurant.",
+            "They are planning to {verb} {blank} the remaining shareholders.",
+            "A private equity firm {verb}ing {blank} the startup made headlines."
+        ],
+        options: ["out", "up", "off", "in"]
+    },
+    {
+        verb: "price", particle: "out", phrase: "price out", category: "business", level: "college",
+        meaning: "To make something too expensive for someone to afford.",
+        sentences: [
+            "Rising rents have {verb}d {blank} many families from the neighborhood.",
+            "The new tariffs could {verb} {blank} smaller importers.",
+            "Luxury developments are {verb}ing {blank} long-time residents.",
+            "Budget-conscious shoppers feel {verb}d {blank} by premium brands."
+        ],
+        options: ["out", "off", "up", "in"]
+    },
+    {
+        verb: "sound", particle: "out", phrase: "sound out", category: "business", level: "high",
+        meaning: "To cautiously ask someone's opinion or test their feelings about something.",
+        sentences: [
+            "I need to {verb} {blank} the team before making any announcements.",
+            "She {verb}ed {blank} her colleagues about the proposed merger.",
+            "The manager {verb}ed {blank} employees on the new schedule.",
+            "Before proposing changes, he {verb}ed {blank} the stakeholders."
+        ],
+        options: ["out", "off", "up", "on"]
+    },
+    {
+        verb: "stake", particle: "out", phrase: "stake out", category: "business", level: "college",
+        meaning: "To watch a place secretly or claim a particular position or territory.",
+        sentences: [
+            "Detectives {verb}d {blank} the suspect's apartment for weeks.",
+            "The company {verb}d {blank} its position as the market leader early on.",
+            "Reporters {verb}d {blank} the courthouse awaiting the verdict.",
+            "Each team {verb}d {blank} their area at the conference."
+        ],
+        options: ["out", "up", "off", "in"]
+    },
+    {
+        verb: "taper", particle: "off", phrase: "taper off", category: "business", level: "college",
+        meaning: "To gradually decrease in amount, intensity, or frequency.",
+        sentences: [
+            "Sales typically {verb} {blank} during the post-holiday months.",
+            "The medication's side effects should {verb} {blank} within a week.",
+            "Interest in the product {verb}ed {blank} after the initial hype.",
+            "Rainfall is expected to {verb} {blank} by the afternoon."
+        ],
+        options: ["off", "out", "down", "away"]
+    },
+    {
+        verb: "crack", particle: "down", phrase: "crack down", category: "business", level: "high",
+        meaning: "To take severe or strict measures against something.",
+        sentences: [
+            "The government is {verb}ing {blank} on tax evasion schemes.",
+            "Schools have {verb}ed {blank} on the use of mobile phones in class.",
+            "Regulators {verb}ed {blank} on companies that violated safety codes.",
+            "Police plan to {verb} {blank} on illegal street racing."
+        ],
+        options: ["down", "up", "out", "off"]
+    },
+    {
+        verb: "rein", particle: "in", phrase: "rein in", category: "business", level: "college",
+        meaning: "To control, restrain, or limit something that has become excessive.",
+        sentences: [
+            "The board moved to {verb} {blank} the CEO's spending habits.",
+            "They need to {verb} {blank} costs before the budget spirals out of control.",
+            "The central bank tried to {verb} {blank} inflation with higher rates.",
+            "Parents sometimes struggle to {verb} {blank} their children's screen time."
+        ],
+        options: ["in", "on", "up", "back"]
+    },
+    {
+        verb: "round", particle: "off", phrase: "round off", category: "academic", level: "middle",
+        meaning: "To complete or finish something neatly and satisfactorily.",
+        sentences: [
+            "Let's {verb} {blank} the meeting with a quick summary.",
+            "She {verb}ed {blank} her presentation with a memorable quote.",
+            "A delicious dessert {verb}ed {blank} the wonderful dinner.",
+            "The teacher {verb}ed {blank} the lesson by reviewing key points."
+        ],
+        options: ["off", "up", "out", "on"]
+    },
+    {
+        verb: "carve", particle: "out", phrase: "carve out", category: "business", level: "college",
+        meaning: "To create or establish something through effort and determination.",
+        sentences: [
+            "She {verb}d {blank} a successful career in the tech industry.",
+            "The startup managed to {verb} {blank} a niche in the crowded market.",
+            "Try to {verb} {blank} some time each day for exercise.",
+            "He {verb}d {blank} a reputation as a tough but fair negotiator."
+        ],
+        options: ["out", "up", "in", "off"]
+    },
+    {
+        verb: "pore", particle: "over", phrase: "pore over", category: "academic", level: "college",
+        meaning: "To study or read something with great care and attention.",
+        sentences: [
+            "She {verb}d {blank} the ancient manuscripts for clues.",
+            "Analysts are {verb}ing {blank} the quarterly financial reports.",
+            "He spent hours {verb}ing {blank} legal documents before the trial.",
+            "Students {verb} {blank} their notes the night before the exam."
+        ],
+        options: ["over", "through", "into", "on"]
+    },
+    {
+        verb: "touch", particle: "upon", phrase: "touch upon", category: "academic", level: "high",
+        meaning: "To briefly mention or deal with a subject without going into detail.",
+        sentences: [
+            "The lecture only {verb}ed {blank} the topic of quantum computing.",
+            "The article {verb}es {blank} several controversial issues.",
+            "She barely {verb}ed {blank} the financial implications of the plan.",
+            "The documentary {verb}es {blank} themes of identity and belonging."
+        ],
+        options: ["upon", "over", "into", "about"]
+    },
+    {
+        verb: "belt", particle: "out", phrase: "belt out", category: "daily", level: "middle",
+        meaning: "To sing loudly and forcefully with great enthusiasm.",
+        sentences: [
+            "She {verb}ed {blank} her favorite song at the karaoke bar.",
+            "The choir {verb}ed {blank} a powerful rendition of the anthem.",
+            "He loves to {verb} {blank} show tunes in the shower.",
+            "The crowd {verb}ed {blank} the chorus together."
+        ],
+        options: ["out", "up", "off", "on"]
+    },
+    {
+        verb: "blurt", particle: "out", phrase: "blurt out", category: "daily", level: "middle",
+        meaning: "To say something suddenly and without thinking, often inappropriately.",
+        sentences: [
+            "He {verb}ed {blank} the surprise before the party started.",
+            "She couldn't help {verb}ing {blank} the answer in class.",
+            "Don't {verb} {blank} confidential information during the meeting.",
+            "The child {verb}ed {blank} an embarrassing question at dinner."
+        ],
+        options: ["out", "off", "up", "on"]
+    },
+    {
+        verb: "bottle", particle: "up", phrase: "bottle up", category: "emotion", level: "high",
+        meaning: "To suppress or hold in one's emotions instead of expressing them.",
+        sentences: [
+            "It's unhealthy to {verb} {blank} your feelings for too long.",
+            "He {verb}d {blank} his anger until it finally exploded.",
+            "She tends to {verb} {blank} her frustrations rather than talk about them.",
+            "Don't {verb} {blank} your grief; it's okay to cry."
+        ],
+        options: ["up", "in", "down", "out"]
+    },
+    {
+        verb: "chicken", particle: "out", phrase: "chicken out", category: "daily", level: "middle",
+        meaning: "To decide not to do something because of fear or lack of courage.",
+        sentences: [
+            "He was going to try bungee jumping but {verb}ed {blank} at the last minute.",
+            "Don't {verb} {blank} now; we've come too far to turn back.",
+            "She {verb}ed {blank} of asking her boss for a raise.",
+            "They almost {verb}ed {blank} before getting on the roller coaster."
+        ],
+        options: ["out", "off", "up", "away"]
+    },
+    {
+        verb: "cotton", particle: "on", phrase: "cotton on", category: "daily", level: "high",
+        meaning: "To begin to understand something that was not initially obvious.",
+        sentences: [
+            "It took a while, but she finally {verb}ed {blank} to the joke.",
+            "He didn't {verb} {blank} to what was happening until it was too late.",
+            "Students quickly {verb} {blank} to the teacher's expectations.",
+            "It took the audience a moment to {verb} {blank} to the twist ending."
+        ],
+        options: ["on", "up", "to", "in"]
+    },
+    {
+        verb: "fess", particle: "up", phrase: "fess up", category: "daily", level: "middle",
+        meaning: "To confess or admit to something, especially something wrong.",
+        sentences: [
+            "He finally {verb}ed {blank} to breaking the vase.",
+            "It's better to {verb} {blank} now before they find out on their own.",
+            "She {verb}ed {blank} about eating the last piece of cake.",
+            "The employee {verb}ed {blank} to making the accounting error."
+        ],
+        options: ["up", "out", "in", "on"]
+    },
+    {
+        verb: "hear", particle: "out", phrase: "hear out", category: "daily", level: "middle",
+        meaning: "To listen to someone completely until they have finished speaking.",
+        sentences: [
+            "Please {verb} me {blank} before you make a judgment.",
+            "She asked her parents to {verb} her {blank} before they refused.",
+            "The manager agreed to {verb} {blank} the employee's concerns.",
+            "If you'd just {verb} me {blank}, you'd understand my reasoning."
+        ],
+        options: ["out", "on", "up", "through"]
+    },
+    {
+        verb: "let", particle: "on", phrase: "let on", category: "daily", level: "high",
+        meaning: "To reveal or admit something, often a secret, to others.",
+        sentences: [
+            "She didn't {verb} {blank} that she already knew the news.",
+            "He never {verb}s {blank} how much money he actually earns.",
+            "Don't {verb} {blank} that we're planning a surprise party.",
+            "The spy never {verb} {blank} about her true identity."
+        ],
+        options: ["on", "out", "off", "up"]
+    },
+    {
+        verb: "liven", particle: "up", phrase: "liven up", category: "daily", level: "middle",
+        meaning: "To make something more exciting, interesting, or energetic.",
+        sentences: [
+            "Some music would really {verb} {blank} this party.",
+            "The comedian {verb}ed {blank} the otherwise dull conference.",
+            "Adding colorful decorations {verb}ed {blank} the classroom.",
+            "Let's {verb} {blank} the presentation with some interactive elements."
+        ],
+        options: ["up", "on", "out", "in"]
+    },
+    {
+        verb: "luck", particle: "out", phrase: "luck out", category: "daily", level: "middle",
+        meaning: "To be very fortunate or have unexpected good luck.",
+        sentences: [
+            "We really {verb}ed {blank} with the weather on our wedding day.",
+            "She {verb}ed {blank} and found a parking spot right away.",
+            "He {verb}ed {blank} when they upgraded his seat for free.",
+            "They {verb}ed {blank} by arriving just before the store closed."
+        ],
+        options: ["out", "up", "in", "on"]
+    },
+    {
+        verb: "psych", particle: "out", phrase: "psych out", category: "daily", level: "high",
+        meaning: "To intimidate or unnerve someone, causing them to lose confidence.",
+        sentences: [
+            "He tried to {verb} {blank} his opponent with intense stares.",
+            "Don't let the other team {verb} you {blank} before the game.",
+            "The difficult exam questions {verb}ed {blank} most of the students.",
+            "She {verb}ed {blank} her rivals by acting completely relaxed."
+        ],
+        options: ["out", "up", "off", "down"]
+    },
+    {
+        verb: "rub", particle: "off on", phrase: "rub off on", category: "daily", level: "high",
+        meaning: "To influence someone through close or prolonged association.",
+        sentences: [
+            "Her enthusiasm for reading has {verb}bed {blank} her children.",
+            "His positive attitude {verb}s {blank} everyone around him.",
+            "Spending time with creative people can {verb} {blank} you.",
+            "The mentor's discipline {verb}bed {blank} his young apprentice."
+        ],
+        options: ["off on", "on to", "up on", "in on"]
+    },
+    {
+        verb: "shrug", particle: "off", phrase: "shrug off", category: "daily", level: "high",
+        meaning: "To dismiss something as unimportant or not worth worrying about.",
+        sentences: [
+            "She {verb}ged {blank} the criticism and continued her work.",
+            "He tends to {verb} {blank} any health concerns his doctor raises.",
+            "You can't just {verb} {blank} a broken promise like it doesn't matter.",
+            "The athlete {verb}ged {blank} the minor injury and kept playing."
+        ],
+        options: ["off", "out", "away", "on"]
+    },
+    {
+        verb: "sleep", particle: "on", phrase: "sleep on", category: "daily", level: "middle",
+        meaning: "To delay making a decision until the next day to think it over.",
+        sentences: [
+            "This is a big commitment; let me {verb} {blank} it first.",
+            "She {verb}s {blank} important decisions rather than acting impulsively.",
+            "He decided to {verb} {blank} the job offer before accepting.",
+            "Why don't you {verb} {blank} it and give me your answer tomorrow?"
+        ],
+        options: ["on", "over", "at", "in"]
+    },
+    {
+        verb: "stave", particle: "off", phrase: "stave off", category: "daily", level: "college",
+        meaning: "To prevent or delay something bad from happening.",
+        sentences: [
+            "Eating a snack can {verb} {blank} hunger until dinner.",
+            "The government tried to {verb} {blank} an economic recession.",
+            "Regular exercise helps {verb} {blank} many chronic diseases.",
+            "They took out a loan to {verb} {blank} bankruptcy."
+        ],
+        options: ["off", "out", "away", "on"]
+    },
+    {
+        verb: "stumble", particle: "upon", phrase: "stumble upon", category: "daily", level: "high",
+        meaning: "To find or discover something by chance or unexpectedly.",
+        sentences: [
+            "She {verb}d {blank} an old photograph while cleaning the attic.",
+            "We {verb}d {blank} a charming little café on a back street.",
+            "The archaeologist {verb}d {blank} an ancient burial site.",
+            "He {verb}d {blank} the solution while working on a different problem."
+        ],
+        options: ["upon", "into", "over", "onto"]
+    },
+    {
+        verb: "suck", particle: "up to", phrase: "suck up to", category: "daily", level: "middle",
+        meaning: "To try to please someone in authority to gain their favor.",
+        sentences: [
+            "He's always {verb}ing {blank} the manager to get promoted.",
+            "Nobody respects someone who {verb}s {blank} the teacher for better grades.",
+            "She was accused of {verb}ing {blank} the director to land the lead role.",
+            "Stop {verb}ing {blank} the boss; just do your job well."
+        ],
+        options: ["up to", "in to", "on to", "off to"]
+    },
+    {
+        verb: "talk", particle: "down to", phrase: "talk down to", category: "daily", level: "high",
+        meaning: "To speak to someone in a condescending or patronizing manner.",
+        sentences: [
+            "Don't {verb} {blank} me just because I'm younger.",
+            "The manager {verb}s {blank} everyone on the team, which kills morale.",
+            "She hated how the doctor {verb}ed {blank} her during appointments.",
+            "Good teachers never {verb} {blank} their students."
+        ],
+        options: ["down to", "up to", "out to", "off to"]
+    },
+    {
+        verb: "zone", particle: "out", phrase: "zone out", category: "daily", level: "middle",
+        meaning: "To lose concentration or become inattentive and unfocused.",
+        sentences: [
+            "I completely {verb}d {blank} during the long lecture.",
+            "She tends to {verb} {blank} when conversations get boring.",
+            "Don't {verb} {blank}; this information is important for the test.",
+            "He {verb}d {blank} while driving and almost missed his exit."
+        ],
+        options: ["out", "off", "in", "away"]
+    },
+    {
+        verb: "choke", particle: "up", phrase: "choke up", category: "emotion", level: "middle",
+        meaning: "To become too emotional to speak clearly, often on the verge of tears.",
+        sentences: [
+            "She {verb}d {blank} while reading her wedding vows.",
+            "The veteran {verb}d {blank} when recounting his wartime experiences.",
+            "He always {verb}s {blank} when he talks about his late grandmother.",
+            "The actress {verb}d {blank} during her acceptance speech."
+        ],
+        options: ["up", "on", "out", "in"]
+    },
+    {
+        verb: "melt", particle: "down", phrase: "melt down", category: "emotion", level: "middle",
+        meaning: "To have an emotional breakdown or lose control of one's emotions.",
+        sentences: [
+            "The toddler {verb}ed {blank} in the middle of the grocery store.",
+            "After weeks of stress, she finally {verb}ed {blank} at work.",
+            "He completely {verb}ed {blank} when he heard the bad news.",
+            "Try not to {verb} {blank}; we can still fix this situation."
+        ],
+        options: ["down", "out", "up", "off"]
+    },
+    {
+        verb: "psych", particle: "up", phrase: "psych up", category: "emotion", level: "middle",
+        meaning: "To mentally prepare oneself or someone else for a challenge.",
+        sentences: [
+            "The coach {verb}ed {blank} the players before the championship game.",
+            "She spent the morning {verb}ing herself {blank} for the interview.",
+            "He listens to music to {verb} himself {blank} before a workout.",
+            "The team tried to {verb} {blank} their goalie before the penalty shootout."
+        ],
+        options: ["up", "out", "on", "in"]
+    },
+    {
+        verb: "tense", particle: "up", phrase: "tense up", category: "emotion", level: "middle",
+        meaning: "To become nervous, anxious, and physically rigid with stress.",
+        sentences: [
+            "She always {verb}s {blank} before public speaking.",
+            "He {verb}d {blank} the moment his boss called him into the office.",
+            "Try not to {verb} {blank} during the massage; just relax.",
+            "The dog {verb}s {blank} whenever there's a thunderstorm."
+        ],
+        options: ["up", "on", "out", "in"]
+    },
+    {
+        verb: "well", particle: "up", phrase: "well up", category: "emotion", level: "high",
+        meaning: "For tears or strong emotions to rise to the surface and become visible.",
+        sentences: [
+            "Tears {verb}ed {blank} in her eyes as she watched the reunion.",
+            "A feeling of pride {verb}ed {blank} inside him at his daughter's graduation.",
+            "Emotions {verb}ed {blank} as the national anthem played.",
+            "Gratitude {verb}ed {blank} in her heart when she read the letter."
+        ],
+        options: ["up", "out", "over", "on"]
+    },
+    {
+        verb: "pine", particle: "for", phrase: "pine for", category: "emotion", level: "high",
+        meaning: "To long for or miss someone or something deeply and persistently.",
+        sentences: [
+            "She {verb}d {blank} her homeland after years of living abroad.",
+            "The dog {verb}s {blank} its owner whenever they leave for work.",
+            "He spent years {verb}ing {blank} the love he had lost.",
+            "Many retirees {verb} {blank} the sense of purpose work once gave them."
+        ],
+        options: ["for", "after", "over", "at"]
+    },
+    {
+        verb: "dote", particle: "on", phrase: "dote on", category: "emotion", level: "middle",
+        meaning: "To be excessively fond of someone and lavish them with affection.",
+        sentences: [
+            "Grandparents often {verb} {blank} their youngest grandchildren.",
+            "She {verb}s {blank} her pet cat, buying it expensive treats.",
+            "He {verb}d {blank} his niece, always bringing her gifts.",
+            "The couple {verb} {blank} each other after thirty years of marriage."
+        ],
+        options: ["on", "over", "for", "at"]
+    },
+    {
+        verb: "brood", particle: "over", phrase: "brood over", category: "emotion", level: "college",
+        meaning: "To think anxiously or gloomily about something for a long time.",
+        sentences: [
+            "He tends to {verb} {blank} past mistakes instead of moving on.",
+            "She {verb}ed {blank} the argument for days after it happened.",
+            "Stop {verb}ing {blank} things you cannot change.",
+            "The writer {verb}ed {blank} the negative review all weekend."
+        ],
+        options: ["over", "on", "about", "at"]
+    },
+    {
+        verb: "agonize", particle: "over", phrase: "agonize over", category: "emotion", level: "college",
+        meaning: "To worry greatly and at length about a decision or situation.",
+        sentences: [
+            "She {verb}d {blank} which university to attend for months.",
+            "Don't {verb} {blank} every small detail; just submit the report.",
+            "He {verb}d {blank} the wording of his resignation letter.",
+            "Parents often {verb} {blank} the best school for their children."
+        ],
+        options: ["over", "about", "on", "at"]
+    },
+    {
+        verb: "buy", particle: "into", phrase: "buy into", category: "business", level: "high",
+        meaning: "To believe in an idea, concept, or philosophy, or to invest in something.",
+        sentences: [
+            "Not everyone {verb}s {blank} the notion that money equals happiness.",
+            "She fully {verb}s {blank} the company's mission and values.",
+            "Investors are reluctant to {verb} {blank} such a risky venture.",
+            "He never {verb}s {blank} conspiracy theories."
+        ],
+        options: ["into", "on", "up", "to"]
+    },
+    {
+        verb: "dream", particle: "up", phrase: "dream up", category: "business", level: "high",
+        meaning: "To invent or think of something creative, imaginative, or unusual.",
+        sentences: [
+            "The marketing team {verb}ed {blank} a brilliant campaign.",
+            "Who {verb}ed {blank} this ridiculous plan?",
+            "She {verb}s {blank} new product ideas constantly.",
+            "Engineers {verb}ed {blank} an innovative solution to the problem."
+        ],
+        options: ["up", "out", "on", "off"]
+    },
+    {
+        verb: "hold", particle: "forth", phrase: "hold forth", category: "academic", level: "college",
+        meaning: "To speak at length and often in a passionate or authoritative manner.",
+        sentences: [
+            "The professor {verb}s {blank} on Renaissance art for hours.",
+            "He {verb}s {blank} about politics at every family gathering.",
+            "She {verb} {blank} on the importance of environmental conservation.",
+            "The guest speaker {verb} {blank} about innovation and leadership."
+        ],
+        options: ["forth", "on", "out", "up"]
+    },
+    {
+        verb: "sign", particle: "off on", phrase: "sign off on", category: "business", level: "professional",
+        meaning: "To give formal or official approval to something.",
+        sentences: [
+            "The director must {verb} {blank} all budget requests over ten thousand dollars.",
+            "She refused to {verb} {blank} the report until changes were made.",
+            "Management {verb}ed {blank} the new policy after months of review.",
+            "He needs his supervisor to {verb} {blank} the travel expenses."
+        ],
+        options: ["off on", "up on", "out on", "in on"]
+    },
+    {
+        verb: "double", particle: "down", phrase: "double down", category: "business", level: "high",
+        meaning: "To strengthen one's commitment to a strategy or position, especially when risky.",
+        sentences: [
+            "The CEO decided to {verb} {blank} on the company's expansion plan.",
+            "Despite criticism, she {verb}d {blank} on her original statement.",
+            "The brand {verb}d {blank} on sustainability as a core value.",
+            "Rather than retreat, the team {verb}d {blank} and increased their efforts."
+        ],
+        options: ["down", "up", "on", "in"]
+    },
+    {
+        verb: "play", particle: "into", phrase: "play into", category: "business", level: "college",
+        meaning: "To unintentionally help or give an advantage to an opponent or competitor.",
+        sentences: [
+            "Panicking would only {verb} {blank} the competitor's strategy.",
+            "His impulsive response {verb}ed {blank} the hands of his critics.",
+            "The leaked information {verb}ed {blank} the rival company's campaign.",
+            "Don't let your emotions {verb} {blank} their game plan."
+        ],
+        options: ["into", "onto", "to", "upon"]
+    },
+    {
+        verb: "wise", particle: "up", phrase: "wise up", category: "business", level: "high",
+        meaning: "To become aware or informed about something, often after being naive.",
+        sentences: [
+            "Consumers are {verb}ing {blank} to misleading advertising tactics.",
+            "It took him years to {verb} {blank} to the fact that he was being exploited.",
+            "The public needs to {verb} {blank} about data privacy concerns.",
+            "She finally {verb}d {blank} and stopped lending him money."
+        ],
+        options: ["up", "on", "out", "off"]
+    },
+    {
+        verb: "drum", particle: "into", phrase: "drum into", category: "academic", level: "high",
+        meaning: "To teach someone something by repeating it over and over again.",
+        sentences: [
+            "The instructor {verb}med {blank} us the importance of safety protocols.",
+            "Grammar rules were {verb}med {blank} students through daily exercises.",
+            "His parents {verb}med {blank} him the value of hard work from a young age.",
+            "The coach {verb}s {blank} the players that teamwork comes first."
+        ],
+        options: ["into", "on", "at", "to"]
+    },
+    {
+        verb: "hone", particle: "in", phrase: "hone in", category: "business", level: "high",
+        meaning: "To focus closely on a particular aspect or target with precision.",
+        sentences: [
+            "The team {verb}d {blank} on the most profitable customer segment.",
+            "Let's {verb} {blank} on the key issues affecting performance.",
+            "Analysts {verb}d {blank} on the discrepancy in the financial data.",
+            "She {verb}d {blank} on the specific clause causing the legal dispute."
+        ],
+        options: ["in", "on", "at", "to"]
+    },
+    {
+        verb: "square", particle: "off", phrase: "square off", category: "business", level: "college",
+        meaning: "To prepare to compete, fight, or confront someone directly.",
+        sentences: [
+            "The two candidates {verb}d {blank} in a heated televised debate.",
+            "Rival companies {verb} {blank} over market dominance every quarter.",
+            "The boxers {verb}d {blank} in the center of the ring.",
+            "Legal teams from both sides {verb}d {blank} in court."
+        ],
+        options: ["off", "up", "on", "out"]
+    },
+    {
+        verb: "knuckle", particle: "under", phrase: "knuckle under", category: "business", level: "college",
+        meaning: "To submit to pressure or authority, often reluctantly.",
+        sentences: [
+            "The small supplier finally {verb}d {blank} to the retailer's demands.",
+            "She refused to {verb} {blank} despite intense pressure from management.",
+            "Workers {verb}d {blank} and accepted the unfavorable contract terms.",
+            "He won't {verb} {blank} to threats or intimidation."
+        ],
+        options: ["under", "down", "in", "over"]
+    },
+    {
+        verb: "conk", particle: "out", phrase: "conk out", category: "daily", level: "middle",
+        meaning: "To suddenly stop working or fall asleep.",
+        sentences: [
+            "The old car {verb}ed {blank} in the middle of the highway.",
+            "I {verb}ed {blank} on the couch before the movie ended.",
+            "The generator {verb}s {blank} whenever it rains heavily.",
+            "He {verb}ed {blank} right after dinner from exhaustion."
+        ],
+        options: ["out", "off", "down", "up"]
+    },
+    {
+        verb: "keel", particle: "over", phrase: "keel over", category: "daily", level: "high",
+        meaning: "To faint or collapse suddenly.",
+        sentences: [
+            "She nearly {verb}ed {blank} from the heat during the ceremony.",
+            "Two runners {verb}ed {blank} before reaching the finish line.",
+            "He looked like he was about to {verb} {blank} from shock.",
+            "The old man {verb}ed {blank} in the middle of the street."
+        ],
+        options: ["over", "down", "out", "off"]
+    },
+    {
+        verb: "soldier", particle: "on", phrase: "soldier on", category: "daily", level: "high",
+        meaning: "To continue bravely despite difficulty.",
+        sentences: [
+            "Despite the injury, she {verb}ed {blank} to finish the marathon.",
+            "The team {verb}s {blank} even after losing their best player.",
+            "He {verb}ed {blank} through the illness without complaining.",
+            "We must {verb} {blank} regardless of the setbacks."
+        ],
+        options: ["on", "up", "through", "out"]
+    },
+    {
+        verb: "ramble", particle: "on", phrase: "ramble on", category: "daily", level: "middle",
+        meaning: "To talk for too long in a disorganized way.",
+        sentences: [
+            "The professor {verb}d {blank} for an hour past the scheduled time.",
+            "Please stop {verb}ing {blank} and get to the point.",
+            "My uncle always {verb}s {blank} about his childhood stories.",
+            "She {verb}d {blank} about her vacation for the entire lunch."
+        ],
+        options: ["on", "about", "off", "out"]
+    },
+    {
+        verb: "drone", particle: "on", phrase: "drone on", category: "daily", level: "high",
+        meaning: "To talk boringly for a long time.",
+        sentences: [
+            "The speaker {verb}d {blank} for two hours without a break.",
+            "He {verb}s {blank} about the same topics every meeting.",
+            "The lecturer {verb}d {blank} while half the class fell asleep.",
+            "She {verb}d {blank} about regulations until everyone lost interest."
+        ],
+        options: ["on", "out", "off", "away"]
+    },
+    {
+        verb: "harp", particle: "on", phrase: "harp on", category: "daily", level: "high",
+        meaning: "To keep talking about something annoyingly.",
+        sentences: [
+            "She always {verb}s {blank} about how expensive everything is.",
+            "Stop {verb}ing {blank} about my grades—I know I need to improve.",
+            "He {verb}ed {blank} about the mistake for weeks.",
+            "My mother keeps {verb}ing {blank} about my eating habits."
+        ],
+        options: ["on", "at", "about", "over"]
+    },
+    {
+        verb: "fritter", particle: "away", phrase: "fritter away", category: "daily", level: "high",
+        meaning: "To waste time or money on trivial things.",
+        sentences: [
+            "He {verb}ed {blank} his inheritance on luxury goods.",
+            "Don't {verb} {blank} the whole weekend doing nothing.",
+            "She {verb}ed {blank} her savings on impulse purchases.",
+            "They {verb}ed {blank} valuable time debating minor details."
+        ],
+        options: ["away", "off", "out", "down"]
+    },
+    {
+        verb: "whittle", particle: "down", phrase: "whittle down", category: "daily", level: "college",
+        meaning: "To gradually reduce in size or number.",
+        sentences: [
+            "We need to {verb} {blank} the list of candidates to five.",
+            "The committee {verb}d {blank} the proposals over several meetings.",
+            "She {verb}d {blank} her expenses by cutting unnecessary subscriptions.",
+            "The editor {verb}d {blank} the article from ten pages to three."
+        ],
+        options: ["down", "away", "off", "out"]
+    },
+    {
+        verb: "ease", particle: "into", phrase: "ease into", category: "daily", level: "high",
+        meaning: "To start something gradually and carefully.",
+        sentences: [
+            "She {verb}d {blank} her new role over the first few weeks.",
+            "It's better to {verb} {blank} exercise rather than overdo it.",
+            "He {verb}d {blank} the conversation about the budget cuts.",
+            "The company {verb}d {blank} the new policy with a trial period."
+        ],
+        options: ["into", "in", "onto", "up"]
+    },
+    {
+        verb: "lap", particle: "up", phrase: "lap up", category: "daily", level: "middle",
+        meaning: "To enjoy or accept something eagerly.",
+        sentences: [
+            "The audience {verb}ped {blank} every word of the speaker's story.",
+            "Kids {verb} {blank} praise from their teachers.",
+            "She {verb}ped {blank} all the attention at the party.",
+            "The fans {verb} {blank} any news about the upcoming movie."
+        ],
+        options: ["up", "in", "on", "out"]
+    },
+    {
+        verb: "gobble", particle: "up", phrase: "gobble up", category: "daily", level: "middle",
+        meaning: "To eat quickly or use up rapidly.",
+        sentences: [
+            "The children {verb}d {blank} the cookies in minutes.",
+            "Rising costs {verb} {blank} most of our budget.",
+            "He {verb}d {blank} three plates of pasta at dinner.",
+            "The new software {verb}s {blank} a lot of memory."
+        ],
+        options: ["up", "down", "away", "off"]
+    },
+    {
+        verb: "laze", particle: "around", phrase: "laze around", category: "daily", level: "elementary",
+        meaning: "To relax and do nothing productive.",
+        sentences: [
+            "We spent the whole Sunday {verb}ing {blank} the house.",
+            "Stop {verb}ing {blank} and help me with the chores.",
+            "She loves to {verb} {blank} on rainy days.",
+            "The kids {verb}d {blank} all morning watching cartoons."
+        ],
+        options: ["around", "about", "off", "out"]
+    },
+    {
+        verb: "fool", particle: "around", phrase: "fool around", category: "daily", level: "elementary",
+        meaning: "To behave in a silly or playful way.",
+        sentences: [
+            "Stop {verb}ing {blank} and start doing your homework.",
+            "The boys were {verb}ing {blank} in the back of the classroom.",
+            "She {verb}s {blank} too much during practice.",
+            "He got hurt because he was {verb}ing {blank} near the stairs."
+        ],
+        options: ["around", "about", "off", "out"]
+    },
+    {
+        verb: "horse", particle: "around", phrase: "horse around", category: "daily", level: "middle",
+        meaning: "To play roughly or engage in horseplay.",
+        sentences: [
+            "The children were {verb}ing {blank} in the living room.",
+            "Stop {verb}ing {blank} before someone gets hurt.",
+            "The boys always {verb} {blank} during recess.",
+            "He broke the vase while {verb}ing {blank} with his brother."
+        ],
+        options: ["around", "about", "off", "out"]
+    },
+    {
+        verb: "swing", particle: "by", phrase: "swing by", category: "daily", level: "middle",
+        meaning: "To make a brief, casual visit.",
+        sentences: [
+            "I'll {verb} {blank} your office after lunch.",
+            "She {verb}s {blank} the bakery every morning for coffee.",
+            "Can you {verb} {blank} the store on your way home?",
+            "He {verb}s {blank} his parents' house every Sunday."
+        ],
+        options: ["by", "in", "over", "around"]
+    },
+    {
+        verb: "trot", particle: "out", phrase: "trot out", category: "business", level: "college",
+        meaning: "To produce the same old argument or excuse repeatedly.",
+        sentences: [
+            "The manager {verb}ted {blank} the same excuses at every meeting.",
+            "Politicians love to {verb} {blank} statistics that support their case.",
+            "She {verb}s {blank} that story every time we have guests.",
+            "They always {verb} {blank} the same tired arguments."
+        ],
+        options: ["out", "off", "on", "up"]
+    },
+    {
+        verb: "chime", particle: "in", phrase: "chime in", category: "daily", level: "high",
+        meaning: "To join a conversation or add a remark.",
+        sentences: [
+            "Feel free to {verb} {blank} if you have any thoughts.",
+            "She {verb}d {blank} with a helpful suggestion during the meeting.",
+            "Everyone {verb}d {blank} with their own opinions on the topic.",
+            "He rarely {verb}s {blank} unless he has something important to say."
+        ],
+        options: ["in", "on", "up", "out"]
+    },
+    {
+        verb: "fixate", particle: "on", phrase: "fixate on", category: "emotion", level: "high",
+        meaning: "To obsess over something or focus excessively.",
+        sentences: [
+            "She tends to {verb} {blank} small mistakes and ignore the bigger picture.",
+            "Don't {verb} {blank} what went wrong—focus on what's next.",
+            "He {verb}s {blank} details that no one else notices.",
+            "The media {verb}d {blank} the scandal for weeks."
+        ],
+        options: ["on", "upon", "over", "about"]
+    },
+    {
+        verb: "loosen", particle: "up", phrase: "loosen up", category: "emotion", level: "middle",
+        meaning: "To become more relaxed or less tense.",
+        sentences: [
+            "Have a drink and {verb} {blank} a little.",
+            "She {verb}ed {blank} after the first round of introductions.",
+            "The team needs to {verb} {blank} before the big performance.",
+            "He finally {verb}ed {blank} and started enjoying the evening."
+        ],
+        options: ["up", "off", "out", "down"]
+    },
+    {
+        verb: "toughen", particle: "up", phrase: "toughen up", category: "emotion", level: "middle",
+        meaning: "To become stronger emotionally or mentally.",
+        sentences: [
+            "You need to {verb} {blank} if you want to survive in this industry.",
+            "The coach told the players to {verb} {blank} for the finals.",
+            "She {verb}ed {blank} after dealing with so many challenges.",
+            "Life has a way of {verb}ing you {blank} over the years."
+        ],
+        options: ["up", "out", "on", "off"]
+    },
+    {
+        verb: "bring", particle: "around", phrase: "bring around", category: "emotion", level: "high",
+        meaning: "To persuade someone to change their opinion.",
+        sentences: [
+            "It took weeks to {verb} her {blank} to our point of view.",
+            "He finally {verb}s his father {blank} to accepting the plan.",
+            "Good arguments can {verb} even skeptics {blank}.",
+            "She managed to {verb} the committee {blank} with strong evidence."
+        ],
+        options: ["around", "over", "about", "along"]
+    },
+    {
+        verb: "open", particle: "up to", phrase: "open up to", category: "emotion", level: "middle",
+        meaning: "To share feelings honestly with someone.",
+        sentences: [
+            "It's hard for him to {verb} {blank} people he doesn't trust.",
+            "She finally {verb}ed {blank} her therapist about her anxiety.",
+            "He {verb}ed {blank} his best friend about the divorce.",
+            "Children are more likely to {verb} {blank} parents who listen."
+        ],
+        options: ["up to", "up with", "out to", "in to"]
+    },
+    {
+        verb: "lean", particle: "on", phrase: "lean on", category: "emotion", level: "middle",
+        meaning: "To depend on someone for emotional support.",
+        sentences: [
+            "She {verb}s {blank} her sister during tough times.",
+            "It's okay to {verb} {blank} friends when you're struggling.",
+            "He {verb}ed {blank} his colleagues after the loss.",
+            "You can always {verb} {blank} me if you need help."
+        ],
+        options: ["on", "upon", "to", "into"]
+    },
+    {
+        verb: "frown", particle: "upon", phrase: "frown upon", category: "emotion", level: "high",
+        meaning: "To disapprove of something.",
+        sentences: [
+            "The company {verb}s {blank} employees using personal phones at work.",
+            "Cheating is heavily {verb}ed {blank} in academic institutions.",
+            "Society {verb}s {blank} dishonesty in public figures.",
+            "Using informal language is {verb}ed {blank} in legal documents."
+        ],
+        options: ["upon", "on", "at", "over"]
+    },
+    {
+        verb: "crack", particle: "under", phrase: "crack under", category: "emotion", level: "college",
+        meaning: "To fail or break down under pressure.",
+        sentences: [
+            "Many candidates {verb} {blank} the intense pressure of the interview.",
+            "She refused to {verb} {blank} the stress of the deadline.",
+            "The suspect finally {verb}ed {blank} hours of interrogation.",
+            "Some athletes {verb} {blank} the expectations of the crowd."
+        ],
+        options: ["under", "up", "down", "in"]
+    },
+    {
+        verb: "measure", particle: "up to", phrase: "measure up to", category: "emotion", level: "high",
+        meaning: "To meet standards or expectations.",
+        sentences: [
+            "She worries she won't {verb} {blank} her predecessor's achievements.",
+            "The sequel didn't {verb} {blank} the original film.",
+            "He always felt he couldn't {verb} {blank} his brother's success.",
+            "The product fails to {verb} {blank} the company's own standards."
+        ],
+        options: ["up to", "up with", "out to", "down to"]
+    },
+    {
+        verb: "paper", particle: "over", phrase: "paper over", category: "emotion", level: "college",
+        meaning: "To hide problems or disagreements temporarily.",
+        sentences: [
+            "The government tried to {verb} {blank} the scandal with a press release.",
+            "You can't {verb} {blank} serious issues with superficial fixes.",
+            "They {verb}ed {blank} their differences for the sake of the project.",
+            "The report {verb}s {blank} the real causes of the failure."
+        ],
+        options: ["over", "up", "out", "away"]
+    },
+    {
+        verb: "lash", particle: "out at", phrase: "lash out at", category: "emotion", level: "high",
+        meaning: "To attack someone verbally in anger.",
+        sentences: [
+            "He {verb}ed {blank} his coworkers after a stressful day.",
+            "She {verb}es {blank} anyone who criticizes her work.",
+            "The politician {verb}ed {blank} journalists during the interview.",
+            "Try not to {verb} {blank} people who are trying to help."
+        ],
+        options: ["out at", "out on", "into", "up at"]
+    },
+    {
+        verb: "cling", particle: "to", phrase: "cling to", category: "emotion", level: "high",
+        meaning: "To hold tightly to something or refuse to let go.",
+        sentences: [
+            "The child {verb}s {blank} her mother on the first day of school.",
+            "He {verb}s {blank} outdated beliefs despite new evidence.",
+            "She {verb}s {blank} the hope that things will improve.",
+            "People tend to {verb} {blank} what is familiar and comfortable."
+        ],
+        options: ["to", "on", "onto", "at"]
+    },
+    {
+        verb: "check", particle: "out of", phrase: "check out of", category: "travel", level: "middle",
+        meaning: "To leave and pay at a hotel.",
+        sentences: [
+            "We need to {verb} {blank} the hotel by eleven.",
+            "She {verb}ed {blank} the resort early to catch her flight.",
+            "Guests must {verb} {blank} their rooms before noon.",
+            "He {verb}ed {blank} the hotel and headed to the airport."
+        ],
+        options: ["out of", "off of", "away from", "in from"]
+    },
+    {
+        verb: "hop", particle: "on", phrase: "hop on", category: "travel", level: "elementary",
+        meaning: "To get on a vehicle quickly.",
+        sentences: [
+            "Let's {verb} {blank} the next bus to downtown.",
+            "She {verb}ped {blank} her bicycle and rode to work.",
+            "You can {verb} {blank} the subway at the next station.",
+            "He {verb}ped {blank} the train just before the doors closed."
+        ],
+        options: ["on", "in", "off", "up"]
+    },
+    {
+        verb: "hop", particle: "off", phrase: "hop off", category: "travel", level: "elementary",
+        meaning: "To get off a vehicle quickly.",
+        sentences: [
+            "We need to {verb} {blank} at the next stop.",
+            "She {verb}ped {blank} the bus right in front of the museum.",
+            "He {verb}ped {blank} his bike and ran into the store.",
+            "Don't forget to {verb} {blank} before the last station."
+        ],
+        options: ["off", "on", "out", "down"]
+    },
+    {
+        verb: "set", particle: "out for", phrase: "set out for", category: "travel", level: "middle",
+        meaning: "To begin a journey to a destination.",
+        sentences: [
+            "We {verb} {blank} the mountains early in the morning.",
+            "She {verb}s {blank} the airport two hours before her flight.",
+            "They {verb} {blank} the coast at dawn to beat the traffic.",
+            "He {verb} {blank} Paris with nothing but a backpack."
+        ],
+        options: ["out for", "off for", "up for", "out to"]
+    },
+    {
+        verb: "buy", particle: "up", phrase: "buy up", category: "business", level: "high",
+        meaning: "To purchase all available stock of something.",
+        sentences: [
+            "Investors are {verb}ing {blank} property in the area.",
+            "The corporation {verb}s {blank} smaller competitors regularly.",
+            "Collectors {verb} {blank} rare stamps at the auction.",
+            "Speculators {verb} {blank} the remaining tickets within minutes."
+        ],
+        options: ["up", "out", "off", "in"]
+    },
+    {
+        verb: "preside", particle: "over", phrase: "preside over", category: "business", level: "professional",
+        meaning: "To be in charge of a meeting or organization.",
+        sentences: [
+            "The CEO {verb}s {blank} the annual shareholders' meeting.",
+            "She {verb}d {blank} a period of unprecedented growth.",
+            "The judge {verb}s {blank} cases in the district court.",
+            "He {verb}d {blank} the committee for nearly a decade."
+        ],
+        options: ["over", "at", "on", "upon"]
+    },
+    {
+        verb: "report", particle: "to", phrase: "report to", category: "business", level: "middle",
+        meaning: "To be answerable or subordinate to someone.",
+        sentences: [
+            "All team leads {verb} {blank} the department manager.",
+            "She {verb}s {blank} the vice president of operations.",
+            "In this role, you will {verb} {blank} the head of marketing.",
+            "He {verb}s directly {blank} the CEO of the company."
+        ],
+        options: ["to", "for", "at", "with"]
+    },
+    {
+        verb: "answer", particle: "to", phrase: "answer to", category: "business", level: "high",
+        meaning: "To be accountable to someone.",
+        sentences: [
+            "As a freelancer, I don't {verb} {blank} anyone but myself.",
+            "The board {verb}s {blank} the shareholders.",
+            "You will {verb} {blank} the director for any mistakes.",
+            "Every elected official should {verb} {blank} the public."
+        ],
+        options: ["to", "for", "with", "at"]
+    },
+    {
+        verb: "defer", particle: "to", phrase: "defer to", category: "academic", level: "college",
+        meaning: "To yield to someone's greater knowledge or judgment.",
+        sentences: [
+            "I'll {verb} {blank} your expertise on this matter.",
+            "The junior doctors {verb} {blank} the senior consultant.",
+            "She {verb}s {blank} her mentor when making tough decisions.",
+            "It's wise to {verb} {blank} those with more experience."
+        ],
+        options: ["to", "for", "with", "on"]
+    },
+    {
+        verb: "pander", particle: "to", phrase: "pander to", category: "business", level: "college",
+        meaning: "To gratify or cater to someone's lower desires.",
+        sentences: [
+            "The show {verb}s {blank} the audience's love of scandal.",
+            "Politicians often {verb} {blank} voters instead of leading.",
+            "The tabloid {verb}s {blank} readers' appetite for gossip.",
+            "Don't {verb} {blank} people who just want to complain."
+        ],
+        options: ["to", "for", "at", "with"]
+    },
+    {
+        verb: "cater", particle: "to", phrase: "cater to", category: "business", level: "middle",
+        meaning: "To provide what someone needs or wants.",
+        sentences: [
+            "This restaurant {verb}s {blank} guests with dietary restrictions.",
+            "The hotel {verb}s {blank} both business and leisure travelers.",
+            "She {verb}s {blank} her clients' every request.",
+            "The new service {verb}s {blank} a younger demographic."
+        ],
+        options: ["to", "for", "at", "with"]
+    },
+    {
+        verb: "subscribe", particle: "to", phrase: "subscribe to", category: "academic", level: "college",
+        meaning: "To agree with a belief, theory, or idea.",
+        sentences: [
+            "I don't {verb} {blank} that theory at all.",
+            "She {verb}s {blank} the idea that education is a lifelong process.",
+            "Many scholars {verb} {blank} this interpretation of the text.",
+            "He doesn't {verb} {blank} the view that money brings happiness."
+        ],
+        options: ["to", "with", "for", "in"]
+    },
+    {
+        verb: "adhere", particle: "to", phrase: "adhere to", category: "academic", level: "high",
+        meaning: "To follow rules or principles strictly.",
+        sentences: [
+            "All employees must {verb} {blank} the company's code of conduct.",
+            "She {verb}s {blank} a strict daily routine.",
+            "The manufacturer {verb}s {blank} international safety standards.",
+            "It's important to {verb} {blank} the guidelines set by the committee."
+        ],
+        options: ["to", "with", "by", "on"]
+    },
+    {
+        verb: "aspire", particle: "to", phrase: "aspire to", category: "emotion", level: "high",
+        meaning: "To have ambition or a strong desire to achieve something.",
+        sentences: [
+            "She {verb}s {blank} become a world-renowned surgeon.",
+            "Many young athletes {verb} {blank} compete at the Olympic level.",
+            "He {verb}s {blank} greatness in everything he does.",
+            "The students {verb} {blank} make a difference in their communities."
+        ],
+        options: ["to", "for", "at", "toward"]
+    },
+    {
+        verb: "resort", particle: "to", phrase: "resort to", category: "daily", level: "high",
+        meaning: "To use something as a last option when all else fails.",
+        sentences: [
+            "We had to {verb} {blank} drastic measures to meet the deadline.",
+            "She {verb}ed {blank} borrowing money from friends.",
+            "The company {verb}ed {blank} layoffs to cut costs.",
+            "He refuses to {verb} {blank} dishonesty no matter the situation."
+        ],
+        options: ["to", "for", "into", "with"]
+    }
 ];
