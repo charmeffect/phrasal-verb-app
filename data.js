@@ -12252,5 +12252,93 @@ const PHRASAL_VERBS = [
             "He refuses to {verb} {blank} dishonesty no matter the situation."
         ],
         options: ["to", "for", "into", "with"]
+    },
+    {
+        verb: "dwell", particle: "upon", phrase: "dwell upon", category: "academic", level: "college",
+        meaning: "To think or talk about something at length, especially something negative.",
+        sentences: [
+            "There's no point {verb}ing {blank} mistakes you can't undo.",
+            "The author {verb}s {blank} themes of loss and redemption.",
+            "Try not to {verb} {blank} the things that went wrong.",
+            "She {verb}t {blank} the criticism for days after the review."
+        ],
+        options: ["upon", "over", "on", "about"]
+    },
+    {
+        verb: "veg", particle: "out", phrase: "veg out", category: "daily", level: "middle",
+        meaning: "To relax and do nothing, typically while watching television.",
+        sentences: [
+            "After a long week, I just want to {verb} {blank} on the couch.",
+            "They spent the entire Sunday {verb}ging {blank} in front of the TV.",
+            "She loves {verb}ging {blank} with snacks and a good movie.",
+            "Sometimes you just need to {verb} {blank} and recharge."
+        ],
+        options: ["out", "off", "in", "up"]
+    },
+    {
+        verb: "geek", particle: "out", phrase: "geek out", category: "daily", level: "middle",
+        meaning: "To be very enthusiastic or excited about a particular subject or hobby.",
+        sentences: [
+            "He {verb}ed {blank} over the new science fiction movie trailer.",
+            "She loves to {verb} {blank} about vintage vinyl records.",
+            "The kids {verb}ed {blank} when they visited the space museum.",
+            "We completely {verb}ed {blank} talking about the latest video game."
+        ],
+        options: ["out", "on", "up", "over"]
+    },
+    {
+        verb: "pig", particle: "out", phrase: "pig out", category: "daily", level: "middle",
+        meaning: "To eat a large amount of food in a greedy or excessive way.",
+        sentences: [
+            "We {verb}ged {blank} on pizza and ice cream at the party.",
+            "She tends to {verb} {blank} when she's feeling stressed.",
+            "Don't {verb} {blank} before the big race tomorrow.",
+            "They {verb}ged {blank} at the all-you-can-eat buffet."
+        ],
+        options: ["out", "on", "in", "up"]
+    },
+    {
+        verb: "goof", particle: "off", phrase: "goof off", category: "daily", level: "middle",
+        meaning: "To waste time or be lazy instead of doing what you should be doing.",
+        sentences: [
+            "Stop {verb}ing {blank} and finish your homework.",
+            "The kids spent the afternoon {verb}ing {blank} in the backyard.",
+            "He got in trouble for {verb}ing {blank} during class.",
+            "We {verb}ed {blank} all day instead of studying for the test."
+        ],
+        options: ["off", "out", "around", "up"]
+    },
+    {
+        verb: "wimp", particle: "out", phrase: "wimp out", category: "daily", level: "middle",
+        meaning: "To fail to do something because you are too scared or lack courage.",
+        sentences: [
+            "He was going to try skydiving but {verb}ed {blank} at the last second.",
+            "Don't {verb} {blank} — just ask for the raise.",
+            "She {verb}ed {blank} of the haunted house before even entering.",
+            "If you {verb} {blank} now, you'll regret it later."
+        ],
+        options: ["out", "off", "away", "up"]
+    },
+    {
+        verb: "hang", particle: "on to", phrase: "hang on to", category: "emotion", level: "high",
+        meaning: "To keep something and not let go of it, either physically or emotionally.",
+        sentences: [
+            "She {verb}s {blank} old letters from her college friends.",
+            "You should {verb} {blank} that receipt in case you need a refund.",
+            "He {verb}s {blank} hope even in the toughest times.",
+            "{verb} {blank} your ticket — you'll need it to exit."
+        ],
+        options: ["on to", "up to", "in to", "off to"]
+    },
+    {
+        verb: "let", particle: "go of", phrase: "let go of", category: "emotion", level: "middle",
+        meaning: "To release something physically or emotionally; to accept a loss and move on.",
+        sentences: [
+            "It's time to {verb} {blank} the past and focus on the future.",
+            "She finally {verb} {blank} her resentment toward her former boss.",
+            "He struggled to {verb} {blank} the memories of his childhood home.",
+            "Learning to {verb} {blank} expectations can bring great peace of mind."
+        ],
+        options: ["go of", "go on", "go at", "go to"]
     }
 ];
